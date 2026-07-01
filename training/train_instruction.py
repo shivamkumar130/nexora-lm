@@ -8,23 +8,43 @@ from torch.utils.data import DataLoader, random_split
 from training.data.instruction_dataset import InstructionDataset
 from model.transformer.nexoralm import NexoraLM
 
+# ==========================================================
+# Paths
+# ==========================================================
+
 ROOT = Path(__file__).resolve().parents[1]
 
 DATASET = ROOT / "datasets" / "instruction" / "instruction_train.json"
 
-CHECKPOINT = ROOT / "training" / "checkpoints" / "best_model.pt"
+CHECKPOINT = Path(
+    "/kaggle/input/datasets/skpaswan/checkpoints/best_model.pt"
+)
 
 SAVE_DIR = ROOT / "training" / "checkpoints"
-SAVE_DIR.mkdir(exist_ok=True)
+SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
 SAVE_MODEL = SAVE_DIR / "best_instruction_model.pt"
 
+# ==========================================================
+# Device
+# ==========================================================
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+print(f"Using device: {DEVICE}")
+
+# ==========================================================
+# Hyperparameters
+# ==========================================================
 
 BATCH_SIZE = 8
 LEARNING_RATE = 5e-6
 EPOCHS = 5
 WEIGHT_DECAY = 0.01
+
+# ==========================================================
+# Dataset
+# ==========================================================
 
 dataset = InstructionDataset(DATASET)
 
@@ -40,30 +60,48 @@ train_loader = DataLoader(
     train_dataset,
     batch_size=BATCH_SIZE,
     shuffle=True,
+    num_workers=2,
+    pin_memory=torch.cuda.is_available(),
 )
 
 val_loader = DataLoader(
     val_dataset,
     batch_size=BATCH_SIZE,
+    shuffle=False,
+    num_workers=2,
+    pin_memory=torch.cuda.is_available(),
 )
+
+# ==========================================================
+# Model
+# ==========================================================
 
 model = NexoraLM().to(DEVICE)
 
-from pathlib import Path
+# ==========================================================
+# Load Pretrained Checkpoint
+# ==========================================================
 
-CHECKPOINT = Path("/kaggle/input/datasets/skpaswan/checkpoints/best_model.pt")
+if not CHECKPOINT.exists():
+    raise FileNotFoundError(
+        f"Checkpoint not found:\n{CHECKPOINT}"
+    )
+
+print(f"Loading checkpoint:\n{CHECKPOINT}")
 
 checkpoint = torch.load(
     CHECKPOINT,
-    map_location=torch.device,
-    weights_only=False
+    map_location=DEVICE,
+    weights_only=False,
 )
 
-model.load_state_dict(
-    checkpoint["model_state_dict"]
-)
+model.load_state_dict(checkpoint["model_state_dict"])
 
-print("Loaded:", CHECKPOINT)
+print("Checkpoint loaded successfully.\n")
+
+# ==========================================================
+# Loss & Optimizer
+# ==========================================================
 
 criterion = nn.CrossEntropyLoss(ignore_index=0)
 
@@ -73,18 +111,22 @@ optimizer = torch.optim.AdamW(
     weight_decay=WEIGHT_DECAY,
 )
 
+# ==========================================================
+# Validation
+# ==========================================================
+
 def evaluate():
 
     model.eval()
 
-    loss_sum = 0
+    loss_sum = 0.0
 
     with torch.no_grad():
 
         for x, y in val_loader:
 
-            x = x.to(DEVICE)
-            y = y.to(DEVICE)
+            x = x.to(DEVICE, non_blocking=True)
+            y = y.to(DEVICE, non_blocking=True)
 
             logits = model(x)
 
@@ -97,6 +139,9 @@ def evaluate():
 
     return loss_sum / len(val_loader)
 
+# ==========================================================
+# Training
+# ==========================================================
 
 best_loss = float("inf")
 
@@ -104,14 +149,14 @@ for epoch in range(EPOCHS):
 
     model.train()
 
-    total_loss = 0
+    total_loss = 0.0
 
     for batch, (x, y) in enumerate(train_loader, start=1):
 
-        x = x.to(DEVICE)
-        y = y.to(DEVICE)
+        x = x.to(DEVICE, non_blocking=True)
+        y = y.to(DEVICE, non_blocking=True)
 
-        optimizer.zero_grad()
+        optimizer.zero_grad(set_to_none=True)
 
         logits = model(x)
 
@@ -129,9 +174,9 @@ for epoch in range(EPOCHS):
         if batch % 10 == 0:
 
             print(
-                f"Epoch {epoch+1} "
-                f"Batch {batch} "
-                f"Loss {loss.item():.4f}"
+                f"Epoch {epoch + 1}/{EPOCHS} | "
+                f"Batch {batch}/{len(train_loader)} | "
+                f"Loss: {loss.item():.4f}"
             )
 
     train_loss = total_loss / len(train_loader)
@@ -140,17 +185,15 @@ for epoch in range(EPOCHS):
 
     perplexity = math.exp(val_loss)
 
-    print()
+    print("\n" + "=" * 60)
 
-    print("=" * 60)
+    print(f"Epoch        : {epoch + 1}")
 
-    print(f"Epoch {epoch+1}")
+    print(f"Train Loss   : {train_loss:.4f}")
 
-    print(f"Train Loss : {train_loss:.4f}")
+    print(f"Val Loss     : {val_loss:.4f}")
 
-    print(f"Val Loss   : {val_loss:.4f}")
-
-    print(f"Perplexity : {perplexity:.4f}")
+    print(f"Perplexity   : {perplexity:.4f}")
 
     print("=" * 60)
 
@@ -161,22 +204,26 @@ for epoch in range(EPOCHS):
         torch.save(
             {
                 "model_state_dict": model.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "epoch": epoch + 1,
+                "train_loss": train_loss,
                 "val_loss": val_loss,
             },
             SAVE_MODEL,
         )
 
-        print("Saved:", SAVE_MODEL)
+        print(f"New best model saved to:\n{SAVE_MODEL}")
 
+# ==========================================================
+# Finished
+# ==========================================================
 
-print()
-
-print("=" * 60)
+print("\n" + "=" * 60)
 
 print("Instruction Fine-Tuning Complete")
 
-print("Best Validation Loss :", best_loss)
+print(f"Best Validation Loss : {best_loss:.4f}")
 
-print("Saved Model :", SAVE_MODEL)
+print(f"Saved Model          : {SAVE_MODEL}")
 
 print("=" * 60)
