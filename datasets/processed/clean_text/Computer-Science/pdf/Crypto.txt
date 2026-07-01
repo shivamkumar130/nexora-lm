@@ -1,0 +1,418 @@
+Cryptography Problems and Solutions
+Complete Solutions Manual
+Contents
+1 Chinese Remainder Theorem (CR T) 3
+1.1 Problem Statement................................... 3
+1.2 Solution......................................... 3
+2 RC4 Algorithm 4
+2.1 Complete Algorithm Description........................... 4
+2.1.1 Key Scheduling Algorithm (KSA)...................... 4
+2.1.2 Pseudo-Random Generation Algorithm (PRGA).............. 4
+2.2 Derivation of Pr[Z 2 = 0]................................ 4
+3 Elliptic Curve Discrete Logarithm Problem (ECDLP) 5
+3.1 Definition........................................ 5
+3.2 Baby-Step Giant-Step Algorithm........................... 5
+3.2.1 Algorithm Steps................................ 5
+3.2.2 Pseudocode................................... 5
+3.2.3 Complexity................................... 6
+4 RSA Decryption (T oy Example) 6
+4.1 Problem......................................... 6
+4.2 Solution......................................... 6
+5 Hash F unction Collision Resistance 7
+5.1 Problem......................................... 7
+5.2 Proof........................................... 7
+6 CFB Mode Error Propagation 8
+6.1 System Description................................... 8
+6.2 Decryption Algorithm................................. 8
+6.3 Error Propagation Analysis.............................. 8
+7 RSA with Small Primes 9
+7.1 Problem......................................... 9
+7.2 Solution......................................... 9
+7.2.1 Part (a): Legitimacy and Findingd..................... 9
+7.2.2 Part (b): Compute Ciphertext........................ 9
+7.2.3 Part (c): Decryption.............................. 10
+8 Additional CR T Problem 11
+8.1 Problem......................................... 11
+8.2 Solution......................................... 11
+Solutions Manual Cryptography Problems
+9 Birthday Paradox 12
+9.1 Problem......................................... 12
+9.2 Proof........................................... 12
+Solutions Manual Cryptography Problems
+1 Chinese Remainder Theorem (CRT)
+1.1 Problem Statement
+Findxsatisfying:
+x≡5 (mod 37) (1)
+x≡7 (mod 41) (2)
+x≡3 (mod 47) (3)
+1.2 Solution
+Step 1: Product of moduli
+M= 37·41·47 = 71,299
+Step 2: Partial products
+M1 = M
+37 = 41·47 = 1,927
+M2 = M
+41 = 37·47 = 1,739
+M3 = M
+47 = 37·41 = 1,517
+Step 3: Find modular inverses
+ForM 1: 1927 mod 37 = 3. Solve 3y 1 ≡1 (mod 37). The inverse isy 1 = 25 (check:
+3·25 = 75≡1 (mod 37)).
+ForM 2: 1739 mod 41 = 17. Solve 17y 2 ≡1 (mod 41). The inverse isy 2 = 29 (check:
+17·29 = 493≡1 (mod 41)).
+ForM 3: 1517 mod 47 = 13. Solve 13y 3 ≡1 (mod 47). The inverse isy 3 = 29 (check:
+13·29 = 377≡1 (mod 47)).
+Step 4: CR T formula
+x≡
+3X
+i=1
+aiMiyi = 5·1927·25 + 7·1739·29 + 3·1517·29
+Computing each term:
+5·1927·25 = 240,875
+7·1739·29 = 353,017
+3·1517·29 = 131,979
+Sum: 240,875 + 353,017 + 131,979 = 725,871
+Reduce moduloM= 71,299:
+725,871 mod 71,299 = 12,881
+Answer: x= 12,881 (mod 71,299)
+V erification:
+•12,881 mod 37 = 5✓
+•12,881 mod 41 = 7✓
+•12,881 mod 47 = 3✓
+Solutions Manual Cryptography Problems
+2 RC4 Algorithm
+2.1 Complete Algorithm Description
+RC4 consists of two main components:
+2.1.1 Key Scheduling Algorithm (KSA)
+Input: key K of length L bytes
+Output: permutation S[0..255]
+1. For i = 0 to 255:
+S[i] = i
+2. j = 0
+3. For i = 0 to 255:
+j = (j + S[i] + K[i mod L]) mod 256
+swap(S[i], S[j])
+2.1.2 Pseudo-Random Generation Algorithm (PRGA)
+i = 0, j = 0
+Repeat for each output byte:
+i = (i + 1) mod 256
+j = (j + S[i]) mod 256
+swap(S[i], S[j])
+t = (S[i] + S[j]) mod 256
+Z = S[t] // output byte
+2.2 Derivation ofPr[Z 2 = 0]
+Step 1: First outputZ 1
+ForZ 1:
+i= 1
+j=S[1]
+swap(S[1], S[j])
+t1 =S[1] +S[j]
+Z1 =S[t 1]
+Step 2: Second outputZ 2
+ForZ 2:
+i= 2
+j=j+S[2]
+swap(S[2], S[j])
+t2 =S[2] +S[j]
+Z2 =S[t 2]
+We want:Z 2 = 0⇐ ⇒S[t2] = 0
+SinceSis a permutation, exactly one position contains 0.
+Key observation:After KSA and the first PRGA step,Sis approximately uniform. Since
+t2 =S[2] +S[j 2] (mod 256) and both values behave like random distinct numbers over 0–255:
+Solutions Manual Cryptography Problems
+Pr[t2 =p] = 1
+256
+wherepis the position of 0 after the first swap.
+Final Result:
+Pr[Z2 = 0] = 1
+256
+3 Elliptic Curve Discrete Logarithm Problem (ECDLP)
+3.1 Definition
+LetEbe an elliptic curve over a finite fieldF q and letP∈E(F q) be a point of known ordern.
+ECDLP:GivenQ∈ ⟨P⟩, find integerkwith
+Q=kP,0≤k < n
+3.2 Baby-Step Giant-Step Algorithm
+Idea:Writek=im+jwithm=⌈ √n⌉.
+3.2.1 Algorithm Steps
+Input:Elliptic curveE, base pointPof ordern, target pointQ∈ ⟨P⟩
+1. Computem← ⌈ √n⌉
+2.Build baby-step table:
+•For eachj= 0,1,..., m−1:
+•ComputeB j ←jP
+•Store in hash table: key =B j, value =j
+3. Compute giant step stride:S←mP
+4.Search by giant steps:
+•SetR←Q
+•Fori= 0,1,..., m−1:
+–IfRis in baby table (i.e.,R=B j for somej):
+–Returnk=im+j(reduce modulonif needed)
+–Otherwise:R←R−S
+5. If no match, return “no solution”
+3.2.2 Pseudocode
+function BSGS_EC(P, Q, n):
+m:= ceil(sqrt(n))
+table:= empty hash map
+// baby steps
+B:= O (point at infinity)
+for j in 0..m-1:
+Solutions Manual Cryptography Problems
+table[B]:= j
+B:= B + P
+S:= m * P // compute once
+R:= Q
+for i in 0..m-1:
+if R in table:
+return k = i*m + table[R]
+R:= R - S
+return "no solution"
+3.2.3 Complexity
+•Time:O(√n) elliptic curve group operations
+•Space:O(√n) memory to store baby steps
+4 RSA Decryption (Toy Example)
+4.1 Problem
+Public key:n= 221,e= 77. Ciphertextc= 95. Find plaintextm.
+4.2 Solution
+Step 1: F actor the modulus
+221 = 13×17
+Sop= 13,q= 17.
+Step 2: Compute Euler’s totient
+φ(n) = (p−1)(q−1) = 12·16 = 192
+We needdsuch that 77d≡1 (mod 192).
+Step 3: Extended Euclidean Algorithm
+Run Euclid to find coefficients for 77s+ 192t= 1:
+192 = 77·2 + 38
+77 = 38·2 + 1
+38 = 1·38 + 0
+Back-substitute:
+1 = 77−38·2
+= 77−2(192−77·2)
+= 77−2·192 + 4·77
+= 5·77−2·192
+Therefore: d= 5
+Check: 77·5 = 385 = 192·2 + 1✓
+Step 4: Decrypt
+Solutions Manual Cryptography Problems
+Computem=c d modn= 95 5 mod 221:
+952 ≡185 (mod 221)
+953 ≡185·95 = 17575≡116 (mod 221)
+954 ≡116·95 = 11020≡191 (mod 221)
+955 ≡191·95 = 18145≡23 (mod 221)
+Answer: m= 23
+5 Hash Function Collision Resistance
+5.1 Problem
+Given collision-resistant hash functionh 1:{0,1} 2m → {0,1}m, define:
+h2(x) =h 1(h1(x1)|h 1(x2))
+wherex=x 1|x2 withx 1, x2 ∈ {0,1}2m.
+Prove or disprove:h 2 is collision resistant.
+5.2 Proof
+Claim:h 2 is collision resistant ifh 1 is collision resistant.
+Proof by contradiction:
+Assume algorithmAfinds collisions forh 2:
+x=x 1|x2, x ′ =x ′
+1|x′
+2, x̸=x ′
+such thath 2(x) =h 2(x′).
+By definition:
+h1(h1(x1)|h1(x2)) =h 1(h1(x′
+1)|h1(x′
+2))
+LetU=h 1(x1)|h1(x2) andV=h 1(x′
+1)|h1(x′
+2).
+Thenh 1(U) =h 1(V).
+Sinceh 1 is collision resistant, we must haveU=V, otherwise (U, V) is a collision forh 1.
+Therefore:
+h1(x1)|h1(x2) =h 1(x′
+1)|h1(x′
+2)
+This implies:
+h1(x1) =h 1(x′
+1)
+h1(x2) =h 1(x′
+2)
+Sincex̸=x ′, at least one of the following holds:
+•x 1 ̸=x ′
+1, or
+•x 2 ̸=x ′
+In either case, we have efficiently produced a collision forh 1, contradicting its collision
+resistance.
+Therefore,h 2 is collision resistant.
+Solutions Manual Cryptography Problems
+6 CFB Mode Error Propagation
+6.1 System Description
+64-bit CFB variant with stateX j = (Lj, Rj) (two 32-bit halves).
+Encryption:
+Cj =P j ⊕L 32(EK(Xj))
+Xj+1 = (Rj, Cj)
+6.2 Decryption Algorithm
+Given: keyK, IVX 1 = (L1, R1), ciphertext blocksC 1, C2,...
+Forj= 1,2,...:
+1. ComputeT j ←L 32(EK(Xj))
+2. Recover plaintext:P j ←C j ⊕T j
+3. Update state:X j+1 ←(R j, Cj)
+6.3 Error Propagation Analysis
+Assume transmission error inC 1: receiver gets ˜C1 ̸=C 1. All later ciphertexts received correctly:
+˜Cj =C j forj≥2.
+Blockj= 1:
+•Receiver computes sameT 1 =L 32(EK(X1))
+•But uses ˜C1: ˜P1 = ˜C1 ⊕T 1 ̸=P 1
+•⇒P 1 corrupted
+•States:X 2 = (R1, C1) vs ˜X2 = (R1, ˜C1) (differ in right half)
+Blockj= 2:
+• ˜T2 =L 32(EK(˜X2))̸=T 2 (since ˜X2 ̸=X 2)
+• ˜P2 =C 2 ⊕ ˜T2 ̸=P 2
+•⇒P 2 corrupted
+•States:X 3 = (C1, C2) vs ˜X3 = (˜C1, C2) (differ in left half)
+Blockj= 3:
+• ˜T3 =L 32(EK(˜X3))̸=T 3 (since ˜X3 ̸=X 3)
+• ˜P3 =C 3 ⊕ ˜T3 ̸=P 3
+•⇒P 3 corrupted
+•States:X 4 = (C2, C3) = ˜X4 (now identical!)
+Blockj≥4:
+•Since ˜X4 =X 4, all subsequent keystream values match
+• ˜Pj =C j ⊕T j =P j for allj≥4
+•⇒No further corruption
+Conclusion:A single error inC 1 corrupts exactlyP 1,P 2, andP 3. FromP 4 onwards,
+decryption is correct.
+Solutions Manual Cryptography Problems
+7 RSA with Small Primes
+7.1 Problem
+Bob usesp= 53,q= 59,e= 1195. For plaintextP= 2314:
+(a) Showeis legitimate and findd
+(b) Compute ciphertextC=P e modn
+(c) Show decryption recoversP
+7.2 Solution
+Step 1: Computenandφ(n)
+n= 53·59 = 3127
+φ(n) = 52·58 = 3016
+7.2.1 Part (a): Legitimacy and Findingd
+Check gcd(1195,3016) = 1 using Euclidean algorithm:
+3016 = 1195·2 + 626
+1195 = 626·1 + 569
+626 = 569·1 + 57
+569 = 57·9 + 56
+57 = 56·1 + 1
+56 = 1·56 + 0
+Since gcd(1195,3016) = 1,eis legitimate.
+Extended Euclidean Algorithm:
+Back-substitution yields:
+1 = 21·3016−53·1195
+Therefore:
+d≡ −53≡3016−53 = 2963 (mod 3016)
+Answer: d= 2963
+7.2.2 Part (b): Compute Ciphertext
+Use CRT to computeC= 2314 1195 mod 3127.
+Reduce base:
+Pmod 53 = 35
+Pmod 59 = 13
+Reduce exponent (F ermat):
+1195 mod 52 = 51
+1195 mod 58 = 35
+Compute35 51 mod 53:
+Since 3552 ≡1 (mod 53), we have 35 51 ≡35 −1 (mod 53).
+Solutions Manual Cryptography Problems
+Finding inverse: 35·3 = 105≡ −1 (mod 53), so 35 −1 ≡ −3≡50 (mod 53).
+Compute13 35 mod 59:
+Using repeated squaring:
+132 ≡51 (mod 59)
+134 ≡5 (mod 59)
+138 ≡25 (mod 59)
+1316 ≡35 (mod 59)
+1332 ≡45 (mod 59)
+Since 35 = 32 + 2 + 1:
+1335 ≡45·51·13≡40 (mod 59)
+CR T combination:
+We have:
+C≡50 (mod 53)
+C≡40 (mod 59)
+Using CRT formula withM 1 = 59,M 2 = 53,y 1 = 9,y 2 = 49:
+C≡50·59·9 + 40·53·49 (mod 3127)
+Computing:
+50·59·9 = 26,550
+40·53·49 = 103,880
+Sum = 130,430
+Reduce: 130,430 mod 3127 = 2223
+Answer: C= 2223
+7.2.3 Part (c): Decryption
+Computem=C d modn= 2223 2963 mod 3127 using CRT.
+Mod 53:
+•Cmod 53 = 50
+•dmod 52 = 51
+•50 51 ≡35 (mod 53)
+Mod 59:
+•Cmod 59 = 40
+•dmod 58 = 5
+•40 5 ≡13 (mod 59)
+10
+Solutions Manual Cryptography Problems
+CR T combination:
+We needmwith:
+m≡35 (mod 53)
+m≡13 (mod 59)
+Using CRT:
+m≡35·59·9 + 13·53·49 (mod 3127)
+Computing:
+35·59·9 = 18,585
+13·53·49 = 33,761
+Sum = 52,346
+Reduce: 52,346 mod 3127 = 2314
+Answer: m= 2314 (matches original plaintext!)✓
+8 Additional CRT Problem
+8.1 Problem
+Findxsuch that:
+x≡5 (mod 29)
+x≡7 (mod 47)
+x≡3 (mod 67)
+8.2 Solution
+Step 1:M= 29·47·67 = 91,321
+Step 2:Partial products
+M1 = 47·67 = 3,149
+M2 = 29·67 = 1,943
+M3 = 29·47 = 1,363
+Step 3:Find inverses
+•M 1 mod 29 = 17, inversey 1 = 12
+•M 2 mod 47 = 16, inversey 2 = 3
+•M 3 mod 67 = 23, inversey 3 = 35
+Step 4:CRT formula
+x≡5·3149·12 + 7·1943·3 + 3·1363·35
+≡188,940 + 40,803 + 143,115
+≡372,858
+≡7,574 (mod 91,321)
+Answer: x≡7,574 (mod 91,321)
+11
+Solutions Manual Cryptography Problems
+9 Birthday Paradox
+9.1 Problem
+Show that in a group of 23 randomly chosen people, the probability that at least two share a
+birthday is at least 1/2.
+9.2 Proof
+Assume 365 equally likely birthdays and independence.
+LetP no match be the probability no two people share a birthday amongmpeople:
+Pno match = 365
+365 · 364
+365 · 363
+365 · · ·365−(m−1)
+365
+Using inequality 1−x≤e −x:
+Pno match =
+m−1Y
+k=0
+1− k
+365
+≤exp
+m−1X
+k=0
+365
+= exp
+− m(m−1)
+730
+Form= 23:
+m(m−1)
+730 = 23·22
+730 = 506
+730 ≈0.693
+Therefore:
+Pno match ≤e −0.693 ≈0.5
+Thus:
+Pat least one match= 1−P no match ≥1−0.5 = 0.5
+12

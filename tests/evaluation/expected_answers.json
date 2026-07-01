@@ -1,0 +1,2787 @@
+[
+    {
+        "id": 1,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 320\nWords: 320\n\nMulticommodity Price Prediction using LSTM Variants A Deep Learning Approach for MSME Decision Support Shivam Kumar (202351130) Dev Saraswat (202351173) Tammineni Harika (202351145) Under the Guidance of:Prof"
+    },
+    {
+        "id": 2,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 576\nWords: 320\n\nhistorical patterns Applications: Stock market prediction Commodity price forecasting Weather prediction Energy demand forecasting Sales forecasting Challenges: Non-stationarity Seasonality Multi-variate dependencies Long-term dependencies Noise and outliers Kumar et al"
+    },
+    {
+        "id": 3,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 832\nWords: 320\n\nPrediction November 2025 8 / 21 Dataset Overview Data Source: Indian commodity prices Government of India Open Data Portal OGD License, 2024 release Daily frequency records Commodities (11 total): Grains: Rice, Wheat Vegetables: Onion, Tomato, Potato Others: Sugar, Milk, Egg, Chicken, Oil, Chili Attribute Value Total Records 1,460 Features 11 Training Samples 1,144 Testing Samples 286 Train/Test Split 80/20 Missing Values Handled Note Chronological split ensures realistic evaluation Kumar et al"
+    },
+    {
+        "id": 4,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 1088\nWords: 320\n\nweights results/– Visualizations and metrics Technologies:Python — PyTorch — NumPy — Pandas — Matplotlib Reproducibility:Fixed random seeds — Saved configurations — Detailed logging Kumar et al"
+    },
+    {
+        "id": 5,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 1344\nWords: 320\n\nCorrelations: Grains (rice, wheat) Vegetables (onion, tomato) Protein sources (egg, chicken) Model Insights: Attention mechanism captures dependencies Multi-variate learning effective Cross-commodity patterns identified Impact Understanding correlations helps MSMEs anticipate cascading price effects across related commodities Kumar et al"
+    },
+    {
+        "id": 6,
+        "question": "What is AI_Presentation?",
+        "answer": "End Word: 1456\nWords: 176\n\nSummary of Contributions 1 Developed robust multivariate LSTM framework for Indian commodity price forecasting 2 Demonstrated superiority of Attention-LSTM variant (MAE: 0"
+    },
+    {
+        "id": 7,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nMachine Learning Analysis of Respiratory Signals 1"
+    },
+    {
+        "id": 8,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nthe Gaussian Hidden Markov Model to model the financial returns"
+    },
+    {
+        "id": 9,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\nSegmentation The filtered signal was divided into fixed-duration windows (5 seconds)"
+    },
+    {
+        "id": 10,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nDiscuss how the transition matrix can be used for short-term market regime forecasting and its potential impact on financial strategies"
+    },
+    {
+        "id": 11,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nstates of India based on the feature"
+    },
+    {
+        "id": 12,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nthe action to take for maximizing the expected reward"
+    },
+    {
+        "id": 13,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\nto take the following four actions in every state: Up"
+    },
+    {
+        "id": 14,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\nand returned at each location returns are 3 and 2 at the first and second locations respectively"
+    },
+    {
+        "id": 15,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nindependently (without referring to the solutions available) is a good exercise in understanding the implementation issues and finite MDP"
+    },
+    {
+        "id": 16,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nare linear dependencies (useful later)"
+    },
+    {
+        "id": 17,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nh can overestimate the minimal number of moves"
+    },
+    {
+        "id": 18,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nin a line blocked by three west-bound rabbits"
+    },
+    {
+        "id": 19,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\n1"
+    },
+    {
+        "id": 20,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\nrobust way to detect that"
+    },
+    {
+        "id": 21,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\nw_2, x"
+    },
+    {
+        "id": 22,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\nnumeric"
+    },
+    {
+        "id": 23,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\n(x=1:\\ \\hat y = 0"
+    },
+    {
+        "id": 24,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\n+ 0"
+    },
+    {
+        "id": 25,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\n(global maximum) Running Viterbi gives:"
+    },
+    {
+        "id": 26,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\nstandardized"
+    },
+    {
+        "id": 27,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\nsame family up to the partition function"
+    },
+    {
+        "id": 28,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nand compute the numeric probabilities"
+    },
+    {
+        "id": 29,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nchart"
+    },
+    {
+        "id": 30,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nnumbers: P = \\frac{3}{7}\\times 0"
+    },
+    {
+        "id": 31,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\nas fractions instead of decimals, or"
+    },
+    {
+        "id": 32,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\nreturn an optimal are nondecreasing so nodes are never needlessly reopened, and the first time A* pops the goal from the open set it has found an optimal path"
+    },
+    {
+        "id": 33,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\npermutation {}^{16}P_{4}=16\\times 15\\times 14\\times 13 = 43,680 So the size of the state space (for (n=4)) is (\\boxed{43{,}680})"
+    },
+    {
+        "id": 34,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\noInterest: 0"
+    },
+    {
+        "id": 35,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 9024\nWords: 320\n\nthe three DAGs without the collider are I-equivalent; the one that is a collider (the v-structure) is not"
+    },
+    {
+        "id": 36,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 9280\nWords: 320\n\n2"
+    },
+    {
+        "id": 37,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 9536\nWords: 320\n\nCourse Teaching Assistants: Mamindla Sathvika"
+    },
+    {
+        "id": 38,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 9792\nWords: 320\n\nor reference, the report will attract zero credits"
+    },
+    {
+        "id": 39,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 10048\nWords: 320\n\nsolution is the one with the fewest number of"
+    },
+    {
+        "id": 40,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\nprogramming skills"
+    },
+    {
+        "id": 41,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 10304\nWords: 320\n\ngoal of this lab is to implement a plagiarism detection system using the A* search algorithm applied to text alignment"
+    },
+    {
+        "id": 42,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 10560\nWords: 320\n\nKnowledge of string matching algorithms and similarity measures (e"
+    },
+    {
+        "id": 43,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 10816\nWords: 320\n\nsum of minimum possible edit distances between remaining sentences"
+    },
+    {
+        "id": 44,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 11072\nWords: 320\n\nNorvig (Fourth edition)"
+    },
+    {
+        "id": 45,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 11328\nWords: 320\n\nfirst course in Artificial Intelligence, Deepak Khemani (Chapter 4) [3] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)"
+    },
+    {
+        "id": 46,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 11584\nWords: 320\n\nChallenge for you is to generate a melody in North Indian Classical Raag Bhairav using either simulated annealing or the genetic algorithm"
+    },
+    {
+        "id": 47,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 11840\nWords: 320\n\nconsidering that the grades earned in different courses may be dependent"
+    },
+    {
+        "id": 48,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 12096\nWords: 320\n\nto ensure quality input"
+    },
+    {
+        "id": 49,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 12352\nWords: 320\n\nin the number of hidden states impact the interpretation of the results"
+    },
+    {
+        "id": 50,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 12608\nWords: 320\n\nto noise respiratory patterns naturally separate in feature space"
+    },
+    {
+        "id": 51,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nsearch to explore the state space and find the optimal alignment with the minimum cost"
+    },
+    {
+        "id": 52,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 12864\nWords: 320\n\n1 or"
+    },
+    {
+        "id": 53,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 13120\nWords: 320\n\none of the goal states, marked"
+    },
+    {
+        "id": 54,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 13376\nWords: 320\n\nthey are needed, you can move them between the two locations overnight, at a cost of INR 2 per bike moved"
+    },
+    {
+        "id": 55,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 13632\nWords: 320\n\nparking lot (independent of how many cars are kept there)"
+    },
+    {
+        "id": 56,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 13864\nWords: 296\n\non Performance Improvement of Prompt"
+    },
+    {
+        "id": 57,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nKhemani Chapter 3, 4 Problem Statement for In-lab Discussion:"
+    },
+    {
+        "id": 58,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\nRussell and Norvig (Fourth edition) Chapter 3 and 4 Problem Statement for In-lab Discussions: The Traveling Salesman Problem (TSP) is a hard problem, and is simple to state"
+    },
+    {
+        "id": 59,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\neither simulated annealing or the genetic algorithm"
+    },
+    {
+        "id": 60,
+        "question": "What is nexora_Ai_notes1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nThe goal of this lab assignment is to analyze financial time series data using Gaussian Hidden Markov Models (HMMs)"
+    },
+    {
+        "id": 61,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nIntroduction between entities in various domains like social networks, transportation systems, and web"
+    },
+    {
+        "id": 62,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nas the root"
+    },
+    {
+        "id": 63,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\ngray vertices in the queue"
+    },
+    {
+        "id": 64,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nof shortest paths Here's a rewritten version for better clarity and understanding: ## **Depth-First Search (DFS)** (denoted as \\(v \\)) that still has unexplored edges"
+    },
+    {
+        "id": 65,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 3316\nWords: 244\n\ndisjoint"
+    },
+    {
+        "id": 66,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\n\\in E II 0 & \\text{otherwise} \\end{cases} Great -- let's solve both parts"
+    },
+    {
+        "id": 67,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nthat place the tool at (S)"
+    },
+    {
+        "id": 68,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\n(360^\\circ) is (90^\\circ) or (270^\\circ))"
+    },
+    {
+        "id": 69,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nwant, I can: generate a collision-map for the pictured obstacles (I can extract obstacle shapes from the image and discretize C-space),"
+    },
+    {
+        "id": 70,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nthe bit, there is a directed edge from the current state to the new"
+    },
+    {
+        "id": 71,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\n(or chosen consistently), (x^{(1)}) is a stable energy minimum"
+    },
+    {
+        "id": 72,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nreach a state where no single-unit update will change any bit (an attractor / fixed point)"
+    },
+    {
+        "id": 73,
+        "question": "What is nexora_Algorithm_notes1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\n- **Limitations**"
+    },
+    {
+        "id": 74,
+        "question": "What is Crypto?",
+        "answer": "End Word: 320\nWords: 320\n\nCryptography Problems and Solutions Complete Solutions Manual Contents 1 Chinese Remainder Theorem (CR T) 3 1"
+    },
+    {
+        "id": 75,
+        "question": "What is Crypto?",
+        "answer": "End Word: 576\nWords: 320\n\n1 ≡1 (mod 37)"
+    },
+    {
+        "id": 76,
+        "question": "What is Crypto?",
+        "answer": "End Word: 832\nWords: 320\n\n1 j=S[1] swap(S[1], S[j]) t1 =S[1] +S[j] Z1 =S[t 1] Step 2: Second outputZ 2 ForZ 2: i= 2 j=j+S[2] swap(S[2], S[j]) t2 =S[2] +S[j] Z2 =S[t 2] We want:Z 2 = 0⇐ ⇒S[t2] = 0 SinceSis a permutation, exactly one position contains 0"
+    },
+    {
+        "id": 77,
+        "question": "What is Crypto?",
+        "answer": "End Word: 1088\nWords: 320\n\n= i*m + table[R] R:= R - S return \"no solution\" 3"
+    },
+    {
+        "id": 78,
+        "question": "What is Crypto?",
+        "answer": "End Word: 1344\nWords: 320\n\notherwise (U, V) is a collision forh 1"
+    },
+    {
+        "id": 79,
+        "question": "What is Crypto?",
+        "answer": "End Word: 1600\nWords: 320\n\n(now identical!) Blockj≥4: •Since ˜X4 =X 4, all subsequent keystream values match • ˜Pj =C j ⊕T j =P j for allj≥4 •⇒No further corruption Conclusion:A single error inC 1 corrupts exactlyP 1,P 2, andP 3"
+    },
+    {
+        "id": 80,
+        "question": "What is Crypto?",
+        "answer": "End Word: 1856\nWords: 320\n\n35 = 32 + 2 + 1: 1335 ≡45·51·13≡40 (mod 59) CR T combination: We have: C≡50 (mod 53) C≡40 (mod 59) Using CRT formula withM 1 = 59,M 2 = 53,y 1 = 9,y 2 = 49: C≡50·59·9 + 40·53·49 (mod 3127) Computing: 50·59·9 = 26,550 40·53·49 = 103,880 Sum = 130,430 Reduce: 130,430 mod 3127 = 2223 Answer: C= 2223 7"
+    },
+    {
+        "id": 81,
+        "question": "What is Crypto?",
+        "answer": "End Word: 1902\nWords: 110\n\nShow that in a group of 23 randomly chosen people, the probability that at least two share a birthday is at least 1/2"
+    },
+    {
+        "id": 82,
+        "question": "What is CS203_Scribe__W5_1?",
+        "answer": "End Word: 320\nWords: 320\n\n[CS203] Design and Analysis of Algorithms Course Instructor: Dr"
+    },
+    {
+        "id": 83,
+        "question": "What is CS203_Scribe__W5_1?",
+        "answer": "End Word: 576\nWords: 320\n\nwould lead to: • Left subarray: [3, 7, 1] • Right subarray: [9] With the pivot 8 placed between them"
+    },
+    {
+        "id": 84,
+        "question": "What is CS203_Scribe__W5_1?",
+        "answer": "End Word: 832\nWords: 320\n\ncorrect position 8 return i + 1 # Return the pivot index The partition procedure is the key part of quicksort"
+    },
+    {
+        "id": 85,
+        "question": "What is CS203_Scribe__W5_1?",
+        "answer": "End Word: 1088\nWords: 320\n\nin place at the end of the array"
+    },
+    {
+        "id": 86,
+        "question": "What is CS203_Scribe__W5_1?",
+        "answer": "End Word: 1191\nWords: 167\n\nSwap A[i] with A[j]: - Array state: [2, 1, 7, 8, 3, 5, 6, 4]"
+    },
+    {
+        "id": 87,
+        "question": "What is CS203_Scribe_W5_2?",
+        "answer": "End Word: 320\nWords: 320\n\n[CS203] Design and Analysis of Algorithms Course Instructor: Dr"
+    },
+    {
+        "id": 88,
+        "question": "What is CS203_Scribe_W5_2?",
+        "answer": "End Word: 576\nWords: 320\n\nn inches and a list of prices p1, p2,"
+    },
+    {
+        "id": 89,
+        "question": "What is CS203_Scribe_W5_2?",
+        "answer": "End Word: 801\nWords: 289\n\nmultiple times, leading to an exponential growth in the number of calls"
+    },
+    {
+        "id": 90,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nAadi Singhal 202352301 Note- May be Heading and module ka name different ho toh"
+    },
+    {
+        "id": 91,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\ndefined using \"If-Then\" conditions, where a sensor's output triggers actions on other devices"
+    },
+    {
+        "id": 92,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\nStatic Default Gateway DNS Server IoT Server O None O Home Gateway O Remote Server Server Address User Name Password Connect Advanced Top Indian Institute of Information Technology Vadodara 2024-25 STUDENT ID:202351130 Physical [Config Attributes Specifications GLOBAL Global Settings Settings Algorithm Settingse Display Name Lighte Files Serial Number PTT0810N9SM- INTERFACE Wirelesso Interfaces Wireless0 Bluetooth Gateway/DNS IPv4 O DHCP O static Default Gateway 192"
+    },
+    {
+        "id": 93,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nON Fan, Air Conditioner, Light, Door, Bluetooth Speaker"
+    },
+    {
+        "id": 94,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nLight Status to On Set Air Conditioner On to true F di Remove Water Drain Water Drain Status is true Set Fan Status to High Yes Set PTT081021RA- Lock to 0 Set Garage Door On to true Set Light Status to On Set Air Conditioner On to true"
+    },
+    {
+        "id": 95,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nEnabled Name Condition Actions Set Fan Status to High Set Water Drain Status to true Edit I Remove Air Conditioner Air Conditioner On is true Yes Set PTT081021RA- Lock to 0 Set Garage Door On to true Set Air Conditioner On to true Set Fan Status to High"
+    },
+    {
+        "id": 96,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\nto On Set Air Conditioner On to true Remove es Street Lamp Street Lamp Moton gradient is Increasing Set Fan Status to High Set Water Drain Status to true Set PTT081021RA- Lock to 0 Observation: During testing of the IoT Smart Home network in Cisco Packet Tracer, all ten loT devices were found to be successfully connected to the Home Gateway (DLc1o0) via Wi-Fi (SsID: HomeGateway)"
+    },
+    {
+        "id": 97,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\nDoor (Lock) Solar Panel 5W 6W Light, Fan, Door, Street All triggered ON Lamp, Speaker Street Lamp motion True Fan, Light, Door, Garage All turned ON increases Door, AC Water Drain = true True Fan, AC, Door, Light, All turned ON Garage Door Indian Institute of Information Technology 11 Vadodara CS361 - Computer Networks 2024-25 STUDENT ID:202351130 Fan Status = High High AC, Door, Garage Door, All turned ON Water Drain, Light True Door Open = true Light, Fan, AC, Garage All turned ON Door, Water Drain Garage Door On ="
+    },
+    {
+        "id": 98,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nthe simulated smart home network responded automatically to the environmental sensor changes according to the 15 defined automation conditions"
+    },
+    {
+        "id": 99,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nnot be displayed"
+    },
+    {
+        "id": 100,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nLAn, adapter Local Area Connecttona 2"
+    },
+    {
+        "id": 101,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nfunctional blocks:"
+    },
+    {
+        "id": 102,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\nTasks: rcgbankvxstimuli"
+    },
+    {
+        "id": 103,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\nI2z <= #2 I1aIl1b; 7: I2z <= #2 I1a^I1b; 8: I2z <= #2 ~I1a; 9: I2z <= #2 ~I1b; 10: l2z <=#2 l1a>>1; 11: l2z <=#2 l1b<<1; default: I2z<=16'hxxx; endcase I2rd <= #2 l1rd; I2add <= #2 I1add; end always @(posedge clk1) begin regbank[l2rd] <=#2 l2z; I3z <=#2 l2z; I3add <=#2 l2add; end always @(posedge clk2) begin membank[I3add]=#2 I3z; end endmodules pipe"
+    },
+    {
+        "id": 104,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\ndevelopment with Python (Tkinter for GUl) and SQLite for data storage to enhance flexibility and responsiveness"
+    },
+    {
+        "id": 105,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\n/ SignUp Unit + Functional Passed No failure Product catalogue Unit Failed Insert and Delete will be done in main window, not in product catalogue Product catalogue Functional Passed No failure Unit + Functional"
+    },
+    {
+        "id": 106,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\nin the system"
+    },
+    {
+        "id": 107,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\n1) Download Epic Games Launcher https://www"
+    },
+    {
+        "id": 108,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\nrelease mechanics PART B: UNREAL ENGINE 1"
+    },
+    {
+        "id": 109,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\n= 0; dim3 numBIocks((N + 15)/16, (N + 15)/16);) if (row <N && coI<N){ for (int k = 0; k < N; k++) matrixMul<<<numBlocks, threadsPerBlock>>>(d_A, d_B,d_C,N); sum+=A[row * N +k] * B[k * N+ col]; C[row * N + col] = sum; Key Points -Each thread computes one cell of the result matrix C[row][col]"
+    },
+    {
+        "id": 110,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\n-> identify -> MPI_Comm_rank(MPI_COMM_wORLD, &rank); MPI_Comm_size(MPI_COMM_WORLD, &size); execute -> finalize"
+    },
+    {
+        "id": 111,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nozalure Best For WAN//Jnternetsn: TAN/Antranetsyng Lamport vs Vector Clocks Feature LamportTimestamps Vector Clocks Data Structure Single integer counter Vector of N integers Space Complexity O(1) per event O(N) per event Partial (one direction only) Causality Detection Complete (both directions) Concurrency Detection Cannot detect Can detect concurrent events a -> b implies L(a)<L(b) V V(a)<V(b) V L(a) <L(b) implies Does NOT imply a> b X V(a)<V(b) implies a>b / Scalability Very scalable Less scalable (vector grows) Bully vs Ring Algorithm - Comparison Bully Algorithm RingAlgorithm Aspec! Topology Anyvi drectcommuntcation! Logicairngsrucrure Message Types ELEGTION OK"
+    },
+    {
+        "id": 112,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nInput J2: 5V input from USB or external supply"
+    },
+    {
+        "id": 113,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nModel Subscription Pay per execution High Complexity Medium Low Low (but design complex) DRIECT BLOCK ANDELE Cloud Storage Services ObjectStorage Block Storage File Storage Stores data as objects in flat Hierarchical file systems Raw block-level volumes buckets, accessed via REST shared across multiple attached to VMs like physica! APIs"
+    },
+    {
+        "id": 114,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\nCB CC CD Ce CF D80"
+    },
+    {
+        "id": 115,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\na, in n) ( for (ane i = i; i < n; i) { i (a[i - 1] > a[ip) 14 retunn 0; 15 18 19 yoid shuffle(ant a, int, nsigned int seed) for (nt i = n - 1; i > 0; i--) { at j = rand"
+    },
+    {
+        "id": 116,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\nRun ((Threads = %ci)-wn', T); acpy(loca _array) Orig nai) - (local_array)) Joca shuffles:) found - y total shuffles 1ocal shuff1e3, 115 Q_startj Quffles(t): total shuffles) 120 122 125 126 printf(*Totai ShufFles- Xldwwr's, total shuffles); 127 128 129 printf(('Summary iabiex\\+); 130 131 for (@rt = 0; t < 3; to) k 132 n! U thread counts[t]; 133 doubie speedup = seq time // p_times[t]; 134 135 136 137 retumn 0; 140 cS302(Distributed Parallel 2025-26 STUDENT ID:202351130 Computing) Lab 9 Aim of the Lab:-"
+    },
+    {
+        "id": 117,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\nprincipal) print(-Random Seed = seed_val) 14 15 for day in range(3, days o 1): 16 bonus e candom"
+    },
+    {
+        "id": 118,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 9024\nWords: 320\n\nout; always @(*) out=in1+in2; endmodule module EQZ(Bout,eqz); input[15:0] Bout; output eqz; assign eqz=(Bout==0); endmodule cS302(Distributed Parallel 2025-26 STUDENT ID:202351130 Computing) Terminal Output: O(venv) PS C:\\Users\\shiva\\Documents\\DPC> & c:\\Users\\shiva\\Documents\\DPCvenv\\Scripts\\python"
+    },
+    {
+        "id": 119,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 9280\nWords: 320\n\ncalculated a final amount of 1311"
+    },
+    {
+        "id": 120,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 9536\nWords: 320\n\nSTUDENT ID:202351130 Computing) 62 sync o c1k[8] 63 for i in trust: 64 sync[i] e target 65 66 show(f\"Trusted nodes: (trust}\")) 67 Show(f\"Target time- (target})) 68 Show(#\"Aligned clocks- (sync})) 69 printO 71 for i in range(n): 72 Show(F\"Node {i} starts with clock {sync[i]}\")) 73 v o [0] * n 74 buf o [] 75 76 for m in qs[i]: 77 Show(f\"Node {i}- got msg from {m[\"sender*]} => {m['v_msg'I}\") 78 if can_take(m, v): 79 Show(f\"Node {i}- msg processed')) 80 merge(v, m[\"v_msg\"[) 81 Check_buf(v, buf, i)) 82 else: 83 Show(f\"Node {i}- nsg saved in buffer\") 84 85 86 Check_buf(v, buf, i) 87 88 p o (Sync[i] sum()) % m0D 89 Show(f\"Node {i} final vector (v}) 06 Show(f\"Node {i} final payload {p}\") 91 print(s 92 if -aweu 94 main() Output: Indian Institute of Information Technology Vadodara cS302(Distributed Parallel 2025-26 STUDENT ID:202351130 Computing) (venv)) pS C:\\Users\\shiva\\Documents\\DPC\\Lab8> python Lab8_Chronos-py Clock alignment starts"
+    },
+    {
+        "id": 121,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 9792\nWords: 320\n\n1 3, 0, 0] 1: msg saved in buffer Node 1: msg from 2 = [1, 1, 0, 0] got 1: msg saved in buffer apoN 1: got msg from O -> [,,, 0, 0] Node msg from 4 => [0,, Q,, 1] got Node 1: msg Saved in buffer 1: got msg from 3 -> [0, 0, Q, 1, 0] et msg processed processed buffered msg from 4 => [0, 0, 0, ] Node 1: final vector [, 0, 0, 1 1] 6t Final payload 2985 > [,,,, ] ms om in nsg ns in vect Nc 088888888888 with clock ot Co co co *o Co * * *t mse Indian Institute of Information Technology Vadodara cS302(Distributed Parallel 2025-26 STUDENT ID:202351130 Computing) Node 4 starts with clock 995 Node 4: got msg from 2 -> [, 1, 1, 0, 0] Node 4: msg saved in buffer Node 4: got msg from -> [1, 0, 0, 0, 0] Node 48 msg processed Node 4: got msg from 1 -> [0, 1, 0, 0, 0] Node 48 msg processed Node 4: processed buffered msg from 2 -> [1, 1, 1, 0, 0] Node 4: got msg from 0 -> [2, 1, 1, 0, 0] Node 4: msg processed Node 4: got msg from 3 -> [0, 0, 0, 1, 0] Node 4: msg processed Node 4: final vector [2, 1, 1, 1, 0] Node 4: final payload 4975 Indian Institute of Information Technology Vadodara cS302(Distributed Parallel 2025-26 STUDENT ID:202351130 Computing) Lab 7 Aim of the Lab:- To implement a distributed program using MPI where two students intermediate values and performing heavy computations"
+    },
+    {
+        "id": 122,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 10048\nWords: 320\n\nimplement a distributed program using MPI where two students intermediate values and performing heavy computations"
+    },
+    {
+        "id": 123,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\nSensor Voltage Node ConvertsAR=AV Amplifier Amplifies small"
+    },
+    {
+        "id": 124,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 10304\nWords: 320\n\n< beta < endI; 65 cout <Verify (Sy) * < verifyl < endl; 66 cout << Verify (S2) * < verify2 < endl; 67 cout < \"Password"
+    },
+    {
+        "id": 125,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 10560\nWords: 320\n\nMPI_Finalize(); E6 return 0; 94 Terminal Output: @Shivam-PC:/mnt/c/Users/shiva/Docwnents/DpC/Lab7$1mpicxx -o Operation Staff WiFi ( ration Staff WiFi:cpp 2080 2843 75 1213 Ve fication matched Time: 0"
+    },
+    {
+        "id": 126,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 10816\nWords: 320\n\nsetup a deep learning computational pipeline for solving moderate size classification and regression problems"
+    },
+    {
+        "id": 127,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 11072\nWords: 320\n\nFirst Course in Artificial Intelligence, Khemani D"
+    },
+    {
+        "id": 128,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 11328\nWords: 320\n\nSTUDENT ID:202351130 Computing) C ParallelN Queens"
+    },
+    {
+        "id": 129,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 11584\nWords: 320\n\nTitle: Introduction to Metaverse Credit Structure: 3-0-0: 3 Course Category: Program Elective"
+    },
+    {
+        "id": 130,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 11840\nWords: 320\n\nVRoid Studio"
+    },
+    {
+        "id": 131,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 12096\nWords: 320\n\napplications in building interconnected virtual worlds"
+    },
+    {
+        "id": 132,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 12352\nWords: 320\n\n\"Metaverse"
+    },
+    {
+        "id": 133,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 12608\nWords: 320\n\nMetaverse\" Published in Nature Machine Intelligence"
+    },
+    {
+        "id": 134,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nrow-wise: Row i: 123 Row 2: 0 1 4 Row 3: S60 Result Matrix (Socket):"
+    },
+    {
+        "id": 135,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 12864\nWords: 320\n\n3f secn, seq tine) printfAShu?ies+ dnn, seq shuff1es h 5"
+    },
+    {
+        "id": 136,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 13120\nWords: 320\n\n122486713 17"
+    },
+    {
+        "id": 137,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 13376\nWords: 320\n\nRam"
+    },
+    {
+        "id": 138,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 13632\nWords: 320\n\nMessages follow the defined communication flow"
+    },
+    {
+        "id": 139,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 13874\nWords: 306\n\nterminal output: Indian Institute of Information Technology Vadodara CS302 2025-26 STUDENT ID:202351130 ("
+    },
+    {
+        "id": 140,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\n20 23 server"
+    },
+    {
+        "id": 141,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\n(dates & location to be announced) in a guest role"
+    },
+    {
+        "id": 142,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nExperiment 6"
+    },
+    {
+        "id": 143,
+        "question": "What is nexora_Computer_Science_Note1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nsupported Document virtualization kernel module parameters"
+    },
+    {
+        "id": 144,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nModule 5 - Hardware Inventory & Benchmarking Objective To provide students with practical experience in identifying hardware specifications,"
+    },
+    {
+        "id": 145,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nyour instructor will expect"
+    },
+    {
+        "id": 146,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\n(GBN receiver only accepts in-order frames) Sequence-number bits (k = 11) Selective-Repeat (SR) SR requires (W_{SR} \\le 2^{k-1})"
+    },
+    {
+        "id": 147,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nchannel in Slotted ALOHA:"
+    },
+    {
+        "id": 148,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nIt helps reduce collisions by sensing whether the medium is busy or idle"
+    },
+    {
+        "id": 149,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nto different is located (learns hub segments MAC addresses) Switc Data Link Forwards frames Efficiently High More layer (Layer to the specific port isolates traffic performance, expensive 2, some of destination MAC between reduces than Layer 3 address collisions, devices hub/bridge features) supports VLANs Key idea:"
+    },
+    {
+        "id": 150,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\ngenerator 1001 Binary division remainder # 0 -> error detected Conclusion Correct transmitted message is 11001001011 CRC detects any single-bit error, including the corrupted 3rd bit"
+    },
+    {
+        "id": 151,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\noccurs"
+    },
+    {
+        "id": 152,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nnumber 4 bits Stop-and-Wait ARQ: 2000 frames 50 ms = 100 s Go-Back-N ARQ: Window size 16 -> (2000/16) x 50 ms = 6"
+    },
+    {
+        "id": 153,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nbit (e"
+    },
+    {
+        "id": 154,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nprevious chats"
+    },
+    {
+        "id": 155,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 576\nWords: 320\n\napply the inverse permutation to any ciphertext) or (b) into the representation of the final round key (we can redefine the final round key bytes so that the permutation is already applied)"
+    },
+    {
+        "id": 156,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\nPC3 via Switch1 to Router3 LAN3: PC4, PC5 via Switch2 to Router2 Equipment 6 PCs"
+    },
+    {
+        "id": 157,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\no Default Gateway: 192"
+    },
+    {
+        "id": 158,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\nports"
+    },
+    {
+        "id": 159,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\nNext Hop 192"
+    },
+    {
+        "id": 160,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\n- Ospr external type 2, E - EGP - Is-IS, Ll - Is-IS level-l, L2 - Is-IS level-2, ia - Is-IS inter area candidate default, U - per-user static route, o - ODR"
+    },
+    {
+        "id": 161,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\nE2 - OspF external type 2, E - EGP i - IS-IS, Ll - IS-IS level-l, L2 - IS-IS level-2, ia - IS-IS inter area - candidate default, U - per-user static route, o - ODR P - periodic downloaded static route"
+    },
+    {
+        "id": 162,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\nTTL=126 Reply from 192"
+    },
+    {
+        "id": 163,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\n(5, 'Isha shanan's, 10, 6000"
+    },
+    {
+        "id": 164,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\nEmployee"
+    },
+    {
+        "id": 165,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nQuery"
+    },
+    {
+        "id": 166,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nas (S_0=[1,0,0,1,1,0,1,1]) which I interpreted as ([s_{7},s_{6},\\dots,s_0]) Results from the simulation: First 20 output bits (outputs taken as the least-significant/state bit):"
+    },
+    {
+        "id": 167,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nOUTPUT: Emp_num Emp_name Department_IDSalary Joining_year Email IIsha shanan Jto 6000"
+    },
+    {
+        "id": 168,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\nALL 239 SELECT SUBSTRING('ABCDE', 4, 1) 240 UNION ALL 241 SELECT SUBSTRING('ABCDE\", 5, 1); 242 OUTPUT: Output Q16) QUERY: 195 o SELECT * 196 FRON Employee 197 WHERE Joining_year = 2017;"
+    },
+    {
+        "id": 169,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\nto 100"
+    },
+    {
+        "id": 170,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\nMishra 6 12 Dr"
+    },
+    {
+        "id": 171,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\nEmp_num INT PRIMARY KEY, Emp_name VARCHAR(50), Department_ID INT, Salary DECIMAL(10,2), Joining_year INT,"
+    },
+    {
+        "id": 172,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 9024\nWords: 320\n\n(7, 12), (8, 13), (9, 14), (10, 15); INSERT INTO Teachers (Teacher_ID, Teacher_name)"
+    },
+    {
+        "id": 173,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 9280\nWords: 320\n\ndesign and implement a parallel algorithm to solve the N Queens problem using OpenMP"
+    },
+    {
+        "id": 174,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 9536\nWords: 320\n\n= %d)n, N); 42 printf(\"Total number of valid solutions: %dAn, total); 43 printf(\"Execution time: %f seconds\\n\", end - start); 44 45 return 0; 46 Terminal Output: root@Shivam-PC:/mnt/c/Users/shiva/Documents/DPC/Lab5# gcc -fopenmp ParallelN!Queens"
+    },
+    {
+        "id": 175,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 9792\nWords: 320\n\nand OS details Student Tasks: Create the following tables: 1"
+    },
+    {
+        "id": 176,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 10048\nWords: 320\n\nshre 11 Professor ram 12 Protessorhari 13 Protessorprakram 14 Protessorvishnu NULD Inputs in COURSES: 4 o INSERT INTO COURSES (COURSE NAME, COURSE_ID, INSTRUCTOR_ID) VALUES ('Science\", 107, 10), (Electrical', 108, 10), ('Digital logic', 109, 11), ('Structural Design',110,12), 10 (Environment\",120,13), 11 ('Conmunication', 121, 14), 12 (DBMS, 122, 14); 13 TABLE: Science 107 Electrical 108 10 Digitalllogic 109 01 StructuralDesign ]110 12 Environment [120 13 Communication 121 04 DBMS 122 14 Inputs in Gradepoint:"
+    },
+    {
+        "id": 177,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\nposterior (\\Pr[M=a\\mid C=1]) via Bayes:"
+    },
+    {
+        "id": 178,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 10304\nWords: 320\n\nCOUNT(DISTINCT GRADES"
+    },
+    {
+        "id": 179,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 10560\nWords: 320\n\nSELECT STUDENT_NAME FROM STUDENTS WHERE STUDENT_NAME LIKE o%A OR A&'; 10 11 STUDENT_NAME Riya QUESTION 11: QUERY: SELEGT COUNT(DISTINGT GRADES"
+    },
+    {
+        "id": 180,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 10816\nWords: 320\n\ncpi, GROUP_CONCAT(student_name) AS students_with_same_cpi FROM Students GROUP BY cpi HAVING COUNT(student_id) > 1; SELECT INSTRUCTORS"
+    },
+    {
+        "id": 181,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 11072\nWords: 320\n\n2-202351173)-my friend Code: Operation_Staff_WiFi"
+    },
+    {
+        "id": 182,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 11328\nWords: 320\n\n* < verify2 < endl; 67 cout < \"Password"
+    },
+    {
+        "id": 183,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 11584\nWords: 320\n\nthe graph in your answer"
+    },
+    {
+        "id": 184,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 11840\nWords: 320\n\nonto Column space of A"
+    },
+    {
+        "id": 185,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 12096\nWords: 320\n\nper group"
+    },
+    {
+        "id": 186,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 12352\nWords: 320\n\nCover (Minimal Cover)"
+    },
+    {
+        "id": 187,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 12608\nWords: 320\n\nChanges rolled back 5"
+    },
+    {
+        "id": 188,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nOutput Input aInput b q0 q1 q2 start q2 q1 Show that the language L = {a^(n^3): n 1} is not regular"
+    },
+    {
+        "id": 189,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 12864\nWords: 320\n\ncross block boundaries (3) File Organization Unsorted Files: No order maintained"
+    },
+    {
+        "id": 190,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 13120\nWords: 320\n\nconfigure inter-VLAN communication using a router"
+    },
+    {
+        "id": 191,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 13376\nWords: 320\n\nAddress Link Local Address FE80::230:F2FF:FED3:A8CC Default Gateway DNS Server 802"
+    },
+    {
+        "id": 192,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 13632\nWords: 320\n\nof VLAN creation and port assignment commands are given below: Switcho Attrbutes Physica! Config IOS Command Line Interface Switch>enable Switch/configure terminal Enter configuration conmands, one per line"
+    },
+    {
+        "id": 193,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 13888\nWords: 320\n\n- mobile, B - BGP D - EIgRp, EX - EIgRP external, O - OSPF, IA - OSPF inter area N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2 El - OspF external type l, E2 - OspF external type 2, E - EGP i - IS-IS, Ll - IS-IS level-l, L2 - - IS-IS level-2, ia - IS-Is inter area - candidate default, U - per-user static route, o - ODR P - periodic downloaded static route 192"
+    },
+    {
+        "id": 194,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 14144\nWords: 320\n\nFa0/5 on 802"
+    },
+    {
+        "id": 195,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 14400\nWords: 320\n\n192"
+    },
+    {
+        "id": 196,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 14656\nWords: 320\n\nGPU type (integrated/discrete) Document graphics capabilities relevant for virtualization and container workloads Windows/macos Notes:"
+    },
+    {
+        "id": 197,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 14912\nWords: 320\n\nUDP packet?->32 bytes Number of bytes in the DNS message: 32 bytes(the UDP payload)"
+    },
+    {
+        "id": 198,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 15168\nWords: 320\n\n01 bb 6b 46 97 bf 75 7a 9a 9a 50 10 00 fd b7 d7 00 00 ^dst^ ^seq (4)^^ ^src^ ^ack (4)^^ ^Data-off/flags^ ^window^ ^checksum ^urg^ ~Table2:TcP Packet Analysis:^"
+    },
+    {
+        "id": 199,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nConclusion: Since pumping the string leads to a contradiction, the assumption that L is regular is false"
+    },
+    {
+        "id": 200,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 15424\nWords: 320\n\nDHCP O Static IPv4 Address 192"
+    },
+    {
+        "id": 201,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 15680\nWords: 320\n\n255"
+    },
+    {
+        "id": 202,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 15936\nWords: 320\n\nNSSA external type 1, N2 - OSPF NSSA external type 2 El - OsPF external type l, E2 - OSPF external type 2, E - EGP i - IS-Is, L1 - IS-Is level-1, L2 - IS-IS level-2, ia - IS-IS inter area - candidate default, U - per-user static route, o - ODR P - periodic downloaded static route"
+    },
+    {
+        "id": 203,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 16192\nWords: 320\n\nauto-sunmary Router2(config-router)/end Router2write memory tSYS-5-coNFIG I: Configured from console by console Building configuration"
+    },
+    {
+        "id": 204,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 16448\nWords: 320\n\nOSPr, IA - OSPF inter area"
+    },
+    {
+        "id": 205,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 16704\nWords: 320\n\n192"
+    },
+    {
+        "id": 206,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 16960\nWords: 320\n\n4, Received = 4, Lost = 0 (03 loss), Minimm = Oms, Maximum Oms, Average Omg C:>ping 192"
+    },
+    {
+        "id": 207,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 17216\nWords: 320\n\nNetwork=(192"
+    },
+    {
+        "id": 208,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 17472\nWords: 320\n\n192"
+    },
+    {
+        "id": 209,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 17728\nWords: 320\n\n192"
+    },
+    {
+        "id": 210,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\nthe other does not"
+    },
+    {
+        "id": 211,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 17984\nWords: 320\n\n= 36ms pS C:\\users\\shiva> C"
+    },
+    {
+        "id": 212,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 18240\nWords: 320\n\nwire (592 bits), 74 bytes captured (592 bits) on interface \\Device\\nPF > Ethernet II, Src: ae:bd:c0:97:c3:2d (ae:bd:c0:97:c3:2d), Dst: AzureWaveTec_e7:2f:4f (2c:3b:70:e7:2f:4f) > Internet Protoco1 Version 4, Src: 142"
+    },
+    {
+        "id": 213,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 18496\nWords: 320\n\n0 (0% loss)"
+    },
+    {
+        "id": 214,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 18752\nWords: 320\n\nmessage was sent and the"
+    },
+    {
+        "id": 215,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 19008\nWords: 320\n\nmv file2 file2_renamed rm file1_copy Solutions to Operating System Exam Questions"
+    },
+    {
+        "id": 216,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 19264\nWords: 320\n\nset as long as total CPU utilization 100%"
+    },
+    {
+        "id": 217,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 19520\nWords: 320\n\nthe algorithm (looks like Peterson's) satisfies: Mutual exclusion: Yes"
+    },
+    {
+        "id": 218,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 19776\nWords: 320\n\ncause switches but less frequently than many small I/O bursts"
+    },
+    {
+        "id": 219,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 20032\nWords: 320\n\nnot strictly periodic, EDF's dynamic priorities give it an advantage"
+    },
+    {
+        "id": 220,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 20288\nWords: 320\n\ninterleavings that produce each value"
+    },
+    {
+        "id": 221,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nthat can fit in BDP \\text{Packets in transit} = \\frac{\\text{BDP}}{\\text{Packet size in bits}} =\\frac{7200}{360} = 20 Final Answer:"
+    },
+    {
+        "id": 222,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 20544\nWords: 320\n\nto wait (convoy effect) (b) SJF (Shortest Job First) - Disfavors CPU-bound (favours short jobs)"
+    },
+    {
+        "id": 223,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 20800\nWords: 320\n\nquantum) 45 - 55: P2 (next quantum) 55 - 61: P3 (next quantum; only 6 units because P4 arrives at 60 and may preempt) 61 - 76: P4 (runs to completion) 76 - 81: P2 (remaining 5 units) 81 - 90: P3 (remaining 9 units) 90 -100: idle 100-106: P5 (first 6 units before P6 arrives at 105 - simulation handles preemption by arrival) 106-116: P6 (runs 10 units) 116-120: P5 (remaining 4 units) (That is the stepwise behavior with preemption-at-arrival and quantum = 10"
+    },
+    {
+        "id": 224,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 21056\nWords: 320\n\nexactly how the numbers (103,239,54,186 and 5C) appear"
+    },
+    {
+        "id": 225,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 21312\nWords: 320\n\n0xEF (239) (s'_2 = s_0 s_1 (2-s_2) (3-s_3)) = 0x17 0x2D 0x9C 0x90 =((0x17 0x2D) 0x9C) 0x90 =(0x3A 0x9C) 0x90 = 0xA6 0x90 = 0x36 (54) (s'_3 = (3-s_0) s_1 s_2 (2s_3)) =0x39 0x2D 0x4E 0xE0 =((0x39 0x2D) 0x4E) 0xE0 =(0x14 0x4E) 0xE0 = 0x5A 0xE0 = 0xBA (186) Final Output: (103, 239, 54, 186) = (0x67, 0xEF, 0x36, 0xBA)"
+    },
+    {
+        "id": 226,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 21568\nWords: 320\n\n- MixColumns Work in AES GF(2^8) with irreducible polynomial (x^8+x^4+x^3+x+1) (hex 0x11b)"
+    },
+    {
+        "id": 227,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 21824\nWords: 320\n\nRoundKey[round] (AddRoundKey) o state = InvMixColumns(state) 5"
+    },
+    {
+        "id": 228,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 22080\nWords: 320\n\nhence observed (c) gives no advantage to an attacker - all plaintexts equally likely"
+    },
+    {
+        "id": 229,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 22336\nWords: 320\n\n= \\texttt{A7}_{16}): 1"
+    },
+    {
+        "id": 230,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 22592\nWords: 320\n\namong outputs"
+    },
+    {
+        "id": 231,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 22848\nWords: 320\n\nsolved all four questions shown in the picture"
+    },
+    {
+        "id": 232,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nmodel (zero transmission time, no"
+    },
+    {
+        "id": 233,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 23104\nWords: 320\n\n(If attacker only has a handful of known plaintexts but can choose plaintexts, the same idea with differences gives the same result"
+    },
+    {
+        "id": 234,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 23360\nWords: 320\n\n1 0 1 0 1 0 1 0 1 Plaintext bits: 10=1, 01=1, 10=1, 01=1, 10=1, 01=1, 00=0, 01=1, 10=1, 01=1 So plaintext (letters) = (\\texttt{BBBBBBABBB}) - nine b's and one a (position 6 is a)"
+    },
+    {
+        "id": 235,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 23616\nWords: 320\n\n(Avarphi(n)) is known"
+    },
+    {
+        "id": 236,
+        "question": "What is nexora_Computer_Science_Note2_v1?",
+        "answer": "End Word: 23688\nWords: 136\n\n(c) (small integer or from a large challenge space)"
+    },
+    {
+        "id": 237,
+        "question": "What is nexora_Computer_Science_Note3_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nState Space Search for the Rabbit Leap Problem: BFS vs DFS Comparison Your Name,Student Member, IEEE Abstract—This report models the Rabbit Leap problem as a state space search problem and investigates solutions using Breadth First Search (BFS) and Depth First Search (DFS)"
+    },
+    {
+        "id": 238,
+        "question": "What is nexora_Computer_Science_Note3_v1?",
+        "answer": "End Word: 558\nWords: 302\n\nnumber of moves"
+    },
+    {
+        "id": 239,
+        "question": "What is quantum?",
+        "answer": "End Word: 320\nWords: 320\n\nComplete Quantum Mechanics & Quantum Information Notes Contents 1 Linear Algebra Foundations 2 1"
+    },
+    {
+        "id": 240,
+        "question": "What is quantum?",
+        "answer": "End Word: 476\nWords: 220\n\nsinθsinϕ z= cosθ Pure states lie on surface"
+    },
+    {
+        "id": 241,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nDeterminants: Complete Theory, Concepts, and Worked Examples Comprehensive study notes based on the handwritten solutions"
+    },
+    {
+        "id": 242,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nsimplification: f'(π/2)=12 Topic 6: Parabola Standard Forms: y² = 4ax (opens right) y² = -4ax (opens left) x² = 4ay (opens upward) x² = -4ay (opens downward) Focus: (a,0) or (0,a) Directrix: x = -a or y = -a depending on orientation"
+    },
+    {
+        "id": 243,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\na determinant, always check whether row or column operations can create zeros and reduce computation"
+    },
+    {
+        "id": 244,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\ncan create zeros and reduce computation"
+    },
+    {
+        "id": 245,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nfrom Vertex and Focus Vertex = (1,1) Focus = (3,1) Distance a = 2 Standard form: (y−1)² = 4a(x−1) Therefore: (y−1)² = 8(x−1) Latus Rectum Example Endpoints of latus rectum: (6,7) and (6,−1) Midpoint: (6,3) Length = 8 4a = 8 ⇒ a = 2 Possible vertex: (4,3) or (8,3) depending on opening direction"
+    },
+    {
+        "id": 246,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nidentify its vertex, focus, directrix, axis and latus rectum"
+    },
+    {
+        "id": 247,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\ninto standard form and identify its vertex, focus, directrix, axis and latus rectum"
+    },
+    {
+        "id": 248,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\nRL Area of triangle formed by pair of tangents = PT₁T₂ Angle Between Tangents tanθ = 2RL/(L²-R²) Circumcircle of Triangle PT₁T₂ (x-x₁)(x+g) + (y-y₁)(y+f) = 0 Practice Question 1: Solve a circle problem involving centre, radius, tangent, normal, chord, power of point, or pair of tangents"
+    },
+    {
+        "id": 249,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\ntangent, normal, chord, power of point, or pair of tangents"
+    },
+    {
+        "id": 250,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nproblem involving centre, radius, tangent, normal, chord, power of point, or pair of tangents"
+    },
+    {
+        "id": 251,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nto line joining centres"
+    },
+    {
+        "id": 252,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\n Final result: 1+a²+b²+c²"
+    },
+    {
+        "id": 253,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\nExercise 2"
+    },
+    {
+        "id": 254,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 5340\nWords: 220\n\nNumber of relations from A={x,y,z} to B={1,2}: 2^(3×2)=64"
+    },
+    {
+        "id": 255,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\n6: Look for opportunities to create zeros using row/column operations before expanding"
+    },
+    {
+        "id": 256,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\nthe provided solutions"
+    },
+    {
+        "id": 257,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nkey technique used throughout the provided solutions"
+    },
+    {
+        "id": 258,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\ncalculations and is the key technique used throughout the provided solutions"
+    },
+    {
+        "id": 259,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\nbefore expanding"
+    },
+    {
+        "id": 260,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nthe best row/column operation, factor common terms, and simplify before expansion"
+    },
+    {
+        "id": 261,
+        "question": "What is nexora_Mathematics_note1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nand cofactors directly and verify their values"
+    },
+    {
+        "id": 262,
+        "question": "What is What is Mathematics?",
+        "answer": "End Word: 320\nWords: 320\n\nCHAPTER 1: WHAT IS MATHEMATICS? Definition of Mathematics Mathematics is the science of numbers, quantities, shapes, patterns, relationships, and logical reasoning"
+    },
+    {
+        "id": 263,
+        "question": "What is What is Mathematics?",
+        "answer": "End Word: 394\nWords: 138\n\nLearning Statistics Study of data collection and analysis"
+    },
+    {
+        "id": 264,
+        "question": "What is Complete C Language Handbook?",
+        "answer": "End Word: 320\nWords: 320\n\nCOMPLETE C LANGUAGE HANDBOOK Chapter 1: Introduction to C What is C? C is a general-purpose, procedural programming language developed by Dennis Ritchie in 1972 at Bell Labs"
+    },
+    {
+        "id": 265,
+        "question": "What is Complete C Language Handbook?",
+        "answer": "End Word: 576\nWords: 320\n\n8: Decision Making if if(a>b) printf(\"A\"); if else if(a>b) printf(\"A\"); else printf(\"B\"); Nested if else if Ladder switch switch(choice) case1: break; default: break; Chapter 9: Loops for Loop for(inti=0;i<5;i++) printf(\"%d\",i); while Loop while(i<5) i++; do while Loop do i++; while(i<5); Chapter 10: Control Statements break continue goto gotolabel; return Chapter 11: Arrays One Dimensional Array intarr[5]; Initialization intarr[5]={1,2,3,4,5}; Two Dimensional Array intarr[3][3]; Matrix Operations Addition Subtraction Multiplication Transpose Chapter 12: Strings charname[20]; String Functions strlen() strcpy() strcat() strcmp() strrev() Example: charstr[]=\"Hello\"; printf(\"%d\",strlen(str)); Chapter 13: Functions Function Declaration intadd(int,int); Function Definition intadd(inta,intb) returna+b; Types No Argument No Return Argument No Return No Argument Return Argument Return Chapter 14: Recursion intfact(intn) if(n==1) return1; returnn*fact(n-1); Chapter 15: Storage Classes auto register static extern Examples and scope rules"
+    },
+    {
+        "id": 266,
+        "question": "What is Complete C Language Handbook?",
+        "answer": "End Word: 678\nWords: 166\n\nSearch Binary Search Chapter 28: Sorting Algorithms Bubble Sort Selection Sort Insertion Sort Merge Sort Quick Sort 13 Chapter 29: Time Complexity O(1) O(log n) O(n) O(n log n) O(n²) O(2ⁿ) O(n!) Chapter 30: Important Programs Hello World Factorial Fibonacci Prime Number Palindrome Armstrong Number Perfect Number Reverse Number Sum of Digits Matrix Multiplication Linear Search Binary Search Bubble Sort File Handling Program Linked List Program Chapter 31: Viva Questions What is C? Difference between Compiler and Interpreter? What is Pointer? What is Structure? What is Union? What is Dynamic Memory Allocation? 1"
+    },
+    {
+        "id": 267,
+        "question": "What is Complete C++ Handbook?",
+        "answer": "End Word: 320\nWords: 320\n\nCOMPLETE C++ HANDBOOK Chapter 1: Introduction to C++ What is C++? C++ is a general-purpose programming language developed by Bjarne Stroustrup in 1979 at Bell Labs"
+    },
+    {
+        "id": 268,
+        "question": "What is Complete C++ Handbook?",
+        "answer": "End Word: 576\nWords: 320\n\ndefault: break; Chapter 9: Loops for Loop for(inti=0;i<5;i++) cout<<i; while Loop while(i<5) i++; do while Loop do i++; while(i<5); Chapter 10: Functions Function Declaration intadd(int,int); Function Definition intadd(inta,intb) returna+b; Types Call by Value Call by Reference Recursive Functions Inline Functions Chapter 11: Arrays One Dimensional intarr[5]; Two Dimensional intarr[3][3]; Traversal for(inti=0;i<n;i++) cout<<arr[i]; Chapter 12: Strings C Style String charstr[20]; String Class stringname=\"Shivam\"; Functions: length() size() substr() find() replace() Chapter 13: Pointers Declaration int*ptr; Example inta=10; int*ptr=&a; Pointer Arithmetic ptr++ ptr-- ptr+n Chapter 14: Structures structStudent intid; stringname; }; Chapter 15: Classes and Objects classStudent public: intid; stringname; }; Object Creation Students1; Chapter 16: Constructor Student() cout<<\"Constructor\"; Types Default Constructor Parameterized Constructor Copy Constructor Chapter 17: Destructor ~Student() Chapter 18: Inheritance Single Inheritance classA {}; classB: publicA {}; Multiple Inheritance Multilevel Inheritance Hierarchical Inheritance Hybrid Inheritance Chapter 19: Polymorphism Compile Time Function Overloading Operator Overloading Run Time Function Overriding Virtual Functions Chapter 20: Encapsulation Data Hiding Access Specifiers: Private Public Protected Chapter 21: Abstraction Hide implementation and show functionality"
+    },
+    {
+        "id": 269,
+        "question": "What is Complete C++ Handbook?",
+        "answer": "End Word: 595\nWords: 83\n\nSmart Pointers Range Based Loops Move Semantics nullptr constexpr Chapter 28: Interview Questions Difference between C and C++? What is OOP? What is Constructor? What is Destructor? What is Inheritance? What is Polymorphism? What is Virtual Function? What is STL? What is Pointer? What is Reference Variable? Conclusion C++ is one of the most powerful programming languages used for software development, competitive programming, game engines, operating systems, AI systems, and high-performance applications"
+    },
+    {
+        "id": 270,
+        "question": "What is Design_project?",
+        "answer": "End Word: 320\nWords: 320\n\nShoplifting Detection System using YOLOv8 Your Name Design Project Final June 21, 2026 Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 1 / 14 Outline 1 Problem and Goals 2 High-level Architecture 3 Data Preparation 4 Model and Training 5 YOLOv8 Internal Architecture 6 Inference and Testing 7 Results and Metrics 8 Limitations and Improvements 9 How to Run 10 References Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 2 / 14 Problem Statement Detect shoplifting behaviour in surveillance video"
+    },
+    {
+        "id": 271,
+        "question": "What is Design_project?",
+        "answer": "End Word: 576\nWords: 320\n\nShoplifting Detection — YOLOv8 June 21, 2026 6 / 14 Model Training Diagram architecture/model_training"
+    },
+    {
+        "id": 272,
+        "question": "What is Design_project?",
+        "answer": "End Word: 613\nWords: 101\n\narchitecture diagrams (requires graphviz in PATH python"
+    },
+    {
+        "id": 273,
+        "question": "What is Design_project_poster?",
+        "answer": "End Word: 320\nWords: 320\n\nLATEXTikZposter Shoplifting Detection in Surveillance Video Using YOLOv8: A Lightweight DL Pipeline Dev Saraswat (202351173) Satish Chauhan (202352330) Shivam Kumar (202351130) Department of Computer Science & Engineering, Indian Institute of Information Technology Vadodara Shoplifting Detection in Surveillance Video Using YOLOv8: A Lightweight DL Pipeline Dev Saraswat (202351173) Satish Chauhan (202352330) Shivam Kumar (202351130) Department of Computer Science & Engineering, Indian Institute of Information Technology Vadodara Abstract This project presents a lightweight, reproducible pipeline for detecting shoplifting behaviour in surveillance video using the classification variant of YOLOv8"
+    },
+    {
+        "id": 274,
+        "question": "What is Design_project_poster?",
+        "answer": "End Word: 576\nWords: 320\n\n+ annotated video output"
+    },
+    {
+        "id": 275,
+        "question": "What is Design_project_poster?",
+        "answer": "End Word: 610\nWords: 98\n\nThe pipeline is a lightweight, real-time-capable baseline; next steps include temporal modeling and dataset expansion"
+    },
+    {
+        "id": 276,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nProject Title: Retail Wizard: A Comprehensive Retail Shop Management System for Small Businesses 2"
+    },
+    {
+        "id": 277,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nblocks in VR Switch between: o Desktop mode o XR mode Deliverables XR-ready system V Laptop-friendly simulator support C? If XR feels heavy, you can skip this week and still score well WEEK 8 - Testing, Documentation & Presentation Goals Make it exam-ready & portfolio-ready Tasks Testing: o All modules Edge cases Documentation: o Architecture Algorithms used Screenshots Prepare: Demo video (2-3 min) o README"
+    },
+    {
+        "id": 278,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 25664\nWords: 320\n\nsystems"
+    },
+    {
+        "id": 279,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 25920\nWords: 320\n\n2"
+    },
+    {
+        "id": 280,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 26176\nWords: 320\n\nPHASE 6: Annotation & Feedback Loop (Week 9-10) Step 6"
+    },
+    {
+        "id": 281,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 26432\nWords: 320\n\nke time specific topic dhundhna tough hota hai Tumhara project is problem ko solve karta hai Tum Kya Bana Rahe Ho? Tum ek VR-based smart learning system bana rahe ho jo: Video se automatically important concepts nikalta hai Un concepts ka concept map (graph) banata hai"
+    },
+    {
+        "id": 282,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 26688\nWords: 320\n\nek A/ + VR based learning system bana raha hoon jo educational videos se automatically concepts nikal ke unhe VR mein interactive 3D concept maps ke form mein dikhata hai, jisse students non-linear aur immersive way mein padh sakte hain"
+    },
+    {
+        "id": 283,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 26944\nWords: 320\n\nRaj : 202351130, Shivam Kumar : 202352320, Lavudya Siddhartha : 202352311, Dream Vijay Sahare Date: [Insert Date] Table of Contents 1"
+    },
+    {
+        "id": 284,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 27200\nWords: 320\n\nkhud soch ke react karta hai, sirf dikhata nahi"
+    },
+    {
+        "id": 285,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 27456\nWords: 320\n\na flexible respiration sensor is designed and embedded into a wearable strap to sense chest expansion and contraction during breathing"
+    },
+    {
+        "id": 286,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 27712\nWords: 320\n\nprocessing and ML training) TensorFlow / TensorFlow Lite MATLAB or Python libraries (NumPy, SciPy, Matplotlib) Mobile or PC application for visualization Diagram (Internal Architecture) Human Breathing Activity (Chest Expansion/Contraction)I Flexible Respiration Sensor (Stretch / Piezoresistive) Resistance Change Analog Signal Conditioning"
+    },
+    {
+        "id": 287,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 27968\nWords: 320\n\nvideo-based learning suffers from:"
+    },
+    {
+        "id": 288,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\ncustomers) can access the system"
+    },
+    {
+        "id": 289,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 28224\nWords: 320\n\nMeta Quest 3 - Target VR hardware XR Interaction Toolkit - Controller and input handlinc"
+    },
+    {
+        "id": 290,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 28480\nWords: 320\n\no Result: Comprehension similar across groups, but user experience varied"
+    },
+    {
+        "id": 291,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 28675\nWords: 259\n\nPerform keyword extraction using TF-IDF"
+    },
+    {
+        "id": 292,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nreflections like"
+    },
+    {
+        "id": 293,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nReport: TinyLinux Minimal"
+    },
+    {
+        "id": 294,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nduring a sale or purchase"
+    },
+    {
+        "id": 295,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\n# Install dependencies sudo apt update sudo apt install build-essential git libncurses5-dev libssl-dev flex bison qemu -y"
+    },
+    {
+        "id": 296,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\nload:"
+    },
+    {
+        "id": 297,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nproviding only essential tools, resulting in a smaller footprint and faster startup"
+    },
+    {
+        "id": 298,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nSince `apk' is not available in your BusyBox, let's use what you **already have** available"
+    },
+    {
+        "id": 299,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nand stored using strong encryption protocols"
+    },
+    {
+        "id": 300,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nneeds"
+    },
+    {
+        "id": 301,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\n- **Jun 2023**: ONNX and TensorRT support ## **3"
+    },
+    {
+        "id": 302,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\nand labels"
+    },
+    {
+        "id": 303,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\n##* **Industry Applications** - ** Medical Imaging**: Tumor detection, surgical assistance - **!! Manufacturing**: Quality control, defect detection - ** Security**: Intruder detection, crowd monitoring ** Agriculture**: Crop monitoring, pest detection - ** (@) Robotics**: Object manipulation, navigation # **Real-time Capabilities** - **Surveillance**: Continuous monitoring"
+    },
+    {
+        "id": 304,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\n\"A Review on YOLOv8 and Its Advancements\" (2024) 2"
+    },
+    {
+        "id": 305,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\nReview / Related Work Brendan Gregg's Performance Analysis: Extensive work on perf, flamegraphs, and"
+    },
+    {
+        "id": 306,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\ngenerated for latency, cycles, and CPI monitoring"
+    },
+    {
+        "id": 307,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\n10"
+    },
+    {
+        "id": 308,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\nIPC (Instructions per Cycle)"
+    },
+    {
+        "id": 309,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\nCycles 2e8 - 5e8 Instructions 1e8 - 3e8 CPI 1"
+    },
+    {
+        "id": 310,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nStatic thresholds miss gradual degradation Manual tuning required per architecture"
+    },
+    {
+        "id": 311,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nAdditional online standards and regulatory guidelines as applicable"
+    },
+    {
+        "id": 312,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nversion of the points in easy words:"
+    },
+    {
+        "id": 313,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\no In conductive medium: diffusion field No multipath effects, unlike EM signals"
+    },
+    {
+        "id": 314,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\no Use of magnetic core (enhances effective permeability E) RMS induced voltage: (V = \\mu_E 2 \\pi B A f N) High-Q coil output voltage enhanced by factor Q, improves matching with"
+    },
+    {
+        "id": 315,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\ntransmitter power"
+    },
+    {
+        "id": 316,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\nWizard is a comprehensive retail management system designed to assist shopkeepers in efficiently managing inventory, accounts, payments, and invoices while enhancing the overall customer experience"
+    },
+    {
+        "id": 317,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 9024\nWords: 320\n\nreceiver needs a minimum field strength in the picotesla (pT) range to decode the signal reliably"
+    },
+    {
+        "id": 318,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 9280\nWords: 320\n\nNo time lag compared to acoustic wave propagation"
+    },
+    {
+        "id": 319,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 9536\nWords: 320\n\nsupportable equipment"
+    },
+    {
+        "id": 320,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 9792\nWords: 320\n\nlow false-trigger probability MI navigation studies show ~1 m positioning accuracy over 200 m using two magnetic"
+    },
+    {
+        "id": 321,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 10048\nWords: 320\n\ndetection of quasi-static alternating magnetic fields produced by coil antennas"
+    },
+    {
+        "id": 322,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\nvisualization Advanced learning features"
+    },
+    {
+        "id": 323,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 10304\nWords: 320\n\npermeability (including coil core effects)"
+    },
+    {
+        "id": 324,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 10560\nWords: 320\n\ncores for enhanced sensitivity Driver electronics: Efficient modulation and amplification circuits"
+    },
+    {
+        "id": 325,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 10816\nWords: 320\n\nmonitoring (16"
+    },
+    {
+        "id": 326,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 11072\nWords: 320\n\nMI Communication Weaknesses: o Data Rate: Significantly limited (~25/100) Reliability: Below average (~45/100) Environmental Stability: Moderate performance (~65/100) Acoustic Technology Profile: Balanced Performance: More consistent across all metrics Better Reliability: Superior to MI in reliability (~70/100) o Lower Range: Much weaker max range capability (~60/100) Trade-off Analysis: oMI 2025 vs MI 2020: Marginal improvements across most metrics Range vs Speed: MI excels in distance but sacrifices data transmission"
+    },
+    {
+        "id": 327,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 11328\nWords: 320\n\ncode o Supplementary diagrams (from PDF and reviews) Project Title: Latency Monitoring via Pmu Counters"
+    },
+    {
+        "id": 328,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 11584\nWords: 320\n\ndiagrams and comprehensive project documentation"
+    },
+    {
+        "id": 329,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 11840\nWords: 320\n\nBuild a Gul dashboard to visualize latency changes over time"
+    },
+    {
+        "id": 330,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 12096\nWords: 320\n\nWizard is a standalone application integrated with a database for inventory, accounts, and 2"
+    },
+    {
+        "id": 331,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 12352\nWords: 320\n\nEntities: Shopkeeper: Manages inventory and financial operations"
+    },
+    {
+        "id": 332,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 12608\nWords: 320\n\n-> (5"
+    },
+    {
+        "id": 333,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\n= 0"
+    },
+    {
+        "id": 334,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 12864\nWords: 320\n\n5"
+    },
+    {
+        "id": 335,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 13120\nWords: 320\n\n1"
+    },
+    {
+        "id": 336,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 13376\nWords: 320\n\ndepression induced by exercise relative to rest"
+    },
+    {
+        "id": 337,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 13632\nWords: 320\n\nsCORE: Composite risk score based on multiple factors"
+    },
+    {
+        "id": 338,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 13888\nWords: 320\n\nsignificant business implications:"
+    },
+    {
+        "id": 339,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 14144\nWords: 320\n\nusing machine learning models trained on orbital characteristics"
+    },
+    {
+        "id": 340,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 14400\nWords: 320\n\nFeature Engineering 7"
+    },
+    {
+        "id": 341,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 14656\nWords: 320\n\ninclude three specific fraud patterns as described in the project overview Transaction Class Distribution"
+    },
+    {
+        "id": 342,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 14912\nWords: 320\n\nLogistic Regression: A linear model for binary classification"
+    },
+    {
+        "id": 343,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 15168\nWords: 320\n\nfraud patterns"
+    },
+    {
+        "id": 344,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\ntwin represents a single factory floor consisting of multiple machines"
+    },
+    {
+        "id": 345,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 15424\nWords: 320\n\nRedis for real-time APl responses (sub-10ms latency) API Endpoints: GET /api/tle/latest -> Fetch most recent TLE data o POsT /api/tle/batch -> Bulk upload multiple TLE entries Streaming Module Technology: Apache Kafka or Redis Stream for real-time data flow Topic Name: tle updates Consumer Group: asod-cpf-propagation Message Schema: JSON with norad_id, tle_line1, tle_line2, timestamp, epoch fields Purpose: Push new TLE updates to propagation engine without polling Layer 2: Core Engine Layer (Detailed) o Implemented sophisticated feature engineering including treatment duration calculation"
+    },
+    {
+        "id": 346,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 15680\nWords: 320\n\nlevel"
+    },
+    {
+        "id": 347,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 15936\nWords: 320\n\nfeatures 6"
+    },
+    {
+        "id": 348,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 16192\nWords: 320\n\nracy F 006'0 Acci 0"
+    },
+    {
+        "id": 349,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 16448\nWords: 320\n\ninto oncology decision support systems Establish a feedback loop to continuously improve model performance"
+    },
+    {
+        "id": 350,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 16704\nWords: 320\n\nHalim"
+    },
+    {
+        "id": 351,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 16960\nWords: 320\n\nmatrix, ellipse radii, collision probability"
+    },
+    {
+        "id": 352,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 17216\nWords: 320\n\nreduction"
+    },
+    {
+        "id": 353,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 17472\nWords: 320\n\nplanning"
+    },
+    {
+        "id": 354,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 17728\nWords: 320\n\nfeatures"
+    },
+    {
+        "id": 355,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\none sequence only"
+    },
+    {
+        "id": 356,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 17984\nWords: 320\n\nExtend to GRU or Transformer for experimentation"
+    },
+    {
+        "id": 357,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 18240\nWords: 320\n\nDashboard (React + kepler"
+    },
+    {
+        "id": 358,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 18496\nWords: 320\n\ndtype=torch"
+    },
+    {
+        "id": 359,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 18752\nWords: 320\n\n6"
+    },
+    {
+        "id": 360,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 19008\nWords: 320\n\nseparation distance calculation 2"
+    },
+    {
+        "id": 361,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 19264\nWords: 320\n\nWeek 1 complete, all tests passing (100%), README documented, core engine ready for ML integration WEEK 2: ML Layer (GNN + Uncertainty) (Days 8-14) Goal: Build scalable GNN risk model and Monte Carlo uncertainty quantification with validated 7-day prediction accuracy Day 8: Monte Carlo Uncertainty Quantification"
+    },
+    {
+        "id": 362,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 19520\nWords: 320\n\nnode features (9 dimensions: x, y, z, vx, vy, vz, mass, area, bstar) 3"
+    },
+    {
+        "id": 363,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 19776\nWords: 320\n\nat early stages Offline Reliability: Ensured the system functions independently of internet connectivity, which is crucial for small businesses operating in remote or low-connectivity areas"
+    },
+    {
+        "id": 364,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 20032\nWords: 320\n\nfor future position prediction 5"
+    },
+    {
+        "id": 365,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 20288\nWords: 320\n\ntables and analysis Deliverable: Week 2 complete, models evaluated, metrics documented (accuracy 0"
+    },
+    {
+        "id": 366,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\n2"
+    },
+    {
+        "id": 367,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 20544\nWords: 320\n\nwith absolute positioning 4"
+    },
+    {
+        "id": 368,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 20800\nWords: 320\n\nwith dark mode, responsive design, search bar, loading indicators error handling"
+    },
+    {
+        "id": 369,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 21056\nWords: 320\n\nDefine objective: minimize fuel consumption (delta-V magnitude) while maximizing separation distance 3"
+    },
+    {
+        "id": 370,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 21312\nWords: 320\n\nensure unauthorized requests are rejected (401 error) Deliverable: auth"
+    },
+    {
+        "id": 371,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 21568\nWords: 320\n\n3"
+    },
+    {
+        "id": 372,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 21824\nWords: 320\n\nTesting: pytest (unit testing framework) Frontend (React + WebGL) 3D Globe: kepler"
+    },
+    {
+        "id": 373,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 22080\nWords: 320\n\n<0"
+    },
+    {
+        "id": 374,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 22336\nWords: 320\n\nwith: norad_id: 10,000-99,999 epoch: 2026 year (random day) bstar: 0"
+    },
+    {
+        "id": 375,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 22592\nWords: 320\n\n(target: <50ms) Measure WebSocket latency: alert delivery (target: <100ms)"
+    },
+    {
+        "id": 376,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 22848\nWords: 320\n\nguide demo_video"
+    },
+    {
+        "id": 377,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nOVERALL DURATION 8 Weeks (2 Months) You can compress to 6 weeks if needed, but 8 is ideal"
+    },
+    {
+        "id": 378,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 23104\nWords: 320\n\nEdge) 6"
+    },
+    {
+        "id": 379,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 23360\nWords: 320\n\nthreats impacting satellite communication[cyberpeace] MeitY[visionias] Research Output Opportunities Publishable in Indian journals: IIRS (Indian Institute of Remote Sensing), ISAE (Indian Society of Aerospace Engineering)"
+    },
+    {
+        "id": 380,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 23616\nWords: 320\n\nby 2030 [academia] Publishability ) GOStrong (AI + SST trends, proven metrics mAP50 0"
+    },
+    {
+        "id": 381,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 23872\nWords: 320\n\nintegrated into the main application Immediate Actions (Day 1) 1"
+    },
+    {
+        "id": 382,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 24128\nWords: 320\n\n[Your email address] Recommended Resources: CelesTrak: https://celestrak"
+    },
+    {
+        "id": 383,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 24384\nWords: 320\n\n1 feature list, FINALIZE these:"
+    },
+    {
+        "id": 384,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 24640\nWords: 320\n\nspatial complexity, reducing human understanding and increasing cognitive load"
+    },
+    {
+        "id": 385,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 24896\nWords: 320\n\nAnnotation"
+    },
+    {
+        "id": 386,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 25152\nWords: 320\n\nShopping Cart: Operational databases and logs"
+    },
+    {
+        "id": 387,
+        "question": "What is nexora_Project_notes1_v1?",
+        "answer": "End Word: 25408\nWords: 320\n\nfrom point cloud data 3"
+    },
+    {
+        "id": 388,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nForest Cover Type Prediction Proiect Report Date: 02-09-2025 Author: Shivam Kumar (ML INTERN) Company: Unified Mentor Pvt"
+    },
+    {
+        "id": 389,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nimbalance in the multi-class setting"
+    },
+    {
+        "id": 390,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 2673\nWords: 113\n\nSupports sustainable forest management practices Contributes to climate change mitigation efforts Potential Application Areas a1 Buyers/Sellers ance Companies Dealerships ne Marketplaces 20 40 60 80 100 Adoption Potentia! (%) Figure 4: Environmental Impact Assessment 10"
+    },
+    {
+        "id": 391,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nLinux utilities to run alongside Windows applications"
+    },
+    {
+        "id": 392,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nis BusyBox sh, providing essential Unix commands, while bash is not included by default"
+    },
+    {
+        "id": 393,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\ninto a"
+    },
+    {
+        "id": 394,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nfor seven forest types o Generated detailed visualizations for ecological interpretation The system provides valuable tools for forest management, conservation efforts, and ecological research by accurately predicting forest cover types based on environmental variables"
+    },
+    {
+        "id": 395,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nof the vehicle"
+    },
+    {
+        "id": 396,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\nexperience, reduce operational costs, and increase efficiency"
+    },
+    {
+        "id": 397,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\ndisplay: Current cart items + total bill"
+    },
+    {
+        "id": 398,
+        "question": "What is nexora_Project_notes2_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nmodels for multi-class classification Evaluation: Assessed model performance Deployment: Planned for ecological applications For modeling, we experimented with three different algorithms: o Random Forest Classifier"
+    },
+    {
+        "id": 399,
+        "question": "What is project?",
+        "answer": "End Word: 320\nWords: 320\n\nIEEE TRANSACTIONS ON HUMAN-MACHINE SYSTEMS, VOL"
+    },
+    {
+        "id": 400,
+        "question": "What is project?",
+        "answer": "End Word: 576\nWords: 320\n\nexperience sudden swings due to seasonality, supply inefficiencies, and policy interventions"
+    },
+    {
+        "id": 401,
+        "question": "What is project?",
+        "answer": "End Word: 832\nWords: 320\n\nX, NOVEMBER 2025 2 C"
+    },
+    {
+        "id": 402,
+        "question": "What is project?",
+        "answer": "End Word: 1088\nWords: 320\n\nfunction decreased consistently across both training and validation datasets, demonstrating stable learning behavior"
+    },
+    {
+        "id": 403,
+        "question": "What is project?",
+        "answer": "End Word: 1344\nWords: 320\n\nstability and convergence"
+    },
+    {
+        "id": 404,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 320\nWords: 320\n\nFlexible Respiration Sensor with Embedded Data Acquisition and Machine Learning-based Analytics Mohli Thapa Computer Science & Engineering Indian Institute of Information Technology Vadodara Gandhinagar, Gujarat 202351084@iiitvadodara"
+    },
+    {
+        "id": 405,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 2624\nWords: 320\n\ntime came out to be nearly 1"
+    },
+    {
+        "id": 406,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 2880\nWords: 320\n\nin csv files"
+    },
+    {
+        "id": 407,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 3136\nWords: 320\n\nkeep class distribution balanced"
+    },
+    {
+        "id": 408,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 3392\nWords: 320\n\nover 5 minute interval over 10 people for training across normal, shallow, and deep breathing in the ratio of 1:2:2 ratio as recommended during the data collection process"
+    },
+    {
+        "id": 409,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 3648\nWords: 320\n\nLearning Model Performance A Random Forest classifier was used to classify breathing patterns based on there extracted features over segments or window size of 5 seconds"
+    },
+    {
+        "id": 410,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 3904\nWords: 320\n\ninclude the maximum value, amplitude, and minimum value of the signal played an important role in differentiating breathing patterns, while gradient shows less importance"
+    },
+    {
+        "id": 411,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 4160\nWords: 320\n\nobtained from the experiments shows a strong classification of breathing classes caputured from our cost effective humidity sensor"
+    },
+    {
+        "id": 412,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 4416\nWords: 320\n\nsome limitations also"
+    },
+    {
+        "id": 413,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 4672\nWords: 320\n\nas an adjunctive treatment in patients suffering from generalized anxiety disorder with or without comorbidi- ties,”International journal of yoga, vol"
+    },
+    {
+        "id": 414,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 4928\nWords: 320\n\nobstructive sleep apnea: relationship between obstructive sleep apnea and cognitive dys- function in the elderly,”Journal of neuroscience research, vol"
+    },
+    {
+        "id": 415,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 576\nWords: 320\n\nvalue features are found to be the most important features in classification"
+    },
+    {
+        "id": 416,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 5184\nWords: 320\n\nwearable sensor based on a d-shaped plastic optical fiber for respiration monitoring,”IEEE Transactions on Instrumentation and Measurement, vol"
+    },
+    {
+        "id": 417,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 5440\nWords: 320\n\nsleep apnea screening device with time-domain signal processing and autonomous scoring capability,” IEEE transactions on biomedical circuits and systems, vol"
+    },
+    {
+        "id": 418,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 5596\nWords: 220\n\nrate monitoring system,” Journal of Integrated Science and Technology, vol"
+    },
+    {
+        "id": 419,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 832\nWords: 320\n\na continuous lack of oxygen, which can cause significant harm to the brain and heart [12]"
+    },
+    {
+        "id": 420,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 1088\nWords: 320\n\nsensors were mostly used to detect respiration patterns [11], [15]"
+    },
+    {
+        "id": 421,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 1344\nWords: 320\n\ncomfort"
+    },
+    {
+        "id": 422,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 1600\nWords: 320\n\nmodel"
+    },
+    {
+        "id": 423,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 1856\nWords: 320\n\nsensor"
+    },
+    {
+        "id": 424,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 2112\nWords: 320\n\na voltage divider circuit along with a fixed resistance of 100kΩ"
+    },
+    {
+        "id": 425,
+        "question": "What is EC318 (1)?",
+        "answer": "End Word: 2368\nWords: 320\n\nThe hysteresis curve plot (Figure 3) shows how the sensor’s resistance changes when relative humidity concentration is changed during breathing"
+    },
+    {
+        "id": 426,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nThe Power Of Yoga Photo by Geert Pieters on Unsplash 14 Amazing Benefits Of Yoga institute and college-going students may have youth on their side, but that does not"
+    },
+    {
+        "id": 427,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\nFig"
+    },
+    {
+        "id": 428,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\nmore than 60"
+    },
+    {
+        "id": 429,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nradiasi yang tidak diketahui asalnya ini sebagai jenis baru pengion dari prosedur pencitraan sinar-X dari coronavirus dandisebutCoviD-19 konvensional(fotoRontgen)yang lebih (Coronavirus Disease 19)(HUANG, et al"
+    },
+    {
+        "id": 430,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nterserang virus citra yaitu Autoencoder"
+    },
+    {
+        "id": 431,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nIain yang bisa dilakukan adalah berupa latent akan dimasukkan pada Fully Conected dengan melakukan pemindaian gambar Sinar-X dan Layer yang selanjutnya akan dilakukan finetuning Computed Tomography (CT), kedua pemindaian klasifikasi pada proses tersebut"
+    },
+    {
+        "id": 432,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\nfinding statistical links, uncovering patterns and doing a thematic analysis based on the interviews are all part participants"
+    },
+    {
+        "id": 433,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\ngraph, According to the question \" Which social media platforms do you use most frequently? \", it is evident that out of 122, 116 adolescents are using Whatsapp, remaining 82,106, 82, 108 adolescents spend their time on Facebook, Instatgram, Snapchat and Youtube, respectively"
+    },
+    {
+        "id": 434,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nrspondents follow account"
+    },
+    {
+        "id": 435,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nare unhappy with their social life"
+    },
+    {
+        "id": 436,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\n2020)"
+    },
+    {
+        "id": 437,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nmetode RT-PCR untuk mendapatkan hasil yang akurat"
+    },
+    {
+        "id": 438,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\nini, dataset yang digunakan ResNet50, SqueezeNet, dan DenseNet-121"
+    },
+    {
+        "id": 439,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\nmembuat nilai data berada dalam suatu rentang yangsepenuhnyahanya menerapkan supervised learning(TURKOGLU, tertentu dengan tujuan membantu proses pelatihan 2021)(ABBAS, ABDELSAMEA, & GABER, 2021)(TARESH, menjadi jauh lebih cepat"
+    },
+    {
+        "id": 440,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\neffects of self-regulation and susceptibility to peer influence can make them more susceptible to negative online experiences"
+    },
+    {
+        "id": 441,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\nages 10 to 20 years, can skew the"
+    },
+    {
+        "id": 442,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\nfindings are therefore presented for girls and sleep, self-esteem and body image as mediators between social media use"
+    },
+    {
+        "id": 443,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\nnot have any specific impact"
+    },
+    {
+        "id": 444,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\nto them"
+    },
+    {
+        "id": 445,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\nteenagers as the main benefit of social media, and prior research typically supports the used to increase acceptance or a feeling of community by providing adolescents with opportunities to connect with others who share their"
+    },
+    {
+        "id": 446,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\nproposed relationship, there are still several underexplored mediators and moderators, which may explain the direction of this relationship"
+    },
+    {
+        "id": 447,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nproposed relationship between social media-related variables, depression, anxiety and psychological distress is complex, few studies investigated mediating factors that proses pengolahan data juga yang berguna untuk ini dapat membantu jaringan agardapat fokus belajar memanipulasi data tanpa kehilangan esensi data ke fitur penting (lebih informatif) sehingga hasil tersebut"
+    },
+    {
+        "id": 448,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nimage in common, thus experiments were carried out in this study focused on training the X-ray image classificatior performance"
+    },
+    {
+        "id": 449,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nprediksi"
+    },
+    {
+        "id": 450,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\ndata tersebut dengan image yang lain secara proporsional baru di luar data latih (seperti data validasi maupun agar suatu model bisa lebih fokus pada bagian yang data uji) dengan baik"
+    },
+    {
+        "id": 451,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\nor cyberbullying 8"
+    },
+    {
+        "id": 452,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\non the basis of security and privacyl"
+    },
+    {
+        "id": 453,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\n6N5 a"
+    },
+    {
+        "id": 454,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 9024\nWords: 320\n\nImage 2 sekitar 8 sedangkan proses pelatihan model klasifikasi untuk 1 fold memakan waktu sekitar 30 FMix menit dengan jumlah 100 epoch menggunakan platform Google Colab"
+    },
+    {
+        "id": 455,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 9280\nWords: 320\n\nAdam merupakan algoritme optimasi gabungan Tabel1 ArsitekturAutoencoder Ukuran dari RMSProp dan StochasticGradient Descent Nama Layer 18-layer Output (SGD) dengan Momentum"
+    },
+    {
+        "id": 456,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 9536\nWords: 320\n\nmenerapkan pelatihan ini, hanya bagian metode pembelajaran mendalam adalah data yang menggunakan encodersaja dari autoencoder untuk digunakan harus banyak"
+    },
+    {
+        "id": 457,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 9792\nWords: 320\n\ndengan Kami juga melakukan eksplorasi pada data akurasi terbaik pada kasus klasifikasi dirangkum dengan menerapkan metode Mixed Sample Data dalam confusion matrix agar selanjutnya dapat Augmentation(MSDA) untuk melokalisir fitur-fitur diolah menjadi metriks yang lebih spesifik seperti yang terdapat pada data dengan menggunakan 100 precision, recall, dan f1-score"
+    },
+    {
+        "id": 458,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 10048\nWords: 320\n\n(2020)"
+    },
+    {
+        "id": 459,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\ntheir"
+    },
+    {
+        "id": 460,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 10304\nWords: 320\n\nCOVID-19 from chest X-ray images using 033 deep transfer learning"
+    },
+    {
+        "id": 461,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 10560\nWords: 320\n\nRegularization Strategy to Train Strong Classifiers with Localizable Features"
+    },
+    {
+        "id": 462,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 10816\nWords: 320\n\nacknowledge the support and encouragement of Ms"
+    },
+    {
+        "id": 463,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 11072\nWords: 320\n\nstudents suffering from ADHD (Attention Deficit Hyperactivity Disorder) as well by reducing its core symptoms such as"
+    },
+    {
+        "id": 464,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 11328\nWords: 320\n\nB"
+    },
+    {
+        "id": 465,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 11584\nWords: 320\n\nRevolution: Impact of the 30 telegraph, telephone, and the internet on connectivity Figure 6 Social Media Era: Influence on personal 31 identity, public discourse, and societal norms Figure 7 Communication evolution: From traditional 32 letters to instant messaging and societal impacts Figure 8 Transformative role of social media platforms 33 in daily life and global connectivity Figure 9 Statistical insights on global social media 34 usage and its impact on community and identity Figure 10 Popularity and user base statistics for major 35 social media platforms Figure 11 Ethical concerns: Digital surveillance, data 36 privacy, and public trust in organizations Figure 12 Technology's dual impact on interpersonal 37 relationships Figure 13 Survey on the impact of digital technology in 38 pediatric healthcare"
+    },
+    {
+        "id": 466,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 11840\nWords: 320\n\nInfluence on Career 50 Paths and Job Stability Figure 13 Technology's Impact on Dating and Romantic 51 Relationships Figure 14 Influence of Social Media on Political Opinions 51 Figure 15 52 Perception of Technology Facilitating Political Misinformation Figure 16 Areas Where Technology Significantly Impacts 53 Social Norms Figure 17 Impact of Technology on Traditional Cultural 54 Practices Figure 18 Influence of Technology on Passing Cultural 54 Traditions to Younger Generations"
+    },
+    {
+        "id": 467,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 12096\nWords: 320\n\neach technological breakthrough, new societal norms emerge, affecting the established order of social practices"
+    },
+    {
+        "id": 468,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 12352\nWords: 320\n\nredefines standards in areas like communication, privacy, work, and relationships, we gain insight into the ways it affects our perceptions of what is \"normal' or \"acceptable' in society become more aware of how their behaviors and expectations may be shaped by the tools they use"
+    },
+    {
+        "id": 469,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 12608\nWords: 320\n\nfor using technology in a balanced and ethical way"
+    },
+    {
+        "id": 470,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nassociation"
+    },
+    {
+        "id": 471,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 12864\nWords: 320\n\nor if society is shaping how we use technology"
+    },
+    {
+        "id": 472,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 13120\nWords: 320\n\nAdditionally, it looks into how paper also addresses the issue of unequal access to technology, which can worsen social inegualities"
+    },
+    {
+        "id": 473,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 13376\nWords: 320\n\nthe problem of childhood obesity at a young age in a salubrious way"
+    },
+    {
+        "id": 474,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 13632\nWords: 320\n\nSocial media platforms are identity, urging a reevaluation of concepts such as community and global"
+    },
+    {
+        "id": 475,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 13888\nWords: 320\n\nand International Relations"
+    },
+    {
+        "id": 476,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 14144\nWords: 320\n\nPriorities in Al Technology Fairness & Bias: 22% Privacy & Data Protection: 25% Human Autonomy: 8% Safety & Security: 12% Accountability: 15% Privacy & Data Protection Fairness & Bias Transparency Accountability Safety & Security Human Autonomy Key Insights:"
+    },
+    {
+        "id": 477,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 14400\nWords: 320\n\nEthical Framewo ent 25% Risk Mani ementation 20% \\Human-Al Interacti"
+    },
+    {
+        "id": 478,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 14656\nWords: 320\n\nand entertaining visualisation techniques"
+    },
+    {
+        "id": 479,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 14912\nWords: 320\n\nAdaptation Figure 13:show Mediatization of Society"
+    },
+    {
+        "id": 480,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 15168\nWords: 320\n\nSociety: technological innovations have led to significant shifts in societal norms"
+    },
+    {
+        "id": 481,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nsocial media on various life groups including effects on adolescents"
+    },
+    {
+        "id": 482,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 15424\nWords: 320\n\nto spread beyond the elite, contributing significantly to education and learning"
+    },
+    {
+        "id": 483,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 15680\nWords: 320\n\nInstant long-distance communication Global connectivity begins"
+    },
+    {
+        "id": 484,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 15936\nWords: 320\n\nonline"
+    },
+    {
+        "id": 485,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 16192\nWords: 320\n\nyoga teaches people"
+    },
+    {
+        "id": 486,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 16448\nWords: 320\n\nworld"
+    },
+    {
+        "id": 487,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 16704\nWords: 320\n\n2"
+    },
+    {
+        "id": 488,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 16960\nWords: 320\n\nfacilitates communication, it also introduces challenges such as reduced face-to-face interactions and increased social anxiety"
+    },
+    {
+        "id": 489,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 17216\nWords: 320\n\nremains a significant issue, focusing on the gathering and use of personal data"
+    },
+    {
+        "id": 490,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 17472\nWords: 320\n\ntheir behavior, communication, and overall societal engagement"
+    },
+    {
+        "id": 491,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 17728\nWords: 320\n\npractitioners notice a better quality in their sleep"
+    },
+    {
+        "id": 492,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\nthe web 2"
+    },
+    {
+        "id": 493,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 17984\nWords: 320\n\npurpose and rest 1"
+    },
+    {
+        "id": 494,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 18240\nWords: 320\n\nResult: Based on the data depicted in the pie chart, According to the question \"which types of technology do you use most frequently? \",In terms of technology preferences, 70"
+    },
+    {
+        "id": 495,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 18496\nWords: 320\n\n10 % remain neutral"
+    },
+    {
+        "id": 496,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 18752\nWords: 320\n\nThis suggests a transformative shift in the perception of education, with a significant majority embracing the benefits of online learning"
+    },
+    {
+        "id": 497,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 19008\nWords: 320\n\nchart clearly reveals that above 90"
+    },
+    {
+        "id": 498,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 19264\nWords: 320\n\nfake Artificial Intelligence and its Economic Impact in India: Al has become a stronghold in the economy of India by transforming all domains from the well-off to recently propelled areas and helping with the growth of the country"
+    },
+    {
+        "id": 499,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 19520\nWords: 320\n\nfarming practices"
+    },
+    {
+        "id": 500,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 19776\nWords: 320\n\nAccording to the question \"In what areas chart illustrates that technology greatly touched aspects of social life"
+    },
+    {
+        "id": 501,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 20032\nWords: 320\n\nthem through various mixed-up traditions and modern approaches"
+    },
+    {
+        "id": 502,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 20288\nWords: 320\n\nfrom many of the respondents; specifically, they comment on what it has done within the field of study, in what it offers to learn more accessible and effectively to the students"
+    },
+    {
+        "id": 503,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nalcohol consumption and associated consequences among adolescents and young adults"
+    },
+    {
+        "id": 504,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 20544\nWords: 320\n\ncommunication, education, work, and leisure"
+    },
+    {
+        "id": 505,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 20800\nWords: 320\n\nnorms should adapt to these new communication patterns"
+    },
+    {
+        "id": 506,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 21056\nWords: 320\n\nleading to shifts in job roles and the creation of new professions"
+    },
+    {
+        "id": 507,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 21312\nWords: 320\n\ninfluences societal norms"
+    },
+    {
+        "id": 508,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 21568\nWords: 320\n\nModel 3: Model 0, incorporating additional sustainability transitions-in this example, the links technology with environmental behavior norms"
+    },
+    {
+        "id": 509,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 21824\nWords: 320\n\nPathways Between Technology Adoption and Changes in Societal Norms Pathway Technology Change in Intermediate Process Societal No"
+    },
+    {
+        "id": 510,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 22080\nWords: 320\n\nby Al, in which case teachers can concentrate more on their teaching work and less on documentation"
+    },
+    {
+        "id": 511,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 22336\nWords: 320\n\nresponsible Al"
+    },
+    {
+        "id": 512,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 22592\nWords: 320\n\na balance between embracing technological advancements and maintaining healthy, respectful interactions"
+    },
+    {
+        "id": 513,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 22848\nWords: 320\n\navailable"
+    },
+    {
+        "id": 514,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nNadkarni, Prof"
+    },
+    {
+        "id": 515,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 23104\nWords: 320\n\nspend using digital devices (smartphone + computer + others)? 4"
+    },
+    {
+        "id": 516,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 23360\nWords: 320\n\nW"
+    },
+    {
+        "id": 517,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 23616\nWords: 320\n\nher help and influenced by Qianhui Du (faculty of Arts, University of Ottawa, Ottawa, Ontario, Canada); Prof"
+    },
+    {
+        "id": 518,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 23872\nWords: 320\n\nTeam Members: Aditya Raj (202351002) Signature: Shivam kumar (202351130) Signature: Abstract: Social media has become an integral part of the lives of adolescents, profoundly influencing their communication patterns, social interactions, various studies to explore the impact of social media on teenagers, focusing on its effects on mental health, academic achievements, and social activities"
+    },
+    {
+        "id": 519,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 24128\nWords: 320\n\nstudy"
+    },
+    {
+        "id": 520,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 24384\nWords: 320\n\nFigure:6 feel bad about yourself after looking at social media(page 28)"
+    },
+    {
+        "id": 521,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 24640\nWords: 320\n\noutcomes"
+    },
+    {
+        "id": 522,
+        "question": "What is nexora_Research_Document1_v1?",
+        "answer": "End Word: 24663\nWords: 87\n\nare discussed below: a"
+    },
+    {
+        "id": 523,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 320\nWords: 320\n\nUNIT–1: UNITS AND DIMENSIONS 1"
+    },
+    {
+        "id": 524,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 2624\nWords: 320\n\n[ML⁻³] Surface Tension → [MT⁻²] Gravitational Constant → [M⁻¹L³T⁻²] Planck Constant → [ML²T⁻¹] Moment of Inertia → [ML²] Angular Momentum → [ML²T⁻¹] Frequency → [T⁻¹] Angular Velocity → [T⁻¹] Angular Acceleration → [T⁻²] PRACTICE QUESTIONS Very Short Questions Define SI unit"
+    },
+    {
+        "id": 525,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 2880\nWords: 320\n\ncalculation depends upon accurate measurements"
+    },
+    {
+        "id": 526,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 3136\nWords: 320\n\nSymbolically, E = T − M where: E = Error T = True Value M = Measured Value 5"
+    },
+    {
+        "id": 527,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 3392\nWords: 320\n\nnumerical difference between the mean value and the observed value"
+    },
+    {
+        "id": 528,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 3648\nWords: 320\n\nMean Absolute Error: Average of absolute errors"
+    },
+    {
+        "id": 529,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 3904\nWords: 320\n\nFor addition: Absolute errors are added"
+    },
+    {
+        "id": 530,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 4160\nWords: 320\n\nA − log B Differentiating: Δx/x = ΔA/A + ΔB/B Formula Rule For division: Percentage errors are added"
+    },
+    {
+        "id": 531,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 4416\nWords: 320\n\nError: = ½(2) ½(4) = 1 + 2 = 3% Answer: 3% 10"
+    },
+    {
+        "id": 532,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 4672\nWords: 320\n\nVector Unit Vector Equal Vectors Opposite Vectors Like and Unlike Vectors Co-initial Vectors Collinear Vectors Coplanar Vectors Position Vector 1"
+    },
+    {
+        "id": 533,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 4928\nWords: 320\n\nsegments"
+    },
+    {
+        "id": 534,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 576\nWords: 320\n\nUnit Symbol Amount of SubstanceMole mol 4"
+    },
+    {
+        "id": 535,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 5184\nWords: 320\n\nDefinition Two vectors are equal if: Magnitudes are equal"
+    },
+    {
+        "id": 536,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 5440\nWords: 320\n\nto locate particles in space"
+    },
+    {
+        "id": 537,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 5696\nWords: 320\n\nof Resultant Instead of analyzing several vectors separately, they can be replaced by one equivalent vector"
+    },
+    {
+        "id": 538,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 5952\nWords: 320\n\nR Derivation Using Cosine Rule From triangle geometry: R² = A² + B² + 2AB cosθ Taking square root: This is the fundamental formula of vector addition"
+    },
+    {
+        "id": 539,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 6208\nWords: 320\n\n= 0 Resultant becomes: This is Pythagoras Theorem"
+    },
+    {
+        "id": 540,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 6464\nWords: 320\n\nFormula ✓ Same Direction Case ✓ Opposite Direction Case ✓ Perpendicular Vector Case 13 ✓ Maximum Resultant ✓ Minimum Resultant ✓ Applications Chapter Summary Triangle law is a graphical method of vector addition"
+    },
+    {
+        "id": 541,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 6720\nWords: 320\n\n+ B⃗ Importance Parallelogram law provides a graphical method of adding vectors acting at a common point"
+    },
+    {
+        "id": 542,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 6976\nWords: 320\n\n× 0"
+    },
+    {
+        "id": 543,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 7232\nWords: 320\n\n= 50 × 0"
+    },
+    {
+        "id": 544,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 7488\nWords: 320\n\nCross Product Right Hand Rule Properties of Cross Product Work Done Torque Angular Momentum Important Formula Sheet 1"
+    },
+    {
+        "id": 545,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 832\nWords: 320\n\nTorque Torque = Force × Distance Dimension: [M L² T⁻²] Pressure Pressure = Force / Area Dimension: [M L⁻¹ T⁻²] Momentum Momentum = Mass × Velocity Dimension: [M L T⁻¹] Power Power = Work / Time Dimension: [M L² T⁻³] Energy Energy = ½ mv² Dimension: [M L² T⁻²] Surface Tension Surface Tension = Force / Length Dimension: [M T⁻²] Frequency Frequency = 1/Time Period Dimension: [T⁻¹] Angular Velocity Angular Velocity = θ/t Dimension: [T⁻¹] Angular Acceleration Angular Acceleration = ω/t Dimension: [T⁻²] Moment of Inertia I = Mass × (Distance)² Dimension: [M L²] 10 UNIT–1: UNITS AND DIMENSIONS PART – 3 Solved Examples, Practice Questions and Revision Material SOLVED EXAMPLE 1 Conversion of Gravitational Constant from CGS to SI Given: G = 6"
+    },
+    {
+        "id": 546,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 7744\nWords: 320\n\nk^ i^ =A A +xi^ A +yj^ A zk^ =B B +xi^ B +yj^ B zk^ ⋅ =A B +A B +A B A B x x y y z z ⋅A =B ABcosθ Condition for Perpendicular Vectors When then Thus Hence: If dot product is zero, vectors are perpendicular"
+    },
+    {
+        "id": 547,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 8000\nWords: 320\n\n0 ×j^ =j^ 0 ×k^ =k^ 0 ×=i^ j^ k^ × =j^ k^ i^ × = k^ i^ j^ Reverse Order Cyclic Rule Remember: Forward Direction = Positive Reverse Direction = Negative 12"
+    },
+    {
+        "id": 548,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 8256\nWords: 320\n\n✓ Formula Sheet Chapter Summary Dot product produces a scalar quantity"
+    },
+    {
+        "id": 549,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 8512\nWords: 320\n\nSECTION B: MOST IMPORTANT THEORY QUESTIONS Question 1 Differentiate between Accuracy and Precision"
+    },
+    {
+        "id": 550,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 8768\nWords: 320\n\nproduct direction? Right Hand Rule"
+    },
+    {
+        "id": 551,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 8876\nWords: 172\n\nAsinθ ∣ ∣=A A +A +A x2 y2 z2 ⋅A =B ABcosθ ×A =B ABsinθn^ W=Fscosθ 12 Torque Angular Momentum SECTION F: ONE-SHOT EXAM REVISION Errors and Measurements ✓ Measurement ✓ Error ✓ Absolute Error ✓ Mean Absolute Error ✓ Fractional Error ✓ Percentage Error ✓ Error Propagation Vector Algebra ✓ Scalars ✓ Vectors ✓ Tensors ✓ Unit Vector ✓ Zero Vector ✓ Position Vector τ =rFsinθ =L ×r p 13 ✓ Triangle Law ✓ Parallelogram Law ✓ Resolution of Vectors ✓ Components ✓ Dot Product ✓ Cross Product ✓ Work Done ✓ Torque FINAL CHAPTER SUMMARY Every measurement contains uncertainty"
+    },
+    {
+        "id": 552,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 1088\nWords: 320\n\n= 1000 kg/m³ Therefore, 0"
+    },
+    {
+        "id": 553,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 1344\nWords: 320\n\nNewton's second law"
+    },
+    {
+        "id": 554,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 1600\nWords: 320\n\nphysical meanings"
+    },
+    {
+        "id": 555,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 1856\nWords: 320\n\n= 10⁻¹² m 1 fermi = 10⁻¹⁵ m Mass 1 kg = 1000 g 1 g = 10⁻³ kg Time 1 min = 60 s 1 hr = 3600 s 1 day = 86400 s Area 1 m² = 10⁴ cm² 1 cm² = 10⁻⁴ m² Volume 1 m³ = 10⁶ cm³ 1 litre = 10³ cm³ 1 m³ = 1000 litre FREQUENTLY ASKED DIMENSIONAL FORMULAE Velocity → [LT⁻¹] Acceleration → [LT⁻²] Momentum → [MLT⁻¹] Force → [MLT⁻²] Work → [ML²T⁻²] Energy → [ML²T⁻²] Power → [ML²T⁻³] Pressure → [ML⁻¹T⁻²] Density → [ML⁻³] Surface Tension → [MT⁻²] Gravitational Constant → [M⁻¹L³T⁻²] Planck Constant → [ML²T⁻¹] Moment of Inertia → [ML²] Angular Momentum → [ML²T⁻¹] Frequency → [T⁻¹] Angular Velocity → [T⁻¹] Angular Acceleration → [T⁻²] PRACTICE QUESTIONS Very Short Questions Define SI unit"
+    },
+    {
+        "id": 556,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 2112\nWords: 320\n\nquantities Derived Quantities → Depend upon fundamental quantities Unit → Standard of measurement Systems of Units: CGS MKS FPS SI Seven SI Base Quantities: Length Mass Time Temperature Electric Current Luminous Intensity 1"
+    },
+    {
+        "id": 557,
+        "question": "What is nexora_physics_notes1_class11_v1?",
+        "answer": "End Word: 2368\nWords: 320\n\nUnit: Newton (N) Dimension: [MLT⁻²] Work Definition: Work is said to be done when force causes displacement"
+    }
+]

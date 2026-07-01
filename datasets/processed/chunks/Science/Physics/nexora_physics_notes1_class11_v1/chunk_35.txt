@@ -1,0 +1,7 @@
+Document: nexora_physics_notes1_class11_v1
+Chunk: 35
+Start Word: 8704
+End Word: 8876
+Words: 172
+
+Asinθ ∣ ∣=A A +A +A x2 y2 z2 ⋅A =B ABcosθ ×A =B ABsinθn^ W=Fscosθ 12 Torque Angular Momentum SECTION F: ONE-SHOT EXAM REVISION Errors and Measurements ✓ Measurement ✓ Error ✓ Absolute Error ✓ Mean Absolute Error ✓ Fractional Error ✓ Percentage Error ✓ Error Propagation Vector Algebra ✓ Scalars ✓ Vectors ✓ Tensors ✓ Unit Vector ✓ Zero Vector ✓ Position Vector τ =rFsinθ =L ×r p 13 ✓ Triangle Law ✓ Parallelogram Law ✓ Resolution of Vectors ✓ Components ✓ Dot Product ✓ Cross Product ✓ Work Done ✓ Torque FINAL CHAPTER SUMMARY Every measurement contains uncertainty. Error analysis determines reliability of measurements. Scalars possess magnitude only. Vectors possess magnitude and direction. Vector addition follows triangle and parallelogram laws. Vectors can be resolved into components. Dot product gives scalar quantities. Cross product gives vector quantities. Work done is a dot product. Torque and angular momentum are cross products. END OF PART 7 END OF COMPLETE NOTES SET 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 14

@@ -1,0 +1,7 @@
+Document: nexora_Algorithm_notes1_v1
+Chunk: 13
+Start Word: 3072
+End Word: 3316
+Words: 244
+
+disjoint. 3. **Timestamps:** - DFS assigns two timestamps to each vertex \(v \): - \(v.d \): **Discovery time** - the time when \(v \) is first discovered (colored GRAY). - \(v.f \): **Finishing time** - the time when \(v \) is fully explored (colored BLACK). - Timestamps are integers between 1 and \(2IVI \), since there are two events (discovery and finishing) for each vertex. For every vertex I(v l): 3. **Vertex Exploration:** - In DFS-VISIT: - The vertex \(u I) is marked GRAY (discovered), and its discovery time \(u.d I) is recorded. - Each adjacent vertex \(v \) is explored. If \(v I) is WHITE, it is recursively visited, and \( u I) is set as its predecessor. - After all adjacent vertices are explored, \(u I) is marked BLACK (finished), and its finishing time \(u.f I) is recorded. ### **Running Time of DFS** 1. **Initialization:** - The loops in lines 1-3 and 5-7 take \(O(V) I) time, where \(V \) is the number of vertices 2. **Vertex Visits:** - Each vertex \(u \) is visited exactly **once** during the call to DFS-VISIT, and it is marked GRAY and BLACK during this process. 3. **Adjacency List Exploration:** - The loop in lines 47 of DFS-VISIT iterates over all neighbors I(v \) in \(u \)'s adjacency list. The total number of iterations across all calls to DFS-VISIT is: lsum_{u\in V} IAdj[u]I = O(E) where \(E I) is the number of edges in the graph.

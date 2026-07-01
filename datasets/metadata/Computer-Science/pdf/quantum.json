@@ -1,0 +1,13 @@
+{
+    "document_name": "quantum",
+    "file_name": "quantum.txt",
+    "relative_path": "Computer-Science\\pdf\\quantum.txt",
+    "folder_name": "pdf",
+    "word_count": 476,
+    "character_count": 3067,
+    "line_count": 174,
+    "file_size_bytes": 3505,
+    "created": 1782569830.3313558,
+    "modified": 1782572544.5659475,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

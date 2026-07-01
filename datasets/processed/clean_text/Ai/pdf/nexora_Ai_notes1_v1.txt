@@ -1,0 +1,1764 @@
+Machine Learning Analysis of Respiratory
+Signals
+1. Introduction
+objective is to classify breathing patterns such as Normal, Fast, Shallow, Deep, and Apnea
+using both supervised and unsupervised learning techniques. The system follows a structured
+workflow consisting of signal acquisition, preprocessing, feature extraction, model training, and
+evaluation.
+2. Signal Processing and Feature Engineering
+2.1 Signal Preprocessing
+Raw respiratory voltage signals were first filtered using a Butterworth low-pass filter to remove
+high-frequency noise and preserve breathing-related components. Filtering improves signal
+quality and ensures that extracted features represent true physiological behavior.
+Vout vs Time
+1.58 -
+1.56
+1.54
+1.52
+1.50
+Vout
+1.48
+1.46
+1.44
+1.42
+10
+15
+20
+25
+Time (seconds)
+Week 1:
+Lab Assignment - 1
+Learning Objective: To be able to model a given problem in terms of state space search problem.
+and solve the same using BFS/ DFS
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)
+Chapter 1, 2, 3
+Problem Statement for In-lab Discussions.
+A. The missionaries and cannibals problem is usually stated as follows. Three missionaries
+and three cannibals are on one side of a river, along with a boat that can hold one or two
+people. Find a way to get everyone to the other side without ever leaving a group of.
+missionaries in one place outnumbered by the cannibals in that place. This problem is
+famous in AI because it was the subject of the first paper that approached.
+problem-formulation from an analytical viewpoint..
+Problem Statement for Submission:
+B. In the rabbit leap problem, three east-bound rabbits stand in a line blocked by three
+west-bound rabbits. They are crossing a stream with stones placed in the east west.
+direction in a line. There is one empty stone between them. The rabbits can only move
+forward one or two steps. They can jump over one rabbit if the need arises, but not more
+than that. Are they smart enough to cross each other without having to step into the.
+water?
+For the above two problems,
+1. Model the problem as a state space search problem. How large is the search space?
+2. Solve the problem using BFs. The optimal solution is the one with the fewest number of.
+steps. Is the solution that you have acquired an optimal one? The program should print.
+out the solution by listing a sequence of steps needed to reach the goal state from the
+initial state.
+3. Solve the problem using DFS. The program should print out the solution by listing a.
+4.
+Compare solutions found from BFS and DFS. Comment on solutions. Also compare the
+time and space complexities of both.
+Week 2:
+Lab Assignment - 2
+Learning Objective: To design a graph search agent and understand the use of a hash table, queue
+in state space search.e
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)
+Chapter 2 and 3
+[2] A first course in Artificial Intelligence, Deepak Khemani
+Chapter 2
+Problem Statement for In-lab Discussion:.
+A. Write a pseudocode for a graph search agent. Represent the agent in the form of a flow.
+chart. Clearly mention all the implementation details with reasons.
+B. Write a collection of functions imitating the environment for Puzzle-8.
+C. Describe what is Iterative Deepening Search..
+D. Considering the cost associated with every move to be the same (uniform cost), write a
+function which can backtrack and produce the path taken to reach the goal state from the.
+source/ initial state..
+E. Generate Puzzle-8 instances with the goal state at depth "d".
+F. Prepare a table indicating the memory and time requirements to solve Puzzle-8 instances
+(depth "d") using your graph search agent..
+Problem Statement for Submission.
+Objective:
+The goal of this lab is to implement a plagiarism detection system using the A* search algorithm
+applied to text alignment. The system will identify similar or identical sequences of text between
+two documents by aligning their sentences or paragraphs and detecting potential plagiarism.
+References:
+[1] Russell, S. J., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. Prentice
+Hall.
+[2] Jurafsky, D., & Martin, J. H. (2020). Speech and Language Processing (3rd ed.). Draft
+chapters available online.
+Background:
+Plagiarism detection involves comparing two documents to identify shared seguences of words
+or phrases that might indicate copying. Text alignment is a common approach to this, where one.
+text is aligned with another based on similarity measures. The A* search algorithm, a best-first
+search, can be applied to efficiently find the optimal alignment between two texts.
+Prerequisites:
+oBasic understanding of the A* search algorithm..
+o Knowledge of string matching algorithms and similarity measures (e.g., Levenshtein
+distance).
+o Python programming skills.
+A Search Overview:*.
+A* search is a graph traversal algorithm that finds the shortest path from a start node to a goal
+node. It combines the strengths of Dijkstra's algorithm and greedy best-first search by using a
+heuristic to estimate the cost of reaching the goal. The A* algorithm uses the following cost.
+function: f(n)=g(n)+h(n)
+Where:
+g(n) is the cost of the path from the start node to node n..
+oh(n) is the estimated cost from node nn to the goal (heuristic function)..
+Problem Definition:.
+Given two text documents, the task is to align their sentences and detect plagiarism using A*
+search. The alignment should minimize the edit distance (or maximize similarity) between
+corresponding sentences.
+Approach:
+1.State Representation:
+a. Each state represents a partial alignment between the sentences of the two.
+documents.
+b. A state includes the current position in both documents and the accumulated cos1.
+(edit distance).
+2. Initial State:
+a. The initial state corresponds to the start of both documents (i.e., first sentence of.
+each document)
+3. Goal State:
+a. The goal state is reached when all sentences in both documents are aligned.
+4. Transition Function:
+a. Possible transitions include aligning the current sentences, skipping a sentence in
+one document, or skipping sentences in both.
+5. Cost Function (g(n)):
+a. The cost is the edit distance between the aligned sentences so far.
+6. Heuristic Function (h(n)):.
+a. The heuristic estimates the remaining alignment cost, such as the sum of
+minimum possible edit distances between remaining sentences.
+7. Search Algorithm:
+a. Use A* search to explore the state space and find the optimal alignment with the
+minimum cost.
+8. Lab Instructions:
+9. Implement Text Preprocessing:
+a. Tokenize the input documents into sentences.
+b. Normalize the text (e.g., convert to lowercase, remove punctuation).
+10. Define the A* Search Function:
+a. Implement the A* search algorithm with the state representation, transition
+function, cost function, and heuristic.
+11. Compute Edit Distance:.
+a. Implement the Levenshtein distance function to compute the cost of aligning two
+sentences.
+12. Perform Alignment:
+a. Apply the A* search algorithm to align the sentences from the two documents.
+13. Detect Plagiarism:
+a. After alignment, identify pairs of sentences with a low edit distance as potential
+plagiarism.
+14. Evaluate the System:
+a. Use test cases to evaluate the accuracy and efficiency of your plagiarism detection
+system.
+Test Cases:
+Test Case 1: Identical Documents
+b. Input: Two identical documents.
+c. Expected Output: All sentences should align perfectly, with zero edit distance.
+Test Case 2: Slightly Modified Document
+d. Input: One document with minor modifications (e.g., synonyms, word order
+changes) compared to the other.
+e. Expected Output: Most sentences should align with a low edit distance.
+Test Case 3: Completely Different Documents
+f.Input: Two completely different documents.
+Week 3:
+Lab Assignment - 3
+Learning Objective: To understand the use of Heuristic function for reducing the size of the
+search space. Explore non-classical search algorithms for large.
+problems.
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and.
+Norvig (Fourth edition).
+Chapter 3 and 4
+[2] A first course in Artificial Intelligence, Deepak Khemani
+Chapter 3, 4
+Problem Statement for In-lab Discussion:.
+A. Read about the game of marble solitaire. Figure shows the initial board configuration.
+The goal is to reach the board configuration where only one marble is left at the centre.
+To solve marble solitaire, (1) Implement priority queue based search considering path
+cost, (2) suggest two different heuristic functions with justification, (3) Implement best
+first search algorithm, (4) Implement A*, (5) Compare the results of various search
+algorithms.
+Problem Statement for Submission
+B. Write a program to randomly generate k-SAT problems. The program must accept values.
+for k, m the number of clauses in the formula, and n the number of variables. Each
+clause of length k must contain distinct variables or their negation. Instances generated
+by this algorithm belong to fixed clause length models of SAT and are known as uniform
+random k-SAT problems.
+C. Write programs to solve a set of uniform random 3-SAT problems for different
+combinations of m and n, and compare their performance. Try the Hill-Climbing,
+Beam-Search with beam widths 3 and 4, Variable-Neighborhood-Descent with 3
+neighborhood functions. Use two different heuristic functions and compare them with
+respect to penetrance..
+Week 4:
+Lab Assignment 4
+Learning Objective:.
+Non-deterministic Search I Simulated Annealing: For problems with large search spaces
+randomized search becomes a meaningful option given partial/ full-information about the
+domain.
+Reference:
+[1] Simulated annealing from basics to applications, Daniel Delahaye, Supatcha Chaimatanan.
+Marcel Mongeau
+[2] A first course in Artificial Intelligence, Deepak Khemani (Chapter 4)
+[3] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)
+Chapter 3 and 4
+Problem Statement for In-lab Discussions:
+The Traveling Salesman Problem (TSP) is a hard problem, and is simple to state. Given a graph
+in which the nodes are locations of cities, and edges are labeled with the cost of traveling.
+between cities, find a cycle containing each city exactly once, such that the total cost of the tour
+is as low as possible..
+For the state of Rajasthan, find out at least twenty important tourist locations. Suppose your
+relatives are about to visit you next week. Use Simulated Annealing to plan a cost effective tour
+of Rajasthan. It is reasonable to assume that the cost of traveling between two locations is
+proportional to the distance between them..
+An interesting problem domain with TSP instances:
+VLSI: http://www.math.uwaterloo.ca/tsp/vlsi/index.html#XQF131
+(Attempt at least five problems from the above list and compare your results.)
+Problem Statement for Submission:
+Ever played jigsaw puzzles in childhood? Time.
+to make an agent learn to solve the puzzle.
+Some rough, confusing code snippets are posted
+on the code repository of the course along with.
+the scrambled_lena.mat
+Formulate the problem as a state space search.
+problem. Try to solve the same using simulated.
+annealing. Have fun!.
+Challenge Problem: (you may be able to earn some extra credits for meaningfully attempting.
+this challenge)
+I prompted ChatGPT with the following: "Generating melody using simulated annealing" and I.
+was surprised to see a very interesting response. Challenge for you is to generate a melody in
+North Indian Classical Raag Bhairav using either simulated annealing or the genetic algorithm.
+Assessment: Group which is able to generate melody which follows the grammar of Raag
+Bhairav and contains some fundamental phrases of the Raag will earn higher credits.
+10
+Week 5:.
+Lab Assignment 5
+Learning Objective:
+Understand the graphical models for inference under uncertainty, build Bayesian Network in R.
+Learn the structure and CPTs from Data, naive Bayes classification with dependency between
+features.
+Reference:
+1.https://www.bnlearn.com/
+2.http://gauss.inf.um.es/umur/xjurponencias/talleres/J3.pdf
+Problem Statement for In-lab Discussions:
+A table containing grades earned by students in respective courses is made available to you in.
+(codes folder) 2020_bn_nb_data.txt.
+1. Consider grades earned in each of the courses as random variables and learn the
+dependencies between courses.
+2. Using the data, learn the CPTs for each course node.
+3. What grade will a student get in PH100 if he earns DD in EC100, CC in IT101 and CD in
+MA101.
+4. The last column in the data file indicates whether a student qualifies for an internship.
+program or not. From the given data, take 70 percent data for training and build a naive
+Bayes classifier (considering that the grades earned in different courses are independent
+of each other) which takes in the student's performance and returns the qualification
+status with a probability. Test your classifier on the remaining 30 percent data. Repeat
+this experiment for 20 random selection of training and testing data. Report results about
+the accuracy of your classifier.
+5. Repeat 4, considering that the grades earned in different courses may be dependent.
+Problem Statement for Submission:
+The goal of this lab assignment is to analyze financial time series data using Gaussian Hidden
+Markov Models (HMMs). The HMM is employed to identify hidden market regimes (e.g.,
+periods of high and low volatility) and model the dynamics of financial returns. The task
+involves collecting real-world financial data, modeling it with HMM, and interpreting the results
+to draw insights about market conditions.
+Problem Statement:
+In this assignment, you are required to model the hidden regimes of a financial time series, such
+as stock returns or index performance, using a Gaussian Hidden Markov Model. Financial
+11
+markets often exhibit distinct periods of different volatility or risk levels, and these periods may
+not be directly observable. Gaussian HMM allows you to infer these hidden states (e.g., bull and.
+bear markets) from observable data, such as stock price returns.
+[Use Yahoo Finance API to download historical stock price data.].
+Part 1: Data Collection and Preprocessing
+1. Data Acquisition: Download historical financial data (e.g., stock prices or indices) from a.
+reliable source like Yahoo Finance. The data should cover a sufficiently large time frame
+(e.g., 10 years or more) to capture long-term trends and market regimes. You may choose
+a specific company (e.g., Apple, Tesla) or an index (e.g., S&P 500).
+Preprocessing: Extract the relevant features for modeling, such as daily adjusted closing.
+prices. Calculate the daily returns from the adjusted closing prices. Handle any missing or
+erroneous data points by cleaning the dataset to ensure quality input..
+Part 2: Gaussian Hidden Markov Model
+1. Fitting the Model: Use the Gaussian Hidden Markov Model to model the financial returns.
+data. Select an appropriate number of hidden states (e.g., 2 or more) to capture different
+market conditions (e.g., high and low volatility regimes). Fit the HMM to the returns data
+and predict the hidden states that best describe the observed data..
+2. Parameter Analysis: Analyze the mean and variance of each hidden state to characterize.
+the market regimes. Interpret these hidden states in the context of financial markets (e.g.,
+identifying bear and bull markets or high/low-risk periods).
+Part 3: Interpretation and Inference
+1. Inferred Hidden States: Decode the hidden states predicted by the HMM and identify the.
+time periods corresponding to each hidden state. Visualize the inferred hidden states over
+time and analyze how the market transitions between different regimes.
+2. Transition Matrix: Investigate the transition matrix of the HMM, which defines the.
+probabilities of switching between different hidden states. Use the transition probabilities.
+to understand the likelihood of the market shifting from one regime to another (e.g., from
+low volatility to high volatility)..
+Part 4: Evaluation and Visualization
+1. Visualization: Plot the stock prices or returns and color-code the time periods based on.
+the inferred hidden states. Create visualizations that clearly differentiate between the
+different market regimes identified by the HMM.
+2. Model Evaluation: Discuss how well the HMM captures the underlying market dynamics.
+Evaluate whether the hidden states provide meaningful insights into the stock's volatility
+patterns. Analyze how changes in the number of hidden states impact the interpretation of
+the results.
+12
+2.2 Window-Based Segmentation
+The filtered signal was divided into fixed-duration windows (5 seconds). Each window
+allows temporal tracking of breathing changes..
+2.3 Feature Extraction
+Mean amplitude
+Peak-to-peak amplitude
+Variance
+Breathing rate (estimated from peak detection)
+In the extended dataset, additional features such as dominant frequency and signal energy
+characteristics of breathing patterns.
+Feature engineering plays a crucial role in this project because machine learning models rely
+entirely on meaningful numerical representations of physiological behavior.
+3. Supervised Learning Approach.
+3.1 Model Used: Random Forest Classifier.
+The primary supervised model used in this project is the Random Forest Classifier.
+Random Forest is an ensemble learning method that combines multiple decision trees. Each
+tree is trained on a random subset of data and features, and the final classification is
+determined by majority voting among the trees..
+3.2 Reasons for Choosing Random Forest.
+Random Forest was selected for the following reasons:.
+1. It handles non-linear relationships effectively. Respiratory features such as amplitude
+and breathing rate have threshold-based and non-linear characteristics.
+2. It is robust to noise, which is common in physiological signals..
+3. It performs well with small to medium-sized feature sets..
+4. It reduces overfitting through ensemble averaging..
+Part 5: Conclusions and Insights
+1. Market Regime Interpretation: Summarize the hidden market regimes identified by the.
+model and describe their characteristics (e.g., high volatility versus low volatility
+periods). Discuss how these hidden states can inform financial decision-making, such as
+risk management or portfolio adjustment.
+2. Future State Prediction: Predict the likely future state of the market based on the most
+recent data. Discuss how the transition matrix can be used for short-term market regime
+forecasting and its potential impact on financial strategies.
+Bonus Task (Optional):
+Extend the Gaussian HMM to include more than two hidden states to capture more.
+complex market behavior, such as extreme volatility periods or stable growth phases..
+Compare the results of the HMM model on different financial instruments (e.g.
+comparing stocks of different companies or indices) to understand how market dynamics.
+vary across assets.
+Deliverables:
+1. Analysis Report: Discuss the application of Gaussian Hidden Markov Models to financial.
+time series data. Provide a detailed explanation of the steps taken to preprocess the data,
+fit the model, and interpret the results. Include visualizations and insights from the
+analysis, highlighting the inferred hidden states and market regimes.
+2.
+Code Implementation: Submit GIT repo with the Python implementation used to collect.
+data, fit the Gaussian HMM model, and perform the analysis.
+13
+Lab Assignment for FUN
+Objective: (unsupervised learning)
+Smoothing filter as a clustering mechanism, Hierarchical Agglomerative Clustering
+References:
+1. Diffusion and Confusions in Signal and Image Processing
+http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C857BB546B94BFA72996815EE6DA
+B6C4?doi=10.1.1.228.3667&rep=rep1&type=pdf
+Hierarchical Agglomerative Clustering
+Chapter 16 and 17, Introduction to Information Retrieval, Manning, Raghvan and Schutze
+Problems:
+1. Given the noisy image test noisyjpg (available in the codes folder). Use adaptive smoothing.
+(Ref. Diffusions and Confusions in Signal and Image Processing) process to remove the noise.
+Explain the selected values of the parameters in the algorithm.
+2. Use HAC with Euclidean/ Manhattan distance as a measure (Single link, complete link, Ward's
+distance, Group average, Centroid, Clusteroid) cluster the states of India based on the feature.
+vector comprising of the following parameters (for one of the financial year values available in
+the data-set)
+a. Percentage of schools with electricity.
+b. Percentage of schools with girls toilet
+c.Percentage of schools with drinking water.
+d. Percentage of schools with boys toilet
+For second problem you should get the data from the following.
+https://data.gov.in/
+As an example, a simple visualization based on percentage of schools with electricity is available at.
+https://data.gov.in/major-indicator/percentage-schools-electricity
+This lab is more fun than serious derivations and implementations. I hope you will enjoy working on the
+problems.
+14
+Week 7:
+Lab Assignment 7
+Learning Objective: Basics of data structure needed for state-space search tasks and use of
+random numbers required for MDP and RL, Understanding Exploitation - Exploration in simple
+n-arm bandit reinforcement learning task, epsilon-greedy algorithm
+Title: Matchbox Educable Naughts and Crosses Engine.
+Reference: http://people.csail.mit.edu/brooks/idocs/matchbox.pdf
+Problems for submission:
+(1) Read the reference on MENACE by Michie and check for its implementations. Pick the.
+one that you like the most and go through the code carefully. Highlight the parts that you
+feel are crucial. If possible, try to code the MENACE in any programming language of.
+your liking.
+Reference: Reinforcement Learning: an introduction by R Sutton and A Barto (Second Edition).
+(Chapter 1-2)
+(2) Consider a binary bandit with two rewards {1-success, 0-failure}. The bandit returns 1 or.
+0 for the action that you select, i.e. 1 or 2. The rewards are stochastic (but stationary)
+Use an epsilon-greedy algorithm discussed in class and decide upon the action to take for
+maximizing the expected reward. There are two binary bandits named binaryBanditA.m
+and binaryBanditB.m are waiting for you..
+(3) Develop a 10-armed bandit in which all ten mean-rewards start out equal and then take
+independent random walks (by adding a normally distributed increment with mean zero
+and standard deviation 0.01 to all mean-rewards on each time step)..
+{function [value] = bandit_nonstat(action)}
+(4) The 10-armed bandit that you developed (bandit nonstat) is difficult to crack with a
+standard epsilon-greedy algorithm since the rewards are non-stationary. We did discuss
+how to track non-stationary rewards in class. Write a modified epsilon-greedy agent and
+show whether it is able to latch onto correct actions or not. (Try at least 10000 time steps
+before commenting on results)
+16
+Week 8:
+Lab Assignment 8
+Learning Objective: Understand the process of sequential decision making (stochastic
+environment) and the connection with reinforcement learning.
+Title: Markov Decision Process and Dynamic Programming
+Reference:
+[1] Artificial Intelligence a Modern Approach, Russell and Norvig (third edition).
+Chapter 16, 17, 21
+[2] Reinforcement Learning, Sutton and Barto (second edition)
+Chapter 3, 4
+Problem for In-lab Discussion:.
+(1) Suppose that an agent is situated in the 4x3 environment as shown in Figure 1..
+Beginning in the start state, it must choose an action at each time step. The interaction
+with the environment terminates when the agent reaches one of the goal states, marked.
++1 or -1. We assume that the environment is fully observable, so that the agent always
+knows where it is. You may decide to take the following four actions in every state: Up.
+Down, Left and Right. However, the environment is stochastic, that means the action
+that you take may not
+lead you to the desired
+state.
+Each action
+achieves the intended
+effect with probability
+0.8, but the rest of the
+time, the action moves
+START
+the agent at right
+angles to the intended
+direction with equal
+Figure 1: 4 3 grid world with uncertain state change..
+probabilities.
+Furthermore, if the agent bumps into a wall, it stays in the same square. The immediate
+reward for moving to any state (s) except for the terminal states S+ is r(s)= -0.04. And the.
+reward for moving to terminal states is +1 and -1 respectively. Find the value function
+corresponding to the optimal policy using value iteration..
+Find the value functions corresponding optimal policy for the following:
+(a) r(s)=-2
+(b) r(s)=0.1
+17
+(c) r(s)=0.02
+(d) r(s)=1
+Problems for Submission:.
+[2) [Gbike bicycle rental] You are managing two locations for Gbike. Each day, a number of
+customers arrive at each location to rent bicycles. If you have a bike available, you rent it
+out and earn INR 10 from Gbike. If you are out of bikes at that location, then the
+business is lost. Bikes become available for renting the day after they are returned. To
+help ensure that bicycles are available where they are needed, you can move them
+between the two locations overnight, at a cost of INR 2 per bike moved.
+Assumptions: Assume that the number of bikes requested and returned at each location
+returns are 3 and 2 at the first and second locations respectively. No more than 20 bikes
+can be parked at either of the locations. You may move a maximum of 5 bikes from one
+location to the other in one night. Consider the discount rate to be 0.9.
+Formulate the continuing finite MDP, where time steps are days, the state is the number
+of bikes at each location at the end of the day, and the actions are the net number of bikes
+moved between the two locations overnight.
+Download and extract files from gbike.zip. Try to compare your formulation with the
+code. Before proceeding further, ensure that you understand the policy iteration clearly
+(3) Write a program for policy iteration and resolve the Gbike bicycle rental problem with
+the following changes. One of your employees at the first location rides a bus home each
+night and lives near the second location. She is happy to shuttle one bike to the second
+location for free. Each additional bike still costs INR 2, as do all bikes moved in the
+other direction. In addition, you have limited parking space at each location. If more
+than 10 bikes are kept overnight at a location (after any moving of cars), then an
+additional cost of INR 4 must be incurred to use a second parking lot (independent of
+how many cars are kept there)..
+Note: Problem (2) and (3) are directly taken from the book by Sutton and Barto. The problem if
+attempted independently (without referring to the solutions available) is a good exercise in
+understanding the implementation issues and finite MDP. Changing the Jack's car rental to
+Gbike bicycle rental is just to put things in context. The instructor has no intention of earning
+credit for posing the problem. Credit goes to Sutton and Barto.
+18
+Solution - Lights-Out (4x4) - parts
+(A)-(D)
+Below I give a clean, course-ready answer for each part. I also use the exact initial board from
+and (row 3, col 4) (rows/cols counted from top-left = (1,1)). I'll mark 1 = ON, 0 = OFF.
+Initial state (4x4, row-major):
+Row\Col 1 2 3 4
+1000
+0000
+0001
+0000
+1) (A) - Pose as a state-space search
+problem
+State representation: a 4x4 binary matrix (or a 16-bit vector) s where s[i, j] e {0, 1} (0 =
+OFF, 1 = ON). Total state space size = (2^{16})
+Initial state: as above.
+Actions: click(r,c) for any cell (r,c) with 1 r,c 4.Applying click(r,c) toggles
+the state (0<>1) of the cell (r, c) and its orthogonal neighbours (r1, c) and (r, c1) (only
+those inside the board).
+Transition function: Result(s, click(r, c)) = new state with those 1-5 bits toggled.
+Goal test: all cells OFF (all zeros).
+Cost function: unit cost per click (cost = 1). (You can also consider uniform-cost if clicks had
+differing costs.)
+Search space properties: branching factor b = 16. Depth = number of clicks. Note: because.
+clicking twice on same cell cancels (mod 2), sequences can be considered modulo 2 there
+are linear dependencies (useful later)..
+2) (B) Suggested heuristic(s)
+We want an admissible (never-overestimates) heuristic estimating the minimum number of
+clicks to reach all-off.
+Two simple heuristics:
+h0(s) = 0 - trivial admissible heuristic.
+h1(s) = ceil((#ON(s)) / 5)
+Reason: a single click affects at most 5 cells (center cell + 4 neighbours). So in the best case
+one click can switch off up to 5 currently-ON lights. Therefore the minimum number of clicks
+needed is at least cei1(k/5) where k = number of ON lights in s. Use h(s) = cei1(k/5).
+(You can refine bounds using row/column packing arguments, but cei1(k/5) is simple, cheap..
+and effective as a lower bound.).
+3) (C) - Admissibility & Consistency of
+the heuristic
+Admissibility (h true cost):
+Let k be the number of ON lights in state s. Any single click flips at most 5 lights from ON->OFF,
+least m cei1(k/5) moves. Hence the true minimal cost h* (s) cei1(k/5).So h1(s)
+= cei1(k/5) never overestimates the true minimal moves -> admissible.
+Consistency (monotonicity):
+A heuristic h is consistent if for every state s and every successor s' generated by a single
+action of cost c(s, a)=1:.
+h(s) 1 + h(s')
+One action changes the ON count by at most 5 (it can increase or decrease by 5). Let k =
+#ON(s),k'=#ON(s').Then Ik - k'I 5.So
+Soh(s) - h(s') 1=h(s) 1 + h(s').Thush1is consistent.
+(Trivial h0 is also consistent.)
+Note: A heuristic like h(s) = #ON(s) is not admissible because one click may turn off up to 5
+ON lights; h can overestimate the minimal number of moves..
+4) (D) - Which search algorithm to prefer.
+and demonstration on the example.
+Preferred algorithm:
+Because we seek the shortest (minimum-click) solution and we have a consistent admissible
+heuristic (h1), A* with f = g + h1 is a suitable choice: it finds optimal-cost solutions and,
+thanks to consistency, never needs to re-expand nodes already expanded (standard A*
+guarantees).
+However, note:
+The state space is small enough ((2^{16}=65536)) that BFS or uniform-cost search are
+feasible in practice (and will find shortest solutions when solutions exist).
+But Lights-Out has special structure: moves are linear modulo 2, so the puzzle can be
+solved more powerfully by linear algebra (see below) solving a system A x = b
+(mod 2) gives a solution or proves unsolvability; this is polynomial and exact. For
+approach.
+5. It does not require strict assumptions about data distribution.
+1.56
+1.54
+1.52
+1.50
+1.48
+1.46
+10
+20
+25
+15
+3.3 Training Methodology
+The supervised pipeline followed these steps:
+1. Simulated respiratory signals were generated for different breathing types.
+2. Features were extracted from segmented windows.
+4. The dataset was split into training and testing sets.
+5. A Random Forest model was trained using the training set.
+6. Model performance was evaluated using accuracy and confusion matrix.
+The trained model was then applied to real-world respiratory signals obtained from ThingSpeak
+and PhysioNet datasets.
+Worked explanation using the initial state in the figure
+Initial ON count: k = 2 (cells (1,1) and (3,4))
+Heuristic value: h1 = cei1(2/5) = 1. So A* would start exploring nodes with f = g + h1.
+over GF(2): each click is a vector in ({0,1}^{16}), and the effect of any sequence of clicks is the
+sum (mod 2) of those vectors. So the set of reachable configurations from "all-off" is the column
+b is solvable we must check whether b is in the column space of A. That can be done via.
+Gaussian elimination mod 2.
+Result for the pictured initial state:
+For the pictured initial state (ON at (1,1) and (3,4)), this configuration is not solvable - i.e.,
+there is no sequence of clicks that yields all-off. (One can check this by forming A and solving
+A x = b (mod 2); the system is inconsistent.)
+Implication: A* or BFS will explore the reachable subspace and will eventually exhaust it.
+without finding a solution; the linear-algebra check gives an immediate certificate of unsolvability
+(faster and exact).
+Summary & recommendations
+State-space model: 16-bit state, 16 actions (click each cell), result = toggle
+self+orthogonal neighbors, goal = all zeros, cost = 1 per click.
+Good heuristic: (h(s)=\Iceil (#\text{ON})/5\rceil) admissible and consistent.
+Algorithm: A* with that heuristic (or BFS / IDA*). But for Lights-Out the best exact
+method is solve linear system over GF(2) (gives solution or proves unsolvable).
+Concrete conclusion for the image: the example initial state in your figure (ON at (1,1).
+and (3,4)) is unsolvable no click sequence will make the board all OFF. So search
+would fail for this instance, and the linear algebra check is the robust way to detect that.
+If you want, I can:
+show the small Python code I used to verify the initial pattern and the linear-algebra
+check, or
+give the A* / BFS pseudocode with a short trace of the first few expansions for this.
+instance, or.
+produce a short note showing the Gaussian-elimination steps (mod 2) that prove
+inconsistency for your pictured initial state. Which would help you more?.
+Q2:
+Nice -- let's solve this cleanly, step-by-step. I'll treat the small two-layer network in the sketch.
+derive the gradients, explain backprop (chain rule), and then do one epoch of batch gradient
+descent with a concrete initial parameter choice and learning rate..
+Network & notation.
+From the diagram (identity activations) the network computes, for input (x):.
+first layer pre-activation: (a_1 = w_1 x + b_1)
+hidden output (identity): (z_1 = \sigma(a_1)=a_1)
+second layer pre-activation / output: (a_2 = w_2 z_1 + b_2)
+network output: (\hat y = f_{NN}(x) = a_2)
+So overall:
+f_{NN}(x)=w_2(w_1 x+b_1)+b_2.
+Parameters: (\Theta={w_1,w_2,b_1,b_2})
+Training set: ({(x^i,y^i)}_{i=1}^3 ={(1,1),(2,2),(3,2)})
+Loss (sum of squared errors):.
+L(\Theta)=\sum(y^i - f_{NN}(x^i))^2
+(I) Derivatives of the Ioss w.r.t. parameters
+Consider a single example ((x,y)). Define the prediction (\hat y = f_{NN}(x)). The single-example
+loss:
+\ell = (y-\hat y)^2.
+Derivative wrt prediction:
+\frac{\partial \ell}{\partial \hat y} = -2 (y-\hat y)
+Now use (\hat y = a_2 = w_2 z_1 + b_2) with (z_1 = a_1 = w_1 x + b_1). Compute the partial
+derivatives:
+(\displaystyle \frac{\partial \hat y}{\partial w_2} = z_1 = w_1 x + b_1.)
+(\displaystyle \frac{\partial \hat y}{\partial w_1} = w_2, x.) (because (\hat y = w_2 (w_1 x
++b_1)+b_2))
+(\displaystyle \frac{\partial \hat y}{\partial b_1} = w_2.)
+(\displaystyle \frac{\partial \hat y}{\partial b_2} = 1.)
+By chain rule (single example):
+\frac{\partial \ell}{\partial w_2} = \frac{\partial \ell}{\partial \hat y}\cdot\frac{\partial \hat y}{\partial
+w_2}
+= -2(y-\hat y),(w_1 x + b_1).
+\frac{\partial \ell}{\partial w_1} = -2(y-\hat y),(w_2 x).
+\frac{\partial \ell}{\partial b_1} = -2(y-\hat y),w_2,\qquad
+\frac{\partial \ell}{\partial b_2} = -2(y-\hat y).
+For the full loss (L=\sum_i \ell_i), sum the per-example gradients:
+\frac{\partial L}{\partial \theta}=\sum_{i=1}^3 \frac{\partial \ell_i}{\partial \theta}
+\quad\text{for each }\theta\in{w_1,w_2,b_1,b_2}
+(II) Chain rule / Backpropagation explanation (conceptual)
+Backprop is just application of the chain rule over the computational graph:
+Forward pass for one example:
+1. (a_1=w_1x+b_1)
+2. (z_1 = \sigma(a_1) = a_1) (identity)
+3. (a 2=w 2z1+b 2)
+4. (\hat y = a_2), (\ell=(y-\hat y)^2).
+Backward pass:
+1. Compute output error signal: (Adelta_2 \equiv \partial \ell/partial a_2 = -2(y-hat y))
+(Because (\hat y=a_2).)
+2. Gradients at top layer:
+o(\partial \ell/partial w_2 = \delta_2 \cdot z_1)
+o(Apartial \ell/partial b_2 = \delta_2)
+3. Propagate to hidden pre-activation:
+o (\delta_1 \equiv \partial \ellApartial a_1 = \delta_2 \cdot \frac{\partial a_2}\partial
+z_1}\cdot\frac{\partial z_1}{\partial a_1}).
+Here (\partial a 2Apartial z 1 = w 2) and (\partial z 1/partial a 1 = 1) (identity)
+so (ldelta_1 = \delta_2, w_2)
+4. Gradients for first layer:
+o(\partial \ell/partial w_1 = \delta_1 \cdot x = \delta_2, w_2, x).
+o(\partial \ell/partial b_1 = \delta_1 = \delta_2, w_2)
+This matches the formulas in (l). That is the backprop recipe: compute forward activations,
+to get parameter gradients..
+(Ill) One epoch of (batch) gradient descent - numeric.
+example
+Choose an initial parameter vector (you said "of your choice") - I pick the simple initialization:.
+w_1=1,\quad w_2=1,\quad b_1=0,\quad b_2=0
+Compute forward predictions and gradients (batch = sum over all 3 examples). I'll use a small
+learning rate (\eta=0.01)..
+Step A - initial predictions & Ioss.
+For these initial params:.
+(x=1:1 \hat y=1) (matches (y=1))
+(x=2:1 \hat y=2) (matches (y=2))
+(x=3:1 \hat y=3) (but (y=2), error -1)
+Total initial loss:
+L_{\text{init} = (1-1)^2 + (2-2)^2 + (2-3)^2 = 0 + 0 + 1 = 1.
+Step B - compute batch gradients
+Compute per-example (ldelta_2 = -2(y-\hat y)):
+:for (1,1): (y-\hat y=0 \Rightarrow \delta_2=0) -> no contribution
+:for (2,2): (y-\hat y=0 \Rightarrow \delta_2=0) > no contribution
+for (3,2): (y-\hat y = 2-3 = -1 \Rightarrow \delta_2 = -2(-1)=2)
+So only the third example contributes. Using the formulas from (I):.
+Gradients (sum over i):
+\frac{\partial L}{\partial w_2}= \sum_i\delta_{2}^{(i)}(w_1 x^{{i)}+b_1) = 2\cdot(1\cdot 3 + O) = 6
+\frac{\partial L}{\partial w_1}= \sum_i \delta_{2}^{(i)}(w_2 x^{(i)}) = 2\cdot(1\cdot 3)=6
+\frac{\partial L}{\partial b_1}= \sum_i \delta_{2}^{(i)} w_2 = 2\cdot 1 = 2,\qquad
+\frac{\partial L}{\partial b_2}= Isum_i \delta_{2}^{(i)} \cdot 1 = 2.
+So batch gradient vector: ((;6,;6,;2,;2;)) corresponding to ((w_1,w_2,b_1,b_2))
+Step C - gradient descent update (learning rate (\eta=0.01))
+\theta \leftarrow \theta - leta Anabla_Atheta
+Numerically:
+(w_1 \leftarrow 1 - 0.01\cdot 6 = 0.94)
+o(w_2\leftarrow 1 - 0.01\cdot 6 = 0.94)
+(b_1 \leftarrow 0 - 0.01\cdot 2 = -0.02)
+(b 2 \leftarrow 0 - 0.01\cdot 2 = -0.02)
+Step D - new loss (after the single epoch update)
+Compute new predictions and loss:
+(x=1:\ \hat y = 0.94(0.94\cdot1 -0.02)-0.02 \approx 0.8448) -> error (1-0.8448=0.1552) -)
+sq (=0.0241)
+So the single batch-gradient step with (\eta=0.01) reduced the training loss
+Summary (compact)
+Analytic gradients (per example).
+(\displaystyle \frac{\partial \ell}{\partial w_2}=-2(y-\hat y)(w_1 x + b_1),\qquad
+\frac{\partial \ell}{\partial w_1}=-2(y-\hat y)(w_2 x),)
+(\displaystyle \frac{\partial \ell}{\partial b_1}=-2(y-\hat y)w_2,\qquad
+\frac{\partial \ell}{\partial b_2}=-2(y-\hat y).)
+Backprop view: compute (Idelta_2=-2(y-\hat y)), then top gradients = (\delta_2\cdot
+z_1, Adelta_2), and propagate (\delta_1=\delta_2 w_2) to compute first-layer gradients..
+One epoch example: start ((w_1,w_2,b_1,b_2)=(1,1,0,0)), (\eta=0.01) -> new params =
+((0.94,0.94,-0.02,-0.02)), loss decreased (1 \to 0.4724).
+If you'd like I can:
+show the same update but using stochastic (per-example) gradient descent (i.e.,.
+update after each example); or.
+run a few more epochs and show convergence plots; or
+provide the symbolic gradient steps formatted for a write-up (LaTeX). Which would you.
+prefer?
+Q3:
+Nice -- let's solve Q.4 step-by-step. I first read the HMM from the image and restate the model
+clearly, then compute:.
+Model (= {r, A, B})
+States: H (High) and L (Low)..
+Initial distribution: n(H) = 0.5, (L) = 0.5
+Transition matrix A:
+o A(H->H)=0.5,A(H>L)=0.5
+oA(LL)=0.6,A(L->H)=0.4
+Emission probabilities B (for symbols A, C, T, G):.
+oB(H): P(AIH)=0.2, P(CIH)=0.3, P(T(H)=0.3, P(GIH)=0.2
+o B(L): P(AIL)=0.3, P(CIL)=0.2, P(TIL)=0.2, P(GIL)=0.3
+Observed sequence: (O = {G, G, C, A}) (length T=4)
+(i) (P(O \mid \lambda)) - Forward algorithm
+Compute a (forward probabilities):
+t = 1 (O = G)
+ai(H) = (H)B(H,G) = 0.50.2 = 0.100000
+ai(L) = t(L)B(L,G) = 0.50.3 = 0.150000
+t = 2 (O = G)
+a2(H) = [ai(H)A(H>H) + ai(L)A(L>H)]: B(H,G)
+= [0.1-0.5 + 0.15-0.4]-0.2 = [0.05 + 0.06]-0.2 = 0.11-0.2 = 0.022000
+a2(L)= [ai(H)A(H>L)+ai(L)A(L>L)]B(L,G)
+= [0.1:0.5 + 0.15-0.6]0.3 = [0.05 + 0.09]-0.3 = 0.14:0.3 = 0.042000
+t = 3 (O = C)
+a3(H) = [a2(H)0.5 + a2(L)0.4]: B(H,C)
+= [0.022.0.5 + 0.042-0.4]-0.3 = [0.011 + 0.0168]-0.3 = 0.02780.3 = 0.008340
+a3(L) = [a2(H):0.5 + a2(L):0.6]: B(L,C)
+= [0.0220.5 + 0.042:0.6]0.2 = [0.011 + 0.0252]:0.2 = 0.0362-0.2 = 0.007240
+t = 4 (Os = A)
+a4(H) = [a3(H)0.5 + a3(L)0.4]: B(H,A)
+= [0.00834-0.5 + 0.00724:0.4]:0.2 = [0.00417 + 0.002896] 0.2 = 0.0070660.2 =
+0.0014132
+a4(L) = [a3(H)0.5 + a3(L)0.6]: B(L,A)
+0.0025542
+Finally:
+P(O\mid\lambda) = \sum_{s\in{H,L} \alpha_T(s) = 0.0014132 + 0.0025542 =
+\mathbf{0.0039674}
+(= 3.967410-3)
+(ii) "Most likely state sequence in HMM sense".
+Interpreting this as: for each time t, which state has the largest posterior marginal (
+\gamma_t(s) = P(q_t = s \mid O)). Use forward-backward:
+Compute backward quickly (values shown here):
+i(H)=0.01553, Bi(L)=0.016096
+(H)=0.06350, (L)=0.06120
+B(H)=0.25, (L)=0.26
+4(H)=4(L)=1.0
+Posterior marginals y(s) = a(s)t(s) / P(O)
+The computed y values (rounded):
+ot=1: yi(H) ~ 0.3914, y(L) ~ 0.6086 -> L is more probable
+t=2: y2(H) ~ 0.3521, y2(L) = 0.6479 > L
+t=3: y3(H) ~ 0.5255, ys(L) ~ 0.4745 > H.
+t=4: y4(H) ~ 0.3562, y4(L) ~ 0.6438 > L
+So the most likely state at each time (by marginal posterior) is:
+\boxed{\text{(by marginals)}; L,; L,; H,; L.}
+(That is, choose at each t the state with highest (P(q_t\mid O)).)
+(ill) Most likely state sequence in Viterbi (path) sense
+Viterbi finds the single state sequence (Q^* = \arg\max_{Q} P(Q,,,O)) (global maximum)
+Running Viterbi gives:.
+Viterbi best path = L, L, L, L (all L)
+The Viterbi path differs from the sequence of marginal modes (as expected) - Viterbi
+maximizes joint probability of entire path, marginals maximize per-time posterior.
+Summary 7 final answers
+1.(P(O \mid \lambda) =\mathbf{0.0039674}) (~ 3.967x10-3)
+2. Most likely state at each time by posterior marginals: L, L, H, L.
+3. Most likely state sequence (Viterbi): L, L, L, L
+If you want, I can show the small forward / backward / Viterbi tables in neat form (with each
+intermediate a,, 6 values), or attach a short Python snippet that computes these numbers so
+you can reproduce them. Which would help you more?
+Q5:
+Nice -- I worked through the sheet and wrote a complete solution you can use to get the
+numerical answers once you plug in the dataset counts. I'llI:
+BIDMC Respiration Signal
+1.0
+0.8
+0.4
+0.2
+100
+200
+300
+400
+500
+Time (s)
+3.4 Advantages in This Application.
+Random Forest is particularly suitable for embedded respiratory analysis because:
+It can classify complex breathing patterns based on simple threshold-like rules.
+It handles variability in amplitude and rate effectively..
+It performs well even when signals are moderately noisy.
+4. Unsupervised Learning Approach.
+4.1 Model Used: K-Means Clustering
+For unsupervised analysis, the K-Means clustering algorithm was used.
+K-Means groups data points into clusters based on feature similarity without using predefined
+labels.
+4.2 Methodology
+The following steps were used:.
+1. The respiratory signal was filtered.
+2. Window-based feature extraction was performed..
+3. Features were standardized.
+4. K-Means clustering was applied with three clusters.
+5. Clusters were interpreted by analyzing mean peak-to-peak amplitude.
+1. give the factorisations for the two undirected models and list their maximal cliques /
+factor functions,.
+2. show the ML / training formulas (how to set the BN CPTs and how to set the UGM clique
+potentials from the data), and
+model and the two UGMs).
+1) The directed model (given in the top of
+the page)
+Structure: (X_1 \rightarrow X_3 \leftarrow X_2) with (_1) and (X_2) independent roots..
+Factorization:
+P(x_1,x_2,x_3)=P(x_1),P(x_2),P(x_3\mid x_1,x_2)
+Parameters shown on the sheet:
+\theta={a,b,c_1,c_2,c_3,c_4}
+where
+o(P(X_1=1)=a), so (P(X_1=0)=1-a)
+(P(X_2=1)=b),so(P(X_2=0)=1-b)
+(P(X_3=1\mid X_1=x_1,X_2=x_2)=c_{k}) with the mapping
+((x_1,x_2)=(0,0)\mapsto c_1,\ (0,1)\mapsto c_2,\(1,0)\mapsto c_3,\ (1,1)\mapsto c_4).
+Hence (P(X_3=0\mid x_1,x_2)=1-c_k) for the corresponding (k).
+MLE (from data D with N samples):
+Let (N(\cdot)) denote counts in the dataset.
+{N}{(l=Z~X)N}eJJ\=q1ey\penbb\{N}{(l=l~X)N}5eJ\=e1ey\
+\hat c_1=\frac{N(X_3=1,;X_1=0,X_2=O)}{N(X_1=0,X_2=0)},;;
+\hat c_2=\frac{N(X_3=1,;X_1=0,X_2=1)}{N(X_1=0,X_2=1)},;\text{etc.}
+Using these MLEs we can compute any directed-model joint/conditional probability..
+A useful example (already hinted on the sheet):
+P(X_1=0,X_2=0,X_3=0)_{\text{BN}
+=(1-\hat a),(1-\hat b),(1-\hat c_1).
+2) The two undirected graphical models
+(UGMs)
+Both UGMs share the (X_1!-!X_2) edge; they differ where (X_3) attaches
+UGM A (edges ({1!-!2},{2!-!3})) cliques: ({X_1,X_2}) and ({X_2,X_3})
+Factorization (pairwise MRF form):
+P(x_1,x_2,x_3)=\frac{1}{Z};\psi_{12}(x_1,x_2);\psi_{23}(x_2,x_3)
+maximal cliques: ({1,2},{2,3})
+UGM B (edges ({1!-!2},{1!!3})) cliques: ({X_1,X_2}) and ({X_1,X_3})
+Factorization:
+P(x_1,x_2,x_3)=\frac{1}{Z'};\psi_{12}(x_1,x_2);\psi_{13}(x_1,x_3)
+maximal cliques: ({1,2},{1,3})
+How to "train" these UGMs (maximum likelihood for pairwise factors):
+A standard maximum-likelihood / moment-matching choice (and the usual empirical estimator)
+Concretely, if you use normalized empirical marginals (p_{12}(x_1,x_2)=N(x_1,x_2)/N) and
+(p_{23}(x_2,x_3)=N(x_2,x_3)/N) then you can take
+For UGM A:
+\psi_{12}(x_1,x_2)=p_{12}(x_1,x 2),\qquad
+\psi_{23}(x_2,x_3)=p_{23}(x_2,x_3)
+and normalization constant
+(Z=\sum_{x_1,x_2,x_3}\psi_{12}(x_1,x_2)\psi_{23}(x_2,x_3))
+the same family up to the partition function.)
+For UGM B:
+\psi_{12}(x_1,x_2)=p_{12}(x_1,x_2),\qquad
+\psi_{13}(x_1,x_3)=p_{13}(x_1,x_3),
+with (Z'=\sum_{x_1,x_2,x_3}\psi_{12}(x_1,x_2)\psi_{13}(x_1,x_3))
+So the trained potentials are just the empirical 2-way marginals on the cliques, and the only.
+remaining piece is the partition function (Z) or (Z') that makes the global distribution sum to one
+3) The two queries (for all three learned.
+models)
+Let the dataset size be (N). Let empirical probabilities/marginals be.
+p_1(x_1)=\frac{N(X_1=x_1)}{N},\quad
+p_2(x_2)=\frac{N(X_2=x_2)}{N},\quad
+p_{12}(x_1,x_2)=\frac{N(X_1=x_1,X_2=x_2)}{N},
+p_{13}(x_1,x_3)=\frac{N(X_1=x_1,X_3=x_3)}{N},\quad
+p_{23}(x_2,x_3)=\frac{N(X_2=x_2,X_3=x_3)}{N}
+(a) (P(X 1=0,X 2=0,X 3=0))
+Directed model (BN):
+P_{BN}(0,0,0)=(1-\hat a),(1-\hat b),(1-\hat c_1),
+where (\hat a=;p_1(1),1\hat b=p_2(1),1\hat c_1=\frac{N(0,0,1)}{N(0,0)}) (see MLEs
+above).
+UGm A (cliques{1,2},{2,3}):
+P_{A}(O,0,0)=\frac{1}{Z};\psi_{12}(0,0),\psi_{23}(0,0)
+=\frac{1}{Z};p.{12}(O,0),p.{23}(O,0)
+instead of normalized marginals, replace (p) by (N(\cdot)) and compute the analogous
+(Z).)
+UGM B (cliques{1,2},{1,3}):
+P_{B}(0,0,0)=\frac{1}{Z'};\psi_{12}(0,0),\psi_{13}(O,O)
+=\frac{1}{Z};p_{12}(0,O),p_{13}(0,0),
+((E x'l x){El} d(Z x'l x){Zl} d{E x'Z x'l x} wns\=Z) ya!M
+(b) (P(X_1=0,X_2=0\mid X_3=0))
+Compute as joint over marginal (X_3=0).
+Directed model:
+P {BN}(X 1=0,X 2=0\mid X 3=0)=
+\frac{(1-\hat a)(1-\hat b)(1-\hat c_1)}
+{\sum {x 1,x 2}(P(x_1)P(x_2)P(X_3{=}0\midx_1,x_2))}
+Denominator is (\sum_{x_1,x_2} P(x_1)P(x_2)(1-c_{k(x_1,x_2)}))
+P_A(X 1=0,X 2=0\mid X 3=0)
+=\frac{p_{12}(0,0),p_{23}(0,0)}
+{\sum_{x_1,x_2} p_{12}(x_1,x_2),p_{23}(x_2,0)};z
+because (P_A(\cdot)=\frac{1}{Z}p_{12}(\cdot)p_{23}(\cdot)) and the (1/Z) cancels in the
+conditional.
+P_B(X_1=0,X 2=0\mid X_3=0)
+=\frac{p_{12}(0,0),p_{13}(0,0)}
+{\sum_{x_1,x_2}p_{12}(x_1,x_2),p_{13}(x_1,O)}
+How to get numeric answers
+1. From your dataset count the 8 joint counts (N(x_1,x_2,x_3)) or at least the 2-way counts
+(N(x_1,x_2),N(x_1,x_3),N(x_2,x_3)) and the marginals (N(X_1=1),N(X_2=1))
+2. Compute the empirical marginals (p_{12},p_{13},p_{23}) (divide counts by (N))
+3. Compute the BN MLEs (\hat a,\hat b,\hat c 1,\dots,\hat c 4) from the counts as written
+above.
+4. Plug into the closed-form expressions above to get the numeric probabilities
+If you want, I can:
+read the little handwritten data-table in your photo and compute the numeric probabilities.
+for all three models (I'll extract the counts and show the numbers), or
+if you prefer, you can paste the 8 joint counts here and I will compute each requested.
+probability numerically and show intermediate steps
+Which would you like me to do? (I can also just go ahead and parse the image for you and.
+compute say "parse and compute" and I'll do it right away.)
+Q:
+Great -- I parsed the roster and solved (a)-(e). I'll show the model parameters, compute the.
+requested joint / likelihood numbers, run forward and Viterbi (with the trellises) and answer who
+most likely handled the briefcase.
+Read-off from the roster (interpretation)
+Hidden states: Tick and Tock
+Observations: Backpack, Briefcase, Bag (in that order).
+From the table we take:.
+Initial state (how often open the door):.
+Tick works 3 days/week, Tock 4 days/week so
+\pi = [;P(\text{Tick})=3/7,;P(\text{Tock})=4/7;]
+"Ask for change in hand" = handover (switch to the other). Tick asks 60% -> Tick->Tock
+= 0.6 (so Tick stays with prob 0.4)..
+Tock asks 40% > Tock->Tick = 0.4 (so Tock stays 0.6)
+So (rows = from Tick, Tock; cols = to Tick, Tock)
+A=\begin{bmatrix}0.4 & 0.6[4pt]0.4 & 0.6\end{bmatrix}
+Emission probabilities (if asked to pick 100 items): (Backpack, Briefcase, Bag).
+oTick: ([0.4,;0.4,;0.2])
+oTock: ([0.3,;0.3,;0.4])
+Call these (b_{\text{Tick}}(o), b_{\text{Tock}}(o))
+(a) Model summary
+\pi=[3/7,;4/7],
+\qquad
+A=\begin{bmatrix}0.4&0.6\0.4&0.6\end{bmatrix}
+\qquad
+B=\begin{array}{cIccc}
+&\text{Backpack} & \text{Briefcase} & \text{Bag}\hline
+\text{Tick} & 0.4 & 0.4 & 0.2\
+\text{Tock} & 0.3 & 0.3 & 0.4
+\end{array}e
+(b) Joint probability
+Compute
+P(\text{Tick},\text{Tock},\text{Tick},; \text{Backpack},\text{Briefcase},\text{Bag}
+\pi_{\text{Tick}};b_{\text{Tick}}(\text{Backpack});a_{\text{Tick}\to\text{Tock};b_{\text{Tock}}(\text{
+Briefcase});a_{\text{Tock}\to\text{Tick}};b_{\text{Tick}}(\text{Bag})
+Plug numbers:
+P = \frac{3}{7}\times 0.4\times 0.6\times 0.3\times 0.4\times 0.2 \approx 0.0024685714
+(c) Likelihood by the forward algorithm - trellis (a values)
+Step 1 (t=1)
+(\alpha_1(\text{Tick})=\pi_{\text{Tick}}b_{\text{Tick}(\text{Backpack})=(3/7)\cdot0.4=0.17142857
+14)
+(\alpha_1(\text{Tock})=(4/7)\cdot0.3=0.1714285714)
+Step 2 (t=2)
+(\displaystyle\alpha_2(j)=b_j(o_2)\sum_i \alpha_1(i)a_{i\to j})
+(\alpha_2(\text{Tick})=0.4\cdot[0.17142857\cdot0.4 + 0.17142857\cdot0.4]=0.054857142857)
+(\alpha_2(\text{Tock})=0.3\cdot[0.17142857\cdot0.6 + 0.17142857\cdot0.6]=0.061714285714)
+Step 3 (t=3)
+(\alpha_3(\text{Tick})=0.2\cdot[0.05485714\cdot0.4 + 0.06171429\cdot0.4]=0.0093257142857)
+(\alpha_3(\text{Tock})=0.4\cdot[0.05485714\cdot0.6 + 0.06171429\cdot0.6]=0.0279771428571)
+Total likelihood
+P(\text{Backpack, Briefcase, Bag}\mid\text{Model})
+=\alpha_3(\text{Tick})+\alpha_3(\text{Tock}) \approx 0.0373028571429.
+(So the forward trellis values are given above; the likelihood ~ 0.03730286.).
+(d) Viterbi (most likely state sequence) - trellis with backpointers.
+Viterbi & recursion (max instead of sum). I'll list & and backpointers y
+t=1
+(\delta_1(\text{Tick})=0.1714285714,\\delta_1(\text{Tock})=0.1714285714) (same as a1).
+t=2 (choose max predecessor)
+8(_2)(Tick) = 0.4 * max{6i(Tick)*0.4, 6i(Tock)0.4} = 0.4 * (0.171428570.4) =
+0.02742857143; backpointer 2(Tick)=Tick
+6(_2)(Tock) = 0.3 * max{:(Tick)*0.6, 0i(Tock)0.6} = 0.3 * (0.171428570.6) =
+0.030857142857; y2(Tock)=Tick
+t=3
+(_3)(Tick) = 0.2 * max{2(Tick)*0.4, 2(Tock)0.4} = 0.2 * (0.0308571428570.4) =
+0.0024685714286; ys(Tick)=Tock
+0.0074057142857; ys(Tock)=Tock
+Maximum final is for Tock at t=3 (0.0074057). Backtracking:
+t3=Tock
+t1 = y2(Tock) = Tick
+So the Viterbi most likely state sequence is:.
+(\text{Tick},; \text{Tock},; \text{Tock})..
+The joint probability (P(\text{best states},\text{obs})=\delta_3(\text{Tock})\approx
+0.0074057143).
+(e) Who handled Mr. Gauss's briefcase?.
+The briefcase is the second observation (t=2)
+Viterbi result says the state at t=2 is Tock
+If we look at posterior marginal for t=2 (forward--backward smoothing):.
+P(\text{Tick}\mid O)=0.470588,\qquad P(\text{Tock}\mid O)=0.529412,
+so the posterior also slightly favors Tock at time 2.
+Conclusion: according to HMM decoding (both Viterbi and posterior), Tock most likely handled.
+Mr. Gauss's briefcase.
+If you want, I can:
+. draw the trellis diagram visually and annotate the backpointers, or
+show the arithmetic as fractions instead of decimals, or.
+re-run with different interpretations of the "change in hand" probability (if you intended.
+that row to mean something else).
+Q:
+(a) Heuristic - proposal and properties
+Proposed heuristic. Let each node (n) have planar grid coordinates ((x_n,y_n)) measured in
+grid units (the dashed grid in the figure). Since each grid unit = 10 km, define.
+h(n);=; 10\cdot\sqrt{(x_n-x_G)^2+(y_n-y_G)^2}\quad\text{(km)}
+where ((x_G,y_G)) are the coordinates of the goal node (G).
+Why this is admissible. Any real path from (n) to (G) must physically cover at least the
+straight-line distance between (n) and (G). Therefore the true shortest-path cost (h^(n)) satisfies
+(h^(n)\ge) straight-line distance. So (h(n)\le h^*(n)) for every (n) i.e. (h) never overestimates
+and is admissible.
+Why this is consistent (monotone). For any edge ((u,v)) with actual edge cost (c(u,v) (the
+distance to travel from (u) to ()), the Euclidean distances obey the triangle inequality:
+\text{dist}(u,G) \le \text{dist}(u,v) + \text{dist}(v,G)
+Multiplying by 10 (km per unit) gives
+h(u) \Ie c(u,v) + h(v)
+provided (c(u,v)) is at least the straight-line distance between (u) and (v) (which holds if edge
+costs represent geometric path lengths). Thus (h) is consistent.
+(If an edge cost were defined in some non-geometric way and could be smaller than the.
+straight-line distance, the admissibility/consistency argument would need the corresponding
+check; for the usual planar-graph edge-length interpretation the Euclidean heuristic is both.
+admissible and consistent.)
+(b) Will A* with this heuristic find an
+optimal path from S to G?
+Yes. Because the heuristic is admissible and consistent, A* is guaranteed to return an optimal
+are nondecreasing so nodes are never needlessly reopened, and the first time A* pops the goal
+from the open set it has found an optimal path.
+(If you want, I can also compute the numeric Euclidean heuristic values for each node from their.
+grid coordinates and run a shortest-path/A* trace on the specific diagram to show the exact.
+sequence of node expansions and the optimal path found.)
+Good - I'll answer all four numbered problems on the sheet one-by-one and show the
+reasoning so you can follow / reproduce it.
+1) n vehicles on an nxn grid, with n=4 - size of state
+space
+4.3 Interpretation of Clusters.
+Clusters were sorted based on amplitude characteristics:.
+Lowest amplitude cluster -> Shallow breathing
+Medium amplitude cluster -> Normal breathing
+Highest amplitude cluster -> Deep breathing
+This demonstrates that breathing patterns naturally form separable groups in feature space.
+Breathing Pattern Classificatione
+1.58
+Shallow
+Normal
+1.56
+Deep
+1.54
+1.52
+1.50
+volta
+1.48
+1.46
+1.44
+10
+15
+20
+25
+Time (s)
+4.4 Advantages of Unsupervised Learning.
+Does not require labeled data..
+Useful for discovering unknown breathing states..
+Helps validate the separability of extracted features..
+Useful for anomaly detection in real-time systems..
+There are (n^{2}) squares in the grid. For (n=4) there are (16) squares total. Vehicles are
+Iabelled (distinct): vehicle 1, 2, 3, 4. A legal configuration is any choice of 4 distinct squares with
+one labelled vehicle occupying each square. The number of such labelled placements is the
+number of ordered 4-tuples of distinct squares, i.e. the permutation
+{}^{16}P_{4}=16\times 15\times 14\times 13 = 43,680
+So the size of the state space (for (n=4)) is (\boxed{43{,}680}).
+(If vehicles were unlabelled you would use (\binom{16}{4}=1820) instead, but the usual
+interpretation in motion-planning is that vehicles are distinguishable.)
+2) Analytic Hierarchy Process (AHP) - explanation +
+short example (elective selection)
+AHP working (high level).
+1. Define goal, criteria, alternatives.
+o Goal: choose the best elective.
+Criteria (as you listed): Interest, Alignment with job prospects, Chances of better.
+grade, Course Instructor, Course Load.
+oAlternatives: e.g. Course X, Course Y, Course Z.
+2. Build pairwise comparison matrices.
+o For the criteria: compare criteria two-at-a-time using Saaty's 1-9 scale (1 = equal
+importance, 3 = weakly more important, 5 = strongly more important, etc.). This.
+yields a (5\times5) matrix (A) with (A_{ij}) = importance of criterion (i) over (j), and.
+(A{ji}=1/A{ij})
+o For each criterion, form a pairwise comparison matrix for the alternatives (how.
+much more does alternative i satisfy the criterion than j).
+3. Extract weights from each pairwise matrix.
+normalized column / geometric mean approximation - this yields normalized.
+weights (priority vector) for criteria and for alternatives under each criterion.
+4. Aggregate (synthesize) scores.
+o Multiply alternative scores under each criterion by the criterion weight and sum to
+get each alternative's global score.
+5. Consistency check..
+o Compute Consistency Index (Cl) and Consistency Ratio (CR) for each pairwise
+matrix; if CR is too large (often > 0.10) you should revise judgments.
+Short numerical example (illustrative, not exhaustive)
+Suppose after pairwise comparison we obtain criterion weights (example numbers):
+oInterest: 0.35
+oAlignment with job prospects: 0.25
+Chances of better grade: 0.20
+Course Instructor: 0.12
+o Course Load: 0.08 (these sum to 1)
+For 3 alternatives (, Y, Z) suppose the alternative scores under each criterion (after
+normalizing pairwise matrices) are:
+Alternative
+Interest Alignment Grade
+Instructor
+Load
+0.70
+0.40
+0.30
+0.60
+0.50
+0.20
+0.35
+0.50
+0.30
+0.10
+0.25
+0.20
+0.10
+0.20
+Aggregate global score (example) for X:
+0.35(0.70)+0.25(0.40)+0.20(0.30)+0.12(0.60)+0.08(0.50)=0.245+0.100+0.060+0.072+0
+040=0.517.
+Do the same for Y,Z and rank the alternatives by total score.
+Remarks: AHP gives a clear structured way to include subjective judgments, produces a.
+ranked list and exposes inconsistent judgments via the CR so you can revise the pairwise
+numbers.
+3) DAGs, I-submap and I-equivalence (three-node.
+examples)
+Key rule (graphical): Two DAGs over the same variables are I-equivalent iff they have the
+same skeleton (same undirected edges) and the same set of v-structures (colliders (X\tc
+Z\leftarrow Y) where (X) and (Y) are not connected).
+For three nodes (A,B,C) with the same skeleton (edges (A!-!B) and (B!-!C), i.e. a chain), there.
+are four possible orientations:
+1. (A\to B\to C) (chain)
+2.(A\leftarrow B\rightarrow C) (fork: (B)>both)
+3.(A\leftarrow B\leftarrow C) (chain reversed)
+4.(A\to B\leftarrow C) (collider / v-structure at (B))
+Which are I-equivalent?
+The three DAGs (1), (2), (3) do not contain a collider (X\to B\leftarrow Y); they share the
+same skeleton and have no v-structure. Hence they are I-equivalent to each other.
+The DAG (4) has a v-structure at (B) and thus belongs to a different Markov.
+equivalence class. It is not I-equivalent to the other three.
+Answer: the three DAGs without the collider are I-equivalent; the one that is a collider (the
+v-structure) is not.
+4) Bayesian network question (A, B, C, D, E) with.
+cardinals 6,5,4,3,2
+Given: the variables have cardinalities.
+JAI=6,; BI=5,; IC]=4,; ID]=3,; EI=2
+The Bayesian network shown has structure (reading the diagram):
+(A) is parent of (B) and of (C).
+(B) and (C) are parents of (D).
+.(D) is parent of (E).
+So the factorization is
+P(A,B,C,D,E)=P(A);P(B\mid A);P(C\mid A);P(D\mid B,C);P(E\mid D)
+[A] Size of full joint probability table (P(A,B,C,D,E))
+Number of joint entries = product of cardinalities:.
+6\times 5\times 4\times 3\times 2 = 720.
+So the full joint table has (\boxed{720}) entries..
+[B] Expression for joint probability (already above) and CPT sizes
+Factorization:
+P(A,B,C,D,E)=P(A);P(B\mid A);P(C\mid A);P(D\mid B,C);P(E\mid D)
+Sizes (number of entries) of the CPTs (each table lists a conditional distribution for the child
+values for each parent configuration):
+.(P(A)): (IAI = 6) entries.
+:(P(B\mid A)): (IBI\timesIAI = 5\times 6 = 30) entries.
+(P(C\mid A)): (ICI\timesIA) = 4\times 6 = 24) entries.
+(P(D\mid B,C)): ([D)\timesIB)\timesIC] = 3\times 5\times 4 = 60) entries.
+(P(E\mid D)): (IE)\timesID] = 2\times 3 = 6) entries.
+Total CPT entries (=6+30+24+60+6=126). (So the BN parametrization needs 126 numbers
+instead of 720.)
+[C] Check the conditional independence relations (d-separation)
+We check the four listed relations (I'll use the network structure A>B, A->C, B->DC, D->E):
+1. (; B \perp C;?) (unconditional).
+oFalse. (B) and (C) share a common parent (A) (fork (A\to B, Alto C); marginally.
+they are dependent (unless there is special parameterization). So not.
+independent.
+2. (; B \perp C \mid A;?)
+o True. Given their common parent (A), (B) and (C) are independent (fork is
+blocked when conditioning on the parent)..
+3. (; B \perp C \mid D;?)
+o False. (D) is a collider (B\to D\leftarrow C). Conditioning on a collider (or its
+descendant) opens the path and makes (B) and (C) dependent.
+(explaining-away). So (B) and (C) are not independent given (D).
+4. (; B \perp E \mid D;?)
+o True. There is a chain (B\to D\to E). Conditioning on the middle node (D) blocks
+the path, so (B) and (E) are independent given (D). (Also check there are no
+other active paths once we condition on (D).).
+So for the four relationships: (1) false, (2) true, (3) false, (4) true.
+If you want, I can:.
+CS663/367 Artificial Intelligence
+Autumn 2024-25
+General Instructions for Labs
+Students enrolled in the course are expected to work on programming problems assigned for
+laboratories in groups. Groups once formed would remain fixed for the entire duration of the
+course. Evaluation of lab assignments should primarily be taken as a two-way feedback, both for
+the students and the instructor.
+A group can have a maximum of 4 students from the same section.
+Attending laboratory sessions is a must and absence during laboratory sessions without prior
+intimation to the course instructor (only genuine cases) will attract O credit for that particular
+session.
+Feel free to contact me or the TAs in case you have any query or confusion regarding
+submissions.
+Course Instructor:
+Pratik Shah.
+pratik@iiitvadodara.ac.in
+Course Teaching Assistants:
+Mamindla Sathvika.
+Snehal Nalwade
+Govind Garg
+Course GIT Repository: pratikiiitv/CS307
+Evaluation Policy
+Component 1: 60%
+A. Attendance and participation
+B. Each student group will be assigned a project definition under a teaching assistant
+(mentor).
+C. The groups will meet the respective mentors for project discussions. The students will be
+assessed during these interactions on weekly basis based on
+Quality of explanation and clarity of exposition and discussion
+ii.
+Quality of the code base
+iii.
+Resolution of queries/ questions raised by mentor during the session.
+Component 2: 25%
+Students are required to work in groups on laboratory problems. Each group is expected to
+submit a total of two reports containing the discussion on the solution to four-four problems
+each. One such report will be due just before the mid-semester examination and the other just
+before the end-semester examination.
+Report/ Term Paper Template: IEEE Transactions on Systems Man and Cybernetics: Systems in
+LaTeX
+format.
+https://drive.google.com/file/d/1sdEyE-9DxDNFbuR n3xJ0u0Og6aw9zKU/view?usp=sharing
+It is expected that you will write the report as if you are writing a tutorial to explain the problems.
+and the corresponding solutions.
+Component 3: 15%
+A project/ lab viva voce will be conducted immediately before/ after the mid/ end-semester.
+examination.
+Moral Code of Conduct
+Zero tolerance to plagiarism. If the report submitted by any group is found to have copied.
+extracts from any of the other submitted reports the group members will receive no credit for the
+entire report. In a report if some material is found to have been reproduced from some source
+without proper citation or reference, the report will attract zero credits..
+Week 1:
+Lab Assignment - 1
+Learning Objective: To be able to model a given problem in terms of state space search problem.
+and solve the same using BFS/ DFS
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)
+Chapter 1, 2, 3
+Problem Statement for In-lab Discussions.
+A. The missionaries and cannibals problem is usually stated as follows. Three missionaries
+and three cannibals are on one side of a river, along with a boat that can hold one or two
+people. Find a way to get everyone to the other side without ever leaving a group of.
+missionaries in one place outnumbered by the cannibals in that place. This problem is
+famous in AI because it was the subject of the first paper that approached.
+problem-formulation from an analytical viewpoint..
+Problem Statement for Submission:
+B. In the rabbit leap problem, three east-bound rabbits stand in a line blocked by three
+west-bound rabbits. They are crossing a stream with stones placed in the east west.
+direction in a line. There is one empty stone between them. The rabbits can only move
+forward one or two steps. They can jump over one rabbit if the need arises, but not more
+than that. Are they smart enough to cross each other without having to step into the.
+water?
+For the above two problems,
+1. Model the problem as a state space search problem. How large is the search space?
+2. Solve the problem using BFs. The optimal solution is the one with the fewest number of.
+steps. Is the solution that you have acquired an optimal one? The program should print.
+out the solution by listing a sequence of steps needed to reach the goal state from the
+initial state.
+3. Solve the problem using DFS. The program should print out the solution by listing a.
+4.
+Compare solutions found from BFS and DFS. Comment on solutions. Also compare the
+time and space complexities of both.
+Week 2:
+Lab Assignment - 2
+Learning Objective: To design a graph search agent and understand the use of a hash table, queue
+in state space search.e
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition)
+Chapter 2 and 3
+[2] A first course in Artificial Intelligence, Deepak Khemani
+Chapter 2
+Problem Statement for In-lab Discussion:.
+A. Write a pseudocode for a graph search agent. Represent the agent in the form of a flow.
+chart. Clearly mention all the implementation details with reasons.
+B. Write a collection of functions imitating the environment for Puzzle-8.
+C. Describe what is Iterative Deepening Search..
+D. Considering the cost associated with every move to be the same (uniform cost), write a
+function which can backtrack and produce the path taken to reach the goal state from the.
+source/ initial state..
+E. Generate Puzzle-8 instances with the goal state at depth "d".
+F. Prepare a table indicating the memory and time requirements to solve Puzzle-8 instances
+(depth "d") using your graph search agent..
+Problem Statement for Submission.
+Objective:
+The goal of this lab is to implement a plagiarism detection system using the A* search algorithm
+applied to text alignment. The system will identify similar or identical sequences of text between
+two documents by aligning their sentences or paragraphs and detecting potential plagiarism.
+References:
+[1] Russell, S. J., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. Prentice
+Hall.
+[2] Jurafsky, D., & Martin, J. H. (2020). Speech and Language Processing (3rd ed.). Draft
+chapters available online.
+5. Comparison Between Supervised and Unsupervised.
+Approaches
+Aspect
+Supervised (Random
+Unsupervised (K-Means)
+Forest)
+Requires Labels.
+Yes
+No
+Possible
+Accuracy Evaluation
+Not directly measurable
+High
+Moderate
+Interpretability
+Possible
+Detection of Unknown Patterns Limited
+Suitability for Deployment
+High
+Moderate
+Supervised learning provides precise classification when labeled data is available.
+Unsupervised learning is useful for exploratory analysis and cluster discovery..
+6. Limitations and Improvements
+1. Labeling in simulated data was rule-based, which may artificially inflate accuracy.
+2. Cross-validation can improve robustness.
+3. Additional features such as entropy, skewness, kurtosis, and spectral power could.
+enhance performance.
+4. Multi-scale window analysis could improve apnea detection.
+5. Testing on larger annotated clinical datasets would improve reliability..
+7. Conclusion.
+Background:
+Plagiarism detection involves comparing two documents to identify shared sequences of word.
+or phrases that might indicate copying. Text alignment is a common approach to this, where one
+text is aligned with another based on similarity measures. The A* search algorithm, a best-first
+search, can be applied to efficiently find the optimal alignment between two texts.
+Prerequisites:
+o Basic understanding of the A* search algorithm.
+o Knowledge of string matching algorithms and similarity measures (e.g., Levenshtein
+distance).
+o Python programming skills.
+A Search Overview:*
+A* search is a graph traversal algorithm that finds the shortest path from a start node to a goal
+node. It combines the strengths of Dijkstra's algorithm and greedy best-first search by using a
+heuristic to estimate the cost of reaching the goal. The A* algorithm uses the following cost.
+function: f(n)=g(n)+h(n)
+Where:
+g(n) is the cost of the path from the start node to node n.
+o h(n) is the estimated cost from node nn to the goal (heuristic function).
+Problem Definition.
+Given two text documents, the task is to align their sentences and detect plagiarism using A*
+search. The alignment should minimize the edit distance (or maximize similarity) between
+corresponding sentences.
+Approach:
+1. State Representation:
+a. Each state represents a partial alignment between the sentences of the two
+documents.
+b. A state includes the current position in both documents and the accumulated cos1.
+(edit distance)..
+2. Initial State:
+a. The initial state corresponds to the start of both documents (i.e., first sentence of.
+each document).
+3. Goal State:
+a. The goal state is reached when all sentences in both documents are aligned.
+4. Transition Function:
+a. Possible transitions include aligning the current sentences, skipping a sentence in
+one document, or skipping sentences in both.
+5. Cost Function (g(n)):
+a. The cost is the edit distance between the aligned sentences so far.
+6. Heuristic Function (h(n)):.
+a. The heuristic estimates the remaining alignment cost, such as the sum of
+minimum possible edit distances between remaining sentences.
+7. Search Algorithm:
+a. Use A* search to explore the state space and find the optimal alignment with the
+minimum cost.
+8. Lab Instructions:
+9. Implement Text Preprocessing:
+a. Tokenize the input documents into sentences.
+b. Normalize the text (e.g., convert to lowercase, remove punctuation).
+10. Define the A* Search Function:
+a. Implement the A* search algorithm with the state representation, transition
+function, cost function, and heuristic.
+11. Compute Edit Distance:.
+a. Implement the Levenshtein distance function to compute the cost of aligning two
+sentences.
+12. Perform Alignment:
+a. Apply the A* search algorithm to align the sentences from the two documents.
+13. Detect Plagiarism:
+a. After alignment, identify pairs of sentences with a low edit distance as potential
+plagiarism.
+14. Evaluate the System:
+a. Use test cases to evaluate the accuracy and efficiency of your plagiarism detection
+system.
+Test Cases:
+Test Case 1: Identical Documents
+b. Input: Two identical documents.
+c. Expected Output: All sentences should align perfectly, with zero edit distance.
+Test Case 2: Slightly Modified Document
+d. Input: One document with minor modifications (e.g., synonyms, word order
+changes) compared to the other.
+e. Expected Output: Most sentences should align with a low edit distance.
+Test Case 3: Completely Different Documents
+f.Input: Two completely different documents.
+Week 3:
+Lab Assignment - 3
+Learning Objective: To understand the use of Heuristic function for reducing the size of the
+search space. Explore non-classical search algorithms for large.
+problems.
+Reference:
+[1] Artificial Intelligence: a Modern Approach, Russell and.
+Norvig (Fourth edition).
+Chapter 3 and 4
+[2] A first course in Artificial Intelligence, Deepak Khemani
+Chapter 3, 4
+Problem Statement for In-lab Discussion:.
+A. Read about the game of marble solitaire. Figure shows the initial board configuration.
+The goal is to reach the board configuration where only one marble is left at the centre.
+To solve marble solitaire, (1) Implement priority queue based search considering path
+cost, (2) suggest two different heuristic functions with justification, (3) Implement best
+first search algorithm, (4) Implement A*, (5) Compare the results of various search
+algorithms.
+Problem Statement for Submission
+B. Write a program to randomly generate k-SAT problems. The program must accept values.
+for k, m the number of clauses in the formula, and n the number of variables. Each
+clause of length k must contain distinct variables or their negation. Instances generated
+by this algorithm belong to fixed clause length models of SAT and are known as uniform
+random k-SAT problems.
+C. Write programs to solve a set of uniform random 3-SAT problems for different
+combinations of m and n, and compare their performance. Try the Hill-Climbing,
+Beam-Search with beam widths 3 and 4, Variable-Neighborhood-Descent with 3
+neighborhood functions. Use two different heuristic functions and compare them with
+respect to penetrance..
+Week 4:
+Lab Assignment 4
+Learning Objective:
+Non-deterministic Search I Simulated Annealing.
+For problems with large search spaces, randomized search becomes a meaningful option given
+partial/ full-information about the domain.
+Reference:
+[1] Simulated annealing from basics to applications, Daniel Delahaye, Supatcha Chaimatanan.
+Marcel Mongeau
+[2] A first course in Artificial Intelligence, Deepak Khemani (Chapter 4)
+[3] Artificial Intelligence: a Modern Approach, Russell and Norvig (Fourth edition).
+Chapter 3 and 4
+Problem Statement for In-lab Discussions:
+The Traveling Salesman Problem (TSP) is a hard problem, and is simple to state. Given a graph
+in which the nodes are locations of cities, and edges are labeled with the cost of traveling.
+between cities, find a cycle containing each city exactly once, such that the total cost of the tour
+is as low as possible.
+For the state of Rajasthan, find out at least twenty important tourist locations. Suppose your
+relatives are about to visit you next week. Use Simulated Annealing to plan a cost effective tour
+of Rajasthan. It is reasonable to assume that the cost of traveling between two locations is
+proportional to the distance between them.
+An interesting problem domain with TSP instances:.
+VLSI: http://www.math.uwaterloo.ca/tsp/vlsi/index.html#XQF131
+(Attempt at least five problems from the above list and compare your results.)
+Problem Statement for Submission:
+Ever played jigsaw puzzles in childhood? Time.
+to make an agent learn to solve the puzzle.
+Some rough, confusing code snippets are posted
+on the code repository of the course along with.
+the scrambled_lena.mat
+Formulate the problem as a state space search.
+problem. Try to solve the same using simulated.
+annealing. Have fun!.
+Challenge Problem: (you may be able to earn some extra credits for meaningfully attempting.
+this challenge)
+I prompted ChatGPT with the following: "Generating melody using simulated annealing" and I.
+was surprised to see a very interesting response. Challenge for you is to generate a melody in
+North Indian Classical Raag Bhairav using either simulated annealing or the genetic algorithm.
+Assessment: Group which is able to generate melody which follows the grammar of Raag
+Bhairav and contains some fundamental phrases of the Raag will earn higher credits.
+10
+Week 5:.
+Lab Assignment 5
+Learning Objective:
+Understand the graphical models for inference under uncertainty, build Bayesian Network in R.
+Learn the structure and CPTs from Data, naive Bayes classification with dependency between
+features.
+Reference:
+1.https://www.bnlearn.com/
+2.http://gauss.inf.um.es/umur/xjurponencias/talleres/J3.pdf
+Problem Statement for In-lab Discussions:
+A table containing grades earned by students in respective courses is made available to you in.
+(codes folder) 2020_bn_nb_data.txt.
+1. Consider grades earned in each of the courses as random variables and learn the
+dependencies between courses.
+2. Using the data, learn the CPTs for each course node.
+3. What grade will a student get in PH100 if he earns DD in EC100, CC in IT101 and CD in
+MA101.
+4. The last column in the data file indicates whether a student qualifies for an internship
+program or not. From the given data, take 70 percent data for training and build a naive
+Bayes classifier (considering that the grades earned in different courses are independent
+of each other) which takes in the student's performance and returns the qualification
+status with a probability. Test your classifier on the remaining 30 percent data. Repeat
+this experiment for 20 random selection of training and testing data. Report results about
+the accuracy of your classifier.
+5. Repeat 4, considering that the grades earned in different courses may be dependent.
+Problem Statement for Submission:
+The goal of this lab assignment is to analyze financial time series data using Gaussian Hidden
+Markov Models (HMMs). The HMM is employed to identify hidden market regimes (e.g.,
+periods of high and low volatility) and model the dynamics of financial returns. The task
+involves collecting real-world financial data, modeling it with HMM, and interpreting the results
+to draw insights about market conditions.
+Problem Statement:
+In this assignment, you are required to model the hidden regimes of a financial time series, such
+as stock returns or index performance, using a Gaussian Hidden Markov Model. Financial
+11
+markets often exhibit distinct periods of different volatility or risk levels, and these periods may
+not be directly observable. Gaussian HMM allows you to infer these hidden states (e.g., bull and.
+bear markets) from observable data, such as stock price returns.
+[Use Yahoo Finance API to download historical stock price data.].
+Part 1: Data Collection and Preprocessing
+1. Data Acquisition: Download historical financial data (e.g., stock prices or indices) from a.
+reliable source like Yahoo Finance. The data should cover a sufficiently large time frame
+(e.g., 10 years or more) to capture long-term trends and market regimes. You may choose
+a specific company (e.g., Apple, Tesla) or an index (e.g., S&P 500).
+Preprocessing: Extract the relevant features for modeling, such as daily adjusted closing.
+prices. Calculate the daily returns from the adjusted closing prices. Handle any missing or
+erroneous data points by cleaning the dataset to ensure quality input..
+Part 2: Gaussian Hidden Markov Model
+1. Fitting the Model: Use the Gaussian Hidden Markov Model to model the financial returns.
+data. Select an appropriate number of hidden states (e.g., 2 or more) to capture different
+market conditions (e.g., high and low volatility regimes). Fit the HMM to the returns data
+and predict the hidden states that best describe the observed data..
+2. Parameter Analysis: Analyze the mean and variance of each hidden state to characterize.
+the market regimes. Interpret these hidden states in the context of financial markets (e.g.,
+identifying bear and bull markets or high/low-risk periods).
+Part 3: Interpretation and Inference
+1. Inferred Hidden States: Decode the hidden states predicted by the HMM and identify the.
+time periods corresponding to each hidden state. Visualize the inferred hidden states over
+time and analyze how the market transitions between different regimes.
+2. Transition Matrix: Investigate the transition matrix of the HMM, which defines the.
+probabilities of switching between different hidden states. Use the transition probabilities.
+to understand the likelihood of the market shifting from one regime to another (e.g., from
+low volatility to high volatility)..
+Part 4: Evaluation and Visualization
+1. Visualization: Plot the stock prices or returns and color-code the time periods based on.
+the inferred hidden states. Create visualizations that clearly differentiate between the
+different market regimes identified by the HMM.
+2. Model Evaluation: Discuss how well the HMM captures the underlying market dynamics.
+Evaluate whether the hidden states provide meaningful insights into the stock's volatility
+patterns. Analyze how changes in the number of hidden states impact the interpretation of
+the results.
+12
+Part 5: Conclusions and Insights
+1. Market Regime Interpretation: Summarize the hidden market regimes identified by the.
+model and describe their characteristics (e.g., high volatility versus low volatility
+periods). Discuss how these hidden states can inform financial decision-making, such as
+risk management or portfolio adjustment.
+2. Future State Prediction: Predict the likely future state of the market based on the most
+recent data. Discuss how the transition matrix can be used for short-term market regime
+forecasting and its potential impact on financial strategies.
+Bonus Task (Optional):
+Extend the Gaussian HMM to include more than two hidden states to capture more.
+complex market behavior, such as extreme volatility periods or stable growth phases..
+Compare the results of the HMM model on different financial instruments (e.g.
+comparing stocks of different companies or indices) to understand how market dynamics.
+vary across assets.
+Deliverables:
+1. Analysis Report: Discuss the application of Gaussian Hidden Markov Models to financial.
+time series data. Provide a detailed explanation of the steps taken to preprocess the data,
+fit the model, and interpret the results. Include visualizations and insights from the
+analysis, highlighting the inferred hidden states and market regimes.
+Code Implementation: Submit GIT repo with the Python implementation used to collect.
+data, fit the Gaussian HMM model, and perform the analysis.
+13
+This project successfully demonstrates a complete respiratory signal classification system using.
+both supervised and unsupervised machine learning techniques.
+The Random Forest model effectively classifies breathing patterns due to its robustness to noise
+respiratory patterns naturally separate in feature space.
+The methodology is suitable for embedded health monitoring systems due to its computational.
+efficiency, low feature dimensionality, and interpretability.
+Overall, the combination of signal processing, feature engineering, and machine learning
+Integration of LLM-Based Medical Analysis
+In addition to the machine learning-based respiratory classification, a lightweight Large
+Language Model (LLM) module is integrated into the system to generate human-readable.
+medical analysis. The LLM takes as input the predicted breathing patterns, extracted.
+physiological features, and temporal trends, and produces a structured clinical-style.
+interpretation of the results. This includes summary observations, potential respiratory
+conditions, and trend-based insights. The generated analysis is automatically compiled into a
+PDF report, enabling easy sharing, documentation, and review by medical professionals or.
+outputs and meaningful medical understanding.
+Week 7:
+Lab Assignment 7
+Learning Objective: Basics of data structure needed for state-space search tasks and use of
+random numbers required for MDP and RL, Understanding Exploitation - Exploration in simple
+n-arm bandit reinforcement learning task, epsilon-greedy algorithm
+Title: Matchbox Educable Naughts and Crosses Engine.
+Reference: http://people.csail.mit.edu/brooks/idocs/matchbox.pdf
+Problems for submission:
+(1) Read the reference on MENACE by Michie and check for its implementations. Pick the.
+one that you like the most and go through the code carefully. Highlight the parts that you
+feel are crucial. If possible, try to code the MENACE in any programming language of.
+your liking.
+Reference: Reinforcement Learning: an introduction by R Sutton and A Barto (Second Edition)
+(Chapter 1-2)
+(2) Consider a binary bandit with two rewards {1-success, 0-failure}. The bandit returns 1 or.
+0 for the action that you select, i.e. 1 or 2. The rewards are stochastic (but stationary)
+Use an epsilon-greedy algorithm discussed in class and decide upon the action to take for
+maximizing the expected reward. There are two binary bandits named binaryBanditA.m
+and binaryBanditB.m are waiting for you..
+(3) Develop a 10-armed bandit in which all ten mean-rewards start out equal and then take
+independent random walks (by adding a normally distributed increment with mean zero
+and standard deviation 0.01 to all mean-rewards on each time step)..
+{function [value] = bandit_nonstat(action)}
+(4) The 10-armed bandit that you developed (bandit nonstat) is difficult to crack with a
+standard epsilon-greedy algorithm since the rewards are non-stationary. We did discuss
+how to track non-stationary rewards in class. Write a modified epsilon-greedy agent and
+show whether it is able to latch onto correct actions or not. (Try at least 10000 time steps.
+before commenting on results)
+15
+Week 8:
+Lab Assignment 8
+Learning Objective: Understand the process of sequential decision making (stochastic
+environment) and the connection with reinforcement learning.
+Title: Markov Decision Process and Dynamic Programming
+Reference:
+[1] Artificial Intelligence a Modern Approach, Russell and Norvig (third edition).
+Chapter 16, 17, 21
+[2] Reinforcement Learning, Sutton and Barto (second edition)
+Chapter 3, 4
+Problem for In-lab Discussion:.
+(1) Suppose that an agent is situated in the 4x3 environment as shown in Figure 1..
+Beginning in the start state, it must choose an action at each time step. The interaction
+with the environment terminates when the agent reaches one of the goal states, marked.
++1 or -1. We assume that the environment is fully observable, so that the agent always
+knows where it is. You may decide to take the following four actions in every state: Up.
+Down, Left and Right. However, the environment is stochastic, that means the action
+that you take may not
+lead you to the desired
+state.
+Each action
+achieves the intended
+effect with probability
+0.8, but the rest of the
+time, the action moves
+START
+the agent at right
+angles to the intended
+direction with equal
+Figure 1: 4 3 grid world with uncertain state change..
+probabilities.
+Furthermore, if the agent bumps into a wall, it stays in the same square. The immediate
+reward for moving to any state (s) except for the terminal states S+ is r(s)= -0.04. And the.
+reward for moving to terminal states is +1 and -1 respectively. Find the value function
+corresponding to the optimal policy using value iteration.
+Find the value functions corresponding optimal policy for the following:
+(a) r(s)=-2
+(b) r(s)=0.1
+16
+(c) r(s)=0.02
+(d) r(s)=1
+Problems for Submission:.
+[2) [Gbike bicycle rental] You are managing two locations for Gbike. Each day, a number of
+customers arrive at each location to rent bicycles. If you have a bike available, you rent it
+out and earn INR 10 from Gbike. If you are out of bikes at that location, then the
+business is lost. Bikes become available for renting the day after they are returned. To
+help ensure that bicycles are available where they are needed, you can move them
+between the two locations overnight, at a cost of INR 2 per bike moved.
+Assumptions: Assume that the number of bikes requested and returned at each location
+returns are 3 and 2 at the first and second locations respectively. No more than 20 bikes
+can be parked at either of the locations. You may move a maximum of 5 bikes from one
+location to the other in one night. Consider the discount rate to be 0.9.
+Formulate the continuing finite MDP, where time steps are days, the state is the number
+of bikes at each location at the end of the day, and the actions are the net number of bikes
+moved between the two locations overnight.
+Download and extract files from gbike.zip. Try to compare your formulation with the
+code. Before proceeding further, ensure that you understand the policy iteration clearly
+(3) Write a program for policy iteration and resolve the Gbike bicycle rental problem with
+the following changes. One of your employees at the first location rides a bus home each
+night and lives near the second location. She is happy to shuttle one bike to the second
+location for free. Each additional bike still costs INR 2, as do all bikes moved in the
+other direction. In addition, you have limited parking space at each location. If more
+than 10 bikes are kept overnight at a location (after any moving of cars), then an
+additional cost of INR 4 must be incurred to use a second parking lot (independent of
+how many cars are kept there)..
+Note: Problem (2) and (3) are directly taken from the book by Sutton and Barto. The problem if
+attempted independently (without referring to the solutions available) is a good exercise in
+understanding the implementation issues and finite MDP. Changing the Jack's car rental to
+Gbike bicycle rental is just to put things in context. The instructor has no intention of earning
+credit for posing the problem. Credit goes to Sutton and Barto.
+17
+Real-Time Detection of Forest Fires Using FireNet-CNN and
+Explainable Al Techniques.
+For ai project:.
+River Water Quality Parameters
+Prediction Method Based on LSTM-RNN
+Model
+1. One-Shot Bipedal Robot Dynamics Identification With a
+Reservoir-Based RNN
+2. Improving Hate Speech Detection Using Double-Layers
+Hybrid CNN-RNN Model on Imbalanced Dataset.
+3. An RNN-Based Delay-Guaranteed Monitoring.
+Framework in Underwater Wireless Sensor Networks
+4. A New RNN Model With a Modified Nonlinear Activation
+Function Applied to Complex-Valued Linear Equations
+5. Real-Time Detection of Forest Fires Using FireNet-CNN
+and Explainable Al Techniques.
+6. Unraveling ML Models of Emotion With NOvA:.
+Multi-Level Explainable Al for Non-Experts.
+7. Al Governance in the Context of the EU Al Act
+8. Visualizing UNet Decisions: An Explainable Al
+Perspective for Brain MRl Segmentation.
+9. Personas for Artificial Intelligence (Al) an Open Source
+Toolboxe
+10.
+The Evolution of Generative Al: Trends and
+Applications
+11.
+Agentic Al: Autonomous Intelligence for Complex.
+Goals---A Comprehensive Survey
+12. Effect of Explainable Artificial Intelligence on Trust of.
+Mental Health Professionals in an Al-Based System for
+Suicide Prevention
+13. A Study on Performance Improvement of Prompt.
+Engineering for Generative Al with a Large Language.
+Model
+14. Human-Centered Al in Smart Farming: Toward.
+Agriculture 5.0
+15. XRGuard: A Model-Agnostic Approach to
+Ransomware Detection Using Dynamic Analysis and
+Explainable AI
+CS367/659 Artificial Intelligence
+Autumn 2025-26
+General Instructions for Lab
+Students enrolled in the course are expected to work on programming problems assigned for
+laboratories in groups. Groups once formed would remain fixed for the entire duration of the
+course. Evaluation of lab assignments should primarily be taken as a two-way feedback, both for
+the students and the instructor..
+A group can have a maximum of 4 students from the same section.
+Attending laboratory sessions is a must and absence during laboratory sessions without prior
+intimation to the course instructor (only genuine cases) will attract O credit for that particular
+session.
+Feel free to contact me or the TAs in case you have any query or confusion regarding
+submissions.
+Course Instructors:
+Pratik Shah, Jignesh Patel
+pratik@iiitvadodara.ac.in
+Course GIT Repository: https://github.com/pratikiiitv/CS307
+Evaluation Policy
+Component 1: 60%
+A. Attendance and participation.
+B. Each student group will be assigned a project definition under a teaching assistant
+(mentor).
+C. The groups will meet the respective mentors for project discussions. The students will be.
+assessed during these interactions on weekly basis based on
+1.
+Quality of explanation and clarity of exposition and discussion
+ii.
+Quality of the code base
+iii.
+Resolution of queries/ questions raised by mentor during the session.
+Component 2: 25%
+submit a total of two reports containing the discussion on the solution to four-four problems
+each. One such report will be due just before the mid-semester examination and the other just
+before the end-semester examination..
+Report/ Term Paper Template: IEEE Transactions on Systems Man and Cybernetics: Systems in
+LaTeX
+format.
+https://drive.google.com/file/d/1sdEyE-9DxDNFbuR n3xJ0u0Og6aw9zKU/view?usp=sharing

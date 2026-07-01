@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category": "AI",
+    "question": "What is Artificial Intelligence?"
+  },
+  {
+    "id": 2,
+    "category": "DBMS",
+    "question": "What is DBMS?"
+  },
+  {
+    "id": 3,
+    "category": "Programming",
+    "question": "Explain C++."
+  },
+  {
+    "id": 4,
+    "category": "Programming",
+    "question": "What is Python?"
+  },
+  {
+    "id": 5,
+    "category": "Machine Learning",
+    "question": "What is Machine Learning?"
+  },
+  {
+    "id": 6,
+    "category": "Networking",
+    "question": "What is TCP/IP?"
+  },
+  {
+    "id": 7,
+    "category": "Operating System",
+    "question": "What is Operating System?"
+  },
+  {
+    "id": 8,
+    "category": "Cyber Security",
+    "question": "What is Cryptography?"
+  },
+  {
+    "id": 9,
+    "category": "Algorithms",
+    "question": "Explain Binary Search."
+  },
+  {
+    "id": 10,
+    "category": "Mathematics",
+    "question": "What is Matrix?"
+  }
+]

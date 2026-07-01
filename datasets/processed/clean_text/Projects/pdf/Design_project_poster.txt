@@ -1,0 +1,155 @@
+LATEXTikZposter
+Shoplifting Detection in Surveillance Video Using YOLOv8: A Lightweight DL Pipeline
+Dev Saraswat (202351173) Satish Chauhan (202352330) Shivam Kumar (202351130)
+Department of Computer Science & Engineering, Indian Institute of Information Technology Vadodara
+Shoplifting Detection in Surveillance Video Using YOLOv8: A Lightweight DL Pipeline
+Dev Saraswat (202351173) Satish Chauhan (202352330) Shivam Kumar (202351130)
+Department of Computer Science & Engineering, Indian Institute of Information Technology Vadodara
+Abstract
+This project presents a lightweight, reproducible pipeline
+for detecting shoplifting behaviour in surveillance video
+using the classification variant of YOLOv8. The workflow
+includes frame extraction, dataset creation, model fine-
+tuning, per-frame inference, and temporal aggregation to
+generate robust video-level decisions.
+Objectives &
+Contributions
+•Reproducible end-to-end pipeline us-
+ing YOLOv8 (classification).
+•Frame-level classification & temporal
+aggregation for video-level decisions.
+•Empirical demonstration of improve-
+ment after fine-tuning (baseline→
+fine-tuned).
+•Public scripts for data prep, training,
+testing and evaluation.
+System Overview
+(Pipeline)
+Five-stage pipeline: video→frames→frame
+classifier→aggregation→results.
+Dataset & Preprocessing
+Classes:Normal, Shoplifting.
+Stats:
+•Normal: 74 video folders (train).
+•Shoplifting: 40+ labeled video samples
+(train).
+•Up to 30 frames extracted per video (uni-
+form sampling).
+•Directory layout:dataset/-
+train/<class>/<video>/frame_*.jpg.
+Augmentations:horizontal flip, rotation,
+color jitter, mosaic, MixUp.
+Figure: Data preparation and frame extraction
+workflow.
+Frame Extraction
+(Pseudocode)
+Algorithm 1Frame Extraction
+1:procedureExtractFrames(video,
+output, max)
+2:total←GetTotalFrames(video)
+3:step←max(1,⌊total/max⌋)
+4:saved←0
+5:fori= 0 tototal−1do
+6:ifimodstep= 0 andsaved <
+maxthen
+7:SaveFrame(i, output)
+8:saved←saved+ 1
+9:end if
+10:end for
+11:end procedure
+Key idea:even temporal sampling to
+represent each video while limiting frame
+count.
+Implementation Scripts
+•1_prepare_data.py— frame extrac-
+tion, dataset organization.
+•2_train_model.py— fine-tune
+YOLOv8 classification model.
+•3_test_pretrained.py— evaluate
+pretrained baseline.
+•4_test_custom.py— per-frame infer-
+ence + annotated video output.
+•5_compare_accuracy.py— evaluate
+pretrained vs fine-tuned.
+Model & Training
+Configuration
+Base Model:yolov8n-cls.pt(nano
+classification).
+Configuration:
+•Input size: 224×224 pixels
+•Batch size: 16|Epochs: 10
+•Optimizer: SGD (momentum), Learning
+rate: 0.01
+•Early stopping: 10 epochs
+•Output directory:runs/-
+train/shoplifting_model/
+•Best weights:models/best.pt
+Figure: YOLOv8 model training and optimization
+workflow.
+Inference & Postprocessing
+Inference Steps:
+•Preprocess: resize to 224×224, apply Im-
+ageNet normalization.
+•Forward pass through YOLOv8 model; ap-
+ply confidence thresholding.
+•Annotate frames — Normal and Shoplift-
+ing.
+•Save annotated output video tooutput-
+s/custom_result.mp4.
+•Aggregate results per video (majority vote
+or confidence-weighted) to compute preci-
+sion, recall, and F1.
+Figure: Testing pipeline — frame processing,
+classification, and aggregation.
+Performance Analysis
+(Validation)
+Metric Pretrained Fine-tuned
+Frame accuracy 48.65%85.95%
+Precision (Normal) 0.490.81
+Recall (Normal) 1.00 0.93
+Precision (Shoplifting) 0.000.93
+Recall (Shoplifting) 0.000.79
+Confusion Matrices (Summary)
+Pretrained
+Pred N Pred S
+True N 540 0
+True S 570 0
+Severe class bias (predicts only
+Normal)
+Fine-tuned
+Pred N Pred S
+True N 504 36
+True S 120 450
+Balanced predictions after
+fine-tuning
+Figure: Performance improvement and confusion matrices
+comparison.
+Discussion, Limitations & Future Work
+Key points
+•Frame-only classification misses short-duration gestures — add temporal models.
+•Fine-tuning corrected baseline class bias and produced balanced predictions.
+•Lightweight (6.2M params) suitable for edge deployment; temporal enrichment recommended.
+Future enhancements
+•Temporal models (LSTM / Transformer) for sequence reasoning.
+•Detection + tracking (YOLOv8 + DeepSORT) to localize hands/objects.
+•Dataset expansion (>1000 videos) and ONNX/TensorRT edge optimization.
+Conclusion & Acknowledgment
+Conclusion
+Fine-tuning YOLOv8 classification on curated surveillance frames improved frame-level accuracy from 48.65% to 85.95% (+37.30 pp). The pipeline is a lightweight,
+real-time-capable baseline; next steps include temporal modeling and dataset expansion.
+Acknowledgment:Thanks to the Ultralytics YOLOv8 team and dataset contributors.
+References & Contact
+References
+1. J. Redmon, S. Divvala, R. Girshick, and A. Farhadi,“You Only Look Once: Unified, Real-Time Object Detection,”inProc. IEEE
+Conf. Comput. Vis. Pattern Recognit. (CVPR), 2016, pp. 779–788.
+2. A. Bochkovskiy, C. Y. Wang, and H. Y. M. Liao,“YOLOv4: Optimal Speed and Accuracy of Object Detection,”arXiv preprint
+arXiv:2004.10934, 2020.
+3. G. Jocheret al.,“YOLOv8: Ultralytics Next-Generation Object Detector,”Ultralytics, 2023. [Online]. Available:https:
+//github.com/ultralytics/ultralytics
+Contact
+Dev Saraswat
+Email:202351173@iiitvadodara.ac.in
+Satish Chauhan
+Email:202352330@iiitvadodara.ac.in
+Shivam Kumar
+Email:202351130@iiitvadodara.ac.in

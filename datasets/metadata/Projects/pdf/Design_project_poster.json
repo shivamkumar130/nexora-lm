@@ -1,0 +1,13 @@
+{
+    "document_name": "Design_project_poster",
+    "file_name": "Design_project_poster.txt",
+    "relative_path": "Projects\\pdf\\Design_project_poster.txt",
+    "folder_name": "pdf",
+    "word_count": 610,
+    "character_count": 5270,
+    "line_count": 155,
+    "file_size_bytes": 5540,
+    "created": 1782569833.3654976,
+    "modified": 1782572544.5885518,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

@@ -1,0 +1,113 @@
+Shoplifting Detection System using YOLOv8
+Your Name
+Design Project Final
+June 21, 2026
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 1 / 14
+Outline
+1 Problem and Goals
+2 High-level Architecture
+3 Data Preparation
+4 Model and Training
+5 YOLOv8 Internal Architecture
+6 Inference and Testing
+7 Results and Metrics
+8 Limitations and Improvements
+9 How to Run
+10 References
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 2 / 14
+Problem Statement
+Detect shoplifting behaviour in surveillance video.
+Classify frames/events asNormalorShoplifting.
+Produce annotated output video and summary statistics.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 3 / 14
+System Overview
+Data preparation: extract frames from input videos.
+Model training: fine-tune YOLOv8 classification model on extracted
+frames.
+Testing / inference: run per-frame classification and aggregate results.
+Figure: main architecture
+smallFigure: Overall pipeline showing where YOLOv8 is used (training +
+inference).
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 4 / 14
+Dataset and Frame Extraction
+Raw video files in ‘data/‘ (classes: ‘Normal‘, ‘Shoplifting‘).
+Script:
+`1prepared ata.py‘|extractsupto30framespervideoandcreates‘dataset/train/‘and‘dataset/val/‘splits(80/20).
+Output structure used directly by ‘ultralytics‘ training API.
+architecture/data_preparation.png
+smallFigure: Data preparation flow and dataset folders.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 5 / 14
+YOLOv8: Model Variant and Training
+Using the classification variant: ‘yolov8n-cls.pt‘ (pretrained).
+Training script:
+‘2trainmodel.py‘|fine−tunesthecheckpointontheprojectdataset.
+Key parameters used in code:
+Image size: 224x224
+Batch size: 16
+Epochs: 10
+Early stopping patience: 10
+Best weights saved to
+‘runs/train/shopliftingmodel/weights/best.pt‘andcopiedto‘models/best.pt‘.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 6 / 14
+Model Training Diagram
+architecture/model_training.png
+smallFigure: Training pipeline and where YOLOv8 (pretrained) is
+fine-tuned.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 7 / 14
+Internal Architecture (Conceptual)
+This is a conceptual diagram of YOLOv8 internals (backbone, neck,
+head).
+Useful to understand feature extraction and multi-scale fusion.
+architecture/yolov8_internal.png
+smallFigure: Simplified internal architecture of a YOLOv8-like model
+(Stem, Backbone, SPPF, Neck, Head).
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 8 / 14
+Testing Scripts and Inference Flow
+‘3testpretrained.py‘|runstheoriginalpretrained‘yolov8n−
+cls.pt‘onavideoforbaselineoutputandvisualization.
+‘4testc ustom.py‘|loads‘models/best.pt‘andperformsper−
+frameclassification,annotatesframes,andwrites‘outputs/custom r esult.mp4‘.
+The inference loop extracts ‘results[0].probs.top1‘ and
+‘probs.top1conf‘ to obtain the top class and confidence.
+architecture/testing_pipeline.png
+smallFigure: Testing pipeline and post-processing steps.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 9 / 14
+‘4testc ustom.py‘aggregatesper−framepredictionstocompute:
+Count and percentage of frames labeled as ‘Normal‘ vs
+‘Shoplifting‘.
+Average confidence across frames.
+Output video: ‘outputs/custom r esult.mp4‘.
+For more rigorous evaluation, compute frame-level precision/recall and
+event-level metrics (not implemented by default).
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 10 / 14
+Limitations & Future Work
+Frame-level classification loses temporal context — consider temporal
+models or sliding-window smoothing.
+Consider switching to detection + tracking for object-level cues
+(hands, items) and behavior heuristics.
+Improve dataset size and balance; add augmentation and
+cross-camera data.
+Add evaluation scripts to compute precision/recall and confusion
+matrices.
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 11 / 14
+Commands (PowerShell)
+# (1) Generate architecture diagrams (requires graphviz in PATH
+python.\generate_architecture_diagram.py
+python.\generate_yolov8_internal_diagram.py
+# (2) Prepare dataset (extract frames)
+python.\1_prepare_data.py
+# (3) Train model
+python.\2_train_model.py
+# or generate diagrams from train script
+python.\2_train_model.py --generate-diagram
+# (4) Test using custom model (after training)
+python.\4_test_custom.py
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 12 / 14
+References
+Ultralytics YOLOv8:
+https://github.com/ultralytics/ultralytics
+YOLOv8 paper and docs (see Ultralytics docs for model details)
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 13 / 14
+Contact
+Questions? Email: your.email@example.com
+Your Name (Design Project Final) Shoplifting Detection — YOLOv8 June 21, 2026 14 / 14

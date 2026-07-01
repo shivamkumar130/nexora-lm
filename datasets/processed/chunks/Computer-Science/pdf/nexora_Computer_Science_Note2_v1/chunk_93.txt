@@ -1,0 +1,7 @@
+Document: nexora_Computer_Science_Note2_v1
+Chunk: 93
+Start Word: 23552
+End Word: 23688
+Words: 136
+
+(c) (small integer or from a large challenge space).. 3. Prover responds (s=r + c x \pmod m). 4. Verifier checks (g^s loverset{?}{=} t\cdot h^c) Completeness, soundness (extractor from two transcripts with different challenges gives (x)) and zero-knowledge (a simulator can produce indistinguishable transcripts) are standard proofs If you'd like, I can: expand any of the steps (e.g. the small arithmetic detail in Q3 to show (n-a=\varphi(n)). rigorously), or give working code (toy examples) demonstrating Q2 or the baby-step/giant-step. algorithm. Great - I solved most parts. Below are clear, step-by-step answers for Q1-Q4 and Q6. Q5 in the image was partly unreadable; please either type the ciphertext/keys/plaintext mapping or confirm the exact table and I'll complete Q5 immediately. Q1 - "Prove or disprove: AES-SubBytes S-box is a linear function." Answer: Disprove the AES S-box is nonlinear.

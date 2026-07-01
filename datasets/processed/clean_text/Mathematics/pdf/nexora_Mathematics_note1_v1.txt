@@ -1,0 +1,891 @@
+Determinants: Complete Theory,
+Concepts, and Worked Examples
+Comprehensive study notes based on the handwritten solutions.
+This document explains the determinant concepts used in the notebook and reconstructs
+the methods in a clean format.
+Chapter 1: Introduction to Determinants
+ Definition of a determinant.
+ Order of a determinant.
+ Evaluation of 2×2 and 3×3 determinants.
+ Minor and Cofactor.
+ Laplace Expansion.
+Chapter 2: Properties of Determinants
+ Interchanging rows changes sign.
+ Equal rows imply determinant is zero.
+ Multiplying a row by k multiplies determinant by k.
+ Adding a multiple of one row to another does not change determinant.
+ Same rules apply to columns.
+Chapter 3: Row and Column Operations
+ R_i → R_i + kR_j
+ R_i ↔ R_j
+ Factoring common terms.
+ Creating zeros for easy expansion.
+Chapter 4: Important Algebraic Identities
+ a³−b³=(a−b)(a²+ab+b²)
+ a²−b²=(a−b)(a+b)
+ Vandermonde determinant factorization.
+Example 12
+ Use row operations to simplify the determinant.
+ Transform rows into forms containing common factors.
+ Reduce to a determinant with multiple zeros.
+ Expand along the easiest row or column.
+Example 13
+ Given determinant |1 1 1; x y z; x³ y³ z³|.
+ Apply C2→C2−C1 and C3→C3−C1.
+ Factor (y−x) and (z−x).
+ Use difference-of-cubes factorization.
+ Final result: (x−y)(y−z)(z−x)(x+y+z).
+Example 14
+ Determinant set equal to zero.
+ Use row operations.
+ Reduce to 2×2 form.
+ Solve the resulting linear equation in x.
+Example 15
+ Symmetric determinant with entries involving a,b,c.
+ Use factorization and column operations.
+ Exploit symmetry.
+ Final result: 1+a²+b²+c².
+Example 16
+ Use determinant properties when determinant = 0.
+ Convert to Vandermonde form.
+ Factor (a−b)(b−c)(c−a).
+ Conclude abc = −1.
+Exercise 10
+ Diagonal entries x+4 and off-diagonal entries 2x.
+ Apply row reduction.
+ Factor repeatedly.
+ Final expression factors completely.
+Exercise 18
+ Apply R2→R2−3R1 and R3→R3−6R1.
+ Obtain upper-triangular form.
+ Evaluate determinant quickly.
+ Answer: −a³.
+Exercise 19
+ Use C1→C1+C2+C3.
+ Generate common factors.
+ Apply row reductions.
+ Answer: 2(a+b)(b+c)(c+a).
+Exercise 20
+ Determinant containing a,b,c,x,y.
+ Create zeros in third row.
+ Factor quadratic form.
+ Answer: (b²−ac)(ax²+2bxy+cy²).
+Exercise 21
+ Use expansion of (a±1)².
+ Apply R3→R3−R2.
+ Factor (b−a)(c−a).
+ Continue column reductions.
+ Answer: −4(a−b)(b−c)(c−a).
+Exam-Oriented Determinant Shortcuts
+Shortcut 1: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 2: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 3: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 4: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 5: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 6: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 7: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 8: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 9: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 10: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 11: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 12: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 13: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 14: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 15: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 16: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 17: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 18: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 19: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 20: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 21: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 22: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 23: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 24: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 25: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 26: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 27: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 28: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 29: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 30: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 31: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 32: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 33: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 34: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 35: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 36: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 37: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 38: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 39: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 40: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 41: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 42: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 43: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 44: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 45: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 46: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 47: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 48: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 49: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Shortcut 50: Look for opportunities to create zeros using row/column operations before
+expanding. This reduces calculations and is the key technique used throughout the provided
+solutions.
+Practice Strategy
+Practice Set 1: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 2: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 3: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 4: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 5: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 6: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 7: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 8: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 9: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 10: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 11: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 12: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 13: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 14: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 15: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 16: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 17: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 18: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 19: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Practice Set 20: Identify the best row/column operation, factor common terms, and simplify
+before expansion.
+Session 2 Notes: Cofactors, Cramer’s
+Rule, Determinants and Parabola
+Topic 1: Cofactors and Minors
+Definition of Minor:
+The minor Mij of an element aij is the determinant obtained by deleting the ith row and jth
+column.
+Definition of Cofactor:
+Cij = (-1)^(i+j) Mij
+Key Idea:
+Cofactors follow the checkerboard sign pattern:
++ - +
+- + -
++ - +
+The notebook examples evaluate minors and cofactors directly and verify their values.
+Topic 2: Adjoint Matrix
+The adjoint of a matrix is the transpose of the cofactor matrix.
+Steps:
+1. Find all cofactors.
+2. Form the cofactor matrix.
+3. Take transpose.
+Important relation:
+A × adj(A) = |A| I
+Topic 3: Determinants formed by Cofactors
+The handwritten work constructs a determinant using cofactors such as:
+(bc−a²), (b²−ac), (ab−c²), (a²−bc), (ac−b²).
+Concept:
+Use cofactor identities and symmetry properties of determinants to simplify large
+expressions.
+Topic 4: Cramer's Rule (2 Variables)
+For:
+a1x+b1y=c1
+a2x+b2y=c2
+Δ = |a1 b1; a2 b2|
+Δx = |c1 b1; c2 b2|
+Δy = |a1 c1; a2 c2|
+Solutions:
+x = Δx/Δ
+y = Δy/Δ
+Condition:
+Δ ≠ 0
+Example 29
+Solve:
+x+y=4
+3x−2y=9
+Using Cramer’s Rule:
+Δ = -5
+Δx = -17
+Δy = -3
+Therefore:
+x = 17/5
+y = 3/5
+Topic 5: Cramer's Rule (3 Variables)
+For:
+a1x+b1y+c1z=d1
+a2x+b2y+c2z=d2
+a3x+b3y+c3z=d3
+x = Δ1/Δ
+y = Δ2/Δ
+z = Δ3/Δ
+where Δ1, Δ2 and Δ3 are obtained by replacing the corresponding variable column by
+constants.
+Example 30
+Solve:
+x+y+z=9
+2x+5y+7z=52
+2x+y−z=0
+Using determinants:
+Δ = -4
+Δ1 = -4
+Δ2 = -12
+Δ3 = -20
+Hence:
+x = 1
+y = 3
+z = 5
+Example 35
+Determinant Function involving sinx and cosx.
+Concept:
+Differentiate determinant row-wise.
+Apply trigonometric identity:
+sin²x + cos²x = 1
+Results obtained:
+f'(0)=1
+f'(1)=1
+Required expression evaluates to:
+Example 36
+Given determinant function:
+| cosx sinx cosx |
+| cos2x sin2x 2cos2x|
+| cos3x sin3x 3cos3x|
+Find f'(π/2).
+Substitute:
+sin(π/2)=1
+cos(π/2)=0
+After simplification:
+f'(π/2)=12
+Topic 6: Parabola
+Standard Forms:
+y² = 4ax (opens right)
+y² = -4ax (opens left)
+x² = 4ay (opens upward)
+x² = -4ay (opens downward)
+Focus:
+(a,0) or (0,a)
+Directrix:
+x = -a or y = -a
+depending on orientation.
+Parabola Example 1
+Find directrix of:
+5y² = 4x
+Rewrite:
+y² = (4/5)x
+Compare with:
+y² = 4ax
+a = 1/5
+Directrix:
+x = -1/5
+Parabola Example 2
+Vertex at origin.
+Axis along y-axis.
+Passes through (6,-3).
+Use:
+x² = -4ay
+36 = -4a(-3)
+36 = 12a
+a = 3
+Required parabola:
+x² = -12y
+Important Examination Tips
+Tip 1: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 2: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 3: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 4: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 5: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 6: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 7: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 8: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 9: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 10: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 11: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 12: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 13: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 14: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 15: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 16: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 17: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 18: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 19: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 20: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 21: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 22: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 23: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 24: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Tip 25: Before expanding a determinant, always check whether row or column operations
+can create zeros and reduce computation.
+Parabola Notes - Advanced Examples
+(Session 3)
+Focus of a Parabola
+Example: Find the focus of 4y² − 6x − 4y = 5.
+Complete the square:
+4(y²−y)=6x+5
+4[(y−1/2)²−1/4]=6x+5
+4(y−1/2)²=6(x+1)
+Standard form:
+(y−k)²=4a(x−h)
+Here:
+h = −1, k = 1/2
+4a = 6 ⇒ a = 3/2
+Focus:
+(h+a, k) = (1/2, 1/2)
+Directrix of a Shifted Parabola
+Example:
+y² + 4y + 4x + 2 = 0
+(y+2)² = −4(x+1/2)
+Comparing with:
+(Y)² = −4aX
+a = 1
+Vertex = (−1/2, −2)
+Directrix:
+x = 1/2
+Vertex Condition Problem
+Find a if the vertex of
+y = x² + 2ax + 10
+lies 1 unit above the x-axis.
+Rewrite:
+y=(x+a)²−a²+10
+Vertex:
+(−a, 10−a²)
+Since vertex is 1 unit above x-axis:
+10−a² = 1
+a² = 9
+a = ±3
+Mirror Image of Directrix
+For parabola:
+y² = 4(x+1)
+Directrix:
+x = −2
+Reflection in line:
+x + 2y = 3
+Final reflected line:
+3x − 4y + 16 = 0
+Focus and Directrix Concept
+If focus is at origin and directrix is x+2=0,
+then vertex is midpoint between focus and directrix.
+Focus = (0,0)
+Directrix = x = −2
+Vertex = (−1,0)
+Equation from Vertex and Focus
+Vertex = (1,1)
+Focus = (3,1)
+Distance a = 2
+Standard form:
+(y−1)² = 4a(x−1)
+Therefore:
+(y−1)² = 8(x−1)
+Latus Rectum Example
+Endpoints of latus rectum:
+(6,7) and (6,−1)
+Midpoint:
+(6,3)
+Length = 8
+4a = 8 ⇒ a = 2
+Possible vertex:
+(4,3) or (8,3)
+depending on opening direction.
+Parametric Coordinates of Parabola
+Standard Parametric Forms
+y² = 4ax:
+(at², 2at)
+y² = −4ax:
+(−at², 2at)
+x² = 4ay:
+(2at, at²)
+x² = −4ay:
+(2at, −at²)
+Parametric Representation Problem
+Point:
+(3+t², 3t−2)
+Eliminate parameter:
+t=(y+2)/3
+x−3=(y+2)²/9
+Hence:
+(y+2)²=9(x−3)
+Vertex = (3,−2)
+Focus = (21/4, −2)
+Directrix = x = 3/4
+Focus and Directrix Given
+Focus:
+(−3/2, −3)
+Directrix:
+2x+5=0
+Vertex:
+(−2, −3)
+Parametric point:
+(−2 + t²/2, −3 + t)
+Practice Question 1: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 2: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 3: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 4: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 5: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 6: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 7: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 8: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 9: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 10: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 11: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 12: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 13: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 14: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 15: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 16: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 17: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 18: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 19: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Practice Question 20: Convert a general parabola into standard form and identify its vertex,
+focus, directrix, axis and latus rectum.
+Circle - Complete Notes (From
+Uploaded Notebook)
+Equation of Circle (Centre-Radius Form)
+x² + y² = a²
+(x-h)² + (y-k)² = a²
+Centre = (h,k), Radius = a
+General Equation of Circle
+x² + y² + 2gx + 2fy + c = 0
+Centre = (-g,-f)
+Radius = √(g²+f²-c)
+Diameter Form
+(x-x1)(x-x2) + (y-y1)(y-y2) = 0
+Parametric Form
+For x²+y²=a²:
+x=a cosθ, y=a sinθ
+For (x-h)²+(y-k)²=a²:
+x=h+a cosθ, y=k+a sinθ
+Special Conditions
+Touches x-axis: (x-h)²+(y-k)²=k²
+Touches y-axis: (x-h)²+(y-k)²=h²
+Touches both axes: (x-h)²+(y-k)²=h² (h=k)
+Passes through origin: x²+y²+2gx+2fy=0
+Intercept form: x²+y²-ax-by=0
+Intercepts
+Length of x-intercept = 2√(g²-c)
+Length of y-intercept = 2√(f²-c)
+Position of Point
+For circle x²+y²=r²:
+S=x₁²+y₁²-r²
+S>0 Outside
+S=0 On Circle
+S<0 Inside
+Position of Line
+Distance p from centre:
+p>r => No intersection
+p=r => Tangent
+p<r => Secant
+Tangent Forms
+Point form for x²+y²=a²:
+xx₁+yy₁=a²
+General circle:
+T=0
+Parametric tangent:
+x cosθ + y sinθ = a
+Slope Form of Tangent
+y = mx ± a√(1+m²)
+For centre (h,k):
+(y-k)=m(x-h) ± a√(1+m²)
+Point of Contact
+(±am/√(1+m²), ±a/√(1+m²))
+Normal
+Normal passes through centre of the circle.
+Radius is perpendicular to tangent at point of contact.
+Power of a Point
+PA·PB = PT²
+Length of tangent from point (x,y): √S₁
+Chord of Contact
+Equation: T = 0
+Chord with Given Midpoint
+Equation: T = S₁
+Pair of Tangents
+SS₁ = T²
+Important Results
+Length of chord of contact = 2RL/√(R²+L²)
+Area of quadrilateral formed by pair of tangents and radii = RL
+Area of triangle formed by pair of tangents = PT₁T₂
+Angle Between Tangents
+tanθ = 2RL/(L²-R²)
+Circumcircle of Triangle PT₁T₂
+(x-x₁)(x+g) + (y-y₁)(y+f) = 0
+Practice Question 1: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 2: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 3: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 4: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 5: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 6: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 7: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 8: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 9: Solve a circle problem involving centre, radius, tangent, normal, chord,
+power of point, or pair of tangents.
+Practice Question 10: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 11: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 12: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 13: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 14: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 15: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 16: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 17: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 18: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 19: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 20: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 21: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 22: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 23: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 24: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 25: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 26: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 27: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 28: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 29: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Practice Question 30: Solve a circle problem involving centre, radius, tangent, normal,
+chord, power of point, or pair of tangents.
+Circle - Complete Master Notes
+Director Circle
+Locus of intersection point of perpendicular tangents.
+For a circle, director circle is concentric with radius = √2 × original radius.
+Position of Two Circles
+d > r1+r2: 4 common tangents
+d = r1+r2: 3 common tangents
+|r1-r2| < d < r1+r2: 2 common tangents
+d = |r1-r2|: 1 common tangent
+d < |r1-r2|: 0 common tangents
+Length of Common Tangents
+Direct common tangent = √(d²-(r1-r2)²)
+Transverse common tangent = √(d²-(r1+r2)²)
+Orthogonal Circles
+Two circles intersect orthogonally when angle between tangents is 90°.
+For S1=x²+y²+2g1x+2f1y+c1=0 and S2=x²+y²+2g2x+2f2y+c2=0
+Condition: 2(g1g2+f1f2)=c1+c2
+Radical Axis
+Locus of points having equal tangent lengths to two circles.
+Equation: S−S' = 0
+Properties of Radical Axis
+1. For intersecting circles, common chord = radical axis.
+2. For touching circles, common tangent at contact point = radical axis.
+3. Radical axis is perpendicular to line joining centres.
+4. Radical axis bisects common tangents.
+5. Concentric circles have no radical axis.
+6. If two circles cut a third circle orthogonally, their radical axis passes through centre of
+third circle.
+Radical Centre
+Radical axes of three circles intersect at one point called radical centre.
+Family of Circles
+Family through intersection points of S=0 and S'=0:
+S + λS' = 0
+Family through intersection of circle S=0 and line L=0:
+S + λL = 0
+Family through two fixed points (x1,y1), (x2,y2): standard determinant form.
+Family Touching a Fixed Line
+(x−x1)² + (y−y1)² + λ[(y−y1) − m(x−x1)] = 0
+Typed Notes: Sets, Relations and
+Functions
+Sets
+List all subsets of {-1,0,1}. Total subsets = 2^3 = 8.
+Equal sets example: CATARACT and TRACT have the same distinct letters {C,A,T,R}.
+If A has m elements and B has n elements, number of subsets are 2^m and 2^n.
+Venn Diagram Problems
+Cricket and Tennis survey examples.
+Hindi and English language survey examples.
+Tea and Coffee survey examples.
+Three newspaper and three sports set problems.
+Relations
+Domain and Range concepts.
+Relation R={(x,y):3x−y=0}.
+Relation from A to B where x−y is odd.
+Divisibility relations and roster form representation.
+Functions
+If f(x)=x² and g(x)=2x+1:
+(f+g)(x)=x²+2x+1
+(f−g)(x)=x²−2x−1
+(fg)(x)=2x³+x²
+(f/g)(x)=x²/(2x+1)
+If f(x)=√x and g(x)=x:
+(f+g)(x)=√x+x
+(f−g)(x)=√x−x
+(fg)(x)=x√x
+(f/g)(x)=1/√x
+Typed Notes – Functions and Curves
+Relations
+R = {(a,b): a,b ∈ Z and a−b is an integer}. Domain = Z, Range = Z.
+Functions
+If f(x)=x² and g(x)=2x+1
+(f+g)(x)=x²+2x+1
+(f−g)(x)=x²−2x−1
+(fg)(x)=2x³+x²
+(f/g)(x)=x²/(2x+1)
+If f(x)=√x and g(x)=x
+(f+g)(x)=√x+x
+(f−g)(x)=√x−x
+(fg)(x)=x√x
+(f/g)(x)=1/√x
+Exercise 2.3
+Determine domain and range of relations.
+For f(x)=-|x|: Domain = R, Range = (-∞,0].
+For f(x)=√(9−x²): Domain = [-3,3], Range = [0,3].
+For f(x)=2x−5: f(0)=-5, f(7)=9, f(-3)=-11.
+Temperature conversion: F=(9C/5)+32.
+Graphs
+Sketch of y=x+10.
+Range problems involving quadratic functions.
+Angle of Intersection of Curves
+Examples involving y²=4x and x²=4y.
+Examples involving general parabolas y²=4ax and x²=4by.
+Orthogonal intersection conditions.
+Curves xy=a² and x²+y²=2a² touch at (a,a) and (-a,-a).
+COMPLETE MATHEMATICS NOTES
+(Typed & Organized)
+Prepared from uploaded notebook pages.
+Topics: Sets, Venn Diagrams, Relations, Functions, Domain & Range, Graphs, Angle of
+Intersection of Curves.
+UNIT 1: SETS
+ Definition of a Set, Roster Form, Set Builder Form.
+ Example: Show that the set of letters in CATARACT and TRACT are equal.
+ CATARACT = {C, A, T, R}
+ TRACT = {T, R, A, C}
+ Hence both sets are equal.
+ Subsets of {-1,0,1}: ϕ, {-1}, {0}, {1}, {-1,0}, {0,1}, {-1,1}, {-1,0,1}.
+ Total number of subsets of a set having n elements = 2^n.
+UNIT 2: VENN DIAGRAMS AND APPLICATIONS
+ Problems involving Cricket, Tennis, Football, Basketball and Cricket.
+ Language problems (Hindi and English).
+ Tea and Coffee survey problem.
+ Consumer survey and newspaper readership problems.
+ Use formula: n(A∪B)=n(A)+n(B)-n(A∩B).
+ Use formula: n(A∪B∪C)=n(A)+n(B)+n(C)-n(A∩B)-n(B∩C)-n(C∩A)+n(A∩B∩C).
+UNIT 3: RELATIONS
+ Relation from A to B where difference between x and y is odd.
+ Relation represented in roster form.
+ Domain = set of first components.
+ Range = set of second components.
+ Example relation R={(x,y):3x−y=0}.
+ Example relation R={(x,x+5)}.
+ Number of relations from A={x,y,z} to B={1,2}: 2^(3×2)=64.
+UNIT 4: FUNCTIONS
+ If f(x)=x² and g(x)=2x+1
+ (f+g)(x)=x²+2x+1
+ (f−g)(x)=x²−2x−1
+ (fg)(x)=2x³+x²
+ (f/g)(x)=x²/(2x+1)
+ If f(x)=√x and g(x)=x
+ (f+g)(x)=√x+x
+ (f−g)(x)=√x−x
+ (fg)(x)=x√x
+ (f/g)(x)=1/√x
+UNIT 5: DOMAIN AND RANGE
+ For f(x)=-|x|
+ Domain = R
+ Range = (-∞,0]
+ For f(x)=√(9−x²)
+ Domain = [-3,3]
+ Range = [0,3]
+ For relation {(2,1),(5,1),(8,1),(11,1),(14,1),(17,1)}
+ Domain={2,5,8,11,14,17}, Range={1}.
+UNIT 6: FUNCTION VALUES
+ If f(x)=2x−5
+ f(0)=-5
+ f(7)=9
+ f(-3)=-11
+ Temperature conversion: F=(9C/5)+32
+ F(0)=32°F
+ F(28)=82.4°F
+ When F=212°F, C=100°C.
+UNIT 7: GRAPHS
+ Graph of y=x+10.
+ Important points: (0,10), (1,11), (-1,9), (2,12), (-2,8).
+ Straight line with slope 1 and y-intercept 10.
+UNIT 8: ANGLE OF INTERSECTION OF CURVES
+ Formula: tanθ = |(m2−m1)/(1+m1m2)|
+ Example: y²=4x and x²=4y.
+ Point of intersection: (4,4).
+ Slopes obtained by differentiation.
+ General parabola problem: y²=4ax and x²=4by.
+ Orthogonal intersection condition: m1m2=-1.
+ Problems involving xy=a² and x²+y²=2a².
+IMPORTANT FORMULAS
+ Number of subsets = 2^n
+ Number of proper subsets = 2^n−1
+ n(A∪B)=n(A)+n(B)-n(A∩B)
+ n(A∪B∪C)=n(A)+n(B)+n(C)-n(A∩B)-n(B∩C)-n(C∩A)+n(A∩B∩C)
+ Domain = set of all first coordinates
+ Range = set of all second coordinates
+Practice Questions Collected from Notes
+Q1. Solve using the concepts of sets, relations, functions, domain-range, or curve
+intersection as applicable.

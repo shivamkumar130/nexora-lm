@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "question": "What is DBMS?",
+    "expected_answer": "A Database Management System (DBMS) is software used to store, organize, retrieve and manage data."
+  },
+  {
+    "id": 2,
+    "question": "What is Artificial Intelligence?",
+    "expected_answer": "Artificial Intelligence is the simulation of human intelligence by machines."
+  }
+]

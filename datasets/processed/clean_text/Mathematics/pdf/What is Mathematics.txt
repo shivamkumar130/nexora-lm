@@ -1,0 +1,152 @@
+CHAPTER 1: WHAT IS MATHEMATICS?
+Definition of Mathematics
+Mathematics is the science of numbers, quantities, shapes, patterns, relationships, and logical reasoning. It
+provides a universal language used to describe the physical world and solve problems.
+Mathematics helps us:
+Count objects
+Measure quantities
+Analyze patterns
+Predict outcomes
+Model real-world situations
+Example
+If a shop sells one notebook for ₹50 and you buy 5 notebooks:
+Cost = 50 × 5 = ₹250
+This simple calculation uses mathematics.
+History of Mathematics
+Mathematics developed over thousands of years.
+Ancient Egypt
+Egyptians used mathematics for:
+Building pyramids
+Land measurement
+Tax calculation
+Ancient Greece
+Greek mathematicians developed geometry.
+Important mathematicians:
+Euclid
+Archimedes
+1.
+2.
+Pythagoras
+India
+Indian mathematicians contributed:
+Concept of Zero
+Decimal Number System
+Algebra
+Important scholars:
+Aryabhata
+Brahmagupta
+Srinivasa Ramanujan
+Modern Mathematics
+Modern mathematics supports:
+Computer Science
+Artificial Intelligence
+Data Science
+Space Research
+Cryptography
+Importance of Mathematics
+Mathematics is essential because it develops:
+Logical Thinking
+Helps make rational decisions.
+Problem Solving
+Provides methods to solve complex problems.
+Analytical Skills
+Improves reasoning ability.
+3.
+Scientific Applications
+Used in:
+Physics
+Chemistry
+Biology
+Engineering
+Technology
+Used in:
+Computers
+Smartphones
+Internet
+AI Systems
+Branches of Mathematics
+Mathematics has many branches.
+Arithmetic
+Study of numbers and operations.
+Operations:
+Addition
+Subtraction
+Multiplication
+Division
+Example:
+7 + 3 = 10
+Algebra
+Study of variables and equations.
+Example:
+x + 5 = 10
+Solution:
+x = 5
+Geometry
+Study of shapes and sizes.
+Examples:
+Triangle
+Circle
+Square
+Rectangle
+Trigonometry
+Study of angles and triangles.
+Applications:
+Navigation
+Construction
+Astronomy
+Calculus
+Study of change and motion.
+Applications:
+Engineering
+Physics
+Machine Learning
+Statistics
+Study of data collection and analysis.
+Applications:
+Surveys
+Data Science
+Business
+Probability
+Study of uncertainty.
+Example:
+Probability of getting Head on a coin toss:
+P(Head) = 1/2
+Applications of Mathematics
+Computer Science
+Algorithms rely on mathematics.
+Artificial Intelligence
+Machine learning uses:
+Linear Algebra
+Probability
+Statistics
+Calculus
+Engineering
+Used in designing:
+Bridges
+Buildings
+Machines
+Finance
+Used for:
+Interest
+Investments
+Risk Analysis
+Medicine
+Used in:
+Medical Imaging
+Drug Development
+Summary
+Mathematics is the foundation of science and technology. It is used every day in education, business,
+engineering, artificial intelligence, computer science, finance, medicine, and research.
+Key Points:
+Mathematics studies numbers and patterns.
+It has a long historical development.
+It supports scientific progress.
+It develops logical thinking.
+It has many branches including algebra, geometry, calculus, and statistics.
+It is essential for modern technology.
+1.
+2.
+3.
+4.
+5.
+6.

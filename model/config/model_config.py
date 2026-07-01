@@ -1,0 +1,19 @@
+import torch
+
+VOCAB_SIZE = 30000
+EMBED_DIM = 256
+CONTEXT_LENGTH = 512
+NUM_HEADS = 8
+NUM_LAYERS = 6
+DROPOUT = 0.1
+FFN_DIM = 1024
+BATCH_SIZE = 8
+LEARNING_RATE = 3e-4
+EPOCHS = 5
+CHECKPOINT_INTERVAL = 500
+EOS_ID = 2
+
+if torch.cuda.is_available():
+    DEVICE = "cuda"
+else:
+    DEVICE = "cpu"

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Arithmetic",
+    "question": "What is 12 + 18?",
+    "expected": "30"
+  },
+  {
+    "id": 2,
+    "category": "Arithmetic",
+    "question": "What is 25 × 4?",
+    "expected": "100"
+  },
+  {
+    "id": 3,
+    "category": "Arithmetic",
+    "question": "What is 81 ÷ 9?",
+    "expected": "9"
+  },
+  {
+    "id": 4,
+    "category": "Algebra",
+    "question": "Solve: 2x = 20. Find x.",
+    "expected": "10"
+  },
+  {
+    "id": 5,
+    "category": "Algebra",
+    "question": "Solve: x + 15 = 28.",
+    "expected": "13"
+  },
+  {
+    "id": 6,
+    "category": "Matrix",
+    "question": "How many rows does a 3×4 matrix have?",
+    "expected": "3"
+  },
+  {
+    "id": 7,
+    "category": "Probability",
+    "question": "What is the probability of getting heads from a fair coin?",
+    "expected": "0.5"
+  },
+  {
+    "id": 8,
+    "category": "Geometry",
+    "question": "How many degrees are in a triangle?",
+    "expected": "180"
+  },
+  {
+    "id": 9,
+    "category": "Calculus",
+    "question": "What is the derivative of x^2?",
+    "expected": "2x"
+  },
+  {
+    "id": 10,
+    "category": "Statistics",
+    "question": "What is the average of 2, 4, 6, 8?",
+    "expected": "5"
+  }
+]

@@ -1,0 +1,4250 @@
+The Power Of Yoga
+Photo by Geert Pieters on Unsplash
+14 Amazing Benefits Of Yoga
+institute and college-going students may have youth on their side, but that does not.
+mean they are spared from the stresses and pressures of life. So, let's talk about the
+benefits of yoga in institutes.
+Sitting at a desk for hours a day, going back home and pouring over books to finish the.
+daily homework assignments, studying and acing numerous tests, participating in
+various extra-curricular activities, etc. all cause the body and mind to tense up.
+To add to these, there are social and family challenges, anxiety, bullying and emotional
+that also take their toll on students.
+Yoga, an elixir that works on almost every new age predicament such as obesity,.
+depression, diabetes and panic attacks, is not a solution only for grown-ups but also for
+young students and can help them lead a better lifestyle as they grow up. Here are.
+some of the benefits of including yoga for students in institute:.
+DETEKSI COVID-19 PADA CITRA SINAR-X DADA MENGGUNAKAN
+PRE-TRAINING DEEP AUTOENCODER
+Fadhil Yusuf Rahadika', Karina Amadea?, Adhi Setiawan', Griselda Anjeli Sirait', Novanto Yudistira
+1,2,3,4,$Universitas Brawijaya
+Email: 'fadhilyusuf27@gmail.com, 2kaamadea@gmail.com, 'adhisetiawan518@gmail.com,
+'griseldasirait@gmail.com, 'yudistira@ub.ac.id
+Abstrak
+Pada awal tahun 2020, virus baru bernama COviD-19 diidentifikasi di kota Wuhan, China. Virus
+inimenyebarkebanyak negaradengan sangat cepat hingga pada waktu yang berdekatan WHO menetapkan virus
+tersebut sebagai pandemi. Virus ini menyerangsistempernafasan dandapat menyebabkan komplikasi terhadap
+penyakit lainnya seperti pneumonia, gagal ginjal, hingga dapat menyebabkan pengidap meninggal dunia. Deteksi
+virus COVID-19 ini umumnya menggunakan tes laboratorium dengan metode RT-PCR untuk mendapatkan hasil
+yang akurat. Sayangnya, tes ini membutuhkan waktu yang cukup lama yaitu sekitar 24 jam untuk mendapatkan
+hasil. Selain menggunakan tes RT-PCR, beberapa penelitian menunjukkan bahwa deteksi menggunakan citra
+sinar-X menunjukkan hasil yang cukup akurat dengan waktu prediksi yang lebih cepat. Citra sinar-X yang
+didominasi warna dalam jangkauan grayscale dapat dikatakan memiliki karakteristik yang berbeda jika
+dibandingkan dengan citra secara umumsehingga dalam penelitian inieksperimendilakukan terhadap pelatihan
+untuk kasus klasifikasi citra sinar-X dengan melatih model mulai dari awal (scratch). Namun seringkali model
+Salah satu bentuk metode pretrainingyang dapatdigunakanadalah penggunaan autoencoder sebagai model untuk
+rekonstruksi citra. Dalam penelitian inipelatihanmenggunakanpretraining autoencodermenghasilkan akurasi
+terbaik sebesar 81,78% dengantambahan metode CutMix, color manipulation, dan rotation sebagai augmentasi.
+Kami juga membuktikan bahwa penambahan pretraining autoencoder secara konsisten dapat meningkatkan
+akurasi hingga 2,58% pada model yang dilatih dariawal (scratch).
+Kata kunci: COvID-19, sinar-X, pretraining, autoencoder
+COVID-19 DETECTION ON X-RAY IMAGES USINGDEEP AUTOENCODER AS PRE-TRAINING
+Abstract
+In early 2020, a new virus named COviD-19 was identified in Wuhan, China. This virus spreads to other
+countries rapidly that in a short time WHO declared the virus as a pandemic. This virus attacks the respiratory
+system and can cause complications for other diseases such as pneumonia, kidney failure, and death. COvID-19
+virus detection generally uses laboratory tests with the RT-PCR method to get accurate results. Unfortunately,
+this test takes a long time, which is around 24 hours to get the results. Apart from using the RT-PCR test, several
+time. X-ray images that are constructed by grayscale color have different characteristics compared to the image
+in common, thus experiments were carried out in this study focused on training the X-ray image classificatior
+performance. One form ofpretraining method that can be used is by incorporating an unsupervised autoencoder
+as a model for image reconstruction. In this study, training using pretraining autoencoder achieved the best
+accuracy of 81.78% with the addition of the CutMix method, color manipulation, and rotation as augmentation.
+We also proved that adding autoencoder pretraining can increase accuracy consistently by up to 2.58% in the
+model trained from scratch..
+Keywords: COvID-19, X-ray, pretraining, autoencoder
+c. Reduces Family closeness: - Spending more time on chatting
+increases the gap between users and their families. It damages user
+conversation; reducing family gathers makes the children feel lonely and.
+increase aggressiveness.
+d. Causes Distraction: - The person who always uses the internet or
+stays on his phone gets distracted by the world around him. They do not
+know what the world is up to at which environment they are up to; up to 80
+percent of the time people spend online rather than doing their job or any.
+special task. Resultantly causing issues in the form of loss of productivity,
+decreased performance, and costly mistakes.
+e. Cyberbullying: - Cyberbullying has become increasingly a common
+issue in our youth, as they harass someone through texting them by using
+social sites. Bullying, including cyberbullying, causes psychological.
+distress, including bullying victims, anxiety, fear, and low self-esteem.
+it can be their picture, their home address, their phone number. Most
+people(teenagers/students) use social media users in touch with their.
+family and friends, but they are unaware of social media's security and
+privacy settings. Due to unawareness, valuable information will be available
+people and steal money by using different hacking strategies like Phishing,
+Cyberbullying, and Identity theft.
+These negative effects of social media is motivating my group members to.
+conclude that social media is dangerous for adolescents..
+1.6. Research problem:
+The problem statement for this term paper is "Increased -social media uses
+posits that adolescents are suffering from anxiety and depression due to
+using social media for large times. Some of the Challenges regarding the
+social network are discussed above:
+1.7.Chapterisation:
+This section of the term paper delves into the argument that social media is
+presents evidence and analysis challenging the widespread assumption
+that social media does not cause depression, only outside environment and
+behaviour of adolescent make him depressed
+2. Literature
+Review:
+.El-Badaway
+[8] stated that youth surf a considerable portion of
+their daily lives interacting with social sites. On an average
+-adolescents are spending 6 - 8 hours on social media and Iess thar.
+2 hours on study..
+This affects their academic behaviour..
+Figure 1 categorizes the group of ages into three parts i-e Young Ones, Students,
+and Elders, and shows their interaction on social media.
+Cabryl Jaclyn [9] wanted to find a relation between social
+media uses and self-esteem. She had designed a questionaire
+-based on life's generic activities and.
+asked that questions with.
+social media addicted adolescents..
+Resultantly, they gave
+negative suggestion with self-esteem. On the other hand,
+non-addicted gave positive association..
+Khurana N. [10] highlighted how social media's accessive use
+affected the youth by evaluating positive and negative impacts. He
+conducted some surveys and
+concluded that social media is one
+of the major reasons for.
+cybercrime i.e. sharing personal
+informatiopn. He also encountered
+various fake accounts and.
+harassment cases
+Suleman et al. [11] described
+the privacy threats,.
+especially users in Online Social Networks
+(OSN), that focus on
+youngsters. He proposed that every time users
+do not know
+about what they are doing and keep on sharing their.
+personal
+information, which leads to the leakage of their vital information that
+mostly leads to cybercrime..
+Weiguo et al. [12] showed
+that social media is not about.
+connecting with all the people but also helpful for various skill and
+expending business. According to his research, a strategy can be
+developed for welfare of
+businessman..
+McCaffrey et al. [13]
+presented various data collected from
+different sources to.
+understand or improve market intelligence and
+business research..
+Jayshree Jha[141, Neelam Jaipuria[15], Shivesh Jha[16], and
+Priya Sinha[17] have conducted a survey. They concluded that
+college students are mostly affected by social media. It provides
+college students another world to make friends, also provides a good
+way to release pressure. It also
+affects grading of the students..
+They suggested that an approach is.
+needed to balance the
+relationship between social media and academic.
+study.
+Prof. Prathamesh S. Nadkarni,
+Prof. Sanket L.Charkha Prof.
+Jayant B Kulkarni[18] had researched on.
+" Positive and.
+Negative Aspects of Social Media Impacting the Current Society'.
+They concluded effects of social media on various life groups
+including effects on adolescents. They encountered various fake
+accounts and privacy leakages. Children most of the time involved in
+messages and videos exchanging until late in the night, thus causing
+their sleep deprivation and procrastination which is affecting their
+academic progress.
+Table
+concluded that social media doesn't change anybody into an egoistic selfie holic
+it only reveals them. While there may be too much personal broadcasting going on
+through these sites that are not what they are all about. They can both genuinely
+connect us and help us communicate more efficiently, or just feed our egos and our
+need for others' approval. At the end, how we use it depends on our decisions..
+Hafiz Burhan UI Haq, Haroon
+Ur Rashid, Saba Khalil Toor,
+Abdullah Mansoor[19] had surveyed on "
+The Impact Of
+Social Media". They provided various information about positive
+impact such as platform for e-learning, Seamless Operation,
+End-to-End Encryption
+but they provide significant negative
+effects which can't be denied some of them are distraction, laziness,
+hysical sickness and s leep deprivation. They concluded that.
+parents must be strategically distract their childen from social media.
+be allowed to do outdoor activities
+They should
+Leslie Festus Cole[20]-
+Showers had conducted a survey
+on "The
+impact of social media".
+He concluded that most
+students who have access to, and use social media, do so for non-
+each day chatting with friends/
+acquaintances. Moreover, they
+want to feel connected, by removing
+themselves from the
+physical world and by going into worlds created
+by the web 2.0
+technology-
+Qianhui Du[21] had surveyed
+on " The Negative Impact of
+Social Media on Adolescents". He researched on various aspects
+and concluded that social media is the sole reason for negative
+body Intentions and self evaluation among
+adolescents. He
+concluded that the emergence and pervasiveness of
+social
+media is a direct result of the rise in people's cultural and
+psychological needs alongside the progress of society. It presents
+of adolescence, when the mind and body are most vulnerable..
+Teenagers' mental and physical well-being may be negatively.
+affected
+by the way they are portrayed on social media due to the.
+pressure to
+conform to unrealistic standards of beauty. He
+suggested that the
+media must pay closer attention to the content
+on social media and
+increase their resistance to obscene material
+like pornography,
+violence, and poor values because of the
+need for a commercialized.
+context. The media should highlight not
+just the positive outcomes
+of such coverage, but also the potential
+drawbacks.
+Abderrahman
+M. Khalaf, Abdullah A. Alubied, Ahmed M.
+Khalaf, Abdallah A.
+Rifaey [22] had surveyed on " The Impact of
+Social Media on the
+Mental Health of Adolescents and Young
+Adults". His research
+indicate how specific social media interactions
+may impair young
+people's mental health. He expressed
+apprehension that higher levels
+of social media usage can cause
+worse mental health outcomes,
+increased risk of internalizing and
+externalizing difficulties
+(especially in females) and creating
+body image problems and eating disordered among adolescents.
+He also said that social media may be a risk factor for alcohol
+consumption and associated consequences among adolescents
+and young adults. he also concluded that social
+media causes
+poor mental health (by cyber bullying), sleep deprivation. He also
+said 36% of adolescents claim they wake up at
+least once over
+the course of the night to check their electronic
+devices, and
+40% of adolescents say they use a mobile device within five.
+minutes of going to bed in his research.
+The impact of social media on
+teenagers' mental well-being
+is multifaceted. Research suggests a
+link between social media
+use and depression, but results remain inconclusive. Risks include
+curated content exposure, cyberbullying,
+and pressure to
+conform. However, social media isn't universally
+harmful; some
+marginalized individuals find solace online. Teens.
+engage actively
+(posting, interacting) or passively (observing). Critics argue that strict
+active/passive categorization
+oversimplifies motivations
+Conversations may be perceived as.
+procrastination, but staying
+informed about friends' lives matters. The crux lies in fostering social.
+connections versus mere
+information. Understanding these.
+nuances is vital for assessing
+digital technology's impact on
+young minds. Researchers must navigate complexities to provide.
+accurate insights into social media's effects on mental.
+health.
+3. ANALYSIS:
+3.1 Methology:
+A. Secondary data:
+Studies were excluded if they crossed either boundary of the age range.
+Studies measuring exposure to other internet activities such as
+video-gaming were not included unless social media use was also
+measured. Outcomes of substance misuse, eating disorder, well-being, life
+satisfaction, self-esteem, body image problems, conduct disorders,
+Ioneliness or stress were excluded, unless the outcomes of interest were
+also measured by the researchers..
+Prof. Prathamesh S. Nadkarni, Prof. Sanket L.Charkha Prof. Jayant B
+Kulkarni[18] had researched on " Positive and Negative Aspects of Social
+adolescents are using social media and for which purposes? Fig. 1 shows
+usages of social media by adolescents.
+Clearly, above data shows that out of 100 mobile owner adolescent, approx
+73 adolescent spend their time on social networking site, 63 adolescent
+games and 52 adolescents do commenting on blogs.
+Ur Rashid, Saba Khalil Toor,
+Hafiz Burhan UI Hag, Haroon
+Abdullah Mansoor[19] had surveyed on ".
+The Impact Of
+Social Media"..
+They collected data on various topics such as which
+age group use
+social site more then other?, which social site is.
+very famous?,
+etc.
+According to them, Youths are more addicted (approx 100 out of 70
+humans are youth.
+He had researched on WhatsApp uses:.
+It is considered part of the user's daily life due to restlessly relying on
+WhatsApp because users share images, videos, notes, and songs and
+increase enterprises' level. They conducted survey related to the usage
+rate of WhatsApp among the Student level, business level, and
+communication purpose.
+According to their survey, Out of 100 shared media, approx 45 is for
+entertainment purposes. But it is also very beneficial for students to
+become up to date when they missed their classes. But most of the people
+also think that Whatsapp is useless. Data is showed in Fig. 5 He
+researched on the satisfactory of the parents. It means he wanted to know
+that Whether parents satisfied by watching his children using social media
+or not? Fig. 6 is showing the result..
+Fig. 6 shows that only 2 % i.e. 100 out of only 2 parents was satisfied
+according to their surveys..
+Fig. 7 shows a survey
+report which was conducted in.
+amongs girl adolescent (age 11 - 15.
+years). They
+concluded
+that nearly seven in ten girls reported having had
+exposure to
+helpful mental health content and information in real
+life each
+month. But on the flip side, just under half (45 percent)
+said they
+heard or saw harmful content about suicide or self-harm
+while just
+under four in ten (38 percent) said the same of harmful
+content on
+eating disorders.
+Fig. 8
+shows a survey report conducted to co relate social
+media and depression. They concluded that depressed people use
+social media
+more often. According to them, 29% of those who.
+engaged in at least
+58 social media sessions had high depression.
+symptoms, compared to
+19% of those who engaged in 8 or fewer
+social media sessions per
+week. Similarly, only 16% of those who
+engaged in 58 or more social
+media sessions per week had low
+depression symptoms, compared to 36%
+of those who engaged
+in 8 or fewer sessions per week.
+Figure
+shows the co relation between social media &
+Ioneliness by Alice
+in science education. According to survey,
+Ioneliness. According to the researcher, those who limited their.
+social media use to 10 minutes
+per day per platform reported a
+Ioneliness score of 33.5 On the
+other hand, those who had no any
+social media limitation, had scored.
+more than 60. This was
+measured with the UCLA Loneliness Score, on a.
+scale of 20-80.
+This was statistically significant.
+Fig.10
+is showing a survey report determining the impact of
+social media on our health..
+The databases Medline,.
+Embase, PsychINFO, Cumulative
+Index to Nursing and Allied Health (CINAHL) and Social Sciences.
+Citation Index (SSCl) were systematically searched in May 2018. A.
+set of search terms was
+created with truncations, Medical
+Subject Headings (MESH) and
+Boolean operator.
+We have to observed and analyse the survey report are given below in the.
+table 2.
+To
+Age
+Beck
+Significant
+Dumitrache
+emphasize
+theICross
+76
+under 16-17
+relations
+correlations
+between
+et al.
+sectional
+Depression
+depression
+and
+(2012).
+Inventory
+the number
+of
+(Beck,
+Ward,identity related
+between
+Mendelson,
+Mock,
+&pieces
+of
+Erbaugh,
+information
+on
+depression
+and
+FB.
+the
+1961).
+identity
+outlined on FB.
+To
+No
+Neira
+Aged Depressed
+investigate
+theICross-sectio1819
+meaningful
+relationship
+nal
+Mood
+Scalerelationship.
+and
+under
+(Cronbach's a
+=between SM use
+Barber (2014).
+13-17
+0.76).
+frequency
+depressed
+between
+mood. A positive
+association with
+social
+investment
+in
+media use
+SM
+and
+depressed
+mood.
+PENDAHULUAN
+gambar ini dapat membantu dalam menemukan
+diagnosis dini untuk virus ini dengan lebih cepat dan
+Pada 31 Desember 2019, sebuah kasus
+akurat(DEBRABATA,
+al.,
+pneumonia yang tidak diketahui asalnya menyerang
+2020).Meskidalampenghasilaninformasilebihcepat,
+beberapa orang di kota Wuhan, China. Jenis
+namununtuk melakukan CT Scan dibutuhkan biaya
+pneumonia ini semakin banyak menyerang warga
+yang mahal. Risiko terjadinya kanker pada pasien
+seiring berjalannya waktu, sehingga pada tanggal 7
+yang menggunakan CT juga meningkat dikarenakan
+Januari 2020 China mengidentifikasi pneumonia
+melibatkan lebih besar dosis penggunaan radiasi
+yang tidak diketahui asalnya ini sebagai jenis baru
+pengion dari prosedur pencitraan
+sinar-X
+dari
+coronavirus dandisebutCoviD-19
+konvensional(fotoRontgen)yang
+lebih
+(Coronavirus Disease 19)(HUANG, et al., 2020).
+umum.Berbeda dengan sinar-X yang biayanya lebih
+Setiap harinya semakin banyak manusia yang
+terjangkau. Radiografi Sinar-X juga telah dipasang
+terinfeksi oleh COvID-19, sampai akhirnya pada
+di banyak daerah dari perkotaan hingga pedesaan
+tanggal 30 Januari 2020 organisasi kesehatan dunia
+dan di beberapa fasilitas kesehatan swasta yang
+(WHO) menetapkan virus ini sebagai "Situasi
+menjadikannya salah satu alternatif pencitraan
+Darurat Global"' atau Public Health Emergency of
+pertama yang dapat digunakan dalam pandemi
+International Concern (PHEIC). Jumlah kasus
+COVID-19 (DAI, et al., 2020).
+COVID-19 menyebar cepat hingga ke beberapa
+Sebuah pemanfaatan sistem kecerdasan buatan
+negara di dunia. Sampai dengan 3 Maret 2020,
+akan membantu proses deteksi dini COvID-19
+secara global dilaporkan 90.870 kasus konfirmasi di
+dengan
+menggunakan
+hasil
+gambar
+72 negara dengan 3.112 kematian (CFR
+pemindaianmenggunakan sinar-X sehingga akan
+3,4%)(KEMENTERIAN KESEHATAN REPUBLIK
+membantu petugas medis dalam mempercepat waktu
+INDONESIA, 2020). Semakin banyaknya kasus
+diagnosis dan mendapatkan hasil yang akurat.
+COVID-19di beberapa negara, akhirnya pada
+Gambar hasil pemindaian sinar-X tersebut akan
+tanggal 11 Maret 2020, WHO menetapkan virus ini
+seseorang
+terserang
+dideteksi
+COVID-19
+sebagai pandemi yang sangat berbahaya bagi
+pneumonia, atau sehat dengan menggunakan
+kesehatan warga dunia.Virus ini menyebar dengan
+klasifikasi citra. Dengan adanya solusi pendeteksi
+sangat cepat antar manusia dan bisa menginfeksi
+penggunaan masker tersebut maka bisa dibuat
+manusia lainnya yang memiliki kontak erat dengan
+sebuah sistem kecerdasan buatan menggunakan
+yang terinfeksi. COvID-19memiliki gejala umum
+arsitektur deep learning untuk melakukan klasifikasi
+yang menandakan seseorang sedang terserang virus
+citra yaitu Autoencoder..
+ini atau tidak, gejala umum tersebut antara lain
+Autoencoder merupakan salah satu jenis dari
+demam (suhu tubuh diatas 38 derajat), batuk kering,
+jaringan syaraf tiruan yang digunakan untuk
+dan
+sesak
+napas(WORLD
+HEALTH
+mengurangi dimensi dari fitur (Dimensionality
+ORGANIZATION, 2020). Pada kasus yang lebih
+Reduction). Autoencoder seringdigunakan pada
+parah infeksi COvID-19 bisa menyebabkan
+kasus unsupervised learning, ketika sebuah citra
+komplikasi seperti pneumonia, gagal ginjal, hingga
+dimasukkan maka autoencoder akan merekonstruksi
+kematian.
+citra tersebut untuk menghasilkan citra yang sama
+Tingkat berbahaya akibat dari COvID-19
+pada output. Keuntungan dari unsupervised learning
+inilah yang membuat para peneliti di dunia untuk
+diantaranya yaitu tidak membutuhkan pelabelan
+melakukan deteksi dini seseorang terserang
+untuk melatih layer konvolusi, sedangkan data
+COVID-19 atau tidak. Hal ini bertujuan agar para
+kedepannya akan semakin bertambah dan akan
+pasien penderita COvID-19 bisa ditangani dengan
+memakan usaha serta biaya yang tinggi untuk
+cepat sebelum virus ini menyerang pasien dengan
+melabeli dan
+melatih layer konvolusi
+lebih kuat dan menyebar ke orang lain. Metode
+tersebut.Autoencoder digunakan pada penelitian ini
+diagnosis umum yang digunakan untuk deteksi
+karena ketika melakukan pelatihan dari awal
+COviD-19 pada saat ini adalah dengan
+(scratch), sulit menemukan akurasi yang bagus, oleh
+menggunakan RT-PCR, namun RT-PCR ini
+karena itu perlu pelatihan tambahan, salah satunya
+membutuhkan setidaknya 24 jam untuk memberikan
+menggunakan pretrainingdenganautoencoder untuk
+hasilnya dan ini tidak sepenuhnya akurat bahkan bisa
+melakukan peningkatan data pada bagian encoder.
+memerlukan tes RT-PCR kedua untuk memastikan
+Pada penelitian ini autoencoder hanya digunakan
+diagnosis(SALAMEH, LEEFLANG, HOOFT, &
+pada proses encoder saja, hasil dari encoder yang
+ISLAM, 2020). Cara Iain yang bisa dilakukan adalah
+berupa latent akan dimasukkan pada Fully Conected
+dengan melakukan pemindaian gambar Sinar-X dan
+Layer yang selanjutnya akan dilakukan finetuning
+Computed Tomography (CT), kedua pemindaian
+klasifikasi pada proses tersebut. Hasil dari keluaran
+and
+depressed mood.
+To
+The
+Mean
+Hanprathet
+theCross-sectioI832
+Thai
+Jinvestigate
+Generalpositive
+relationship
+nal
+Health
+association
+between
+Questionnaire
+between
+et al.Facebook
+age=16.5
+(GHQ28;
+Facebook
+(2015).
+addiction
+years
+Goldberg
+and
+&Iaddiction
+and
+mental
+Williams,
+depression.
+health.
+1988.
+Grade=10th
+to
+12
+th
+The
+To
+Mean
+Sampasa-Kanylexplore
+theICross-sectio753
+Kessler
+(K-10)use
+of
+SNSs
+relationship
+nal
+Scale (Kessler etmore
+than
+inga
+SNSs
+al., 2002, Kesslerhours
+between
+per
+day
+and
+use
+and
+age=14.5
+et al., 2003).
+was related
+tc
+Lewis (2015). psychological
+increased
+distress.
+level
+of
+psychological
+distress.
+Year
+To
+Youth
+Mean
+Tsitsika
+investigate
+theICross-sectio10,930
+Self
+Reportpositive
+nal
+(YSR)
+associations
+problemassociation
+between heavier
+age 14checklist
+between heavier
+etal.SNS use and
+to 17
+Achenbach
+&SM use (more
+(2014).
+Resorta,
+than 2 h/day)
+internalizing
+behaviours.
+and internalizing
+2001).
+problems
+(anxiety
+and
+depression).
+An online survey was done for which a link was sent of the form created on
+Google form, on WhatsApp. Open ended questions were asked. Few
+side. After submitting the form the data was saved in a spreadsheet
+media has influenced students.
+.Eligibility
+criteria:
+For inclusion in this review, studies fulfilled the following eligibility criteria:
+A)Participants: aged 10 to 20 year old.
+B) Exposure:
+measurement of social media use Outcome: depression, anxiety or
+psychological distress, assessed by validated instruments.
+Questionnaires along with Pie Charts and Tables are given below:
+B. Primary Data:
+Here, we investigate various factors, finding statistical links, uncovering
+patterns and doing a thematic analysis based on the interviews are all part
+participants. Our objective is to offer significant insights that can
+significantly advance the field of research.
+insights.
+1.
+Figure 1
+Observation Result:.
+The majority of the participants, amounting to 70.5% fall within the age
+group 10 - 20 years of age. On the other hand, 25.4% are from the 20-30 age
+group, while 3.6 belong to the 40-50 age groups, respectively.
+Figure 2
+Observation Result:
+Also, the data shows that the vast majority of respondents (88.5%) are male,
+followed by females (11.5%)
+Figure 3
+Observed Result:
+Based on the data depicted in the pie chart, According to the question 'How often
+do you use social media?', it is evident that out of 100,approx 89.3 respondent use
+it daily, in contrast remaining 10.7 respondent use it ocassionally, rarely or several
+times a week. These findings suggest that most of the adolescent daily spend their
+time on social sites.
+4.
+Figure
+Observed Result:
+Based on the data depicted in the pie chart, According to the question " On
+average, how many hours per day do you spend on social media platform.".
+it is evident that out of 100,approx 50 respondent spend more than 5 hours, in
+contrast approx 12, 12,18 and 8 respondent spend 4 - 5 hr, 3 - 4 hr, 2 - 3 hr
+respectively on social media. These findings suggest that most of the adolescent
+5.
+Figure 5
+Observed Result:
+Based on the data depicted in the bar graph, According to the question "
+Which social media platforms do you use most frequently? ", it is evident
+that out of 122, 116 adolescents are using Whatsapp, remaining 82,106, 82, 108
+adolescents spend their time on Facebook, Instatgram, Snapchat and Youtube,
+respectively. These findings suggest that most of the adolescent spend their time on
+Whatsapp, Snapchat and Youtube.
+Figure 6
+Observed Result:
+Based on the data depicted in the pie chart, According to the question " Do
+you ever feel bad about yourself after looking at social media? ", it is evident.
+that out of 100,83 respondents feel bad about themselves and remaining 17
+respondents, don't feel bad. These findings suggest that most of the adolescent feel
+bad about themselves after using social media, It is a case of bad mental health.
+7.
+Figure 7
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100,51 respondents often compare their life with life shown in social
+media, in contrast 8 respondents always compare their life, 30 respondents
+sometimes compare their life while remaining 10 respondents rarely or.
+nevervcompare their life from reel world. These findings suggest that most of the
+8.
+Figure 8
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100, 60 respondents are often pressurised for presenting a perfect
+presurized, 7 respondents always pressurised and remaining 11.
+Figure 9
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100,74 rspondents follow account..
+10.
+Figure 10
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100, 66 respondents sometimes see cyberbullying. 11 and 16
+cyberbullying everyday and remaining 17 respondents rarely or never
+witnessed the cyberbullying.
+11.
+Figure 11
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100,68 respondents witnessed the cyberbullying at least once in his life
+and remaining 32 haven't..
+12.
+Figure 12
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100, 81 respondents believe that social media is making him alone while
+remaining 19 respondents rejects this opinion.
+13.
+Figure 13
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100, 86 experienced bad sleep cycle while 14 respondents don't. These
+findings suggest that most of the adolescent feeled tired during daytime due to
+inappropriate sleep causes by using social media.
+14.
+Figure 14
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+mood while 13 respondents don't. These findings suggest that most of the.
+adolescent are spending too much time on social site, as a result they become
+depressed and take break from social site..
+15.
+Figure 15
+Observed Result:
+Based on the data depicted in the bar graph, According to the question, out
+of 100, 54 respondents are satisfied by their social life, while remaining 7,
+17 and 19 respondents are unhappy with their social life. These findings may.
+suggest that most of the adolescent feel that their fake world (social media world)
+is most important. Their online world is good so they feel that their social life is
+good. On the other hand, remaining may be depressed due to bad online world or
+they are good in fake world but their real world relationship isnot good..
+16.
+Figure 16
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+adolescent feel that they are alone in this world. No one is in this world for hearing
+him and they can take a wrong step (like suicide, drugs,etc.).
+17.
+Figure 17
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100,67 respondents are not depressed but 33 respondents are feeling
+depressed.
+18.
+Figure 18
+Observed Result:
+Based on the data depicted in the bar graph, According to the question, out
+of 122, 65 respondent feel that their depression level is not very high, in
+adolescents mental health is very bad. They can take wrong measures..
+19,
+Figure 19
+Observed Result:
+Based on the data depicted in the pie chart, According to the question, out
+of 100, 87 respondents encountered depressed people while 12 haven't.
+adolescents.20. Observed Result:
+Bar graph is showing the symptoms which responbdents have absorbed in the
+deppressed people.
+3.2 Variables:
+Fadhil Y.R, dkk, Deteksi Covid-19 pada Citra Sinar-X... 3
+(output)fully conected layer inilah yang nanti bisa
+ZHU, & ALI,
+2020).Penggunaan supervised
+menghasilkan klasifikasi citra sinar-X antara
+learning akan menyulitkan karena dimasa yang akan
+seseorang terserang COVID-19, pneumonia, atau
+datang, data akan semakin bertambah banyak dan itu
+sehat.
+akan memerlukan waktu dan usaha yang cukup besar
+Tulin Ozturk dan Muhammed Talo (2020)
+untuk melakukan pemberian Iabel pada data dan
+melakukan penelitian dan dataset yang sama
+melakukan
+pelatihan untuk
+keseluruhan
+menggunakan model Darknet dan mendapatkan hasil
+arsitekturnya. Penggunaan unsupervised learning
+akurasi 98.08% pada binary classification yaitu
+pada penelitian ini akan memberikan keuntungan
+COviD-19 dan Normal. Serta mendapatkan
+karena tidak membutuhkan pelabelan untuk melatih
+akurasi87.02% untuk multiclass classfication yaitu
+Iayer konvolusi.Namundemikian, jenis unsupervised
+COVID-19, Pneumonia, dan Normal. Hasil tersebut
+learning
+didapatkan dengan menerapkan 17 layer konvolusi
+lebihmenantangdikarenakanseringkalimenghasilkana
+dan menggunakan filter yang berbeda pada setiap
+kurasi
+lebihrendahdaripadasupervised
+layer(OZTURK, et al., 2020).Novanto Yudistira,
+learningdikarenakantidakadanyasupervisi.
+Agus Wahyu, dan Bayu Rahayudi (2020) juga
+Penelitiansebelumnyatentang model unsupervised
+melakukan penelitian serupa, pada penelitian
+learningberbasisstacked-autocencoderuntukdeteksi
+tersebut melakukan pengujian dan membandingkan
+COyID-19hanvadilatih pada set data citra CT
+antara 3 model yaitu ShuffleNet, EfficientNet, dan
+dengan 2 kelas(LI, FU, & XU, 2020). Sedangkan
+ResNet50 dengan CNN FullConv. Dan didapatkan
+pada penelitian yang kami lakukan, Autoencoder
+akurasi sebesar 86.93% pada model CNN FullConv
+dilatih pada citra X-ray dengan 3 kelasyaitu
+dengan jumlah parameter model yang lebih kecil
+Pneumonia,
+COVID-19,
+18.55 kali dari EfficientNet, 22.36 kali lebih kecil
+tentunyalebihmenantanguntukdieksplorasilebihlanjut
+dari ResNet50 untuk mendeteksi 3 kelas yaitu
+COVID-19,Pneumonia, dan Normal(YUDISTIRA,
+WIDODO, & RAHAYUDI, 2020).Shervin Minaee
+METODE PENELITIAN
+(2020) melakukan penelitian serupa menggunakan
+citra X-ray dada dan perbandingan terhadap
+2.1
+Dataset dan Preprocessing
+beberapa arsitektur yang berbeda yaitu ResNet18,
+Pada penelitian ini, dataset yang digunakan
+ResNet50, SqueezeNet, dan DenseNet-121. Hasil
+adalah dataset citra sinar-X COvID-19 sebanyak
+1125 citra yang terbagi atas 3 kelas. Dari 1125 citra
+mendapatkan nilai sensitivity rate kurang lebih 98%
+terdapat 125 citra pasien positif COvID-19, 500
+dan specificity rate 90%(MINAEE, KAFIEH,
+citra No_findings (Normal), dan 500 citra
+SONKA,
+YAZDANI, & JAMALIPOUR
+Pneumonia. Dataset tersebut dapat diunduh di
+2020).Iqbal Khan (2020) mengusulkan sebuah
+alamat
+model baru yang diberi nama CoroNet, model ini
+https://github.com/muhammedtalo/COVID-19.
+berbasis pada arsitektur Xception yang telah
+Contoh dari dataset ini dapat dilihat pada 0 di bawah
+dilakukan pre-trained pada dataset ImageNet. Pada
+yang menunjukkan citra paru-paru terpapar
+penelitian tersebut menghasilkan nilai akurasi 89.6%
+COVID-19,
+kondisi
+normal,
+dan
+terpapar
+untuk 4 label yaitu (COvID-19, pneumonia
+Pneumonia.
+bacterial, pneumonia viral, dan normal) serta
+mendapatkan nilai akurasi 95% untuk 3 label yaitu
+(COVID-19, pneumonia, dan normal) (KHAN
+SHAH, & BHAT, 2020). Harsh Panwar (2020) juga
+melakukan penelitian yang sama, pada penelitian
+tersebut mengusulkan sebuah arsitektur baru yang
+diberi nama nCOVnet. Pada hasil akhir mendapatkan
+akurasi sebesar 93% dan ketika dilakukan pengujian
+(3)
+mendapatkan hasil prediksi sekitar 97% kebenaran
+Gambar 1 Citra paru-paru yang (1) terpapar COVID-19, (2)
+untuk ~cOvID-19 ~dan 98.67% untuk normal
+kondisi normal, (3) terpapar pneumonia(YUDISTIRA, WIDODO,
+(PANWAR, GUPTA, SIDDIQUI, MENENDEZ, &
+& RAHAYUDI, 2020)
+SINGH, 2020).
+Ada 2 proses tahapan preprocessing yang
+Perbedaan
+yang
+penelitian
+dilakukan dalam penelitian ini, yaitu normalisasi dan
+sebelumnya
+dengan
+adalah
+augmentasi data. Normalisasi data adalah salah satu
+penggunaan model atau arsitektur yang digunakan.
+Selain itu, pada penelitian terdahulu banyak
+proses pengolahan data yang sangat penting untuk
+membuat nilai data berada dalam suatu rentang
+yangsepenuhnyahanya
+menerapkan
+supervised
+learning(TURKOGLU,
+tertentu dengan tujuan membantu proses pelatihan
+2021)(ABBAS,
+ABDELSAMEA, &
+GABER, 2021)(TARESH,
+menjadi jauh lebih cepat. Augmentasi data adalah
+The independent variable for hypothesis are availability of internet,
+availability of electronic device, privacy policy of application and website,
+busy schedule.
+The dependent variable is usage of social mediaWe know that independent variable
+is those variable which is independent and dependent variable is those variable
+which depends on independent variable. On changing independent variable, we can
+cahnge dependent variable.
+We can increase or decrease uses of social media by changing the things which are
+suggested in independent variable..
+3.Present
+Justification:
+The intersection of social media and adolescent mental health is a
+multifaceted issue. While social media platforms offer avenues for
+self-expression and social support, they also present challenges that can
+affect well-being. Studies have identified various mechanisms through
+problems, although the direction of causality is not always clear.
+Furthermore, the prevalence of multitasking on social media platforms has
+been linked to symptoms of mental disorders, suggesting a potential strain
+on cognitive resources and emotional well-being.
+Another significant influence is the quality of social support obtained
+through online interactions. While social media can facilitate connections
+and reduce feelings of social isolation, the nature of these interactions
+levels of depression and anxiety, highlighting the potential positive impact
+of meaningful connections in digital spaces. However, experiences of
+negative online interactions, such as cyberbullying or comparison-induced
+envy, can exacerbate mental health issues..
+Adolescents, in particular, may be vulnerable to the adverse effects of
+self-regulation and susceptibility to peer influence can make them more
+susceptible to negative online experiences. Additionally, the process of
+identity formation during adolescence often involves social comparison,
+which may be intensified in the context of social media.
+3.3.1 Relationship between social media and mental health:
+mental health is ongoing, it remains an evolving field. Previous studies.
+complex interplay of individual differences, online experiences, and
+approaches to comprehensively address this issue.
+3.4 Current study:
+This systematic review examined evidence for the influence of social media
+use on depression, anxiety and psychological distress in adolescents. The
+intention was to inform policy and practice and to indicate further research
+on this topic.
+3.5 Limitation:
+A. Third-Variable Problem:
+The hypothesis may overlook
+the influence of third
+variables that could explain the relationship
+between social media
+usage and anxiety/depression.
+Factors such as family dynamics, socioeconomic status,
+academic pressure, and genetic predispositions may confound the
+relationship, making it difficult
+to isolate the effects of social.
+media alone.
+B. Limited Survey Questions:.
+A survey with a narrow range
+of questions may fail to.
+capture the complexity and nuances of adolescents' experiences
+with social media
+Important factors influencing social media usage and its effects
+such as frequency of use, types of platforms used, and specific
+behaviors exhibited online, may not.
+be adequately addressed.
+C. Respondents Filling Survey Without Reading:.
+Some respondents may complete the survey without.
+thoroughly reading or understanding the
+questions, leading to
+inaccurate or unreliable responses..
+D. Uneven Distribution of Age Groups:.
+An uneven distribution of age
+groups, particularly between
+ages 10 to 20 years, can skew the.
+demographic representation
+of the surveyed population.
+This uneven distribution may
+result in overrepresentation
+or underrepresentation of certain age
+cohorts, making it
+challenging to draw meaningful conclusions about adolescents'
+well-being.
+social media usage patterns and their effects on.
+This phenomenon, known as
+"response acquiescence,"
+can bias survey results and compromise the validity of the data
+collected.
+Overall, these limitations highlight the need for caution when interpreting
+the findings of a survey conducted under such circumstances.
+Researchers should consider these limitations and their potential impact
+on the validity and generalizability of the survey results. Additionally,
+efforts to address these limitations, such as increasing sample size,
+diversifying survey questions, and ensuring respondent comprehension,
+3.6 StatisticalAnalysis:
+To examine whether and by how much associations between social media
+use and depressive symptoms were explained by markers of online.
+regression models, adding and removing variables in separate blocks of.
+adjustment, as follows:
+Model 0 - social media use plus confounders (family income, family.
+structure, age, internalising symptoms at age 11)
+Model 1 - M0 plus online harassment
+Model 2 - M0 plus sleep quantity and quality (sleep hours, latency and
+disruption)
+Model 3 - M0 plus self-esteem
+Model 4 - M0 plus body image (happy with appearance and body weight
+satisfaction)
+The potential a prioriy moderating effect of gender on the social media use
+and depressive symptoms relationship was tested for (using Wald t-tests)
+by adding in a gender by social media use interaction term to Model 0 (p <
+0.05). The regression model findings are therefore presented for girls and
+sleep, self-esteem and body image as mediators between social media use.
+and log depressive symptoms, by showing the significance of social media
+Path models were then estimated to quantify the hypothesised explanatory
+pathways between social media use and mental health (see Fig. 1). A first
+model allowed all paths to differ by gender. Wald tests then assessed the
+account for the 75 tests. In the second model, all non-significantly different
+estimated using the generalised structural equation model, GsEM
+command in Stata, which allows for the continuous, binary, categorical and
+ordered measures to be modelled using linear, Iogistic, multinomial and.
+ordinal logistic specifications, respectively. All analyses were
+carried out using Stata version 15.1 (Stata Corp). Survey weights
+were applied throughout to take account of the unequal probability
+of being sampled.
+depressive symptoms in young people the flow chat are given
+below:
+:FLOW CHAT:
+4.Discussion:
+4.1 Does Social Media Have a Negative Impact on
+Adolescents and Young Adults?.
+Ans- Adults frequently blame the media for the problems that younger.
+generations face, conceptually bundling different behaviours and patterns
+of use under a single term when it comes to using media to increase
+acceptance or a feeling of community. The effects of social media on
+mental health are complex, as different goals are served by different
+behaviours and different outcomes are produced by distinct patterns of use.
+The numerous ways that people use digital technology are often
+disregarded by policymakers and the general public, as they are seen as
+"generic activities" that do not have any specific impact. Given this, it is
+crucial to acknowledge the complex nature of the effects that digital
+technology has on adolescents' mental health. This empirical uncertainty is
+how technology is used. Self-reports are the most commonly used method
+because self-reports are based on people's own perceptions of their
+Ievels that have been objectively verified.
+The findings of this research have frequently been difficult to interpret, with
+many of them suggesting that using social media may have a somewhat
+negative but significantly damaging impact on one's mental health. There
+is a growing corpus of research that is attempting to provide a more
+in-depth understanding of the elements that influence the development of
+mental health, social interaction, and emotional growth in adolescents.
+4.2 The Dangers That Come With Young Adults Utilizing.
+Social Media?
+substantial impact on the onset and maintenance of psychopathology in
+more frequent, intense, and rapid than in real life. Previous research has
+identified a few distinct types of peer interactions that can take place online
+also known as cyber victimization, has been shown to relate to greater
+rates of self -inflicted damage, suicidal ideation, and a variety of other
+internalizing and externalizing issues. Additionally, young people may be
+platforms. This can take the form of being rejected by peers, engaging in
+online fights, or being involved in drama or conflict. Peer influence
+processes may also be amplified among teenagers who spend time online,
+where they have access to a wider diversity of their peers as well as
+content that could be damaging to them. If young people are exposed to
+information on social media that depicts risky behaviour, their likelihood of
+drugs) may increase. It may be simple to gain access to online materials
+that deal with self-harm and suicide, which may result in an increase in the
+risk of self-harm among adolescents who are already at risk.
+comparison and depressed symptoms in adolescents, according to studies
+When determining how the use of technology impacts the mental health of
+adolescents, it is essential to consider the issue of displacement. This
+refers to the question of what other important activities are being replaced
+rhythms of children and adolescents have a substantial bearing on both
+their physical and mental development.
+4.3 Gains From Social Media?
+Ans-Even though most of the debate on young people and new media has
+centered on potential issues, the unique features of the social media
+present opportunities for humor and entertainment, identity formation, and
+creative expression. More mobile devices than ever before are in the hands
+of teenagers, and they are using social media at never-before-seen levels.
+drawn to digital devices and the affordances they offer, as well as their.
+are interacting with digital technology for longer periods of time, so it is
+critical to comprehend the effects of this usage and use new technologies
+to promote teens' mental health and well-being rather than hurt it..
+Considering the ongoing public discussion, we should instead emphasize
+that digital technology is neither good nor bad in and of itself
+Connecting with friends and family is usually cited by teenagers as the
+main benefit of social media, and prior research typically supports the
+used to increase acceptance or a feeling of community by providing
+adolescents with opportunities to connect with others who share their.
+interests, beliefs, and experiences. Diqital media has the potential to
+improve adolescent mental health in a variety of ways, including
+cutting-edge applications in medical screening, treatment, and prevention.
+significance of digital media in their life. An expanding corpus of research
+suggests that teenagers' use of social media may have an impact on their.
+the digital media landscape is changing.
+5. Conclusion:
+The impact of social media use on incidence of depression, anxiety
+and psychological distress among adolescents, as examined by this
+review, is likely to be multifactorial. It is important to distinguish
+between the terms used for the relationship. It is fair to say that there
+problems, on the basis that this means a socially constructed reality.
+investigate correlations rather than accepting socially assumed truths.
+Correlation is statistical, not phenomenal. Thirdly, there is causation,
+which requires directional evidence. The latter has not been.
+adequately investigated in this topic, and we must, therefore, state
+that the relationship is correlational but not conclusively causative.
+Key findings of included studies were classified into four categories of.
+exposure to social media: time spent; activity; investment; and
+addiction. All these categories were found as correlated with
+depression, anxiety and psychological distress, with an
+acknowledgement for the complexity of these relationships. Although
+there are studies which investigated mediating and moderating
+factors that may contribute or exacerbate the proposed relationship,
+there are still several underexplored mediators and moderators,
+which may explain the direction of this relationship. We also identified
+gaps in literature in terms of methods, study design and sampling..
+Causality was unclear due to the cross-sectional study design used in
+almost all studies and the lack of comparison group in the cohort
+study. Also, the number of quantitative studies in literature is
+addressing the gaps and highlighting the importance of the.
+phenomenon of the mental health impact of social media use on.
+adolescents.
+Future research should utilize prospectively collected data with
+repeated measures to establish causal relationships and provide a
+more comprehensive understanding of the relationship between
+social media use and mental health. Further investigation is needed
+to examine the role of emotional investment in time spent online, fear.
+of missing out, and the timing of online activities on adolescents'
+mental health.
+the use of convenience sampling in some studies limited the
+representativeness of and generalizability to a larger adolescent.
+population. Third, all studies included in this review used self-report.
+measures which may not provide reliable outcomes because of some
+sources of risk of bias. Participants may show positive
+media-related behaviours and some mental health-related items,
+which may directly or indirectly lead to social desirability bias,
+information bias and reporting bias. Another identified limitation was
+that some studies made an investigation towards only Facebook use
+over other social media sites, which also causes a significant bias
+and limits the generalizability of findings to other social media sites.
+Finally, despite the fact that the proposed relationship between social
+media-related variables, depression, anxiety and psychological
+distress is complex, few studies investigated mediating factors that
+proses pengolahan data juga yang berguna untuk
+ini dapat membantu jaringan agardapat fokus belajar
+memanipulasi data tanpa kehilangan esensi data
+ke fitur penting (lebih informatif) sehingga hasil
+tersebut. Hasil dari proses augmentasi adalah
+sejumlah variasi data tambahan yang dapat
+dan dapat menggeneralisasi data baru dengan lebih
+mengoptimalkan performa pelatihan dari model deep
+baik.
+learning (Wang & Perez, 2017). Pada penelitian ini,
+2.3.1
+Mixup
+normalisasi data menggunakan nilai rata-rata dan
+Mixup merupakan salah satu solusi untuk
+standar deviasi
+secara
+manual, sedangkan
+mengatasi masalah overfitting. Cara kerja dari
+augmentasi data menggunakan metode transformasi
+mixupyaitu dengan melatih jaringan syaraf dengan
+data yaitu fungsi ColorJitter atau pengaturan warna
+kombinasi pasangan fitur dan targetnya. Sehingga,
+(brightness,
+saturation,
+hue),
+fungsi
+mixupdapat mengatur jaringan syaraf untuk dapat
+RandomHorizontalFlip atau rotasi.
+mengenali perilaku linier sederhana dalam pelatihan.
+Pada beberapa eksperimen yang telah diterapkan
+2.2
+Model Arsitektur
+pada kumpulan data ImageNet-2012, CIFAR-10,
+Convolutional Neural Network (CNN) adalah
+CIFAR-100, Google, dan UCI menunjukkan bahwa
+salah satu metode klasifikasi dalam bidang deep
+mixupdapat meningkatkan kemampuan generalisasi
+learning yang memiliki operasi konvolusi untuk
+arsitektur jaringan syaraf yang canggih. Pada
+mengekstraksi fitur dari data input. CNN terbagi atas
+dua tahapan utama yaitu feature learning dan
+mengurangi pengenalan label yang tidak lengkap,
+classification. Pada tahapan pertama terdiri dari
+dan
+pelatihan
+menstabilkan
+adversarial
+convolution layer, ReLU (fungsi aktivasi) dan
+generatifnetworks (ZHANG, CISSE, DAUPHIN, &
+pooling layer, sedangkan pada tahap kedua terdiri
+LOPEZ-PAZ, 2018). Ilustrasi hasil augmentasimixup
+dari flatten, fully-connected layer, dan hasil prediksi.
+dapat dilihat pada 0.
+Pada setiap bagian tahapan terdapat dua proses
+utama, yaitu feed-forward dan backpropagation.
+Ada 2 model arsitektur dari CNN yang
+digunakan dalam penelitian ini yang bertujuan untuk
+merekonstruksi citra sinar-X COvID-19, yaitu
+model AlbuNet dan ResNet. Model AlbuNet
+merupakan modifikasi dari model LinkedNet dengan
+model ResNet sebagai versi dari proses
+Label
+1.0.
+[0.0. 1.0]
+[0.7, 0.
+autoencoder(SHVETS, IGLOVIKOV, RAKHLIN,
+& KALININ, 2018). ResNet atau Residual Neural
+Gambar 2. Ilustrasi Mixup(RUGERY, 2020)
+Network merupakan salah satu arsitektur yang cukup
+populer dan memiliki berbagai macam jenis
+2.3.2
+CutMix
+arsitektur, mulai dari 18, 34, 50, 101, sampai 152
+CutMix merupakan salah satu jenis augmentasi.
+layer (He., 2016). Berdasarkan jenis arsitektur
+data image yang pada prosesnya melakukan cut dan
+tersebut, ResNet-18 yang hanya memiliki 18-layer
+paste pada bagian acak (piksel) pada sebuah data
+dipilih sebagai model untuk melakukan proses
+latih citra. Sebuah citra asli (ground truth) akan
+autoencoder dikarenakan keterbatasan hardware dan
+disatukan dengan citra yang lain agar menghasilkan
+waktu pengerjaan peneliti.
+gambar yang menjadi 1 antara 2 citra. CutMix
+diusulkan untuk menggantikan salah satu metode
+2.3
+MixedSampleDataAugmentation
+regional dropout yang mengganti suatu bagian dari
+Dalam pelatihan model jaringan syaraf
+citra dengan piksel hitam.
+seringkali ditemukan fenomena overfitting di mana
+Hal ini bisa menghilangkan informasi penting.
+model terlalu cepat belajar pada data latih namun
+yang terdapat dalam citra tersebut, oleh karena itu
+tidak dapat fokus ke suatu fitur penting tertentu. Hal
+daripada menghilangkan salah satu bagian dari citra
+ini menyebabkan setelah model konvergen terhadap
+lebih baik mengganti bagian yang dihilangkan
+data latih, model tidak dapat menggeneralisasi data
+tersebut dengan image yang lain secara proporsional
+baru di luar data latih (seperti data validasi maupun
+agar suatu model bisa lebih fokus pada bagian yang
+data uji) dengan baik. Masalah overfitting ini salah
+tidak terlalu diskriminatif pada objek(SANGDOO, et
+satunya dapat ditangani dengan cara menambah
+al., 2019). CutMix dinilai dapat meningkatkan
+metode augmentasi terhadap data.
+kemampuan localization dari objek yang
+Mixed Sample Data Augmentation sendiri
+diklasifikasikan, oleh karena itu CutMix cocok untuk
+adalah metode augmentasi dengan menggabungkan
+beberapa kasus seperti deteksi objek. Ilustrasi hasil
+fitur-fitur yang dimiliki beberapa data menjadi satu.
+augmentasi Cutmix dapat dilihat pada 0.
+Fitur-fitur yang dikombinasikan dari beberapa data
+are needed to explain the underlying factors that help determine why
+health whereas it has no or positive affect on others' mental health..
+6. References:
+7. Appendices.1: Survey Questionnaire:.
+1.
+How often do you use social media platforms (e.g., Instagram,
+Snapchat, Facebook, Josh)?.
+2.
+Which social media platforms.
+do you use most frequently?
+3.
+On average, how many hours
+per day do you spend on.
+social media platform.
+4.
+Do you ever feel bad about yourself after looking at social
+media?
+How often do you compare your life to what you see on social
+5.
+media?
+6.
+How often do you feel pressure for presenting a perfect image.
+of yourself on social media? How often do you feel pressure for.
+presenting a perfect image of yourself on social media?
+7.
+Do you follow any accounts that make you feel bad about
+yourself or your body?
+How often do you see negative.
+comments or cyberbullying
+8.
+on social media?
+comments directed towards you on social.
+media?
+Do you find that social media
+10.
+makes you feel more
+isolated or lonely?
+Have you noticed any changes
+in your mood or sleep
+11.
+patterns since using social media more frequently?
+12.
+Do you ever feel the need to take breaks from social media to.
+improve your mood?
+Appendix.2: List information:
+Hoge E, Bickham D, Cantor J.
+Digital media, anxiety, and
+depression in children. Pediatrics. 2017; 140: S76. Doi:
+http://doi.org/10.1542/peds.2016-1758G
+2.
+https://en.wikipedia.org/wiki/Social media
+https://dx.doi.orq/10.1080/08039480802315640?utm medium=email
+&utm source=transaction
+Martinsen EW: Physical
+activity in the prevention and
+Nord J Psychiatry. 2008,
+treatment of anxiety and depression.
+-email&utm source=transaction
+5.
+Ulvi O, Karamehic-Muratovic
+A, Baghbanzadeh M, Bashir
+A, Smith J, Haque U: Social media use and
+mental health: a global
+analysis. Epidemiologia (Basel). 2022, 3:11-25..
+10.3390/epidemiologia3010002
+6.
+Social Media and
+Depressive Symptoms in Childhood
+and Adolescence: A Systematic Review
+https://link.springer.com/article/10.1007/s40894-017-0053-4
+Smartphones, social media
+7.
+use and youth mental
+health
+T.
+A. El-Badawy and Y. Hashem, The Impact of Social Media.
+on the.
+Academic Development of School Students,l International
+Journal of
+Business Administration, vol. 6, no. 1, pp. 46- 46, 2014.
+[Online].
+9.
+J.
+Cabral, -Is generation Y addicted to social media,l Future of.
+children, vol. 2, no. 1, pp. 5-14, 2008
+10.
+K.
+N, -The Impact of Social Networking Sites on the Youth,l
+Journal
+of Mass Communication & Journalism, vol. 05, no. 12, pp. 1-4,.
+2015. [Online]. Available: 10.4172/2165-7912.1000285; https:.
+//dx.doi.org/10.4172/2165-7912.1000285
+T. S. T. Suleman, pp. 8-8, 2017.l User Trust on Online Social
+11.
+Network on the basis of security and privacyl. IJECI, 1(1), pp: 8-8.
+12.
+W. Fan and M. D. Gordon, -The power of social media
+analytics,! Communications ofthe ACM, vol. 57, no. 6, pp. 74-81, 2014.
+[Online]. Available:
+10.1145/2602574;https://dx.doi.org/10.1145/2602574
+13.
+D. F. Mccaffrey, G. Ridgeway, and A. R, -Big data and social.
+media
+analytics,l Psychological Methods, vol. 9, pp. 403- 425, 2014.
+14.
+Jayshree Jha Research Scholar,MCA Thakur Institute of
+ManagementStudies, Career Development and Research (TIMSCDR).
+International Conference on Advances in Information Technology and
+Management ICAIM - 2016.
+15.
+Neelam Jaipuria Research Scholar,MCA Thakur Institute of
+Management
+Studies, Career Development and Research (TIMSCDR).
+Information Technology and Management ICAIM -- 2016.
+16.
+Shivesh Jha Research Scholar, MCA Thakur Institute of
+Management
+Studies, Career Development and Research (TIMSCDR),
+Information Technology and Management ICAIM - 2016.
+17.
+Priya Sinha Assistant Professor Thakur Institute of.
+Management
+Studies, Career Development and Research (TIMSCDR)
+,Information
+Technology and Management ICAIM - 2016.
+18.
+Prof. Prathamesh S. Nadkarni, Prof. Sanket L.Charkha Prof. Jayant B
+Kulkarni, Assistant Professor1, 2, 3 Department of Management
+Studies2 JSPM, Narhe Technical Campus1, 3, Smt. Kashibai Navale
+College of Engineering2 Corresponding Author's Email:
+nadkarni.prathamesh21@gmail.com1
+. Hafiz Burhan UI Haq, Haroon.
+Ur Rashid, Saba Khalil Toor,.
+19.
+Abdullah Mansoor, Lahore
+Garrison Education System, Lahore'
+Pakistan, Article in
+International Journal of Scientific & Technology
+Research: February 2021.
+20.
+: Leslie Festus Cole- Showers, 1st Class degree Bachelor of
+Mass Communication, with honors, Fourah Bay College,
+Arts in
+University of
+Sierra Leone.
+21.
+Qianhui Du, Faculty of Arts, University of Ottawa, Ottawa,
+Ontario,
+Canada, K1N 6N5 a. dqhulike@gmail.com, Article in the
+International Conference on Interdisciplinary
+Humanities and
+Communication Studies DOI: 10.54254/2753-7048/6/20220346
+22.
+Abderrahman
+M. Khalaf, Abdullah A. Alubied, Ahmed
+Rifaey,.
+M. Khalaf, Abdallah A.
+Psychiatry Department, Saudi
+Commission for Health Specialties, Ministry of Health, Riyadh, SAU 2
+College of Medicine, Imam
+Mohammad Ibn Saud Islamic University,
+Riyadh, SAU 3. College of.
+Medicine, Almaarefa University, Riyadh
+SAU, Article in Open Access
+Review, D0I: 10.7759/cureus.42990
+23.
+https://www.statista.com/chart/30579/us-survey-girls-of-exposure-to-harmfu
+l-social-media-content/..
+(pg 18 chart)
+24.
+Fig. 8&9,3
+Charts I Social Media Use and Depression
+(clearvuehealth.com)
+Visualized Science
+Fig.I
+10 https://thrivemyway.com/social-media-stats/
+25.
+Fadhil Y.R, dkk, Deteksi Covid-19 pada Citra Sinar-X... 5
+RcsNct-50_Mixup[48] _Cutout [3]]
+CutMix
+Image
+Gambar 3.Hlustrasi Perbedaan Hasil AugmentasiMixup, Cutout,
+dan Cutmix(SANGDOO, et al., 2019)
+Ior f in fold
+2.3.3
+FMix
+FMix adalah salah satu bentuk metode
+Augmentasi Citra
+augmentasi di mana teknik masking yang dihasilkan
+adalah hasil dari Fourier space secara acak.
+Pelatihan.
+l autoencode
+Sehingga hasil masking berbentuk secara tidak
+teratur namun nilainya berkelanjutan dengan
+fitur-fitur di sekitarnya sehingga fitur tersebut tetap
+Pelatihan Classfier
+terjaga korelasinya dengan fitur di sekitarnya,
+khususnya untuk data yang berjenis citra di mana
+tiap piksel dapat berkorelasi kuat dengan piksel di
+sekitarnya. Pada penelitian yang sudah dilakukan
+sebelumnya, secara umum FMix dapat menghasilkan
+model dengan performa yang lebih baik dibanding
+metode MSDA yang sudah ada sebelumnya, seperti
+Mixup dan CutMix (HARRIS, et al., 2020). Ilustrasi
+hasil augmentasi FMix dapat dilihat pada 0..
+Grey-scale
+Gambar 5FlowchartTahapPelatihan
+Binary
+Pelatihan model dilakukan menggunakan
+platform Google Colab dengan akselerasi GPU
+(Graphical Processing Unit) untuk mempercepat
+Image 1
+proses komputasi. Proses pelatihan model
+Image 2
+sekitar 8 sedangkan proses pelatihan model
+klasifikasi untuk 1 fold memakan waktu sekitar 30
+FMix
+menit dengan jumlah 100 epoch menggunakan
+platform Google Colab. Platform ini menyediakan
+hardware dengan spesifikasi 2vCPU @ 2.2Ghz,
+13GB RAM, dan GPU Nvidia K80/T4/P4/ P100.
+Gambar 4.IlustrasiFMix(HARRIS, et al., 2020)
+Selain itu, pelatihan model menggunakan platform
+Google Colab juga bertujuan untuk mensimulasikan
+2.4
+Tahap Pelatihan
+proses inferensi untuk deteksi dini menggunakan
+Pada penelitian ini, pelatihan model dilakukan
+platform yang mudah dijangkau.
+Sedangkan
+dengan dan tanpa arsitekturAutoencoder dengan
+perangkat lunak yang digunakan pada penelitian ini
+pembagian dataset menggunakan metode K-fold
+yaitu Python 3.6 dan Pytorch 1.8..
+crossvalidation sebelum dilakukannya pemrosesan
+2.4.1 TahapPelatihanAutoencoder
+untuk augmentasi, pelatihan, dan classifier. Ilustrasi
+tahapan pelatihan dapat dilihat pada 0.
+Autoencoderadalah jenis arsitektur jaringan
+syaraf di mana terdiri dari bagian encoder dan
+decoder. Ukuran keluaran dari encoder umumnya
+Iebih kecil dari ukuran masukannya, sedangkan
+ukuran keluaran pada decoder umumnya lebih besar
+dari ukuran masukannya. Pada arsitektur
+autoencoder ukuran masukannya sama dengan
+ukuran keluarannya. Dalam penelitian ini, kami
+menggunakan jenis task rekonstruksi citra untuk
+tahap
+pelatihan autoencoder. Pembelajaran
+rekonstruksi citra adalah pelatihan yang bertujuan
+untuk
+mempelajari
+data
+masukan
+dan
+merekonstruksi terhadap data masukan tersebut
+2015).Hlustrasi dari residual connection pada
+fitur.Pada
+sebagai
+pengurangan
+dimensi
+arsitektur ResNet-18 dapat dilihat pada0..
+penelitianini,
+kami
+menggunakanarsitekturAlbuNetsebagaiautoencoder
+yang terdiridarilapisansebagaiberikut.
+weight layer
+data
+citradengan
+1) Lapisaninput:
+Iapisan
+F(x)
+relu
+parameter
+data
+ditentukan
+oleh
+ukuran
+weight layer
+identity
+masukancitra.
+Kombinasilapisankonvolusi
+dan
+pooling:
+2)
+F(x)+x
+lapisankonvolusimenghasilkanfeature
+mapdari
+relu
+data
+input,
+Gambar 7IlustrasiArsitekturResNet(HE, ZHANG, REN, & SUN,
+sedangkanlapisanpoolingmembantudalammengu
+2015)
+rangioverfit.
+Parameter
+lapisaninidapatdilihat
+pada 0.
+2.5 Optimasi Adam
+Adam merupakan algoritme optimasi gabungan
+Tabel1 ArsitekturAutoencoder
+Ukuran
+dari RMSProp dan StochasticGradient Descent
+Nama Layer
+18-layer
+Output
+(SGD) dengan Momentum. Secara umum, algoritme
+112x112
+ini menyelesaikan masalah lamanya konvergen
+conv1
+7 x 7, 64 filtcr, stridc 2, padding 3
+3 x 3 max pooling, stride 2, padding 1.
+sebuah model pada pelatihan. Penyelesaian
+conv2
+56x56
+dilakukan dengan
+menambahkan
+estimasi
+conv3
+28x28
+momentum pertama dan kedua untuk mengatur
+conv4
+14x14
+besarnya learning rate dari perubahan gradien
+conv5
+7x7
+sebelumnya untuk setiap bobot pada jaringan. Hal
+decoder1
+14x14
+ini yang membuat Adam sedikit berbeda dengan
+decoder2
+28x28
+RMSProp, dimana jika RMSProp mengadaptasi
+decoder3
+56x56
+learning rate berdasarkan rata-rata dari perubahan
+112x112
+decoder4
+gradien, Adam menghitungnya untuk setiap bobot.
+decoder5
+224x224
+Penambahan ini dapat membantu jaringan untuk
+Ilustrasi secara keseluruhan dari arsitektur
+mendapatkan akurasi yang tidak jauh berbeda
+AlbuNet dapat dilihat pada 0.
+dengan metode SGD klasik(KINGMA & BA, 2015).
+HASIL DAN PEMBAHASAN
+AlbuNet-34
+Pada penelitian ini kami melakukan percobaan
+untuk menerapkan Autoencoder sebagai pre-training
+dalam kasus klasifikasi citra sinar-X dada yang
+mempunyai 3 kategori, yaitu normal, pneumonia,
+dan COvID-19. Sebelumnya kami telah melatih
+model pembelajaran mendalam (deep learning)
+AlbuNet yang menggunakan Resnet-18 sebagai
+encodernyadengan batch sizesebesar 256, learning
+rate sebesar 1x104, dan Adam sebagai optimizer.
+Untuk menguji model tersebut, dilakukan
+Gambar 6IlustrasiArsitekturAlbuNet(SHVETS, IGLOVIKOV,
+percobaan menggunakan validasi silang 5 bagian
+RAKHLIN, & KALININ, 2018)
+(5-fold crossvalidation). Pada setiap percobaan
+2.4.2
+TahapPelatihanClassifier
+tersebut menggunakan perbandingan data latih dan
+Pelatihan pada tahap ini adalah pelatihan akhir
+data uji dalam setiap percobaan adalah sebesar
+secara supervisedsetelahpelatihan autoencoder. Pada
+80:20.Salah satu hambatan dalam menerapkan
+pelatihan ini,
+hanya
+bagian
+metode pembelajaran mendalam adalah data yang
+menggunakan
+encodersaja
+dari
+autoencoder
+untuk
+digunakan harus banyak. Karenabanyaknya data
+meng-klasifikasikan
+diambil
+data.
+Setelah
+berbanding lurus dengan akurasi yang dihasilkan.
+encoder-nya saja, jaringan kembali ke bentuk
+Salah satu cara untuk mengatasinya yaitu kami
+awalnya yaitu ResNet-18.ResNet adalah arsitektur
+berbasis CNN dengan penambahan adanya jalur
+shortcutyang dinamakan residual connection di
+baru dengan tujuan tetap mempertahankan fitur
+antara blok CNN untuk mengatasi masalahvanishing
+kunci dalam data. Dalam penelitian ini kami
+gradient(HE,
+ZHANG,
+REN,
+SUN,
+Fadhil Y.R, dkk, Deteksi Covid-19 pada Citra Sinar-X... 7.
+(horizontal flip), dan pengaturan warna (saturation,
+brigthness, hue). Namun dalam penerapannya, kami
+mendapatkan hasil bahwa akurasi model akan
+mengalami kenaikan terbesar jika menerapkan
+gabungan dari tipe augmentasi rotate dan saturation
+seperti yang terlihat pada 0.
+Tabel2 Hasil EksplorasiAugmentasi
+Saturation
+Rotate
+Bright
+Hue
+Acc
+H.Flip
+0.25
+0.1
+150
+0.7973
+0.8124
+00
+0.7902
+Gambar 8.Grafik/ossterhadap data
+0.8036
+validasiselamapelatihandenganautoencodersebagaipretrainingden
+0.7724
+ganmetodeaugmentasiCutmix
+0.7876
+0.8196*
+Dikarenakan bertambah kompleksnya metode
+augmentasi yang digunakan pada percobaan terakhir,
+maka khusus pada percobaan tersebut kami
+menaikkan epoch-nya dari 25 menjadi 50. Selain
+augmentasi, kami juga melakukan normalisasi pada
+data menggunakan nilai rata-rata dan standar deviasi
+yang diambil dari data latih tiap fold cross
+validation.
+Tabcl3 Hasil EksplorasiMixed Sample Data Augmentation
+(MSDA)
+Gambar 9Grafikakurasiterhadap data
+Non-
+validasiselamapelatihandenganautoencodersebagaipretrainingden
+Mix
+Cut
+Metode
+FMix
+Acc
+MSDA
+Mix
+ganmetodeaugmentasiCutmix
+up
+0.8116
+Bobotawalra
+0.7369
+Tabel4Confusion Matrix AlbuNet-18 + autoencoder + Cutmix -
+ndom
+0.8027
+5-fold cross validation
+COvID-19 normalpneumonia
+0.8089
+COVID-19
+104
+Bobotawalh
+0.8133
+normal
+428
+72
+asilautoenco
+0.7627
+der
+0.8196
+penumonia
+104
+390
+0.8133
+Hasil pengujian model autoencoder dengan
+Kami juga melakukan eksplorasi pada data
+akurasi terbaik pada kasus klasifikasi dirangkum
+dengan menerapkan metode Mixed Sample Data
+dalam confusion matrix agar selanjutnya dapat
+Augmentation(MSDA) untuk melokalisir fitur-fitur
+diolah menjadi metriks yang lebih spesifik seperti
+yang terdapat pada data dengan menggunakan 100
+precision, recall, dan f1-score.Confusion matrix pada
+epoch. Pada eksplorasi ini mendapatkan hasil bahwa
+0 juga menunjukkan bahwa citra sinar-X dada
+akurasi terbesar yaitu dengan menggunakan MSDA
+kategori normal dan pneumonia memiliki kemiripan
+jenis CutMixseperti yang terlihat pada0.Pada hasil.
+pada pola data, sedangkan pada kategori COvID-19
+tersebut juga dapat
+membuktikan
+bahwa
+mempunyai pola tersendiri.
+metodepre-trainingdengan
+Tabel5Tabelperhitunganmetrikshasilpengujian
+autoencodermenunjukkan
+peningkatan
+performa
+Kelas
+Precision
+Recall
+F1-score
+pada
+datasetcitra
+sinar-X
+dibandingkan
+COVID-19
+94.55%
+83.20%
+88.51%
+menggunakan bobot awal secara acak. Rata-rata nilai.
+normal
+79.70%
+85.60%
+82.54%
+loss yang dihasilkan dari eksplorasi Autoencoder
+penumonia
+81.59%
+78.00%
+79.75%
+dari tiap fold dengan Cutmix yaitu sebesar 0,48646.
+Grafik nilai loss dan akurasi pada tiap foldselama
+Hasil pengolahan confusion matrix menjadi
+pelatihan secara berturut-turut dapat dilihat0 dan 0.
+metriks yang spesifik disajikan pada 0. Dari tabel
+tersebut dapat dihitung juga macro-precision sebesar
+85.28%,
+macro-recall
+sebesar
+82.27%, dan
+macro-F1 sebesar 83.6% yang dihitung dari rata-rata.
+metriks di tiap kelas.
+KESIMPULAN
+Hasil eksperimen yang telah dilakukanterhadap
+HE, K., ZHANG, X., REN, S., & SUN, J. (2015).
+metode augmentasi gabungan antaramanipulasi
+Deep Residual Learning for Image
+warna pada channel saturation dan pemutaran citra
+Recognition.
+menujukkan peningkatan akurasi mencapai 2,23%
+doi:https://doi.org/10.1109/CVPR.2016.90
+terhadap baselineyang dilatih tanpa menggunakan
+HUANG, C., WANG, Y., LI, X., REN, L., ZHAO,
+metode augmentasi.Selain itu, dalam eksperimen
+J., HU, Y., & ZHANG, L. (2020). Clinical
+penggunaan
+Mixed
+Sample
+Data
+Features of Patients Infected with 2019
+Augmentation(MSDA) pada citra sinar-Xdidapatkan
+Novel Coronavirus in Wuhan, China. 395,
+bahwapengaplikasian
+Mixupselalu
+10.
+hasil
+menunjukkan
+penurunan
+performa
+baik
+doi:https://doi.org/10.1016/S0140-6736(20)
+30183-5
+menggunakan
+autoencoder
+ataupun
+tanpa
+menggunakan autoencoder,sedangkan CutMix dan
+KEMENTERIAN KESEHATAN REPUBLIK
+FMix juga menunjukkan penurunan performa namun
+INDONESIA. (2020). Pedoman
+hanya pada pelatihan model tanpa menggunakan
+Pencegahan dan Pengendalian
+autoencoder sebagai pretraining. Secara umum,
+Coronavirus Disease (COvID19) (3rd ed.).
+pelatihan menggunakan
+autoencoder sebagai
+Jakarta.
+pretrainingpada kasus klasifikasi citra sinar-X untuk
+KHAN, A. I., SHAH, J. L., & BHAT, M. M. (2020).
+deteksi COVID-19 dan pneumonia menunjukkan
+CoroNet: A deep neural network for
+peningkatan akurasi secara konsisten terhadap
+detection and diagnosis of COVID-19 from
+seluruh konfigurasipengujiantanpa autoencoder
+chest x-ray images. Elsevier, 9.
+dengan peningkatan performa sekitar 0,17% hingga
+doi:https://doi.org/10.1016/j.cmpb.2020.10
+2,58%.
+5581
+KINGMA, D. P., & BA, J. (2015). Adam: A Method
+DAFTAR PUSTAKA
+for Stochastic Optimization. 3rd
+International Conference on Learning
+ABBAS, A., ABDELSAMEA, M. M., & GABER
+Representations, ICLR 2015 - Conference
+M. M. (2021). Classification of COVID-19
+Track Proceedings, 1-15. Retrieved from
+in chest X-ray images using DeTraC deep
+https://arxiv.org/abs/1412.6980
+convolutional neural network. Applied
+LI, D., FU, Z., & XU, J. (2020).
+Intelligence, 854-864.
+Stacked-autoencoder-based model for
+doi:https://doi.org/10.1007/s10489-020-018
+COVID-19 diagnosis on CT images.
+29-7
+Applied Intelligence..
+DAI. W.-C.. ZHANG. H.-W.. YU. J.. XU. H.-J.
+doi:https://doi.org/10.1007/s10489-020-020
+CHEN, H., LUO, S.-P.,... LIN, F. (2020).
+02-w
+CT Imaging and Differential Diagnosis of
+MINAEE, S., KAFIEH, R., SONKA, M.,
+COVID-19. Canadian Association of
+YAZDANI, S., & JAMALIPOUR, G. S.
+Radiologists Journal, 71(2), 195-200.
+(2020). Deep-COVID: Predicting
+doi:https://doi.org/10.1177/0846537120913
+COVID-19 from chest X-ray images using
+033
+deep transfer learning. Elsevier, 65, 9.
+DEBRABATA, D., KUMAR, R., AISHIK, B., D.
+doi:https://doi.org/10.1016/j.media.2020.10
+JUDE, H., DEEPAK, G., ASHISH, K., &
+1794
+OSCAR, C. (2020). Early diagnosis of
+OZTURK, T., TALO, M., YILDIRIM, E. A.,
+COVID-19-affected patients based on
+BALOGLU, U. B., YILDIRIM, O., &
+X-ray and computed tomography images
+ACHARYA, U. R. (2020). Automated
+using deep Iearning algorithm.
+detection of COVID-19 cases using deep
+Springer-Verlag GmbH Germany, part of
+neural networks with X-ray images.
+Springer Nature 2020, 9.
+Elsevier Public Health Emergency
+doi:https://doi.org/10.1007/s00500-020-052
+Collection.
+75-y
+doi:https://doi.org/10.1016/j.compbiomed.2
+HARRIS, E., MARCU, A., PAINTER, M.,
+020.103792
+NIRANJAN, M., PRUGEL-BENNET, A.,
+PANWAR, H., GUPTA, P., SIDDIQUI, M. K.
+& HARE, J. (2020). FMix: Enhancing
+MENENDEZ, R. M., & SINGH, V. (2020).
+Mixed Sample Data Augmentation. Vision,
+Application of deep learning for fast
+Learning, and Control Group. Retrieved
+detection of COvID-19 in X-Rays using
+from
+nCOVnet. Elsevier, 9.
+https://www.researchgate.net/publication/33
+doi:https://doi.org/10.1016/j.chaos.2020.10
+9551062_FMix_Enhancing_Mixed_Sample
+9944
+Data_Augmentation
+Fadhil Y.R, dkk, Deteksi Covid-19 pada Citra Sinar-X... 9
+RUGERY, P. (2020, September 8). Explanation of
+ZHANG, H., CISSE, M., DAUPHIN, Y. N., &
+YOLO V4 a one stage detector. Retrieved
+LOPEZ-PAZ, D. (2018). mixup: BEYOND
+from Becoming Human: Artificial
+EMPIRICAL RISK MINIMIZATION.
+Intelligence Magazine:
+Arxiv. Retrieved from
+https://becominghuman.ai/explaining-yolov
+https://arxiv.org/abs/1710.09412
+4-a-one-stage-detector-cdac0826cbd7
+SALAMEH, J., LEEFLANG, M., HOOFT, L., &
+ISLAM, N. (2020). Thoracic imaging tests
+for the diagnosis of COVID-19. In Thoracic
+imaging tests for the diagnosis of.
+COVID-19 (p. 97). Cochrane Library.
+doi:https://doi.org/10.1002/14651858.CD0
+13639.pub3
+SANGDOO, Y., DONGYOON, H., JUNSUK, C.,
+SEONG, J. O., YOUNGJOON, Y., &
+SANGHYUK, C. (2019). CutMix:
+Regularization Strategy to Train Strong
+Classifiers with Localizable Features. 1-14.
+doi:https://doi.org/10.1109/iccv.2019.00612
+SHVETS, A., IGLOVIKOV, V., RAKHLIN, A., &
+KALININ, A. A. (2018). Angiodysplasia
+Detection and Localization Using Deep
+Convolutional Neural Networks. 2018 17th
+IEEE International Conference on Machine
+Learning and Applications (ICMLA),
+612-617.
+doi:https://doi.org/10.1109/ICMLA.2018.00
+098
+TARESH, M., ZHU, N., & ALI, T. A. (2020).
+Transfer learning to detect COVID-19
+automatically from X-ray images, using
+convolutional neural networks. medRxiv -
+Radiology and Imaging.
+doi:10.1101/2020.08.25.20182170
+TURKOGLU, M. (2021). COVIDetectioNet:
+COVID-19 diagnosis system based on
+X-ray images using features selected from
+pre-learned deep features ensemble.
+Artificial Intelligence Applications for
+COVID-19, Detection, Control, Prediction,
+and Diagnosis, 1213-1226.
+doi:https://doi.org/10.1007/s10489-020-018
+88-w
+WORLD HEALTH ORGANIZATION. (2020).
+World Health Organization. Retrieved
+December 6, 2020, from
+https://www.who.int/emergencies/diseases/
+novel-coronavirus-2019/question-and-answ
+ers-hub/q-a-detail/coronavirus-disease-covi
+d-19
+YUDISTIRA, N., WIDODO, A. W., &
+RAHAYUDI, B. (2020). Deteksi
+COVID-19 Pada Citra Sinar-X Dada
+Menggunakan Deep Learning Yang Efisien.
+Jurnal Teknologi Informasi dan Ilmu
+Komputer, 1289-1296.
+doi:https://doi.org/10.25126/jtiik.20207636
+51
+Acknowledgement:.
+We would like to express our sincere gratitude to the following individuals and
+organizations for their invaluable support and assistance in the completion of this
+research project..
+First and foremost we would like to express our deepest gratitude to our supervisor Dr
+research process. Her insights and feedback have been instrumental in shaping the
+direction and scope of our research. Her constructive feedback and thoughtful
+suggestions have significantly enhanced the quality and rigor of this study. Their
+mentorship has not only expanded our understanding of the subject matter but has also
+enhanced our research skills and critical thinking abilities.
+In addition, we would like to acknowledge the support and encouragement of Ms. Dharti
+Sharma and Ms. Jinal Purohit, our teaching assistants, who have guided us through the
+entire process.We would like to express our appreciation to all the 209 survey
+paper.
+Finally, we would like to express gratitude to the Indian Institute of Information
+Technology Vadodara for providing the resources and facilities necessary to carry out
+this research..
+Thank you all for your invaluable contribution to this project
+Abstract
+This term paper, "The Technology Determination: How Technology Shapes
+throughout history. From the invention of the printing press to the modern
+paper looks at how recent advancements in artificial intelligence, online
+interaction, and robotics are changing the way people live, work, and
+interact with each other.
+Using both global and local examples, the research highlights how
+1) Reduces Stress And Anxiety.
+Yoga's innate ability to cease the mental chatter and live in the moment reduces stress
+and anxiety, showing profound benefits in every sphere of life. Students are very
+stressed individuals, keen to outperform themselves and prove their worth every chance
+they get.
+Yoga helps them to deal with their stress and bring back some peace of mind. Those
+who regularly practice yoga not only report lower levels of stress and anxiety and.
+subsequently improved academic performance..
+2) Improves Memory And Attention Span.
+Yoga helps to improve the memory function in both adults and students, a direct benefit
+of which would be a better academic performance in students. It also helps to improve
+students's attention span and focus. In fact, yoga aids students suffering from ADHD
+(Attention Deficit Hyperactivity Disorder) as well by reducing its core symptoms such as.
+inattentiveness, hyperactivity and impulsivity..
+Source: https://www.jbcninstitute.edu.in/blog/benefits-of-yoga-in-schools/.
+job roles and the skills people need. Technology also influences how
+people communicate and share emotions and information..
+The study points out that not everyone has the same access to new
+technologies, which can lead to inequalities. In many places, advanced
+technology is not available to everyone, creating a digital divide. This divide
+some groups cannot keep up with rapid technological changes.This
+research aims to provide a detailed look at how technology impacts society
+and culture. It will help policymakers promote fair and inclusive
+technological development. The paper emphasizes the need to evaluate
+technology's effects to ensure that advancements benefit everyone and
+alongside technological progress, ensuring that all members of society
+benefit from these changes..
+Keywords
+Technology determinism, societal norms, printing press, artificial intelligence (Al)
+robotics, workplace dynamics, job roles, skill requirements, communication, emotional
+exchange, digital divide, social inequalities, inclusive development, policymaking, equity,
+accessibility, technological advancements, cultural preservation, technological progress,
+social development.
+Team Members:
+Shivam kumar (202351130)
+Signature:
+Ram Sharma (202351129)
+Signature:
+Table of Content
+Section
+Sub-sections
+1. Introduction
+1.1 Topic
+1.2 Focus
+1.3 Importance
+1.4 Objective of our Research
+1.5 Background and Context
+1.6 Research Problems
+1.7 Chapterisation
+2. Literature Review
+3. Analysis
+3.1 Methodology
+A. Secondary Data.
+- Survey Method
+- Eligibility Criteria
+a) Participants
+b) Exposure
+B. Primary Data
+3.2 Variables
+3.3 Present Justification
+- 3.3.1 Relationship Between Technology and
+Societal Norms
+3.4 Current Study
+3.5 Limitations
+A. Third-Variable Problem
+B. Limited Survey Questions
+C. Respondents Filling Survey Without
+Reading
+D. Uneven Distribution of Age Groups
+3.6 Statistical Analysis
+4. Discussion
+4.1 How Does Technology Impact Social Norms?
+4.2 The Effects of Al and Robotics on Job Roles and
+Workforce Dynamics
+4.3 The Role of Digital Communication in Shaping
+New Social Norms.
+5. Conclusion
+6. Reference List
+7. Appendices
+Appendix 1: Survey Questions
+Appendix 2: List Information.
+List of Figures and Tables
+Figure No.
+Page No.
+Figure Title/Description
+2. Literature
+Review
+Figure 1
+Social Media and Its Impact on Social Norms
+13
+Figure 2
+Digital Interaction in Professional Settings
+14
+Figure 3
+Technology and International Relations
+15
+Figure 4
+Post-Industrial Society and Technology
+16
+Figure 5
+Sustainability and Technological Transitions
+17
+Figure 6
+Ethics of Artificial Intelligence
+18
+Figure 7
+Climate Change Adaptation and Technology
+19
+Figure 8
+Security, Immigration, and Technology
+20
+Figure 9
+Al and Society
+21
+Figure 10
+Socially Interactive Robots
+21
+22
+Figure 11
+Fairness in Sociotechnical Systems
+Figure 12
+The Sharing Economy and Technology.
+22
+Figure 13
+Mediatization of Society
+23
+Figure 14
+Sustainable Development and Technology
+24
+Figure 15
+Digital Technology and Social Transformation
+25
+3. Analysis
+Secondary
+Data:
+Figure 1
+Historical timeline showcasing the
+27
+transformative influence of technology on
+societal priorities
+Figure 2
+Integration of advanced Al and mixed.
+26
+reality in enterprises and societal well-being.
+concerns
+Figure 3
+The Printing Revolution and its impact on
+28
+knowledge democratization, literacy, and
+societal transformations
+Figure 4
+Urbanization and societal restructuring
+29
+during the Industrial Revolution
+Figure 5
+The Communication Revolution: Impact of the
+30
+telegraph, telephone, and the internet on
+connectivity
+Figure 6
+Social Media Era: Influence on personal
+31
+identity, public discourse, and societal norms
+Figure 7
+Communication evolution: From traditional
+32
+letters to instant messaging and societal
+impacts
+Figure 8
+Transformative role of social media platforms
+33
+in daily life and global connectivity
+Figure 9
+Statistical insights on global social media
+34
+usage and its impact on community and
+identity
+Figure 10
+Popularity and user base statistics for major
+35
+social media platforms
+Figure 11
+Ethical concerns: Digital surveillance, data
+36
+privacy, and public trust in organizations
+Figure 12
+Technology's dual impact on interpersonal
+37
+relationships
+Figure 13
+Survey on the impact of digital technology in
+38
+pediatric healthcare.
+Figure 14
+Concerns about security surveillance, privacy
+39
+erosion, and civil liberties
+Figure 15
+Future trends: Al and automation in displacing
+40
+and creating jobs by 2025
+B. Primary Data:.
+Figure 1
+41
+Age Distribution of Participants.
+Figure 2
+Gender Distribution of Participants.
+42
+Figure 3
+Educational Level of Respondents.
+42
+Figure 4
+Purpose of Using Al
+43
+Figure 5
+Impact of Al on Life (Rating)
+44
+Figure 6
+Hours Spent on Digital Devices Daily.
+45
+Figure 7
+Technology Used Most Frequently.
+45
+Figure 8
+Perception of Al's Impact on Workplace or
+46
+Professional Relationships
+Figure 9
+Perception of Technology's Influence on Social
+47
+Norms
+Figure 10
+Impact of Technology on Communication with
+48
+Family and Friends
+Figure 11
+Impact of Online Learning on Education Quality
+49
+and Accessibility
+Figure 12
+Perception of Technology's Influence on Career
+50
+Paths and Job Stability
+Figure 13
+Technology's Impact on Dating and Romantic
+51
+Relationships
+Figure 14
+Influence of Social Media on Political Opinions
+51
+Figure 15
+52
+Perception of Technology Facilitating Political
+Misinformation
+Figure 16
+Areas Where Technology Significantly Impacts
+53
+Social Norms
+Figure 17
+Impact of Technology on Traditional Cultural
+54
+Practices
+Figure 18
+Influence of Technology on Passing Cultural
+54
+Traditions to Younger Generations.
+Figure 19
+Future Perception of Technology Reshaping.
+55
+Societal Norms.
+Figure 20
+Summary of Views on Technology's Influence.
+56
+on Societal Norms.
+4. Statistical
+Analysis
+Table 3.6
+Hypothesized Pathways Between.
+62
+Technology Adoption and Changes in
+Societal Norms
+Figure 3.6.1
+Flow chart of technology adoption and changes.
+63
+in societal norms,.
+1. Introduction:.
+1.1. Topic:
+This term paper explores the ongoing topic of "The Technology Determination: How.
+in shaping human behavior and social practices. The definition of technology in this
+context includes innovations and tools that alter the way society functions. Over the last
+few decades, technology has evolved dramatically. Over time, technology has
+witnessing the rapid expansion of artificial intelligence, digital communication tools, and
+relationships, privacy, and work environments at an unprecedented rate..
+Today's society extensively interacts with technology through
+platforms like social media, online collaboration tools, and automated systems. While
+these technologies bring numerous benefits, such as improved access to information,
+enhanced connectivity, and increased efficiency in various sectors, they also pose
+significant challenges. Technology impacts every aspect of life, from how we.
+communicate and learn to how we work and form relationships. With each technological
+breakthrough, new societal norms emerge, affecting the established order of social
+practices.
+In this term paper, we aim to examine how technological advancements influence and
+reshape societal norms. By analyzing historical innovations and modern developments,
+we will explore how technology disrupts traditional norms and creates new social
+behaviors and expectations. This study will focus on the impact of technologies such as
+artificial intelligence and digital communication, highlighting their role in shaping societal
+values and cultural practices. Additionally, we will address the challenges posed by
+importance of inclusive and equitable technological development..
+1.2. Focus:
+The focus of this term paper is to investigate how technology actively shapes societal
+norms, examining both the positive and negative impacts. This paper aims to identify
+specific areas in which technology influences daily behavior, values, and social
+expectations, such as communication, privacy, work, and relationships. By exploring
+these aspects, the paper will highlight how technological advancements, from
+smartphones to artificial intelligence, redefine what society considers "normal" or
+"acceptable."
+The analysis will focus on how technology's pervasive presence in modern life subtly,
+yet powerfully, molds human interactions, alters social standards, and influences our
+perceptions of appropriate behavior. Additionally, this paper seeks to understand the
+potential risks of this influence, such as dependency on digital tools or shifts in privacy
+norms, and to consider the implications of these changes for future societal
+development.
+1.3 Importance:
+plays in shaping societal norms. As technology becomes more integrated into daily life,
+its influence on social behavior and cultural values grows stronger. By examining how
+technology redefines standards in areas like communication, privacy, work, and
+relationships, we gain insight into the ways it affects our perceptions of what is "normal'
+or "acceptable' in society
+become more aware of how their behaviors and expectations may be shaped by the
+tools they use. Second, it highlights the need for balanced and mindful technology use
+to avoid unintended consequences, such as decreased privacy, over-reliance on digital
+platforms, or changes in social interaction patterns. Finally, this understanding is
+ethical development and implementation of technology, ensuring that it aligns with
+societal values and promotes well-being. By addressing these topics, the paper aims to
+contribute to a more informed and proactive approach to the role of technology in
+society.
+1.4 Objective of Our Research:
+The main goal of our research is to understand how technology changes the way we
+live and interact with each other. Specifically, this paper aims to:.
+1. Identify Key Areas: Look at important areas like communication, privacy, work, and
+2. Assess Impacts: Study both the good and bad effects of technology, like better
+over-dependence on digital platforms..
+3. Understand Adaptation: Explore how society adjusts to technological changes and
+how these changes create new norms of what is considered "normal" or "acceptable."
+4. Promote Responsible Use: Offer insights on how people, communities, and Ieaders
+can guide the use and development of technology to align with shared values, reduce
+negative impacts, and enhance positive effects..
+By achieving these goals, our research aims to deepen our understanding of how
+technology shapes societal norms and to provide strategies for using technology in a
+balanced and ethical way.
+1.5 Background and Context:
+The relationship between technology and society has evolved rapidly over the past few
+From the internet revolution to the rise of smartphones, social media, and artificial
+intelligence, technology has become deeply embedded in daily life. This integration has
+led to transformative changes in how people communicate, work, learn, and interact.
+Technology has always played a
+press, which made knowledge accessible to the masses, to the rise of the internet,
+which connected people across the globe, each technological advancement has left a
+10
+innovations are transforming how we live, work, and interact with each other. For
+example, Al is now capable of performing tasks that once required human intelligence.
+Ieading to changes in job roles and work dynamics. Social media platforms have
+raise concerns about privacy and the quality of human interactions..
+Despite the many benefits,
+the distribution of technological advancements is often uneven, leading to digital divides
+that can exacerbate existing social inequalities. Not everyone has equal access to the
+Iatest technologies, which can hinder social integration and cultural continuity. This
+research aims to explore these issues in depth, providing a comprehensive
+understanding of how technology shapes societal norms and identifying ways to
+promote fair and inclusive technological development..
+This term paper faces several challenges in exploring how technology shapes
+societal norms:
+1. Understanding Technology's Impact: Technology affects many parts of our lives
+complex ways that can be hard to measure. Often, it's difficult to tell if technology is
+causing changes in society or if society is shaping how we use technology..
+might soon become outdated. This paper has to look at current technologies while also
+thinking about how future inventions might change our behaviors..
+3. Defining Social Norms: Social norms, or the rules that shape what is "normal' or
+acceptable, can be different depending on culture, age, and location. This makes it hard
+to define these norms in a way that applies to everyone and to draw conclusions that fit
+all groups.
+4. Finding and Using Data: Information on how technology affects society often
+comes from studies, surveys, or watching people's behavior, which may be limited or
+biased. Understanding this data and using it to make fair conclusions about social
+norms can be challenging.
+5. Considering Ethics: When we look at technology's impact, we also have to think
+about ethical issues like privacy, personal freedom, and well-being. It's important to stay
+personal beliefs and values.
+11
+6. Combining Different Fields: This topic involves ideas from areas like sociology
+(study of society), psychology (study of the mind), and technology. Bringing together
+insights from these fields can be hard, but it's necessary for understanding how
+technology shapes social norms in a complete way.
+These challenges make it important to approach the topic carefully and with an oper
+mind to create a meaningful and accurate analysis.
+1.6. Research Problem:
+This term paper explores how advancements in technology, like artificial intelligence
+and digital communication tools, disrupt and change social norms. It examines both the
+benefits and drawbacks of these technologies on society. Additionally, it looks into how
+paper also addresses the issue of unequal access to technology, which can worsen
+social inegualities. Finally, it explores how policymakers, educators, and technologists
+can guide the development and use of technology in ways that align with shared
+societal values and promote well-being.
+1.7. Chapterisation:
+technological advancements impact societal norms. The structure of this paper is
+designed to provide a comprehensive analysis. It begins with an Introduction that
+outlines the focus, importance, and objectives of the research, along with the
+background and key research problems. Following this, the Literature Review delves
+into existing studies and theories, offering a balanced perspective on how technology
+including the variables studied and data collection methods, and provides a statistical
+analysis of the findings. In the Discussion section, the paper examines the relationship
+like Al and digital communication tools reshape societal behaviors and cultural norms.
+ethical and inclusive technological development. The paper also includes a Reference
+List to ensure credibility, and Appendices that contain supplementary information, such
+Many students suffering from ADHD are able to reduce their medication with regular.
+yoga practice. This is one of the amazing benefits of yoga in institutes.
+3) Helps To Manage Weight
+students spend long hours in sedentary poses and tend to consume a lot of junk food
+as well, both of which are a by-product of the new age lifestyle. Yoga helps to
+counterbalance this lifestyle..
+Through regular practice of asanas, students (especially those who are not fond of
+playing sports) can manage a healthy weight. This helps to curb the problem of
+childhood obesity at a young age in a salubrious way..
+4) Improves Flexibility, Balance And Posture.
+Sitting down to study for long hours at a time and too much screen time can lead to
+complication in adult life..
+The practice of various asanas on a regular basis leads to correction of posture.
+enhances flexibility and improves balance as it brings equilibrium to the whole body.
+This is one of the amazing benefits of yoga in institutes..
+5) Teaches Correct Breathing Techniques.
+Breathing is fundamental to life and how we breathe is directly related to our overall
+well-being. Good breathing affects our movement, our posture, and our ability to handle
+stress in a positive way..
+young age how to master the technique of breathing correctly and improve the quality of
+their life..
+6) Promotes Mindfulness
+Mindfulness is simply learning to be in the present. Focusing on your breath or directing
+your attention to the furthest sounds you can perceive is mindfulness; this can be done
+at any time of the day - even for a few seconds.
+12
+2.Literature review:-
+This section presents a review of various scholarly works that explore how technology
+influences societal norms. The reviewed literature spans diverse topics, from the effects
+of digital media on social interaction to the ethical considerations surrounding emerging
+technologies like artificial intelligence..
+1. Social Media and Its Impact on Social Norms:
+Tsetsi (2019) in his review of Ramesh.
+Srinivasan's,Whose Global Village? discusses how technology, especially social media,.
+has reshaped human interactions and the global community. Social media platforms are
+identity, urging a reevaluation of concepts such as community and global.
+citizenship.figure 1 show in below with data
+Social Media's Impact on Society (Tsetsi, 2019)
+Distribution of Social Media's Societal tmpact Areas
+35%
+Identity Formation
+unity Engagement
+0 Clobal Citizenship
+Figure 1: show Social Media and Its Impact on Social Norms
+2. Digital Interaction in Professional Settings:
+Dalmaijer et al. (2023) explored how digita.
+given, making communication more instantaneous but also raising concerns about the
+authenticity and reliability of advice, which influences societal expectations of
+professional roles.figure 2 given below based on this research.
+13
+Professional-Parent Interaction Methods in Pediatric Care.
+36
+27-
+Percentage (%)
+18-
+9.
+Instant Digital Communication Traditional In-Person Digital Resource Sharing
+Remote Monitoring
+Hybrid Communicatione
+Based on findings from Dalmaijer et al. (2o23) study on digital technology in pediatric treatment.
+Figure 2:show Digital Interaction in Professional Settings.
+3. Technology and International Relations:.
+Vaynman and Volpe (2023) examine how.
+technological tools influence cooperation in international relations, particularly through.
+the use of digital deception. Their findings highlight the dual nature of technology in.
+shaping diplomatic norms and strategies, presenting both opportunities for cooperation
+and avenues for mistrust in global politics.the figure 3 given below in this research
+paper.
+14
+Technology's Impact on International Relations.
+Digital Diplomatic Channels: 30%
+Cybersecurity Concerns: 25%
+Traditional Diplomatic Methc
+Digital Deception Activities: 20%/
+\Technology-Enhanced Cooperation: 15%
+Digital Diplomatic Channels Cybersecurity Concerns Digital Deception Activities
+Technology-Enhanced Cooperation Traditional Diplomatic Methodse
+Based on Vaynman and Volpe (2023) research on technological influence in international relations
+Figure 3:show Technology and International Relations.
+4. Post-Industrial Society and Technology:.
+Schroyer (1974) discusses the coming of.
+post-industrial society and how technology has shifted societal norms away from
+traditional industrial roles toward service-oriented, information-driven economies. This
+transition has profound implications for work, family, and leisure, creating new
+expectations and social structures in a digitalized world(figure 4)
+15
+Technological Transformations in Post-Industrial Era
+Distribution of Key Technological Changes
+Digital Infrastructure: 35%
+Automation Systems: 25%
+Traditional Methods: 5%
+Communication Tech: 15%
+Information Management: 20%
+Key Insights:.
+Digital Infrastructure and Automation Systems account for 6o% of technological transformation, highlighting the shift towards
+digital-first operations in post-industrial society.
+Figure 4:show Post-Industrial Society and Technology
+5. Sustainability and Technological Transitions:
+Markard, Raven, and Truffer (2012) highlight
+the role of technology in driving sustainability transitions. Their work shows how
+technology shapes societal norms around environmental responsibility, sustainability,
+and energy use, particularly in the context of transitioning toward greener
+economies(figure 5)..
+16
+Technological Impact on Sustainability Transitions
+Current vs. Projected Implementation (% Adoption)
+80-
+60-
+Adoption Rate (%)
+40
+20
+Renewable Energy AdeptnTechnology Innovstistainable InfrastrudDiyital Energy Managerkablar Economy PrEctbon Reduction Technologies
+Current Implementation Projected Growth
+Key Findings:
+Renewable Energy and Green Technology Innovation show the highest potential for growth, with projected increases of 30% in
+adoption rates over current levels.
+Figure 5:show Sustainability and Technological Transitions
+6. Ethics of Artificial Intelligence:
+Jobin, lenca, and Vayena (2019) provide a
+privacy, and accountability, pushing societies to adopt new ethical standards in
+response to technological advancements.figure 6 given below
+17
+Ethical Considerations in Al Development.
+Distribution of Key Ethical Priorities in Al Technology
+Fairness & Bias: 22%
+Privacy & Data Protection: 25%
+Human Autonomy: 8%
+Safety & Security: 12%
+Accountability: 15%
+Privacy & Data Protection Fairness & Bias Transparency Accountability Safety & Security
+Human Autonomy
+Key Insights:.
+Privacy, Fairness, and Transparency collectively account for 65% of ethical priorities, highlighting their crucial role in responsible
+Ai development..
+Human Autonomy, while representing 8%, remains a fundamental consideration in Al ethics frameworks..
+Figure 6: show Ethics of Artificial Intelligence.
+7. Climate Change Adaptation and Technology:
+Adger et al. (2008) discuss the social limits to.
+adaptation in the face of climate change, emphasizing how technology can both help.
+norms around climate action, highlighting the need for technology to align with societal.
+values and goals(figure 7)..
+18
+Climate Change Adaptation Factors
+Technological
+3arriers 30%
+Knowled!
+: Resources 207
+nstitutional Capaci
+Technological Infrastructure
+Institutional Capacity Knowledge & Education
+Figure 7:show Climate Change Adaptation and Technology
+8. Security, Immigration, and Technology:
+Bigo (2002) critiques the government's use of
+surveillance has altered norms around privacy and security. This shift in societal
+rights(FIGURE 8).
+19
+Security and Immigration Technology Analysis
+Surveillance Tecl
+cerns 25%
+5l Measures 20%.
+Social Impact 15%
+Surveillance Technology Impact
+Privacy Concerns Border Control Measures
+Social Impact Legel Framework Gaps
+Figure 8:show Security, Immigration, and Technology
+9. Al and Society:
+Floridi et al. (2018) discuss the ethical implications of Al and
+developing Al technologies in ways that align with human values and societal
+needs(figure 9), stressing the importance of ethics in guiding technologica
+advancement.
+20
+Al Ethics and Societal Impact Analysis
+Ethical Framewo
+ent 25%
+Risk Mani
+ementation 20%
+\Human-Al Interacti.
+Ethical Framework & Governance
+- Societal Impact Assessment.
+- Technical Implementation
+Human-Ai Interaction Risk management
+Figure 9:show Al and Society
+10. Socially Interactive Robots:
+Fong, Nourbakhsh, and Dautenhahn (2003) provide insights into.
+the growing field of socially interactive robots, which are altering human norms of
+interaction and companionship. They explore how technology is changing societal.
+expectations about relationships, both personal and professional (figure 10)..
+Socially Interactive Robots Analysis
+Human-Robot In
+npact 25%
+Ethical Cc
+Capabilities 20%/
+\Psychological Effec
+Human-Robot Interaction Social Impact
+Technical Capabilities Psychological Effects
+Ethical Considerations
+Figure 10:show Socially Interactive Robots.
+11. Fairness in Sociotechnical Systems:.
+21
+Selbst et al. (2019) discuss fairness in
+sociotechnical systems, particularly focusing on how algorithmic decision-making
+impacts societal norms. Their work highlights the challenges of ensuring fairness in
+automated systems and the societal implications of biased technologies(figure 11).
+Fairness in Sociotechnical Systems Analysis.
+Algorithmic Bias
+npact 29
+takehol
+ementation 20%
+\Policy Framework 1
+- Algorithmic Bias Social Justice Impact.
+Technical Implementation Policy Framework.
+Stakeholder Engagement.
+Figure 11:show Fairness in Sociotechnical Systems
+12. The Sharing Economy and Technology:.
+Hamari, Sjoklint, and Ukkonen (2015) explore.
+the rise of the sharing economy, facilitated by digital platforms. Their research highlights
+collaboration, creating new forms of economic interaction(figure 12).
+Sharing Economy Analysis.
+Platform Techno
+npact 25%
+Regulato:
+User Behavior: 15
+al Dynamics 20%/
+\User bendvior 15%
+Platform Technology Economic Impact
+Social Dynamics User Behavior
+Regulatory Framework.
+Mindfulness enables people to become less anxious and more relaxed. students can
+become more mindful using creative and entertaining visualisation techniques. This is
+one of the amazing benefits of yoga in institutes.
+7) Encourages Self-Love And Self-Care
+Yoga promotes healing from the inside rather than looking good on the outside. It.
+teaches people how to respect and love their own bodies - an essential message for
+young students who are constantly advertised with warped body image ideas on social
+media.
+With self-love, comes self-care and yoga can teach these values at a very young age.
+The students learn to be comfortable in their own skin and nurture it well. This is one of
+the amazing benefits of yoga in institutes
+8) Helps To Bring Peace Of Mind
+The vastness of
+academic curriculum alone can baffle students and yet, they deal with many other.
+extra-curricular activities and social life as well. By practising pranayama and
+mindfulness, students really learn how to handle the anxiety and manage the different
+aspects of life effectively.
+The peace of mind stimulates the release of good hormones that have a snowball effect
+and uplifts the disposition of the child in general.
+Source: https://www.jbcninstitute.edu.in/blog/benefits-of-yoga-in-schools/
+22
+Figure 12:show The Sharing Economy and Technology.
+13. Mediatization of Society:
+Hjarvard (2008) examines the mediatization of.
+society, focusing on how media technologies have transformed cultural norms and.
+practices. This transformation affects everything from politics to personal relationships,.
+as media technologies shape public opinion and social behavior(figure 13).
+Mediatization of Society Analysis
+Media Impact on
+:ation 25%
+Institutio
+elationships 20%/
+\Public Opinion Forr
+Media Impact on Culture
+Political Communication Sociat Relationships
+Public Opinion Formation
+Institutional Adaptation
+Figure 13:show Mediatization of Society.
+14. Sustainable Development and Technology:.
+Meadowcroft (2009) addresses the role of.
+how technology influences societal norms related to sustainability and long-term.
+environmental goals, pointing to the necessity of integrating technological solutions into
+23
+political and societal frameworks(figure 14).
+IEnergy Transitions
+Environmental Goals
+Political Arameworks
+Societal Integration
+ITechnological Solutions
+Figure 14:show Sustainable Development and Technology
+15. Digital Technology and Social Transformation:
+Bhati (2024) offers a perspective on how digita.
+technology is driving social transformation. His work suggests that technology is
+reshaping social norms, especially in the realms of- communication, education, and
+economic participation, as digital platforms become central to social life (figure
+24
+15).
+communicationd
+Education
+Economic Participation
+Social Platforns.
+Figure 15:show Digital Technology and Social Transformation
+In conclusion, the reviewed literature illustrates how technology, in various forms, is
+significantly shaping societal norms. From altering professional practices and ethical
+standards to influencing environmental and economic behaviors, technology is at the
+heart of many transformations in contemporary society. As these technological changes
+unfold, it becomes crucial for societies to adapt and develop new norms that address
+the challenges and opportunities presented by these advancements
+3. ANALYSIS:
+3.1 Methodology.
+A. Secondary data:.
+For this analysis, we utilized secondary data from various sources to explore how
+technology shapes societal norms. The primary source referenced is the term paper
+titled "The Technology Determination: How Technology Shapes Societal Norms." This
+advancements and the evolution of societal values, behaviors, and expectations.
+25
+Key Insights from the Term Paper:
+Technological Evolution and Societal Change Historical Overview: Technology.
+and Society:
+technological innovations have led to significant shifts in societal norms.
+For instance, the advent of the internet has transformed communication
+patterns, leading to a more interconnected world but also raising concerns
+below
+= From the early internet era in the 1990s, when the World Wide Web began
+enabling global access to information but widened the digital divide, to the
+social media explosion of the 2oo0s, which fostered unprecedented
+has reshaped society. The 2010s brought the mobile revolution, making
+instant communication a norm while sparking digital addiction concerns,
+and the rise of cloud computing in the mid-2010s revolutionized remote
+collaboration yet highlighted data security risks. More recently, the 2020s
+marked the advent of the Al revolution, driving automation and efficiency
+but also fueling fears of job displacement. Today, in 2024, advanced Al
+and mixed reality technologies are more integrated into enterprises, with
+45% of businesses using Al and 82% prioritizing data privacy. Automation
+continues to grow, with 35% of routine tasks automated, though 73% of
+people are increasingly concerned about technology's effects on
+well-being(figure 2). This timeline showcases the transformative influence
+of technology and the evolving priorities in a society shaped by innovation.
+Technology Evolution and Societal Impact (1990s-2024)
+- Technology Adoption - Societai Concerns
+Percentage (%)
+100
+50-
+27
+Figure 1:show Historical timeline showcasing the
+transformative
+influence of technology on societal priorities
+= The Printing Revolution of the 15th century, sparked by the invention of
+the printing press, marked a groundbreaking shift toward knowledge
+democratization. By making books more affordable and accessible, it
+enabled literacy to spread beyond the elite, contributing significantly to
+education and learning. This shift also led to profound religious and
+cultural transformations, as religious texts became widely available
+challenging centralized religious authority and encouraging diverse
+interpretations. Economically, the publishing industry began to flourish
+creating new trades and professions centered around the distribution of
+printed materials.
+figure 3 given below
+Technological Evolution and Societal Change Through History.
+15th Century- Printing Revolution
+1440s
+Printing Press
+Societal Impacts
+Communication
+Society
+Mass production of books and texts.
+Spread of literacy and education
+Economy
+Culture
+Renaissance and Reformation movements.
+Publishing industry emergence
+Key Societal Changes
+Democratization of knowledge
+Rise in literacy rates
+Religious reformation
+Scientific revolution
+Industrial Revolution
+18th-19th Century
+Steam Engine & Industrial Machinery
+Figure 3:show The Printing Revolution and its impact on
+knowledge democratization, literacy, and societal
+transformations
+28
+Societal Impacts
+Society
+Communication.
+Urban centers as infor.
+Mass urbanization
+Culture
+Economy
+cutture
+Factory-based production
+Key Societal Changes.
+Urban migration
+New social classes
+Changed Family structures
+Work pattern shifts
+Communication Revolution
+l9th Century
+Telegraph & Telephonee
+Figure 4:show Urbanization and societal restructuring during the
+Industrial Revolution
+The rise of machines and industrial production in the 18th and 19th
+centuries transformed agricultural societies into industrial ones, prompting.
+mass urbanization. This shift brought about changes in family structures,
+work patterns, and social hierarchies.
+- The Industrial Revolution of the 18th and 19th centuries brought about
+traditional working patterns.
+adapting to new living arrangements and roles. Economically, the period
+the groundwork for modern economies.
+> figure 4 above mentioned
+29
+Societal Impacts
+Communication
+Society
+Instant long-distance communication
+Global connectivity begins.
+Culture
+Economy
+Business culture transformation
+International trade expansion
+Key Societal Changes
+Speed of information exchangee
+Business globalization
+Personal communication
+News distribution
+Digital Age
+Late 20th Century
+Internet & Personal Computers.
+Figure 5:show The Communication Revolution: Impact of the
+telegraph, telephone, and the internet on connectivity
+the rise of the internet in the 20th century drastically altered how people
+communicated, leading to the emergence of global networks of
+business operations to social relationships.the figure above mentioned
+>= The Communication Revolution of the 19th century introduced.
+transformative technologies like the telegraph and telephone, which.
+greatly accelerated the speed of information exchange. For the first time,
+people could communicate across vast distances in real time, laying the.
+foundation for global connectivity. These innovations had a profound.
+impact on businesses, as companies could now coordinate operations
+The rapid flow of information also influenced journalism, diplomacy, and
+social relationships.figure 5 above mentioned
+30
+Societal Impactse
+Society
+Communication
+Global digital networks
+Virtual communities
+Culture
+Economy
+Digital culture emergence
+E-commerce revolution
+Key Societal Changes
+Information accessibility
+Digital literacy
+Online communities
+Remote work possibility
+OSocial Media Era
+21st Century
+Social Platforms & Mobile Devices
+Figure 6:show Social Media Era: Influence on personal identity
+public discourse, and societal norms
+transformed communication into a fast-paced, constant exchange of
+information. Social media has influenced personal identity, public
+discourse, and political movements. It has also raised concerns about
+privacy, misinformation.
+The Social Media Era of the 21st century has brought far-reaching impacts
+and trends, shaping how people form digital identities and connect online.
+Social media has allowed individuals to share personal moments, build
+online personas, and participate in virtual communities, but it has also
+raised serious privacy concerns, as data sharing and user tracking have
+become widespread practices.
+31
+In 2024, current statistics show that 82% of organizations prioritize data
+protection, reflecting heightened public awareness and regulatory
+pressures. Social media continues to evolve, influencing societal norms.
+around identity, privacy, and digital interaction in profound ways.
+- The above and below figure 6 and 7 mension
+Societal Impacts
+Communication
+Society
+Instant global sharing.
+Digital identity formation.
+Culture
+Economy
+Influencer culture
+Platform economy
+Key Societal Changese
+Privacy concerns
+Personal branding
+Information bubbles
+Digital movements
+Current Statistics (2024)e
+social media users
+daily time online
+4.9B global users
+6.7 hours average
+privacy concerns
+misinformation
+82% worried about datae
+73% concerned about Fake news
+Figure 7:show Communication evolution: From traditional letters to
+instant messaging and societal impacts
+> Communication Evolution: From Letters to Instant Messaging
+The journey of communication has been considerably changed in its form
+from the slow and narrow limit of traditional mail to the instant global
+connectivity offered by telephones, internet, and social media. These have
+relentlessly systematically broken the barriers that have enhanced the
+interactions with more speed, efficiency, and accessibility.
+This has left a resultant tremendous impact on society. Communication
+methods are now nearly instantaneous in terms of enabling people to
+connect at real-time across long distances. The physical removal of
+barriers has encouraged global connectivity, bringing people and
+9) Improves Self-Control.
+Through controlled breathing and controlled movement, yoga teaches people.
+self-control. As a result, they do not react impulsively or make hasty decisions even in
+an emotional state..
+With self-mastery, a person can keep his or her anger in check and make rational.
+decisions when required. If a young yogi can learn self-control at a young age, indeed,.
+no door can ever be closed for him or her. This is one of the amazing benefits of yoga in
+institutes.
+10) Reduces Absences And Violence In institute.
+Because of good health and balanced temperament, students are less likely to remain
+absent from institute or pick fights with each other over small issues. Instead, they tend
+teachers and peers..
+11) Enhances Coping Skills.
+As mentioned before, students are burdened with a lot of stress. Yoga teaches students
+how to correctly cope with the stress, manage it, and stay productive. This is because
+the students learn how to breathe deeply and be more mindful...
+12) Boosts Immunity And Improves Physical Appearance.
+Alongside its myriad health benefits, yoga also boosts immunity and prevents attacks
+from different viruses and bacteria by increasing the levels of antibodies. Yoga.
+promotes blood circulation which can work wonders for the skin, hair and nails. A.
+healthy body feels and looks happy
+13) Improves The Quality Of Sleep.
+Source: https://www.jbcninstitute.edu.in/blog/benefits-of-yoga-in-schools/
+32
+communities closer than ever before. Advanced innovations have also
+affected the way people share information, how they build relationships,
+interactions fundamentally. As technology progresses, it rebirths how
+people interact within the realms of personal and professional, giving
+birth to a more interconnected world.
+Traditional Mail
+Characterized by slow, methodical, and formal
+communication methods..
+Telephone
+Enabled real-time, voice-based communication,
+effectively reducing physical distances.
+Internet and Email.
+Facilitated instant and asynchronous communication,
+transforming how we connect..
+Social Media
+Introduced real-time, multimedia communication
+platforms that foster global connectivity.
+Figure 8:show Transformative role of social media platforms in daily
+life and global connectivity
+*Impact of Social Media:
+33
+A significant focus of the paper is on social media platforms and their role
+in shaping public opinion and social interactions. The data indicates that.
+approximately 84% of adults in the United States use social media, which.
+has redefined concepts of community and identity (Figure 9)..
+Percentage of each age group that uses at least one social media site
+90
+84%
+81%
+80
+73%
+70
+60
+50
+45%
+40
+30
+18-29
+30-49
+50-64
+65+
+OVE
+Source: PewResearch
+Figure 9:show Statistical insights on global social media usage and.
+its impact on community and identity.
+Using social media has become a part of our daily lives. However,.
+it's undeniable that it can lead to excessive social media use, which.
+can eventually become an addiction..
+Globally, an estimated 4.48 billion individuals engage with
+social media. This number accounts for 57% of the global
+population.
+In the United States, 95% of teens have smartphone access.
+About 45% are online almost constantly..
+34
+o Facebook remains popular in the United States with 69% of
+U.S. adults engaged on the platform. The social media giant
+boasts a massive user base of 2.85 billion individuals
+globally.asts a massive user base of 2.85 billion individuals
+globally.The figures are given below.
+O Figure 10 given below.
+Social media usage in the United States.
+YouTube
+81%
+Facebook
+Instagram
+40%
+--.
+Pinterest
+31
+Linkedin
+25%
+Snapchat
+Twitter
+23%
+WhatsApp
+23%
+21%
+Reddit
+18%
+50
+10
+20
+30
+40
+60
+70
+80
+90
+ROVE
+Source: Pew Research
+Figure 10:show Popularity and user base statistics for major social
+media platforms
+Ethical Considerations:
+societal norms, including issues like digital surveillance, data privacy, and
+35
+the digital divide.According to a 2024 PwC India survey, 82% of Indian.
+consumers consider data protection to be the most important factor in
+building trust with brands..
+= A 2022 OpenText survey found that 93% of Indians are more concerned
+about their personal data, and 87% have new concerns about how.
+organizations use their data..
+so,75% of Indians are concerned about the privacy of their online data.
+and 77% want to strengthen their online security to do so. 59% of Indians.
+have been victims of cybercrimes in the previous year, most of which.
+included data breach and identity theft.
+figure 11 given below.
+Data Privacy and Security Concerns in India.
+Data Protection Important for Brand.
+Truste
+Concerned About Personal Data
+New Concerns About Data Usag
+Concerned About Online Privacy-e
+Want Stronger Ontine Security.
+Victims of Cybercrimee
+25%
+50%
+75%
+100%
+0%
+36
+Figure 11:show Ethical concerns: Digital surveillance, data privacy,.
+and public trust in organizations.
+Impact on Interpersonal Relationships:
+Social Psychology found that 75% of participants felt that technology has
+both improved and complicated their relationships (Figure 12). While
+technology facilitates communication, it also introduces challenges such
+as reduced face-to-face interactions and increased social anxiety..
+> Figure are given below figure 12.
+The Dual Impact of Technology on Relationshipse.
+Overall Impact
+Communication Frequencye
+Relationship Quality
+Social Support -
+Emotional Connection
+Social Anxiety
+0%
+25%
+50%
+75%
+100%
+Positive Impact Negative Impact.
+Figure 12:show Technology's dual impact on interpersonal.
+relationships
+37
+: The survey conducted by Dalmaijer et al. (2023) reveals that digital technology.
+has significantly impacted professional-parent interactions in pediatric healthcare.
+The data shows that the most notable effect is the improved communication
+and parents. Additionally, enhanced information access(28%) has facilitated
+better decision-making. However, concerns about the reliability of advice (15%)
+remain a key issue, as parents may question the accuracy of online advice. The.
+changing expectations of professional roles(10%) reflect the evolving
+landscape of healthcare, and privacy and security concerns (5%) highlight the
+pediatric healthcare, pointing to the need for continued attention to advice quality,
+privacy, and role clarity. Figure 13 given below.
+Impact of Digital Technology on Pediatric Healthcare Interactions.
+Based on Dalmaijer et al. (2023) Survey Data
+42%
+Improved Communication Speed
+Enhanced Information Access
+Concerns About Advice Reliability
+Changed Professional Role Expectations
+28%
+Privacy and Security Concernse
+15%
+Figure 13:show Survey on the impact of digital technology in pediatric
+healthcare
+38
+in monitoring individuals. Privacy concerns (28%) follow closely, with individuals
+worried about the erosion of personal privacy rights. The role of technology in.
+immigration control (2o%) also stands out, reflecting the increasing use of
+digital tools at borders. Data collection(12%) by governments remains a
+significant issue, focusing on the gathering and use of personal data. Finally, the
+impact on civil liberties (5%) is the least concerning but still relevant.
+highlighting the effects of technology on individual rights. This distribution
+underscores the complex balance between technological advancements and the
+preservation of privacy and freedoms.figure 14 given below.
+Technology Impact on Security and Privacy (Bigo, 2002)
+Distribution of Security and Privacy Concernse
+5%
+Increased Security Surveillance
+Privacy Concerns
+28%
+Immigration Control
+Data Collection
+Civil Liberty Impact
+Figure 14:show Concerns about security surveillance, privacy erosion, and
+civil liberties
+* Future Trends and Societal Adaptation:.
+39
+artificial intelligence (Al) and automation, and their potential effects on
+societal norms. A report from the World Economic Forum predicts that by
+2025, 85 million jobs may be displaced due to automation, while 97 million
+new roles could emerge (Figure 15). This shift will require societies to
+adapt their norms around work, education, and skill development.
+Impact of AI and Automation on Jobs by 2025
+Jobs displaced vs new ro!es created (in millions)
+Heaithcare
+New Jobs Created: 18m jobs create
+90M
+100M
+40M
+Jobs Displaced New Jobs Created
+Figure 15:show Future trends: Al and automation in displacing and
+creating jobs by 2025
+Survey method for primary data
+Survey Method:
+To explore how technology shapes societal norms, particularly in relation to social
+media's impact on students, an online survey was conducted. The survey was designed
+broad accessibility. The questions in the survey were primarily open-ended
+encouraging participants to share their thoughts on how technology-specifically social
+media--has influenced their behavior, communication, and overall societal engagement.
+Some questions included text fields that allowed for more detailed responses, enabling
+role in shaping their lives. After submission, all responses were automatically saved in a
+spreadsheet template, facilitating easy analysis and data organization
+Eligibility Criteria:
+The survey was open to individuals across various age groups, educational levels, and
+professional backgrounds, ensuring a wide representation of views on how technology
+regularly and have some experience with Al technologies like ChatGPT. This helped
+40
+and could provide relevant insights into their impacts on modern society.
+B. Primary Data
+patterns and doing a thematic analysis based on the interviews are all part of our goal to
+have a deeper understanding of the characteristics of the participants. Our objective is
+to offer significant insights that can significantly advance the field of research.
+The survey collected 208 responses, offering a clear overview of their insights
+1.
+What is your age?
+209 responses
+O Under 18
+O 18-24
+O 24-30
+O 30+
+94.7%
+Figure 1:show Age Distribution of Participants
+Observation Result:
+The majority of the participants, amounting to 94.7% fall within the age group 18-24
+years of age. On the other hand, 1.9 % are from the 24-30 age group,while 2.9 %
+belong to the 30+ age groups and only 0.5% are from the under 18, respectively.
+Ystudents
+should sleep for up to 7-8 hours each night. A good night's sleep allows the body to be
+healthy, ready, and energetic for the next day. As yoga allows the body and the mind to
+relax, practitioners notice a better quality in their sleep. With better sleep, students can
+focus better in class, play more actively, and perform better at examinations..
+14) Increases Self-Confidence And Self-Esteem
+Yoga is tangible. Through asanas, students build strength, endurance, confidence as
+well as the mind-body connection. You can self-assess the changes and positivity you
+feel after having engaged in this for some time. This confidence attained on the yoga.
+mat is then carried into the real world as well along with strength, compassion and.
+acceptance.
+Yoga is an age-old art but is relevant in present times more than ever before. When it
+comes to benefits of yoga, this is just the tip of the iceberg. It has multiple gross and
+fine rewards which can help you live a healthy and joyful life. Gift your child the
+abundance of yoga and watch as the benefits slowly unfold! These are the amazing.
+benefits of yoga
+42
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "what is your
+educational level?", it is evident that out of 100, approx 88.5% respondent pursuing
+Bachelor's degree, in contrast remaining 11.1 % respondent pursuing 12th graduate.
+4.
+For what purpose do you use Al?
+209 responses
+O Education
+O Industrial
+O Other
+O No
+98.1%
+Figure 4:show Purpose of Using Al
+Observation Result:
+Based on the data depicted in the pie chart, According to the
+question "For what purpose do you use Al?", it is evident that out of 100,approx
+98.1% respondent use Al in Education purpose and rest 1.9 % respondent use Al in
+industrial level or other purpose.
+5.
+43
+1- not
+How significantly has your life been changed after using Al (e.g. ChatGPT)?
+at all 5-very significantly
+209 responses
+200
+166 (79.4%)
+150
+100
+50
+4 (1.9%)
+8 (3.8%)
+0 (0%)
+31 (14.8%)
+Figure 5:show Impact of Al on Life (Rating)
+Observation Result:
+Based on the data depicted in the pie chart, According to the question " How
+significantly has your life been changed after using AI (e.g. ChatGPt)? ", it is
+strong positive impact,while 14.8% responses rated it as 5,reflecting a very high impact
+44
+6.
+How many hours a day do you spend using digital devices? (smartphone+computer+others).
+209 responses
+O 0-2 hours
+O 2-4 hours
+26.8%
+O 4-6 hours
+O 6-8 hours
+O 8+ hours
+61 7%
+Figure 6:show Hours Spent on Digital Devices Daily
+Observation Result:
+Based on the data depicted in the pie chart, According to the question " How many
+hours
+day
+do
+you
+spend
+using
+digital
+devices?
+(smartphone+computer+others)",The
+survey data indicates that 61.7% of
+respondents spend 6-8 hours per day on digital devices, including smartphones,.
+computers, and other gadgets. Additionally, 26.8 % of respondents report using digital
+devices for 8+ hours daily, while 9.1% spend 4-6 hours. A small percentage, 2.4%
+spend over 2-4 hours each day on digital devices
+7.
+Which types of technology do you use most frequently?
+209 responses
+O Social media
+O Al assistant
+23.9%
+O Work-related tools
+O Other
+70.3%
+Figure 7:show Technology Used Most Frequently
+45
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "which types of
+technology do you use most frequently? ",In terms of technology preferences, 70.3%.
+of respondents primarily use social media, making it the most frequently used
+technology. Al assistants are the second most commonly used, with 23.9% of
+respondents indicating they rely on them the most. Work-related tools are the primary.
+choice for 5.3 % of respondents, while only 0.5 % primarily use other types of
+technology.
+8.
+Do you think Al or automation has impacted the workplace or professional relationships?.
+209 responses
+O Yes
+O No
+97.1%
+Figure 8:show Perception of Al's Impact on Workplace or Professional.
+Relationships
+Observation Result:.
+Based on the data depicted in the pie chart, According to the question "Do you think
+Al or automation has impacted the workplace or professional relationships? ",The
+pie chart shows that an overwhelming majority of respondents (97.1%) believe that Al or
+automation has impacted the workplace or professional relationships, with only 2.9%
+46
+significant influence on professional environments.
+Do you believe technology has positively or negatively influenced social norms?
+209 responses
+O Positively
+O Negatively
+13.4%
+O Neutral
+10%
+76.6%
+Figure 9:show Perception of Technology's Influence on Social Norms
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Do you believe
+technology has positively or negatively influenced social norms? ",The pie chart
+indicates that 76.6% of respondents believe technology has positively influenced social
+norms. Meanwhile, 13.4% feel it has had a negative influence, and 10 % remain neutral.
+This reflects a predominantly optimistic view of technology's impact on societal
+standards, although a minority express concerns or neutrality on the matter.
+10.
+47
+How has technology influenced your methods of communication with family and friends?.
+209 responses
+O Enhanced
+O Reduced
+O No impact
+O Not sure
+90.9%
+Figure 10:show Impact of Technology on Communication with Family and.
+Friends
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "How has
+technology influenced your methods of communication with family and friends?
+",The pi chart shows that technology definitely has a significantly positive effect on
+empowered their ability to interact with family and friends - 90.9%. This means that
+social media, messaging apps, and video conferencing tools have greatly improved, or
+reduced barriers in communication. A very small percentage (3.8%) indicated negative
+effects, meaning such concerns about how technology negatively affects
+communication are minimal.Other 2.9% response show no impact on technology in
+technology influenced your methods of communication with family and friends..
+11.
+48
+How has online learning impacted your perception of education quality and accessibility?
+209 responses
+O Improved
+O Diminished
+O No impact
+O Not sure
+93.3%
+Figure 11:show Impact of Online Learning on Education Quality and.
+Accessibility
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "How has
+online learning impacted your perception of education quality and accessibility?
+",The data shows that an overwhelming 93.3% of respondents believe online learning
+has improved the quality and accessibility of education. This suggests a transformative
+shift in the perception of education, with a significant majority embracing the benefits of
+online learning. Only a small fraction of respondents, about 3.3 %, felt that online
+learning had a diminished impact, while approximately 0.5% reported no noticeable
+change. Additionally, the very low uncertainty rate of 2.9% indicates that most.
+participants had clear opinions about the impact of online learning, reinforcing the
+widespread consensus on its positive influence in enhancing education..
+49
+12.
+Do you believe that technology has changed expectations around career paths and job stability?
+209 responses
+O Agree
+O Disagree
+O Neutral
+96.7%
+Figure 12:show Perception of Technology's Influence on Career Paths
+and Job Stability
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Do you believe
+that technology has changed expectations around career paths and job stability?
+",The pi chart clearly indicates that an overwhelming majority of respondents (96.7%)
+strongly agree that technology indeed changed the expectations associated with career
+flexible and fluid job market that requires people to be adaptive and skill up
+continuously. Some responses (1.4%)show they disagree with this statement and 1.9%
+are neutral responses.
+50
+13.
+How has technology impacted norms around dating and forming romantic relationships?.
+209 responses
+O Significantly
+O Somewhat
+O Minimally
+O Not at all
+90.9%
+Figure 13:show Technology's Impact on Dating and Romantic
+Relationships
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "How has
+technology impacted norms around dating and forming romantic relationships?
+",The pi chart clearly reveals that above 90.9 % of the respondents believed technology
+has greatly affected norms around courtship and making romantic connections. That is
+proof that online dating platforms, social media, and many other digital tools have
+transformed people's ways of getting to know one another in romantic contexts..
+14.
+Do you think social media has changed how people form political opinions?.
+209 responses
+O Agree
+O Disagree
+O Neutral
+92.3%
+Figure 14:show Influence of Social Media on Political Opinions
+51
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Do you think
+social media has changed how people form political opinions? ",The pi chart
+shows that there is an overwhelming level of agreement that social media has
+transformed political opinion-making. Fully, 92.3% said they agree with this statement..
+This shows that social media plays a tremendous role in shaping and informing people.
+about the discourse on political issues. Some responses (2 %) show they do not agree
+with this statement and some (5.7%) neutral responses..
+15.
+Do you believe that technology has made it easier for political misinformation to spread?.
+209 responses
+O Agree
+O Disagree
+O Neutral
+95.2%
+Figure 15:show Perception of Technology Facilitating Political Misinformation
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Do you believe
+that technology has made it easier for political misinformation to spread?
+",Majority of respondents(95.2%) from the groups think that technology has made it.
+easy to spread misinformation about politics. As such, more misinterpretation and fake
+Artificial Intelligence and its Economic Impact in India:
+Al has become a stronghold in the economy of India by transforming all domains from the
+well-off to recently propelled areas and helping with the growth of the country. Artificial
+intelligence is a computer program which can perform tasks requiring human-like intelligence
+such as learning, reasoning, and problem-solving. Al is applied in transforming health services,
+agriculture, banking, manufacturing, and ensuring education quality and efficiency without
+growth for the Indian country and the world's partner in growth.
+Al in Healthcare:
+Al is another important factor to which this technological part is contributing to the development
+of positive changes in the health sector. Al tools help improve the well-being of doctors in
+diagnosing health conditions by presenting a better and faster analysis of the disease. Machine
+Iearning can provide patients with early detection based on their medical history, so they can be
+treated on time. Al shall be very much useful in robotic surgeries, virtual health assistants,
+hospital management systems-all intended to maximize the effectiveness of healthcare service
+delivery. For example, Al-powered telemedicine services and chatbots provide medical
+consultations in rural areas where doctors are not available, thus allowing access to healthcare
+support by many more people.
+Al in Agriculture:
+Al has brought assistance to the farming sector by giving automatic controls over the soil
+condition, weather, and diseases. Al-equipped drones and sensors help farmers to see their
+farms and take measures to avoid damage. It reduces losses due to pest attacks or erratic
+weather phenomena and reduces inefficient farming practices. Al helps in making the correct
+decision, which improves sales and ultimately helps the farmer earn more with the proper data.
+A lot of people in the banking and finance industry have used Al to their advantage. For
+instance, banks can now institute fraud checks and security measures using Al technologies.
+Chatbots using Al handle most of the customers of the bank by answering questions and
+helping individuals manage their accounts. Al-driven financial systems could monitor the market
+trends that enhance the decision-making process of the investors. This has in essence
+fast-tracked, secured and made available banking services to households in remote areas.
+Al in Manufacturing:
+These forthcoming days will see revolutionize in the manufacturing Industry wherein thousands
+of artificial intelligence equipped robots and machinery along with computerized operations to
+work more speedily and consider a lot better. It eliminates the human error towards the working
+of industry and has thus made industrial operations efficient. Equipment monitoring and
+maintenance need predetermination are also automated along with the supply management
+52
+or distorted news can be found on social media, online news sources. Some
+respondents(2.4%) disagree and 2.4% give me a neutral response..
+16.
+In what areas do you feel technology has the most significant impact on social norms?.
+209 responses
+Privacy
+168 (80.4%)
+Work culture
+-196 (93.8%)
+18 (8.6%)
+Personal relationships
+197 (94.3%)
+Social communication
+Education
+200 (95.7%)
+Other1 (0.5%)
+50
+100
+150
+200
+Figure 16:show Areas Where Technology Significantly Impacts Social.
+Norms
+Observation Result:
+Based on the data depicted in the bar graph, According to the question "In what areas
+chart illustrates that technology greatly touched aspects of social life. Some areas, most
+affected, are work culture(93.8%), social communication, education(94.3%), personal
+privacy(80.4 %), Education(95.7%),and personal relationships(8.6%). The large.
+percentage of respondents agreeing to the impacts shows that technology has changed
+53
+the way people work(93.8 %), relate, learn(education), and keep their information
+i.e(social information).
+17.
+Has technology influenced traditional cultural practices in your community?
+209 responses
+O Yes
+O No
+94.3%
+Figure 17:show Impact of Technology on Traditional Cultural Practices.
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Has technology
+influenced traditional cultural practices in your community?"The pie chart
+represents that technology influences traditional cultural practices. As such, 94.3% of
+the respondents contend that technology has challenged and preserved cultural
+traditions and intermeshed old and new practices, and some responses (5.7 %) say
+technology has not influenced traditional cultural practices in your community.
+18.
+Have new technologies impacted the way cultural traditions are passed to younger generations?.
+209 responses
+O Agree
+O Disagree
+O Neutral
+92.8%
+54
+Figure 18:show Influence of Technology on Passing Cultural Traditions.
+to Younger Generations
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Have new
+generations?"In the above chart, it can clearly be noted that a vast majority (92.8%)
+transferred to the next generation. It clearly denotes the fact that digital tools as well as
+multimedia platforms have challenged some of the existing cultures and at the same
+time have preserved them through various mixed-up traditions and modern
+approaches.The some responses disagree(3.3%) and neutral(3.8%) responded to this
+statement.
+19.
+Looking ahead, do you believe technology will continue to reshape societal norms?.
+209 responses
+O Yes
+O No
+O Not sure
+%8 86
+Figure 19:show Future Perception of Technology Reshaping Societal
+Norms
+Observation Result:
+Based on the data depicted in the pie chart, According to the question "Looking ahead.
+do you believe technology will continue to reshape societal norms?"In the pie
+chart, there is strong consensus that technology will continue to change social norms.
+Most of the respondents believe that technological change will have further influence on
+55
+how we live, work, and interact with others (93.8%). In other words, society needs to
+adapt to a changing technological environment as well as its implication in any aspect of
+20.
+According to you how has technology shaped the societal norms?
+11 responses
+I'think according to my view technology very great for me and of students
+Yes
+It helped us to make surveys online
+1 am think technology use only positive.will be in the interest of the country and'society.
+Technology redefines privacy and personal boundaries.
+2. It transforms the way we communicate globally.
+Social media influences cultural trends and values.
+Not so good not so bad it depends upon the purpose you use for
+Not sure
+Fiqure 20:show Summary of Views on Technoloqy's Influence on.
+Societal Norms
+Observation Result:
+The responses received depict a wide range of views on how technology has influenced
+societal norms. Positive comments about technology abound from many of the
+respondents; specifically, they comment on what it has done within the field of study, in
+what it offers to learn more accessible and effectively to the students. Technology,
+notwithstanding enabling online surveys, has allowed for better means of doing
+fieldwork. From these responses, one finds indications that technology benefits will
+stretch far beyond educational boundaries, as one respondent firmly believed that
+positive applications of technology will eventually serve as 'interest to both country and
+life is another very important theme that has a relationship with how people maintair
+their personal information in this highly digitizing world. The shift in global
+56
+communication is also highlighted, where the technology itself enables easy linking and
+interaction of people irrespective of their place. An acknowledgment of the influence of
+social media on cultural trends and values also implies a greater incidence of the role
+played in societal norms. However, that was not all positive views. Some of the
+respondents comment that technology's impact depends upon the use. This speaks for
+itself-neither good nor bad per se. Finally, one respondent was puzzled at how
+technology has influenced public morals, commenting that the impact of technology on
+society is very obscure and far from drawing a simple conclusion. Overall, such.
+3.2 Variables
+In this study, several key variables are considered to understand how technology
+shapes societal norms:
+A. Independent Variable:
+social media platforms, Al, and automation technologies. These advancements
+are measured in terms of their accessibility, usage frequency, and the extent of
+their integration into daily life, communication, education, work, and leisure.
+activities.
+B. Dependent Variables:
+> Societal Norms: Changes in behaviors, values, cultural practices, and societal.
+interact, communicate, work, and make decisions.
+> Public Perception: How different age groups or communities perceive the role
+of technology in shaping societal norms. This can be measured through surveys
+and opinion polls.
+Mental Health and Well-Being: The effect of technology on individuals
+psychological health, particularly focusing on social media and digital
+communication patterns. This can be assessed through self-reported measures
+of stress, anxiety, depression, and overall mental well-being.
+57
+C. Control Variables:
+= Age Group: Different age groups (youth, middle-aged, elderly) may experience.
+the impact of technology differently, so this variable helps in understanding these
+variations.
+> Socioeconomic Status: The influence of financial resources and social.
+standing on access to technology and its impact on societal norms. This includes
+factors like income, education level, and occupation.
+3.3 Present Justification:
+The relationship between technology and societal norms is intricate and constantly
+evolving, influenced by various social, cultural, and economic factors. This term paper
+communication, social media, and artificial intelligence (Al), impact societal norms and
+and make decisions, leading to shifts in societal behavior and attitudes.
+One key area of influence is communication. The rise of the internet, social media
+platforms, and instant messaging has revolutionized how people communicate, both
+related to interpersonal relationships, privacy, and public discourse. While technology
+has made communication faster and more global, it has also introduced challenges
+such as privacy erosion and misinformation spread. These challenges prompt us to
+reconsider how societal norms should adapt to these new communication patterns.
+Another important factor is the role of technology in shaping cultural and ethical values.
+Al and automation have sparked discussions about labor, job security, and economic
+inequality, while the widespread use of social media has influenced how people
+perceive identity, self-worth, and social status. The digital world has created new
+opportunities for self-expression but has also increased social pressures, particularly
+of technological innovations and their potential to reinforce or challenge existing societal
+norms.
+Additionally, technology affects societal norms through its impact on education, work
+and leisure. The rise of e-learning platforms, remote work technologies, and digital
+entertainment has blurred the traditional boundaries between work and leisure, creating
+new challenges in maintaining a work-life balance. These changes have also influenced
+activities.
+58
+This term paper aims to explore the diverse ways technology influences societal norms,
+examining both positive and negative aspects. By analyzing historical and contemporary
+examples of technological advancements, it seeks to provide a comprehensive
+understanding of how technology continues to shape and redefine societal expectations
+and values.
+3.3.1 Relationship Between Technology and Societal Norms:
+Technological advancements shape how people interact, communicate, and engage
+with the world. The rise of social media, for example, has revolutionized the way
+relationships are formed, opinions are expressed, and social status is perceived. Social
+media platforms enable instant communication and sharing of information but also
+contribute to
+issues like privacy concerns, misinformation, and
+digital
+addiction.Furthermore, automation and artificial intelligence are transforming labor
+markets and economic structures. Al technologies are automating routine tasks, leading
+to shifts in job roles and the creation of new professions. This redefines the concept of
+work, affecting employment rates, job satisfaction, and work-life balance.
+Technology also influences cultural experiences. The widespread use of digital
+entertainment platforms has changed how people consume media and participate in
+cultural activities. Streaming services, for instance, offer on-demand access to a vast
+array of content, shaping cultural trends and individual preferences.
+The relationship between technology and societal norms is bidirectional. While
+technology challenges and redefines societal norms, societal norms also influence
+technological development. For instance, growing concerns over data privacy and
+misinformation on social media platforms have led to policy changes and shifts in the
+operations of tech companies. Additionally, the societal push towards sustainability has
+driven the development of green technologies and renewable energy solutions.
+3.4 Current Study
+The current study aims to explore how various technologies, particularly the internet.
+social media, and Al, are shaping societal norms. It will investigate how these
+technologies influence communication patterns, social behaviors, and ethical values.
+The study will assess both positive and negative societal outcomes, such as improved
+3.5 Limitations
+59
+While this study aims to provide a comprehensive analysis of the relationship between
+technology and societal norms, several limitations must be considered:
+A. Third-Variable Problem.
+There may be external factors influencing the relationship between technology and
+conditions. These variables could confound the results, making it difficult to draw
+definitive conclusions about the impact of technology alone.
+B. Limited Survey Questions.
+The survey may not capture all dimensions of how technology influences societal
+norms. Limited or overly general questions might miss nuanced views on specific
+technologies or subgroups within society. Additionally, the wording of questions could
+influence respondents' answers, leading to potential bias.
+C. Respondents Filling Survey Without Reading
+Some participants might complete surveys quickly without thoroughly understanding the
+questions, potentially leading to inaccurate or unreliable data. This would affect the
+overall quality and validity of the findings.
+D. Uneven Distribution of Age Groups
+The study may not have an even distribution of respondents from different age groups.
+If older generations are underrepresented, the study might not fully capture generational
+differences in technology adoption and usage, affecting the generalizability of the.
+results.
+3.6 Statistical Analysis.
+We applied various statistical analyses relevant to the relationships between some of
+the factors determining technological development and changes in societal values. For
+those factors, such as the use of digital media, implementation of Al, professional
+environments, and sustainability, we estimated the effects. Specifically, we applied a
+multivariable regression model combined with additional tests in order to test the
+60
+relationships between the variables and the change in societal expectations. The
+applied models and analysis for the study follow:.
+Model 0: Technology adoption (social media, Al, digital tools) and demographic factors
+(age, profession, education).
+Model 1: Model 0 added with the frequency and intensity of using social media,
+concentrating on its impact on personal relationships and community norms.
+Model 2: Model 0 with Al infusion in the workplace setting-health care or service fields
+again to measure the effects on professionalized communication norms.
+Model 3: Model 0, incorporating additional sustainability transitions-in this example, the
+links technology with environmental behavior norms..
+Model 4: Model 0 with cyberbullying and the matter of privacy concern, mainly based.
+on Al and the ethics of digital technologies directed toward privacy norms..
+We examined the moderating effect of age on the relationship between technology.
+adoption and societal norms by adding an interaction term of age with technology
+adoption to Model 0, p <.05. Results of regression are provided for the younger and
+older generations. Wald tests check the mediating effects of online harassment,
+Al-related ethical concerns, professional communication norms, and sustainability
+with specific regard to how the norms evolve over issues of fairness, privacy, and
+environmental behavior. In supplementary analysis, we also fitted Iogistic regression
+models to check the binary outcomes: social perception of technology and ethical
+concerns about Al. These models would allow us to measure the strength with which
+people think that technology influences the course of societal norms. Finally, the.
+development were quantified in means of path models..
+The first model allowed all paths to differ by generation(younger vs. older), and Wald
+tests for differences were conducted with a Bonferroni adjustment to control the
+number of tests run. In the second model, nonsignificant differences were constrained
+GsEM command, which includes all continuous, binary, and categorical measures that
+can be modeled correspondingly with linear, logistic, or multinomial Iogistic
+specifications. All analyses were conducted using Stata version 15.1(Stata Corp) with.
+survey weights applied to account for the unequal probability of being sampled..
+61
+Hypothesized Pathways Between Technology Adoption and Changes in Societal
+Norms
+Pathway
+Technology
+Change in
+Intermediate Process
+Societal
+No.
+Adoption Factor
+Norm
+1.
+Increased Al and Job role transformation,.
+Redefinition
+of
+Automation Usage
+skill upgrading
+workforce dynamics
+Rapid
+Shifts
+2.
+Social
+Media
+information
+in
+political
+Proliferation
+sharing, digital discourse
+opinion and activism
+3.
+Online
+Learning
+Enhanced
+access
+to
+Democratization
+of
+Platforms
+education
+skill
+education and
+accessibility
+family
+4.
+Communication
+Improved
+global
+Changing
+Technology
+connectivity
+interaction and social
+Advancement
+relationship norms
+5.
+Evolution of consumer
+Adoption
+Personalized
+Al-Powered Tools
+recommendations,
+behavior
+data-driven insights
+Convenience
+6.
+Growth
+and
+Shift from traditional
+E-commerce
+and
+accessibility
+retail
+to
+digital
+Digital
+shopping norms
+Marketplaces
+7.
+Expansion
+of Facilitated
+Transformation
+virtual
+in
+Dating connections
+Online
+romantic relationships
+Platforms
+norms
+8.
+Usage
+of
+Digital
+Monitoring and control.
+Concerns over privacy
+Surveillance Tools
+and autonomy
+9.
+Use
+of
+Global
+Intermingling
+Increased
+to
+and
+exposure
+Streaming
+and
+cultural content
+redefinition of cultural
+Entertainment Tech
+practices
+10.
+Growth
+of
+Challenges in
+Spread of false narratives.
+trust
+Misinformation
+and authenticity
+in
+Channels
+societal discourse
+Table 3.6
+streamlining. As a result, manufacturing companies are becoming better and more efficient, thus
+driving national economic growth.
+Al in Education
+Education has had a fair share in the improving application of Al. Individualized lessons are
+being accessed by students through Al learning platforms, and they learn according to their own.
+pace. Smart classrooms are also making use of Al tools in tracking a student's progress and
+identifying areas in which they need to improve. Classroom management and administrative
+work would easily be automated by Al, in which case teachers can concentrate more on their
+teaching work and less on documentation. The net benefits of these developments will be
+improving the quality of education and are simplifying learning for students in India..
+Al in Retail and E-Commerce:
+Al is literally shaking the retail and e-commerce course of industries. Online shopping portals
+recommend products to customers with the help of Al. Al-supported chatbots help customers,
+making their shopping experiences very easy. Again, Al helps in avoiding overstocking or being
+out of stock, through keeping inventory in check for companies. This brings improved customer
+satisfaction and boosts e-commerce companies in growth in the Indian scene..
+Challenges of Al in India:
+Indeed, Al produces a lot of benefits, but also wields its own share of difficulties, especially in
+terms of jobs. Some traditional jobs are now replaced by machines due to automation, leaving
+thousands of jobless. On the contrary, Al creates new job profiles associated with data science,
+machine learning, robotics, etc. To tackle this concern, the Indian government and the private
+sector have invested in Al training and education programs to empower such people with skills
+suitable for Al jobs.
+Another, and a very important, challenge for India would be the fact that the rural segment of
+India does not have sufficient digital infrastructure. Al would like to utilize a lot of data and
+broadband internet, both of which this country has not yet extended to much of its regions. Data
+security and protection issues need resolution before getting on to the responsible Al.
+implementation. Governments and private organizations are endeavoring to develop better Al
+policies and regulations to accomplish this..
+Despite all this, Al can be India's engine of growth. More businesses can expand and also
+improve the overall quality of life as Als generate more productivity, cost savings, and.
+innovation. The Indian government has already identified Al as one of the keys to its growth and
+supports the promotion of such initiatives in various forms. Investment in Al research, digital
+infrastructure, and talent development is poised to put India on the world map as a leader in AI
+innovation.
+62
+As hypothesized pathways between technology adoption and changes in societal.
+norms, the flowchart below summarizes them..
+O.
+Figure 3.6.1
+4. Discussion
+4.1 How Does Technology Impact Social Norms?.
+Ans: Technology has dramatically changed the way we interact, communicate, and
+understand the world. The internet has made it possible to talk to people anywhere in
+the world instantly. Social media lets us share personal moments, opinions, and
+where people with similar interests can connect and support each other. However, with
+these benefits come challenges like privacy issues, misinformation, and digital
+surveillance. The constant presence of technology in our lives can also lead to issues.
+like digital addiction and a decrease in face-to-face interactions. These changes affect
+our social norms--how we expect people to behave. As technology keeps evolving, we
+63
+must adjust our norms to balance the good things technology brings with the need to act
+ethically online. It is important for individuals and societies to find a balance between
+embracing technological advancements and maintaining healthy, respectful interactions.
+4.2 The Effects of Al and Robotics on Job Roles and Workforce Dynamics
+Ans: Al (Artificial Intelligence) and robots have changed many jobs by taking over tasks
+that humans used to do. In industries like manufacturing, retail, and healthcare, they
+help make work faster and cheaper. This automation can lead to increased productivity
+jobs, especially those doing simple, repetitive tasks. On the other hand, new jobs that
+need special skills in technology, data analysis, and Al are being created. This shift
+requires workers to learn new skills and adapt to a rapidly changing job market. While
+some workers may benefit from new opportunities, others may face economic hardships
+and job insecurity. Addressing these challenges requires investment in education and
+training programs to help workers transition to new roles. While Al and robots make
+work more productive, they also raise concerns about job loss and the fairness of
+collaborate to create strategies that ensure the benefits of Al and robotics are shared
+broadly and do not exacerbate economic inequality.
+4.3 The Role of Digital Communication in Shaping New Social Norms
+Ans: Digital communication tools like social media, instant messaging, and video calls
+have changed how we interact with each other. We can now share information quickly
+and casually, mixing personal and work life. This has created a culture of constant
+connectivity, where people feel the need to be available and responsive at all times.
+New norms have emerged, such as expecting quick replies and always being available.
+While these tools connect us globally, they also cause problems like digital burnout, loss
+of privacy, and less face-to-face interaction. The prevalence of digital communication
+can lead to misunderstandings and a lack of emotional depth in interactions. It can also
+create pressure to present a curated and often unrealistic version of oneself online.
+Digital communication changes our social norms and affects how we maintain
+relationships and communicate effectively. It is important to develop guidelines and
+practices that promote healthy digital habits and encourage meaningful, respectfu
+interactions both online and offline.
+5. Conclusion
+64
+In conclusion, technology has greatly affected societal norms, changing how we
+communicate, work, and behave socially. Al, robots, and digital communication have
+reshaped traditional ways of doing things, bringing both benefits and challenges. As
+technology continues to advance, we need to address its ethical issues and ensure our
+social norms adapt responsibly. Understanding the relationship between technology and
+societal norms helps us navigate the changing landscape of human life and ensures
+that technological progress benefits society as a whole. The future will bring more
+advancements, so it's important to be prepared for their impact on individuals,
+industries, and society. By fostering a thoughtful and balanced approach to technology,
+we can create a world where innovation enhances our lives without compromising our
+values and well-being..
+6. Reference List
+7. Appendices:
+> Appendix 1: Survey Questions
+1. What purpose do you use Al?
+2. How significantly has your life been changed after using Al (e.g.,
+ChatGPT)?
+3. How many hours a day do you spend using digital devices (smartphone +
+computer + others)?
+4. Which types of technology do you use most frequently?
+5. Do you think Al or automation has impacted the workplace or professional
+relationships?.
+6. Do you believe technology has positively or negatively influenced social
+norms?
+7. How has technology influenced your methods of communication with
+family and friends?
+and accessibility?
+9. Do you believe that technology has changed expectations around career
+paths and job stability?
+forming
+10.How has technology impacted norms around dating and
+romantic relationships?
+opinions?
+misinformation to spread?
+65
+13.In what areas do you feel technology has the most significant impact on
+social norms?
+community?
+younger generations?
+16.Looking ahead, do you believe technology will continue to reshape
+societal norms?
+17.According to you, how has technology shaped societal norms?.
+(open-ended)..
+- Appendix 2: List Information:.
+1. Tsetsi, Eric. "Book Review: Ramesh Srinivasan, Whose Global Village?
+Rethinking How Technology Shapes Our World." *Mobile Media &.
+Communication*, vol. 7, no. 2, May 2019, pp. 286-87. DOl.org (Crossref),
+https://doi.org/10.1177/2050157919827105.
+2. Dalmaijer,
+"How
+Technology
+Evi,
+et al.
+Shapes
+Advice:
+*Frontiers in Communication*, vol. 8, Oct. 2023, p. 1205883. DOl.org.
+(Crossref), https://doi.org/10.3389/fcomm.2023.1205883.
+Technology Shapes Cooperation in International Relations." *International.
+Organization*, vol. 77, no. 3, 2023, pp. 599-632. DOl.org,
+https://doi.org/10.1017/S0020818323000140.
+4. Schroyer, T. (1974). "The Coming of Post-Industrial Society." *Telos*,
+1974(19), 162-176. https://doi.org/10.3817/0374019162.
+5. Markard, J., Raven, R., & Truffer, B. (2012). "Sustainability Transitions: An
+955-967. https://doi.org/10.1016/j.respol.2012.02.013.
+6. Jobin, A., lenca, M., & Vayena, E. (2019). "The Global Landscape of Al
+Ethics Guidelines." *Nature Machine Intelligence*, 1(9), 389-399
+https://doi.org/10.1038/s42256-019-0088-2
+7. Adger, W. N., Dessai, S., Goulden, M., Hulme, M., Lorenzoni, I., Nelson,
+D. R., Naess, L. O., Wolf, J., & Wreford, A. (20o8). "Are There Social.
+Limits to Adaptation to Climate Change?" *Climatic Change*, 93(3-4),.
+335-354. https://doi.org/10.1007/s10584-008-9520-z.
+8. Bigo, D. (2002). "Security and Immigration: Toward a Critique of the
+27(1_suppl), 63-92. https://doi.org/10.1177/03043754020270s105.
+66
+9. Floridi, L., Cowls, J., Beltrametti, M., Chatila, R., Chazerand, P., Dignum,
+V., Luetge, C., Madelin, R., Pagallo, U., Rossi, F., Schafer, B., Valcke, P., &
+Society: Opportunities, Risks, Principles, and Recommendations." *Minds
+Machines*
+28(4),
+and
+689-707.
+https://doi.org/10.1007/s11023-018-9482-5.
+10.Fong, T., Nourbakhsh, I., & Dautenhahn, K. (2o03). "A Survey of Socially
+Interactive Robots." *Robotics and Autonomous Systems*, 42(3-4),
+143-166. https://doi.org/10.1016/s0921-8890(02)00372-x.
+11. Selbst, A. D., Boyd, D., Friedler, S. A., Venkatasubramanian, S., & Vertesi
+J. (2019). "Fairness and Abstraction in Sociotechnical Systems'
+https://doi.org/10.1145/3287560.3287598.
+12.Hamari, J., Sjoklint, M., & Ukkonen, A. (2015). "The Sharing Economy:
+Why People Participate in Collaborative Consumption." *Journal of the
+https://doi.org/10.1002/asi.23552
+13.Hjarvard, S. (2oo8). "The Mediatization of Society." *Nordicom
+Review*,
+29(2),
+Review/NORDICOM
+102-131.
+https://doi.org/10.1515/nor-2017-0181.
+Sciences*, 42(4), 323-340. https://doi.org/10.1007/s11077-009-9097-z.
+15. Bhati, S. (2024). "A Perspective of Digital Technology and Social
+Transformation." *Shikshan Sanshodhan: Journal of Arts, Humanities and
+7(02),
+Social
+Sciences*,
+83.
+https://shikshansanshodhan.researchculturesociety.org/wp-content/upload
+s/SS202402015-min.pdf.
+Acknowledgement:
+We are really grateful to Dr Barnali Chetia, UGC-Net, PGDM, M.A., M.Phil.,.
+PhD, Assistant Professor at IlltV, for her great advice and for giving us the
+chance to investigate the subject of this paper's research. We improved our
+complexities of the deductive research process under her tutelage..
+We would like to sincerely thank Miss Dharti Sharma for all of her help and
+influenced by Qianhui Du (faculty of Arts, University of Ottawa, Ottawa,
+Ontario, Canada); Prof. Prathamesh S. Nadkarni, Prof. Sanket L.Charkha, Prof.
+Jayant B Kulkarni (JSPM Narhe Technical Campus, Smt. Kashibai Navale
+College of Engineering); Jayshree Jha (Research Scholar, MCA Thakur
+Institute of Management Studies, Career Development and Research.
+(TIMscDR)), research report. Moreover, sincere gratitude is owed to
+everyone who answered the survey that was completed for this research.
+Their willingness to share their thoughts and experiences has greatly
+increased the validity of the conclusions made in this work and provided
+our research with a wealth of empirical support. Finally, I can't forget my
+family's priceless encouragement and support. Throughout this journey,.
+their love, prayers, and unfailing faith in my skills have been a continual.
+source of support. All of these contributions have been helpful in
+determining the direction this research study has taken, and I am very
+appreciative of that.
+"Negative effect of social media" is entirely my original work, conducted
+under the supervision of Dr. Barnali Chetia. We confirm that this project has
+not been previously submitted, in whole or in part, for any other academic
+qualification or purpose. We further declare that all sources of information,
+including research papers, articles, book, and online resources, have been
+received from individuals or institutions during the research and writing
+process has been duly credited.
+We take full responsibility for the content, findings, and conclusions
+presented in this project. We attest to the accuracy and integrity of the data
+interpretation or application of our research.
+Team Members:
+Aditya Raj (202351002)
+Signature:
+Shivam kumar (202351130)
+Signature:
+Abstract:
+Social media has become an integral part of the lives of adolescents,
+profoundly influencing their communication patterns, social interactions,
+various studies to explore the impact of social media on teenagers,
+focusing on its effects on mental health, academic achievements, and
+social activities. It discusses the detrimental consequences of excessive
+social media use, including depression, anxiety, distraction from studies,
+pervasive commercialization of mass media, which contributes to
+adolescents' moral construction and overall well-being. Through a
+systematic review of existing literature, the study underscores the
+significant association between social media engagement and
+psychological distress among adolescents..
+Methods detail participant recruitment, data collection, and analysis.
+Self-reported social media usage measures and standardized
+psychological instruments assess anxiety and depression symptoms.
+anxiety/depression levels. Acknowledged limitations include biases in
+causality.
+In conclusion, addressing mental health concerns associated with social
+media is crucial for adolescent well-being. Proactive interventions are
+needed in the digital era to support adolescents effectively.
+Keywords:
+Social media, adolescents, communication patterns, social interactions
+academic performances, mental health, depression, anxiety, distraction,
+privacy, security, commercialization, mass media, moral construction,
+distress, participant recruitment, data collection, analysis, self-reported
+measures, standardized psychological instruments, relationship, proactive
+interventions.
+Table of content:.
+1.Introduction:
+1.1. Topic
+1.2. Focus
+1.3. Importance
+1.4. Objective of our research
+1.5. Background and context
+1.6. Research Problems
+1.7. Chapterisation.
+2.Literature review:.
+3.Analysis
+3.1 Methodolog A. Secondary data
+Survay method
+Eligibility criteria
+A) Participants
+B) Exposure
+B. Primary data
+3.2 Variables
+3.3 Present justification
+3.3.1 Relationship between social media and mental health
+3.4 Current study.
+3.5 Limitations
+A. Third-Variable Problem:
+B. Limited Survey Questions:.
+C. Respondents Filling Survey Without Reading:.
+D. Uneven Distribution of Age Groups:.
+3.6 Statistical Analysis.
+4.Discussion
+4.1 Does Social Media Have a Negative Impact on
+Adolescents and Young Adults?
+4.2 The Dangers That Come With Young Adults Utilizing
+Social Media?
+4.3 The Dangers That Come With Young Adults Utilizing
+Social Media?
+5. Conclusion
+6. Reference List.
+7. Appendices:
+Appendix 1:Survay questions
+Appendix 2: List information.
+List of Figures and Tables:
+1. List of Figures:
+2.Literature review:-Figure 1 use of social media corncering
+age (page no: 09)
+3. Analysis:
+A. Secondary data:
+figure 1:show usages of social media by adolescents. (page no: 14)
+Figure 2:Addiction to social media in age groups.(page no:15).
+Figure 3:Rndom survey of WhatsApp usage.(page:15)
+Figure 4:WhatsApp is helpful or not.
+Figure 5: A survey of social media sites.(page no: 17)
+Figure 6: Parents satisfied his children using social media.
+Figure 7: shows a survey report which was conducted in U.S. for finding
+a relation between social media and mental health amongs girl
+adolescent (age 11 - 15 yrs).
+Figure 8: show a relation social media and depression.
+Figure 9: Shows the co relation between social media & loneliness by
+Alice in science education.
+Figure 10: showing a survey report determining the imact of social
+media on our health.
+B. Primary Data:
+Figure:1 Age group (page no 25)
+Figure: 2 Gender (page 26)
+Figure:3 how do you see social media platform(page 26).
+Figure:4 how many hour per day spend on social media(page no 27).
+Figure:6 feel bad about yourself after looking at social media(page 28).
+Figure:8 page no:29
+Figure:9 page no 30
+Figure:10 page no 30
+Figure:11 page no 31
+Figure:12 page no 31
+Figure:13 page no 32
+Figure:14 page no 32
+Figure:15 page no 33
+Figure:16 page no 34
+Figure:17 page no 34
+Figure:18 page no 35
+Figure:19 page no 35
+Figure:20 page no 36
+3.6 Statistical Analysis: flow chat figure 1: The hypothesised
+pathways between social media use and depressive symptoms in
+young people the flow chat(page no 42)..
+1.Introduction:
+1.1. Topic:
+This term paper explores the continuous topic of "Negative effect of social
+that exist between network of people". In the last ten years, the online world
+has changed dramatically. Thanks to the invention of social media, young
+pictures and videos at a truly astonishing rate. Most people engage with
+platforms like WhatsApp, Facebook, and YouTube, without stopping to think
+what the effects are on their lives, whether positive or negative. There are many
+positive aspects, such as it helps students to develop important knowledge
+and social skills, it enhances the connectivity among groupmates, but there.
+are equally as many dangers that come with the use of social sites.
+1.2. Focus:
+The focus of this research is to investigate the potential adverse effects of
+increased social media usage on the mental well-being of adolescents,.
+specifically focusing on the development of anxiety and depression. By.
+examining existing literature and analyzing social media usage patterns
+among adolescents, this study aims to uncover the underlying mechanisms
+contributing to these negative outcomes. Understanding these relationships
+is crucial for developing targeted interventions and strategies to mitigate
+the impact of social media on adolescent mental health, thereby promoting
+healthier online behaviours and overall well-being.
+1.3. Importance:
+Excessive social media use has been associated with detrimental effects
+on mental health, including depression and anxiety, along with distractions
+pervasive commercialization of mass media has contributed to adolescents'
+moral construction and overall well-being, although it has also led to
+cybercrimes and harassment.
+Keeping these things in mind, many researchers have been diving into a
+considerable amount of research on how social media influences student retention
+at school and colleges.
+1.4. Objective of our research:
+Research highlights the correlation between social media engagement
+patterns and mental health outcomes, emphasizing the need for proactive
+interventions to address these concerns. Adolescents, particularly, are
+cyber celebrities and the spread of harmful behaviours like trolling. Despite
+mental health issues among adolescents, such as anxiety, depression, and
+self-harm, continues to rise, indicating the urgent need for comprehensive
+research ascertains the relationship between the social media and adolescents
+behaviour efficiency.
+1.5. Background and Context:
+adolescents' daily lives, providing them with platforms for communication,
+self-expression, and social interaction. However, concerns have been
+raised regarding the potential adverse effects of excessive social media
+Understanding the background and context of this issue necessitates a
+thorough examination of the rapid proliferation of social media platforms
+and their profound influence on adolescent behaviour and well-being
+The table of communication social media are given below:
+Table 1
+Some of the Challenges regarding the social network are
+discussed below:
+a. Gives People a license to be hurtful: - As the youth has
+tremendous anger and is addicted to social media that makes the users
+nature or teasing others by not fulfilling their expectations.
+b. Decreases Face-To-Face Communication Skills: - Relying on
+the computers totally reduces the personability of individual and, most
+situation. Social sites can also spoil the relationships among family
+members as well as in the community. This led to change in trend
+nowadays, people show lack of interest in face-to-face communication.

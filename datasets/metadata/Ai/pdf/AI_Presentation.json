@@ -1,0 +1,13 @@
+{
+    "document_name": "AI_Presentation",
+    "file_name": "AI_Presentation.txt",
+    "relative_path": "Ai\\pdf\\AI_Presentation.txt",
+    "folder_name": "pdf",
+    "word_count": 1456,
+    "character_count": 10755,
+    "line_count": 326,
+    "file_size_bytes": 11156,
+    "created": 1782568446.4540522,
+    "modified": 1782572544.478169,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

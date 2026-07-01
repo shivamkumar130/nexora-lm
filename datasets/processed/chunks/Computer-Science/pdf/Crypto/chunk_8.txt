@@ -1,0 +1,7 @@
+Document: Crypto
+Chunk: 8
+Start Word: 1792
+End Word: 1902
+Words: 110
+
+Show that in a group of 23 randomly chosen people, the probability that at least two share a birthday is at least 1/2. 9.2 Proof Assume 365 equally likely birthdays and independence. LetP no match be the probability no two people share a birthday amongmpeople: Pno match = 365 365 · 364 365 · 363 365 · · ·365−(m−1) 365 Using inequality 1−x≤e −x: Pno match = m−1Y k=0 1− k 365 ≤exp m−1X k=0 365 = exp − m(m−1) 730 Form= 23: m(m−1) 730 = 23·22 730 = 506 730 ≈0.693 Therefore: Pno match ≤e −0.693 ≈0.5 Thus: Pat least one match= 1−P no match ≥1−0.5 = 0.5 12

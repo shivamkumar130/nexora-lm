@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "language": "C++",
+    "question": "Write a C++ program to print Hello World.",
+    "expected": "#include <iostream>\nusing namespace std;\nint main(){ cout << \"Hello World\"; return 0; }"
+  },
+  {
+    "id": 2,
+    "language": "Python",
+    "question": "Write a Python program to print Hello World.",
+    "expected": "print(\"Hello World\")"
+  },
+  {
+    "id": 3,
+    "language": "C++",
+    "question": "Write a C++ program for Bubble Sort.",
+    "expected": "Bubble Sort implementation"
+  },
+  {
+    "id": 4,
+    "language": "Python",
+    "question": "Write a Python function for Binary Search.",
+    "expected": "Binary Search implementation"
+  },
+  {
+    "id": 5,
+    "language": "SQL",
+    "question": "Write an SQL query to select all students.",
+    "expected": "SELECT * FROM students;"
+  },
+  {
+    "id": 6,
+    "language": "Python",
+    "question": "Write a Python function to calculate factorial.",
+    "expected": "Factorial implementation"
+  },
+  {
+    "id": 7,
+    "language": "C++",
+    "question": "Write a C++ function to reverse a string.",
+    "expected": "Reverse string implementation"
+  },
+  {
+    "id": 8,
+    "language": "Python",
+    "question": "Write a Python function to check palindrome.",
+    "expected": "Palindrome implementation"
+  },
+  {
+    "id": 9,
+    "language": "SQL",
+    "question": "Write an SQL query to count all employees.",
+    "expected": "SELECT COUNT(*) FROM employees;"
+  },
+  {
+    "id": 10,
+    "language": "Python",
+    "question": "Write a Python function to find the maximum element in a list.",
+    "expected": "Maximum element implementation"
+  }
+]

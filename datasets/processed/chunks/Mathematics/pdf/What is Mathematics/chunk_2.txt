@@ -1,0 +1,7 @@
+Document: What is Mathematics
+Chunk: 2
+Start Word: 256
+End Word: 394
+Words: 138
+
+Learning Statistics Study of data collection and analysis. Applications: Surveys Data Science Business Probability Study of uncertainty. Example: Probability of getting Head on a coin toss: P(Head) = 1/2 Applications of Mathematics Computer Science Algorithms rely on mathematics. Artificial Intelligence Machine learning uses: Linear Algebra Probability Statistics Calculus Engineering Used in designing: Bridges Buildings Machines Finance Used for: Interest Investments Risk Analysis Medicine Used in: Medical Imaging Drug Development Summary Mathematics is the foundation of science and technology. It is used every day in education, business, engineering, artificial intelligence, computer science, finance, medicine, and research. Key Points: Mathematics studies numbers and patterns. It has a long historical development. It supports scientific progress. It develops logical thinking. It has many branches including algebra, geometry, calculus, and statistics. It is essential for modern technology. 1. 2. 3. 4. 5. 6.

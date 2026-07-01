@@ -1,0 +1,2230 @@
+{
+    "0": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_1.txt"
+    },
+    "1": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_2.txt"
+    },
+    "2": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_3.txt"
+    },
+    "3": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_4.txt"
+    },
+    "4": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_5.txt"
+    },
+    "5": {
+        "chunk_id": "Ai_pdf_AI_Presentation_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\AI_Presentation\\chunk_6.txt"
+    },
+    "6": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_1.txt"
+    },
+    "7": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_10.txt"
+    },
+    "8": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_11.txt"
+    },
+    "9": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_12.txt"
+    },
+    "10": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_13.txt"
+    },
+    "11": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_14.txt"
+    },
+    "12": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_15.txt"
+    },
+    "13": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_16.txt"
+    },
+    "14": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_17.txt"
+    },
+    "15": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_18.txt"
+    },
+    "16": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_19.txt"
+    },
+    "17": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_2.txt"
+    },
+    "18": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_20.txt"
+    },
+    "19": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_21.txt"
+    },
+    "20": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_22.txt"
+    },
+    "21": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_23.txt"
+    },
+    "22": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_24.txt"
+    },
+    "23": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_25.txt"
+    },
+    "24": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_26.txt"
+    },
+    "25": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_27.txt"
+    },
+    "26": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_28.txt"
+    },
+    "27": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_29.txt"
+    },
+    "28": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_3.txt"
+    },
+    "29": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_30.txt"
+    },
+    "30": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_31.txt"
+    },
+    "31": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_32.txt"
+    },
+    "32": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_33.txt"
+    },
+    "33": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_34.txt"
+    },
+    "34": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_35.txt"
+    },
+    "35": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_36",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_36.txt"
+    },
+    "36": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_37",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_37.txt"
+    },
+    "37": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_38",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_38.txt"
+    },
+    "38": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_39",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_39.txt"
+    },
+    "39": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_4.txt"
+    },
+    "40": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_40",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_40.txt"
+    },
+    "41": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_41",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_41.txt"
+    },
+    "42": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_42",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_42.txt"
+    },
+    "43": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_43",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_43.txt"
+    },
+    "44": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_44",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_44.txt"
+    },
+    "45": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_45",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_45.txt"
+    },
+    "46": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_46",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_46.txt"
+    },
+    "47": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_47",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_47.txt"
+    },
+    "48": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_48",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_48.txt"
+    },
+    "49": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_49",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_49.txt"
+    },
+    "50": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_5.txt"
+    },
+    "51": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_50",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_50.txt"
+    },
+    "52": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_51",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_51.txt"
+    },
+    "53": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_52",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_52.txt"
+    },
+    "54": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_53",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_53.txt"
+    },
+    "55": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_54",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_54.txt"
+    },
+    "56": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_6.txt"
+    },
+    "57": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_7.txt"
+    },
+    "58": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_8.txt"
+    },
+    "59": {
+        "chunk_id": "Ai_pdf_nexora_Ai_notes1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Ai\\pdf\\nexora_Ai_notes1_v1\\chunk_9.txt"
+    },
+    "60": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_1.txt"
+    },
+    "61": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_10.txt"
+    },
+    "62": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_11.txt"
+    },
+    "63": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_12.txt"
+    },
+    "64": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_13.txt"
+    },
+    "65": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_2.txt"
+    },
+    "66": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_3.txt"
+    },
+    "67": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_4.txt"
+    },
+    "68": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_5.txt"
+    },
+    "69": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_6.txt"
+    },
+    "70": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_7.txt"
+    },
+    "71": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_8.txt"
+    },
+    "72": {
+        "chunk_id": "Algorithm_pdf_nexora_Algorithm_notes1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Algorithm\\pdf\\nexora_Algorithm_notes1_v1\\chunk_9.txt"
+    },
+    "73": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_1.txt"
+    },
+    "74": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_2.txt"
+    },
+    "75": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_3.txt"
+    },
+    "76": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_4.txt"
+    },
+    "77": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_5.txt"
+    },
+    "78": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_6.txt"
+    },
+    "79": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_7.txt"
+    },
+    "80": {
+        "chunk_id": "Computer-Science_pdf_Crypto_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\Crypto\\chunk_8.txt"
+    },
+    "81": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe__W5_1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe__W5_1\\chunk_1.txt"
+    },
+    "82": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe__W5_1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe__W5_1\\chunk_2.txt"
+    },
+    "83": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe__W5_1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe__W5_1\\chunk_3.txt"
+    },
+    "84": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe__W5_1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe__W5_1\\chunk_4.txt"
+    },
+    "85": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe__W5_1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe__W5_1\\chunk_5.txt"
+    },
+    "86": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe_W5_2_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe_W5_2\\chunk_1.txt"
+    },
+    "87": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe_W5_2_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe_W5_2\\chunk_2.txt"
+    },
+    "88": {
+        "chunk_id": "Computer-Science_pdf_CS203_Scribe_W5_2_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\CS203_Scribe_W5_2\\chunk_3.txt"
+    },
+    "89": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_1.txt"
+    },
+    "90": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_10.txt"
+    },
+    "91": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_11.txt"
+    },
+    "92": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_12.txt"
+    },
+    "93": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_13.txt"
+    },
+    "94": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_14.txt"
+    },
+    "95": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_15.txt"
+    },
+    "96": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_16.txt"
+    },
+    "97": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_17.txt"
+    },
+    "98": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_18.txt"
+    },
+    "99": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_19.txt"
+    },
+    "100": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_2.txt"
+    },
+    "101": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_20.txt"
+    },
+    "102": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_21.txt"
+    },
+    "103": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_22.txt"
+    },
+    "104": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_23.txt"
+    },
+    "105": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_24.txt"
+    },
+    "106": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_25.txt"
+    },
+    "107": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_26.txt"
+    },
+    "108": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_27.txt"
+    },
+    "109": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_28.txt"
+    },
+    "110": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_29.txt"
+    },
+    "111": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_3.txt"
+    },
+    "112": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_30.txt"
+    },
+    "113": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_31.txt"
+    },
+    "114": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_32.txt"
+    },
+    "115": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_33.txt"
+    },
+    "116": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_34.txt"
+    },
+    "117": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_35.txt"
+    },
+    "118": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_36",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_36.txt"
+    },
+    "119": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_37",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_37.txt"
+    },
+    "120": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_38",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_38.txt"
+    },
+    "121": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_39",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_39.txt"
+    },
+    "122": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_4.txt"
+    },
+    "123": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_40",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_40.txt"
+    },
+    "124": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_41",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_41.txt"
+    },
+    "125": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_42",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_42.txt"
+    },
+    "126": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_43",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_43.txt"
+    },
+    "127": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_44",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_44.txt"
+    },
+    "128": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_45",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_45.txt"
+    },
+    "129": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_46",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_46.txt"
+    },
+    "130": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_47",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_47.txt"
+    },
+    "131": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_48",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_48.txt"
+    },
+    "132": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_49",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_49.txt"
+    },
+    "133": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_5.txt"
+    },
+    "134": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_50",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_50.txt"
+    },
+    "135": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_51",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_51.txt"
+    },
+    "136": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_52",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_52.txt"
+    },
+    "137": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_53",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_53.txt"
+    },
+    "138": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_54",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_54.txt"
+    },
+    "139": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_6.txt"
+    },
+    "140": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_7.txt"
+    },
+    "141": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_8.txt"
+    },
+    "142": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note1_v1\\chunk_9.txt"
+    },
+    "143": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_1.txt"
+    },
+    "144": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_10.txt"
+    },
+    "145": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_11.txt"
+    },
+    "146": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_12.txt"
+    },
+    "147": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_13.txt"
+    },
+    "148": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_14.txt"
+    },
+    "149": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_15.txt"
+    },
+    "150": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_16.txt"
+    },
+    "151": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_17.txt"
+    },
+    "152": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_18.txt"
+    },
+    "153": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_19.txt"
+    },
+    "154": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_2.txt"
+    },
+    "155": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_20.txt"
+    },
+    "156": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_21.txt"
+    },
+    "157": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_22.txt"
+    },
+    "158": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_23.txt"
+    },
+    "159": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_24.txt"
+    },
+    "160": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_25.txt"
+    },
+    "161": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_26.txt"
+    },
+    "162": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_27.txt"
+    },
+    "163": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_28.txt"
+    },
+    "164": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_29.txt"
+    },
+    "165": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_3.txt"
+    },
+    "166": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_30.txt"
+    },
+    "167": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_31.txt"
+    },
+    "168": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_32.txt"
+    },
+    "169": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_33.txt"
+    },
+    "170": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_34.txt"
+    },
+    "171": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_35.txt"
+    },
+    "172": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_36",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_36.txt"
+    },
+    "173": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_37",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_37.txt"
+    },
+    "174": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_38",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_38.txt"
+    },
+    "175": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_39",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_39.txt"
+    },
+    "176": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_4.txt"
+    },
+    "177": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_40",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_40.txt"
+    },
+    "178": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_41",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_41.txt"
+    },
+    "179": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_42",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_42.txt"
+    },
+    "180": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_43",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_43.txt"
+    },
+    "181": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_44",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_44.txt"
+    },
+    "182": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_45",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_45.txt"
+    },
+    "183": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_46",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_46.txt"
+    },
+    "184": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_47",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_47.txt"
+    },
+    "185": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_48",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_48.txt"
+    },
+    "186": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_49",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_49.txt"
+    },
+    "187": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_5.txt"
+    },
+    "188": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_50",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_50.txt"
+    },
+    "189": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_51",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_51.txt"
+    },
+    "190": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_52",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_52.txt"
+    },
+    "191": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_53",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_53.txt"
+    },
+    "192": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_54",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_54.txt"
+    },
+    "193": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_55",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_55.txt"
+    },
+    "194": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_56",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_56.txt"
+    },
+    "195": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_57",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_57.txt"
+    },
+    "196": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_58",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_58.txt"
+    },
+    "197": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_59",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_59.txt"
+    },
+    "198": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_6.txt"
+    },
+    "199": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_60",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_60.txt"
+    },
+    "200": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_61",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_61.txt"
+    },
+    "201": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_62",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_62.txt"
+    },
+    "202": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_63",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_63.txt"
+    },
+    "203": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_64",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_64.txt"
+    },
+    "204": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_65",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_65.txt"
+    },
+    "205": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_66",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_66.txt"
+    },
+    "206": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_67",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_67.txt"
+    },
+    "207": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_68",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_68.txt"
+    },
+    "208": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_69",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_69.txt"
+    },
+    "209": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_7.txt"
+    },
+    "210": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_70",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_70.txt"
+    },
+    "211": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_71",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_71.txt"
+    },
+    "212": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_72",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_72.txt"
+    },
+    "213": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_73",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_73.txt"
+    },
+    "214": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_74",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_74.txt"
+    },
+    "215": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_75",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_75.txt"
+    },
+    "216": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_76",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_76.txt"
+    },
+    "217": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_77",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_77.txt"
+    },
+    "218": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_78",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_78.txt"
+    },
+    "219": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_79",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_79.txt"
+    },
+    "220": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_8.txt"
+    },
+    "221": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_80",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_80.txt"
+    },
+    "222": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_81",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_81.txt"
+    },
+    "223": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_82",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_82.txt"
+    },
+    "224": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_83",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_83.txt"
+    },
+    "225": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_84",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_84.txt"
+    },
+    "226": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_85",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_85.txt"
+    },
+    "227": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_86",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_86.txt"
+    },
+    "228": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_87",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_87.txt"
+    },
+    "229": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_88",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_88.txt"
+    },
+    "230": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_89",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_89.txt"
+    },
+    "231": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_9.txt"
+    },
+    "232": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_90",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_90.txt"
+    },
+    "233": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_91",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_91.txt"
+    },
+    "234": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_92",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_92.txt"
+    },
+    "235": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note2_v1_chunk_93",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note2_v1\\chunk_93.txt"
+    },
+    "236": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note3_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note3_v1\\chunk_1.txt"
+    },
+    "237": {
+        "chunk_id": "Computer-Science_pdf_nexora_Computer_Science_Note3_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\nexora_Computer_Science_Note3_v1\\chunk_2.txt"
+    },
+    "238": {
+        "chunk_id": "Computer-Science_pdf_quantum_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\quantum\\chunk_1.txt"
+    },
+    "239": {
+        "chunk_id": "Computer-Science_pdf_quantum_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Computer-Science\\pdf\\quantum\\chunk_2.txt"
+    },
+    "240": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_1.txt"
+    },
+    "241": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_10.txt"
+    },
+    "242": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_11.txt"
+    },
+    "243": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_12.txt"
+    },
+    "244": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_13.txt"
+    },
+    "245": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_14.txt"
+    },
+    "246": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_15.txt"
+    },
+    "247": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_16.txt"
+    },
+    "248": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_17.txt"
+    },
+    "249": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_18.txt"
+    },
+    "250": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_19.txt"
+    },
+    "251": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_2.txt"
+    },
+    "252": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_20.txt"
+    },
+    "253": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_21.txt"
+    },
+    "254": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_3.txt"
+    },
+    "255": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_4.txt"
+    },
+    "256": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_5.txt"
+    },
+    "257": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_6.txt"
+    },
+    "258": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_7.txt"
+    },
+    "259": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_8.txt"
+    },
+    "260": {
+        "chunk_id": "Mathematics_pdf_nexora_Mathematics_note1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\nexora_Mathematics_note1_v1\\chunk_9.txt"
+    },
+    "261": {
+        "chunk_id": "Mathematics_pdf_What is Mathematics_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\What is Mathematics\\chunk_1.txt"
+    },
+    "262": {
+        "chunk_id": "Mathematics_pdf_What is Mathematics_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Mathematics\\pdf\\What is Mathematics\\chunk_2.txt"
+    },
+    "263": {
+        "chunk_id": "Programming_pdf_Complete C Language Handbook_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C Language Handbook\\chunk_1.txt"
+    },
+    "264": {
+        "chunk_id": "Programming_pdf_Complete C Language Handbook_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C Language Handbook\\chunk_2.txt"
+    },
+    "265": {
+        "chunk_id": "Programming_pdf_Complete C Language Handbook_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C Language Handbook\\chunk_3.txt"
+    },
+    "266": {
+        "chunk_id": "Programming_pdf_Complete C++ Handbook_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C++ Handbook\\chunk_1.txt"
+    },
+    "267": {
+        "chunk_id": "Programming_pdf_Complete C++ Handbook_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C++ Handbook\\chunk_2.txt"
+    },
+    "268": {
+        "chunk_id": "Programming_pdf_Complete C++ Handbook_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Programming\\pdf\\Complete C++ Handbook\\chunk_3.txt"
+    },
+    "269": {
+        "chunk_id": "Projects_pdf_Design_project_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project\\chunk_1.txt"
+    },
+    "270": {
+        "chunk_id": "Projects_pdf_Design_project_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project\\chunk_2.txt"
+    },
+    "271": {
+        "chunk_id": "Projects_pdf_Design_project_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project\\chunk_3.txt"
+    },
+    "272": {
+        "chunk_id": "Projects_pdf_Design_project_poster_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project_poster\\chunk_1.txt"
+    },
+    "273": {
+        "chunk_id": "Projects_pdf_Design_project_poster_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project_poster\\chunk_2.txt"
+    },
+    "274": {
+        "chunk_id": "Projects_pdf_Design_project_poster_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\Design_project_poster\\chunk_3.txt"
+    },
+    "275": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_1.txt"
+    },
+    "276": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_10.txt"
+    },
+    "277": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_100",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_100.txt"
+    },
+    "278": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_101",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_101.txt"
+    },
+    "279": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_102",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_102.txt"
+    },
+    "280": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_103",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_103.txt"
+    },
+    "281": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_104",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_104.txt"
+    },
+    "282": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_105",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_105.txt"
+    },
+    "283": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_106",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_106.txt"
+    },
+    "284": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_107",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_107.txt"
+    },
+    "285": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_108",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_108.txt"
+    },
+    "286": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_109",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_109.txt"
+    },
+    "287": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_11.txt"
+    },
+    "288": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_110",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_110.txt"
+    },
+    "289": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_111",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_111.txt"
+    },
+    "290": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_112",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_112.txt"
+    },
+    "291": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_12.txt"
+    },
+    "292": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_13.txt"
+    },
+    "293": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_14.txt"
+    },
+    "294": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_15.txt"
+    },
+    "295": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_16.txt"
+    },
+    "296": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_17.txt"
+    },
+    "297": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_18.txt"
+    },
+    "298": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_19.txt"
+    },
+    "299": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_2.txt"
+    },
+    "300": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_20.txt"
+    },
+    "301": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_21.txt"
+    },
+    "302": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_22.txt"
+    },
+    "303": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_23.txt"
+    },
+    "304": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_24.txt"
+    },
+    "305": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_25.txt"
+    },
+    "306": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_26.txt"
+    },
+    "307": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_27.txt"
+    },
+    "308": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_28.txt"
+    },
+    "309": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_29.txt"
+    },
+    "310": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_3.txt"
+    },
+    "311": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_30.txt"
+    },
+    "312": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_31.txt"
+    },
+    "313": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_32.txt"
+    },
+    "314": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_33.txt"
+    },
+    "315": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_34.txt"
+    },
+    "316": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_35.txt"
+    },
+    "317": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_36",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_36.txt"
+    },
+    "318": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_37",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_37.txt"
+    },
+    "319": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_38",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_38.txt"
+    },
+    "320": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_39",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_39.txt"
+    },
+    "321": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_4.txt"
+    },
+    "322": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_40",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_40.txt"
+    },
+    "323": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_41",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_41.txt"
+    },
+    "324": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_42",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_42.txt"
+    },
+    "325": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_43",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_43.txt"
+    },
+    "326": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_44",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_44.txt"
+    },
+    "327": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_45",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_45.txt"
+    },
+    "328": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_46",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_46.txt"
+    },
+    "329": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_47",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_47.txt"
+    },
+    "330": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_48",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_48.txt"
+    },
+    "331": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_49",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_49.txt"
+    },
+    "332": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_5.txt"
+    },
+    "333": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_50",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_50.txt"
+    },
+    "334": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_51",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_51.txt"
+    },
+    "335": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_52",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_52.txt"
+    },
+    "336": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_53",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_53.txt"
+    },
+    "337": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_54",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_54.txt"
+    },
+    "338": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_55",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_55.txt"
+    },
+    "339": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_56",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_56.txt"
+    },
+    "340": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_57",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_57.txt"
+    },
+    "341": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_58",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_58.txt"
+    },
+    "342": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_59",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_59.txt"
+    },
+    "343": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_6.txt"
+    },
+    "344": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_60",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_60.txt"
+    },
+    "345": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_61",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_61.txt"
+    },
+    "346": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_62",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_62.txt"
+    },
+    "347": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_63",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_63.txt"
+    },
+    "348": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_64",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_64.txt"
+    },
+    "349": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_65",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_65.txt"
+    },
+    "350": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_66",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_66.txt"
+    },
+    "351": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_67",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_67.txt"
+    },
+    "352": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_68",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_68.txt"
+    },
+    "353": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_69",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_69.txt"
+    },
+    "354": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_7.txt"
+    },
+    "355": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_70",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_70.txt"
+    },
+    "356": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_71",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_71.txt"
+    },
+    "357": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_72",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_72.txt"
+    },
+    "358": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_73",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_73.txt"
+    },
+    "359": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_74",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_74.txt"
+    },
+    "360": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_75",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_75.txt"
+    },
+    "361": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_76",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_76.txt"
+    },
+    "362": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_77",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_77.txt"
+    },
+    "363": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_78",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_78.txt"
+    },
+    "364": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_79",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_79.txt"
+    },
+    "365": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_8.txt"
+    },
+    "366": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_80",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_80.txt"
+    },
+    "367": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_81",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_81.txt"
+    },
+    "368": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_82",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_82.txt"
+    },
+    "369": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_83",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_83.txt"
+    },
+    "370": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_84",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_84.txt"
+    },
+    "371": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_85",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_85.txt"
+    },
+    "372": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_86",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_86.txt"
+    },
+    "373": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_87",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_87.txt"
+    },
+    "374": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_88",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_88.txt"
+    },
+    "375": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_89",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_89.txt"
+    },
+    "376": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_9.txt"
+    },
+    "377": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_90",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_90.txt"
+    },
+    "378": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_91",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_91.txt"
+    },
+    "379": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_92",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_92.txt"
+    },
+    "380": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_93",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_93.txt"
+    },
+    "381": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_94",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_94.txt"
+    },
+    "382": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_95",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_95.txt"
+    },
+    "383": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_96",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_96.txt"
+    },
+    "384": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_97",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_97.txt"
+    },
+    "385": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_98",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_98.txt"
+    },
+    "386": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes1_v1_chunk_99",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes1_v1\\chunk_99.txt"
+    },
+    "387": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_1.txt"
+    },
+    "388": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_10.txt"
+    },
+    "389": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_11.txt"
+    },
+    "390": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_2.txt"
+    },
+    "391": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_3.txt"
+    },
+    "392": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_4.txt"
+    },
+    "393": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_5.txt"
+    },
+    "394": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_6.txt"
+    },
+    "395": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_7.txt"
+    },
+    "396": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_8.txt"
+    },
+    "397": {
+        "chunk_id": "Projects_pdf_nexora_Project_notes2_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\nexora_Project_notes2_v1\\chunk_9.txt"
+    },
+    "398": {
+        "chunk_id": "Projects_pdf_project_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\project\\chunk_1.txt"
+    },
+    "399": {
+        "chunk_id": "Projects_pdf_project_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\project\\chunk_2.txt"
+    },
+    "400": {
+        "chunk_id": "Projects_pdf_project_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\project\\chunk_3.txt"
+    },
+    "401": {
+        "chunk_id": "Projects_pdf_project_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\project\\chunk_4.txt"
+    },
+    "402": {
+        "chunk_id": "Projects_pdf_project_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Projects\\pdf\\project\\chunk_5.txt"
+    },
+    "403": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_1.txt"
+    },
+    "404": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_10.txt"
+    },
+    "405": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_11.txt"
+    },
+    "406": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_12.txt"
+    },
+    "407": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_13.txt"
+    },
+    "408": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_14.txt"
+    },
+    "409": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_15.txt"
+    },
+    "410": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_16.txt"
+    },
+    "411": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_17.txt"
+    },
+    "412": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_18.txt"
+    },
+    "413": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_19.txt"
+    },
+    "414": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_2.txt"
+    },
+    "415": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_20.txt"
+    },
+    "416": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_21.txt"
+    },
+    "417": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_22.txt"
+    },
+    "418": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_3.txt"
+    },
+    "419": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_4.txt"
+    },
+    "420": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_5.txt"
+    },
+    "421": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_6.txt"
+    },
+    "422": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_7.txt"
+    },
+    "423": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_8.txt"
+    },
+    "424": {
+        "chunk_id": "Research_pdf_EC318 (1)_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\EC318 (1)\\chunk_9.txt"
+    },
+    "425": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_1.txt"
+    },
+    "426": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_10.txt"
+    },
+    "427": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_11.txt"
+    },
+    "428": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_12.txt"
+    },
+    "429": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_13.txt"
+    },
+    "430": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_14.txt"
+    },
+    "431": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_15.txt"
+    },
+    "432": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_16.txt"
+    },
+    "433": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_17.txt"
+    },
+    "434": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_18.txt"
+    },
+    "435": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_19.txt"
+    },
+    "436": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_2.txt"
+    },
+    "437": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_20.txt"
+    },
+    "438": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_21.txt"
+    },
+    "439": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_22.txt"
+    },
+    "440": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_23.txt"
+    },
+    "441": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_24.txt"
+    },
+    "442": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_25.txt"
+    },
+    "443": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_26.txt"
+    },
+    "444": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_27.txt"
+    },
+    "445": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_28.txt"
+    },
+    "446": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_29.txt"
+    },
+    "447": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_3.txt"
+    },
+    "448": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_30.txt"
+    },
+    "449": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_31.txt"
+    },
+    "450": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_32.txt"
+    },
+    "451": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_33.txt"
+    },
+    "452": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_34.txt"
+    },
+    "453": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_35.txt"
+    },
+    "454": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_36",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_36.txt"
+    },
+    "455": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_37",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_37.txt"
+    },
+    "456": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_38",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_38.txt"
+    },
+    "457": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_39",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_39.txt"
+    },
+    "458": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_4.txt"
+    },
+    "459": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_40",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_40.txt"
+    },
+    "460": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_41",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_41.txt"
+    },
+    "461": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_42",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_42.txt"
+    },
+    "462": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_43",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_43.txt"
+    },
+    "463": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_44",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_44.txt"
+    },
+    "464": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_45",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_45.txt"
+    },
+    "465": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_46",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_46.txt"
+    },
+    "466": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_47",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_47.txt"
+    },
+    "467": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_48",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_48.txt"
+    },
+    "468": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_49",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_49.txt"
+    },
+    "469": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_5.txt"
+    },
+    "470": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_50",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_50.txt"
+    },
+    "471": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_51",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_51.txt"
+    },
+    "472": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_52",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_52.txt"
+    },
+    "473": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_53",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_53.txt"
+    },
+    "474": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_54",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_54.txt"
+    },
+    "475": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_55",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_55.txt"
+    },
+    "476": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_56",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_56.txt"
+    },
+    "477": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_57",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_57.txt"
+    },
+    "478": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_58",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_58.txt"
+    },
+    "479": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_59",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_59.txt"
+    },
+    "480": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_6.txt"
+    },
+    "481": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_60",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_60.txt"
+    },
+    "482": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_61",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_61.txt"
+    },
+    "483": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_62",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_62.txt"
+    },
+    "484": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_63",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_63.txt"
+    },
+    "485": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_64",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_64.txt"
+    },
+    "486": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_65",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_65.txt"
+    },
+    "487": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_66",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_66.txt"
+    },
+    "488": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_67",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_67.txt"
+    },
+    "489": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_68",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_68.txt"
+    },
+    "490": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_69",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_69.txt"
+    },
+    "491": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_7.txt"
+    },
+    "492": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_70",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_70.txt"
+    },
+    "493": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_71",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_71.txt"
+    },
+    "494": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_72",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_72.txt"
+    },
+    "495": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_73",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_73.txt"
+    },
+    "496": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_74",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_74.txt"
+    },
+    "497": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_75",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_75.txt"
+    },
+    "498": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_76",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_76.txt"
+    },
+    "499": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_77",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_77.txt"
+    },
+    "500": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_78",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_78.txt"
+    },
+    "501": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_79",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_79.txt"
+    },
+    "502": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_8.txt"
+    },
+    "503": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_80",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_80.txt"
+    },
+    "504": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_81",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_81.txt"
+    },
+    "505": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_82",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_82.txt"
+    },
+    "506": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_83",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_83.txt"
+    },
+    "507": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_84",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_84.txt"
+    },
+    "508": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_85",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_85.txt"
+    },
+    "509": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_86",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_86.txt"
+    },
+    "510": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_87",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_87.txt"
+    },
+    "511": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_88",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_88.txt"
+    },
+    "512": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_89",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_89.txt"
+    },
+    "513": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_9.txt"
+    },
+    "514": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_90",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_90.txt"
+    },
+    "515": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_91",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_91.txt"
+    },
+    "516": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_92",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_92.txt"
+    },
+    "517": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_93",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_93.txt"
+    },
+    "518": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_94",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_94.txt"
+    },
+    "519": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_95",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_95.txt"
+    },
+    "520": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_96",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_96.txt"
+    },
+    "521": {
+        "chunk_id": "Research_pdf_nexora_Research_Document1_v1_chunk_97",
+        "chunk_path": "datasets\\processed\\chunks\\Research\\pdf\\nexora_Research_Document1_v1\\chunk_97.txt"
+    },
+    "522": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_1",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_1.txt"
+    },
+    "523": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_10",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_10.txt"
+    },
+    "524": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_11",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_11.txt"
+    },
+    "525": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_12",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_12.txt"
+    },
+    "526": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_13",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_13.txt"
+    },
+    "527": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_14",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_14.txt"
+    },
+    "528": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_15",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_15.txt"
+    },
+    "529": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_16",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_16.txt"
+    },
+    "530": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_17",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_17.txt"
+    },
+    "531": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_18",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_18.txt"
+    },
+    "532": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_19",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_19.txt"
+    },
+    "533": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_2",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_2.txt"
+    },
+    "534": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_20",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_20.txt"
+    },
+    "535": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_21",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_21.txt"
+    },
+    "536": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_22",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_22.txt"
+    },
+    "537": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_23",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_23.txt"
+    },
+    "538": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_24",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_24.txt"
+    },
+    "539": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_25",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_25.txt"
+    },
+    "540": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_26",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_26.txt"
+    },
+    "541": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_27",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_27.txt"
+    },
+    "542": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_28",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_28.txt"
+    },
+    "543": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_29",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_29.txt"
+    },
+    "544": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_3",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_3.txt"
+    },
+    "545": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_30",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_30.txt"
+    },
+    "546": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_31",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_31.txt"
+    },
+    "547": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_32",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_32.txt"
+    },
+    "548": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_33",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_33.txt"
+    },
+    "549": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_34",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_34.txt"
+    },
+    "550": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_35",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_35.txt"
+    },
+    "551": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_4",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_4.txt"
+    },
+    "552": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_5",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_5.txt"
+    },
+    "553": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_6",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_6.txt"
+    },
+    "554": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_7",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_7.txt"
+    },
+    "555": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_8",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_8.txt"
+    },
+    "556": {
+        "chunk_id": "Science_Physics_nexora_physics_notes1_class11_v1_chunk_9",
+        "chunk_path": "datasets\\processed\\chunks\\Science\\Physics\\nexora_physics_notes1_class11_v1\\chunk_9.txt"
+    }
+}

@@ -1,0 +1,7 @@
+Document: Complete C++ Handbook
+Chunk: 3
+Start Word: 512
+End Word: 595
+Words: 83
+
+Smart Pointers Range Based Loops Move Semantics nullptr constexpr Chapter 28: Interview Questions Difference between C and C++? What is OOP? What is Constructor? What is Destructor? What is Inheritance? What is Polymorphism? What is Virtual Function? What is STL? What is Pointer? What is Reference Variable? Conclusion C++ is one of the most powerful programming languages used for software development, competitive programming, game engines, operating systems, AI systems, and high-performance applications. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 12

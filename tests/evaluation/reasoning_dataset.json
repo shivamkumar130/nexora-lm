@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Comparison",
+    "question": "If A is taller than B and B is taller than C, who is the tallest?",
+    "expected": "A"
+  },
+  {
+    "id": 2,
+    "category": "Comparison",
+    "question": "If X > Y and Y > Z, which is greatest?",
+    "expected": "X"
+  },
+  {
+    "id": 3,
+    "category": "Sequence",
+    "question": "Monday comes before Tuesday. What comes after Tuesday?",
+    "expected": "Wednesday"
+  },
+  {
+    "id": 4,
+    "category": "Arithmetic",
+    "question": "What is 12 + 18?",
+    "expected": "30"
+  },
+  {
+    "id": 5,
+    "category": "Logic",
+    "question": "All cats are animals. Tom is a cat. Is Tom an animal?",
+    "expected": "Yes"
+  },
+  {
+    "id": 6,
+    "category": "Logic",
+    "question": "If all birds can fly and a sparrow is a bird, can a sparrow fly?",
+    "expected": "Yes"
+  },
+  {
+    "id": 7,
+    "category": "Comparison",
+    "question": "If 15 is greater than 8, which number is smaller?",
+    "expected": "8"
+  },
+  {
+    "id": 8,
+    "category": "Reasoning",
+    "question": "If you have 5 apples and give away 2, how many remain?",
+    "expected": "3"
+  },
+  {
+    "id": 9,
+    "category": "Reasoning",
+    "question": "If a train leaves at 9 AM and arrives 2 hours later, what time does it arrive?",
+    "expected": "11 AM"
+  },
+  {
+    "id": 10,
+    "category": "Boolean",
+    "question": "True AND False equals?",
+    "expected": "False"
+  }
+]

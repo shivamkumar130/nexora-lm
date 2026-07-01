@@ -1,0 +1,7 @@
+Document: nexora_physics_notes1_class11_v1
+Chunk: 15
+Start Word: 3584
+End Word: 3904
+Words: 320
+
+For addition: Absolute errors are added. Example A = (20 ± 0.2) cm B = (30 ± 0.1) cm x = A + B Δx=ΔA+ΔB x = 20 + 30 x = 50 cm Error: Δx = 0.2 + 0.1 Δx = 0.3 cm Answer: (50 ± 0.3) cm 3. Error in Subtraction Suppose x = A − B Derivation Maximum error: Δx = ΔA + ΔB Rule For subtraction: Absolute errors are always added. Formula Δx=ΔA+ΔB Example A = (50 ± 0.3) cm B = (20 ± 0.2) cm Difference: x = 50 − 20 x = 30 cm Error: Δx = 0.3 + 0.2 Δx = 0.5 cm Answer: (30 ± 0.5) cm Important Observation For both addition and subtraction: Errors always add. Therefore: Addition → Add errors Subtraction → Add errors 4. Error in Multiplication Suppose x = A × B Derivation Taking logarithm: log x = log A + log B Differentiating: Δx/x = ΔA/A + ΔB/B Formula Rule For multiplication: Fractional (or percentage) errors are added. Example A = (20 ± 0.2) B = (10 ± 0.1) Percentage Error in A = (0.2/20) × 100 = 1% Percentage Error in B = (0.1/10) × 100 = 1% = + Δx ΔA ΔB Total Percentage Error = 1 + 1 = 2% Value of x x = 20 × 10 x = 200 Absolute Error Δx = (2 × 200)/100 Δx = 4 Answer: (200 ± 4) 5. Error in Division Suppose x = A/B Derivation Taking logarithm: log x = log A − log B Differentiating: Δx/x = ΔA/A + ΔB/B Formula Rule For division: Percentage errors are added. Example Distance: (200 ± 5) m Time: (20 ± 0.2) s Velocity: v = Distance/Time v = 200/20 v = 10 m/s Percentage Error in Distance = (5/200) × 100 = 2.5% Percentage Error in Time = (0.2/20) × 100 = 1% = + Δx ΔA

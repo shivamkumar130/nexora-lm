@@ -1,0 +1,125 @@
+[CS203] Design and Analysis of Algorithms
+Course Instructor: Dr. Dibyendu Roy Autumn 2024-25
+Scribed by: Shivam Kumar (202351130) Lecture (Week 5)
+1 Dynamic Programming (DP)
+Dynamic Programming (DP) is a method used for solving complex problems
+by breaking them down into simpler subproblems. It is applicable when the
+subproblems overlap, meaning the same subproblems are solved multiple
+times. The main idea is to store the results of these subproblems to avoid
+redundant calculations.
+1.1 Key Concepts
+A. Optimal Substructure: A problem exhibits optimal substructure if
+an optimal solution can be constructed from optimal solutions of its sub-
+problems.
+B. Overlapping Subproblems: A problem has overlapping subproblems
+if the same subproblems are solved multiple times.
+C. Memoization vs. T abulation:
+• Memoization (T op-Down): Recursively solves subproblems and
+caches their results.
+• T abulation (Bottom-Up):Iteratively solves subproblems and stores
+results in a table.
+1.2 Key Steps in Dynamic Programming
+When developing a dynamic programming algorithm, we typically follow
+these four steps:
+• A. Characterize the Structure of an Optimal Solution.
+• B. Recursively Define the V alue of an Optimal Solution.
+• C. Compute the V alue of an Optimal Solution.
+• D. Construct an Optimal Solution.
+2 Rod Cutting Problem
+The rod cutting problem is a classic example of dynamic programming.
+2.1 Scenario
+Serling Enterprises buys long steel rods and wants to cut them into shorter
+pieces to sell, aiming to maximize profit.
+2.2 Prices
+For a rod of length i inches, there is a price pi in dollars.
+2.3 Objective
+Given a rod of length n inches and a list of prices p1, p2,..., pn, the task is
+to find the maximum revenue rn.
+2.4 Example
+A. Length of Rod: Consider a rod of length n = 4.
+B. Cutting Options: Options include no cuts or combinations of cuts.
+C. Revenue Calculation: For a rod of length 4, the maximum revenue
+can be determined.
+2.5 Key Point
+There are 2 n−1 possible ways to cut the rod.
+3 Conclusion
+To solve this problem, a dynamic programming approach is typically used
+to calculate revenues efficiently.
+rn = pi1 + pi2 +...+ pik
+The maximum revenues rn for rods of lengths 1 to 10 can be calculated.
+3.1 Explanation of the Formula
+A. No Cuts: The first argument pn represents selling the rod without
+cuts.
+B. Making Cuts: The remaining terms represent revenues from making
+cuts.
+3.2 Optimal Substructure
+The rod cutting problem shows optimal substructure, meaning optimal so-
+lutions can be constructed from optimal solutions of subproblems.
+3.3 Recursive Structure
+Each solution can be visualized as consisting of a first piece of length i and
+a remainder of length n − i.
+4 Recursive Top-Down Implementation of Rod Cut-
+ting
+The CUT-ROD procedure can be inefficient due to repeated calculations.
+4.1 Recursive Procedure: CUT-ROD
+CUT-ROD(p, n)
+1 if n == 0
+2 return 0
+3 q = -1
+4 for i = 1 to n
+5 q = max(q, p[i] + CUT-ROD(p, n - i))
+6 return q
+4.2 Inefficiencies of CUT-ROD
+The main inefficiency arises because the same calls are made multiple times,
+leading to an exponential growth in the number of calls.
+5 Using Dynamic Programming for Optimal Rod
+Cutting
+Dynamic programming transforms the naive approach to a more efficient
+one.
+5.1 Memoization (Top-Down Dynamic Programming)
+Memoization stores results of subproblems after computing them.
+Pseudocode for Top-Down Memoization:
+MEMOIZED-CUT-ROD(p, n)
+1 let r[0...n] be a new array
+2 for i = 0 to n
+3 r[i] = -1 // Initialize
+4 return MEMOIZED-CUT-ROD-AUX(p, n, r)
+5.2 Bottom-Up Dynamic Programming
+This approach solves subproblems in increasing order.
+Pseudocode for Bottom-Up Approach:
+BOTTOM-UP-CUT-ROD(p, n)
+1 let r[0...n] be a new array
+2 r[0] = 0
+3 for j = 1 to n
+4 q = -1
+5 for i = 1 to j
+6 q = max(q, p[i] + r[j - i])
+7 r[j] = q
+8 return r[n]
+5.3 Comparison of Approaches
+Both approaches have the same time complexity of O(n2).
+6 EXTENDED-BOTTOM-UP-CUT-ROD
+This algorithm computes both the maximum revenue and the first piece of
+length that leads to that revenue.
+Pseudocode:
+EXTENDED-BOTTOM-UP-CUT-ROD(p, n)
+1. let r[0..n] and s[0..n] be new arrays
+2. r[0] = 0
+3. for j = 1 to n4. q = -
+5. for i = 1 to j
+6. if q < p[i] + r[j - i]
+7. q = p[i] + r[j - i]
+8. s[j] = i
+9. r[j] = q
+10. return r and s
+6.1 Time Complexity:
+Both EXTENDED-BOTTOM-UP-CUT-ROD and PRINT-CUT-ROD-SOLUTION have a
+time complexity of O(n2).
+7 Matrix-Chain Multiplication using Dynamic Pro-
+gramming
+7.1 Problem Overview
+Given a chain of n matrices, the goal is to determine the most efficient way
+to multiply them.
+7.2 Example
+For matrices A1 (10x20), A2 (20x30), etc., we find the optimal order of
+multiplication.

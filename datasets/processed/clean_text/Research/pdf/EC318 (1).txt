@@ -1,0 +1,697 @@
+Flexible Respiration Sensor with Embedded Data
+Acquisition and Machine Learning-based Analytics
+Mohli Thapa
+Computer Science & Engineering
+Indian Institute of Information Technology Vadodara
+Gandhinagar, Gujarat
+202351084@iiitvadodara.ac.in
+SBND Abhijeet
+Computer Science & Engineering
+Indian Institute of Information Technology Vadodara
+Gandhinagar, Gujarat
+202351127@iiitvadodara.ac.in
+Keshav Badaya
+Computer Science & Engineering
+Indian Institute of Information Technology Vadodara
+Gandhinagar, Gujarat
+202351065@iiitvadodara.ac.in
+Shivam Kumar
+Computer Science & Engineering
+Indian Institute of Information Technology Vadodara
+Gandhinagar, Gujarat
+202351130@iiitvadodara.ac.in
+Kamal Kishor Jha
+Electronics & Communication Engineering
+Indian Institute of Information Technology Vadodara
+Gandhinagar, Gujarat
+kamal@iiitvadodara.ac.in
+Abstract—Respiration monitoring is crucial in the field of
+human healthcare as it impacts various health conditions includ-
+ing sleeping disorders like Apnea and respiratory diseases. Old
+respiratory monitoring techniques like chest or abdomen belts
+and nasal probes are uncomfortable to wear and expensive as
+well. Thus, there is a requirement for a low cost and flexible
+sensing system for continuous monitoring of breathing. This
+paper describes the fabrication and working of a humidity-
+based resistive sensor, designed to have an interdigitated electrode
+structure. Breathing data is collected through an embedded
+data acquisition system consisting of voltage divider circuitry,
+LM358 unity-gain buffer and ESP32 microcontroller’s ADC.
+Collected breathing signal data (a total of 30,000 samples) is
+passed through a machine learning pipeline which includes data
+labeling, noise removal using low pass filters, feature extraction,
+stratified splitting of dataset and feature scaling. A random forest
+classifier is trained and tested, resulting in an accuracy of 97.3%
+approximately, in classifying into shallow, normal and deep
+breathing patterns. Amplitude, maximum value and minimum
+value features are found to be the most important features in
+classification. The fabricated sensor showed a response time of 1.9
+seconds and a hysteresis error of 10.17% in the characterization
+plots. The proposed system in this study is effective in inputting
+and analysing breathing signals using machine learning which
+can further help in the diagnosis of sleep apnea and other related
+health conditions.
+Index Terms—respiration monitoring, resistive sensor, ESP32
+microcontroller, Random Forest Classifier
+I. INTRODUCTION
+Respiration is a very important signal that indicates several
+health conditions of a human being [1], [2]. If breathing is
+different from normal, it can cause various health problems,
+such as stress, Anxiety, sleep-related diseases [3], [4], and
+lung-related problems. For example, when we breathe fast, it
+shows stress or panic [3], [5]. And when we release air while
+exhaling, respiratory issues show based on the temperature of
+the air [6], [7]. Therefore, we should keep a constant check
+on it to avoid anxiety and stress [3], [8].
+In the past several years, due to the ways of living our
+lives and problems occurring at the social level, many
+health-related issues have started happening, like sleep-related
+disorders [9].The most popular disorder among these is OSA
+(Obstructive Sleep Apnea) [9], [10]. When we are in sleep
+mode, it affects the breathing pattern [11]. if this condition
+is occurs then it affect the human health condition such
+as heart disease, high blood pressure, and sometimes even
+sudden death if it is not identified in time [4]. When we
+are asleep, there is a continuous lack of oxygen, which can
+cause significant harm to the brain and heart [12]. Therefore,
+breathing should be continuously and accurately monitored,
+as it is very important for our daily healthy life.
+Different sensing methods are used to monitor respiration
+patterns, like temperature sensors and strain-based sensors
+[13], [14]. Some traditional methods like polysomnography
+are still used in hospitals to detect respiration patterns
+[11]. To detect this, sensors and tubes are attached to the
+body, which is quite uncomfortable [15]. Chest belts are
+also used in a way to detect respiration monitoring. these
+also affect body movement and create a lot of noise [15].
+Other methods like camera-based systems and ultrasonic
+sensors measure breathing patterns indirectly [16], [17] with
+other sensor such as fiber-optic sensors are also used for
+respiration monitoring [18]–[20]. Due to high sensitivity and
+fast response,There are few sensors like humidity sensor is
+used for monitoring the breathing pattern [21], [22]. When
+a person breathes, i.e., inhales, the chest expands, and when
+exhales, the chest contracts [15]. All these movements are
+detected to generate an estimated breathing pattern.These
+do not give accurate results of the breathing pattern [15],
+[23].There are some devices that we use, like face masks or
+nasal tubes. When these are used on the body to detect the
+breathing pattern, they feel quite uncomfortable and, along
+with that, they cannot be used on the body for a long time [15].
+We have discussed earlier that traditional methods such
+as polysomnography, nasal tubes, chest belts, camera
+monitoring, and ultrasonic sensors were mostly used to detect
+respiration patterns [11], [15]. However, these are quite
+expensive, uncomfortable, and difficult to use for longer
+durations [24], [25]. In many cases, due to body movements
+[15], [26] and system limitations, inaccurate breathing
+patterns are obtained. Based on above all issue faces, we
+need to developed a wearable respiration monitoring system,
+which is low in cost, easy to wear, i.e., comfortable, and easy
+to use this system. it can detect breathing patterns easily and
+accurately [27].
+According to past research, Cao et al. [28] proposed a
+low-cost flexible perforated respiratory sensor in their
+research paper.They used platinum on poly-imide substrate.
+When Sensor is Placed inside the nose,the temperature
+change is detected upon breathing. the perforated sensor they
+designed it enhance the gas connection, very less response
+time, approx1.5%,sensitivity and enhance the monitoring
+pattern like a normal, shallow and deep breathing.Another
+researcher developed the chemiresistive sensor to detect
+breathing patterns. This sensor using HKUST-1 metal-organic
+framework and (MOF)MoS2 to detect sleep patterns in own
+paper. it is detects every breathing pattern with very short
+response time like a deep, slow, fast, hydrated breath. It is
+stable over long term [29] without any decline in performance.
+Based on past research, there are several limitations that
+affect its results. We need a respiration monitoring system
+that focuses not only on accuracy but also on simplicity, low
+cost, and suitable for current times. Currently, many systems
+rely on complex materials to measure respiration and focus
+only on sensor design, not simplicity, and also on comfort.
+They also don’t consider whether the system is comfortable
+or not. They also don’t have data analysis reports [23], [30]
+that can be used to analyze it and create accurate, simple,
+and comfortable systems. All these factors create a gap in
+signal acquisition and meaningful breathing patterns.
+So we are proposing a flexible respiration monitoring
+system which is a resistive humidity based sensor integrated
+with an embedded data acquisition setup. This sensor detects
+the breathing pattern as we inhale and exhale, causing a
+change in humidity. Here,, the humidity concentration is
+changing and hence the resistance is changing, due to which
+the voltage is changing, i.e. it is converted into voltage
+signals with the help of voltage divider circuit and it is further
+processed with the help of signal conditioning techniques.
+After this we are using ESP 32 micro controller to process
+the signal so that data collection can be done in a simple and
+easy way.
+Also to increase the accuracy and usability of respiration
+monitoring, machine learning models like supervised ml
+models are being used and ml is being used for analysis
+of respiration signal. First of all, the data obtained here
+is preprocessed to remove noise and divide it into small
+windows for segmentation. Statistical features are extracted
+from each segment and used to train a random forest classifier
+model. This model can easily identify the breathing pattern
+whether it is shallow, normal or deep with high accuracy.
+So our proposed system is combined with flexible humidity
+sensor, embedded hardware and ml model. Based on this
+it provides complete system for respiration monitoring.
+It is low cost, easy to use, fast response and provides
+reliable performance which allows us to do continuous health
+monitoring and in future it can easily be used for wearable
+respiration health care application so that we can prevent
+respiration related disease.
+II. EXPERIMENTALSETUP
+A. Design and Fabrication of the Sensor
+The flexible resistive humidity sensor [31] was designed in
+the form of an interdigitated pattern of 27 interlocking fingers
+arranged between 2 vertical electrode bars. Width of each
+finger was set to 0.1 mm and the spacing between every two
+consecutive fingers was set to 0.7 mm. The electrodes’ width
+was also set to 0.1 mm and the spacing between them was
+kept as 1 cm. The active sensing area of the designed sensor
+is approximately 2cm 2 and its sensitivity to moisture has
+been increased by populating the design with a high number
+of electrical fingers. The max overall length of the humidity
+sensor is 3.5 cm and overall width is 1.4 cm. The corners of the
+rectangle shaped-sensor were kept rounded so as to ensure that
+the corners don’t get stuck inside clothing when worn. Figure
+1(a) displays the design of the resistive humdity sensor.
+Fabrication process of this sensor involved printing the de-
+signed humidity sensor on a polyimide based flexible substrate,
+as shown in Figure 2. The flexible substrate was deposited
+with a moisture sensitive material. The changes in humidity
+concentrations directly cause variations in the resistance of the
+sensor. The fully fabricated sensor has been shown in Figure
+1(c). When a person inhales and exhales in front of the sensor
+(Fig 1(b)), the humidity concentrations near the sensor vary
+slightly, leading to measurable resistance changes. The design
+of the sensor is optimal as moisture in the exhaled breath
+gets settled down on the gaps between the fingers, changing
+the conductivity of the air-substrate interface between the
+Fig. 1. Schematic view [28] of the proposed sensing system. (a) Design of the sensor. (b) Diagram showing how respiratory data is collected. (c) Image of
+the fabricated sensor. (d) Schematic diagram of data acquisition system.
+electrodes. These slight resistance variations are essential for
+capturing realtime respiration signals.
+TABLE I
+LIST OFSENSOR’SDESIGN ANDFABRICATIONPARAMETERS
+Parameter Value
+Electrode Configuration Interdigitated Electrode (IDE)
+Sensor Geometry Rounded Rectangle shaped
+Electrode Width 0.1 mm
+Electrode Spacing 1.0 cm
+Finger Width 0.1 mm
+Finger Spacing 0.7 mm
+Number of Fingers 27
+Active Sensing Area≈2cm 2
+Overall Length 3.5 cm
+Overall Width 1.4 cm
+B. Data Acquisition
+Embedded data acquisition incorporated the fabricated re-
+sistive sensor and the breathing data was passed through signal
+conditioning circuit, amplification and digital sampling, as
+shown in Figure 1(d). The sensor’s resistance values were
+measured during inhalation and exhalation at an interval of 30
+seconds and are summarized in Table II. The average range
+of resistance values lies from 101.02 kΩto 153.95 kΩ. The
+values of standard deviation also imply stable and repeatable
+behaviour of sensor. To convert the resistance changes into
+voltage signals, the sensor was used in a voltage divider
+circuit along with a fixed resistance of 100kΩ. Output voltage
+of voltage divider [32] circuit is calculated using the below
+formula.
+Vout =V in · Rsensor
+Rf ixed+R sensor
+(1)
+Fig. 2. Steps of Sensor Fabrication
+whereR sensor is the resistance of the sensor andR f ixed is
+the fixed resistance (100kΩ).
+Fixed resistance of 100kΩwas chosen as its value is closer
+to the midpoint of the operating range of the resistive sensor,
+thus giving maximum voltage sensitivity to small resistance
+changes on exhalation.
+Output voltage from voltage divider is fed as input to the
+unity-gain operational amplifier (LM358) to reduce impedence
+of the incoming signal. LM358 op-amp’s output voltage is
+passed to the analog-to-digital (ADC) [33] pin of the ESP32
+microcontroller. This is where breathing signals are sampled
+TABLE II
+MEASUREDSENSORRESISTANCEDURINGINHALATION AND
+EXHALATION
+S.N. Min (kΩ) Max (kΩ)
+1 119 157.9
+2 98 159.4
+3 86.3 159
+4 82.68 158
+5 103 158.3
+6 108.8 155.2
+7 103.5 153.5
+8 101.5 152.6
+9 103 153.5
+10 98.4 150.8
+11 108.4 151.2
+12 102.8 149.9
+13 99.3 154
+14 93.5 153.8
+15 89.4 152.6
+16 94.05 154.2
+17 100.8 153.9
+18 126.7 149
+19 101.7 150.1
+20 111.2 149.9
+21 96.6 153.1
+22 93.9 157.2
+Average 101.0241 153.9591
+Std. Dev. 9.16466 3.058917
+at a fixed sampling rate of 10 samples/second.
+C. Sensor Characterization
+Various characterization tests were done to evaluate the
+performance of the developed sensor [34]. Characterization
+tests included the Hysteresis curve analysis, response time
+measurement & temperature change effect on resistance. The
+hysteresis curve plot (Figure 3) shows how the sensor’s
+resistance changes when relative humidity concentration is
+changed during breathing. Humidity concentrations are dis-
+cretely changed from 0% to 100% during exhalation & 100%
+to 0% during recovery. The up cycle shows the loading effect
+(exhalation) of the sensor in which its resistance increases with
+increasing humidity concentration. During exhaling, moisture
+droplets deposit on the sensor’s surface, increasing the re-
+sistance value, while the resistance value decreases during
+the recovery phase (unloading effect) which represents the
+down cycle in the graph. Calculation of hysteresis error for
+this hysteresis curve gives a 10.17% error which shows good
+repeatability of sensor but due to some minute moisture
+droplets which get retained in the gaps on the sensor surface,
+some lag has been observed.
+The second characterization plot is about the measurement
+of the fabricated sensor’s response time, as shown in Figure
+4. The sensor’s response time [35] is defined as the amount of
+time the sensor takes to reach 90% of its max voltage (V max)
+from its baseline voltage value, during exhalation process.
+Sensor was kept in a stable environment for a while to record
+its baseline voltage value. Deep exhalation was then performed
+starting atT start to record how the sensor’s resistance &
+output voltage slowly increases to its maximum value. 90%
+of the max voltage was calculated & the time (T 90%) was
+Fig. 3. Hysteresis curve plot of the resistive sensor.
+noted at which the sensor achieves 90%V max. And thus, the
+calculated response time came out to be nearly 1.9 seconds
+which is sufficiently fast to detect breathing cycles of a healthy
+adult at resting condition (full breaths last for 4 to 5 seconds).
+Fig. 4. Response time measurement of the humidity sensor.
+The final characterization test was performed to observe
+how the resistance of the sensor varies when temperature
+of the surrounding environment is varied. To achieve this,
+DHT11 temperature sensor [36] was used to measure the
+temperature of the sensor’s surroundings while the sensor’s
+resistance changes. The measured Resistance vs Temperature
+plot in Figure 5 helps to understand that as temperature is
+increased from 29°C to 33°C, the sensor’s resistance drops
+from around 91kΩto 70kΩand after 33°C, its resistance
+nearly fluctuates around the same level. The continuous de-
+crease in sensor’s resistance intially can be explained from the
+fact that with increase in temperature, kinetic energy of charge
+carriers on the sensor’s surface increases, leading to decrease
+in resistance. The resistance values stabilizing at 71kΩbut
+with a few sudden peaks and drops is due to the sensor’s high
+sensitivity to minor humidity changes happening because of
+temperature change.
+Fig. 5. Sensor’s resistance variations with changing temperature.
+III. METHODOLOGY
+A. Data Collection and Labeling
+First the collection of voltage signal is done through res-
+piration sensor. Output voltage changes according to sensor
+breathing. Three different breathing patterns were recorded:
+shallow breathing, normal breathing, deep breathing. For each
+breathing type we have done multiple trials to ensure reliable
+dataset. Sensor output is stored in format of time vs voltage
+in csv files.
+Collected dataset is labelled manually on basis of breathing
+pattern. Each specific file is representing a specific breathing
+class. Shallow breathing is assigned label 0, Normal breathing
+is assigned label 1, Deep breathing is assigned label 2. All
+three datasets were merged to form a single combined dataset.
+Through this process, input-output pairs were prepared
+B. Data Preprocessing and Window Based Segmentation
+Noise and unwanted fluctuations are present in raw input
+data because of which preprocessing is done. First, IQR
+method was used to remove outliers. Then we apply low-
+pass filter to make signal smooth. Filtered voltage signal
+was generated which was further used in preprocessing. This
+preprocessing step was important to improve accuracy of
+model.
+Continuous breathing signal is divided into small segments
+on basis of sliding-window approach. One fixed window size
+is selected in which consecutive samples were included. Each
+window represent a breathing segment. Overlapping windows
+were used so that breathing transition was captured properly.
+For each window a label is assigned using majority - label
+approach.
+C. Feature Extraction
+From each segmented window statistical features were
+extracted. These features summarize the breathing sig-
+nal behaviour. Extracted features are standard devia-
+tion,mean,maximum value,minimum value,amplitude,mean
+gradient and variance. These features captures the signal
+amplitude and variation which help in differentiating the
+breathing patterns.
+D. Dataset Splitting and Feature Normalization
+Extracted feature dataset was divided into training and test
+set [37]. Training set was used to train the model and test set
+was used for evaluation. Stratified splitting was used to keep
+class distribution balanced.
+Features values were standardized to improve performance
+of model. Feature Scaling (Standardizaton) was applied to get
+mean as 0 and standard deviation as 1. This step is useful for
+model stability and better convergence.
+E. Model Selection
+Random Forest Classifier was used for breathing clas-
+sification. Random Forest was choosen as it handles non-
+linear data very well, overfitting reduces and also provides
+feature importance. This algorithm works well for sensor-
+based datasets.
+Random Forest is one of the common machine learning
+classifiers that merges predictions of several decision trees
+in order to help in increasing classification performance and
+decreasing overfitting [38]. Training of every decision tree
+happens on randomly selected subset of training data and
+feature set.We obtain final prediction class using maximum
+votes of individual trees and express it as [39]:
+ˆy= mode{T1(x), T2(x),..., Tn(x)}(2)
+whereT i(x)isi th decision tree’s prediction,nis total
+number of forest trees, andˆyis final predicted class.
+F. Model Training and Evaluation
+Training dataset was used to train Random Forest Classifier.
+Multiple decision trees were generated and each tree train on
+random subset of data. Final prediction was obtained from
+majority voting mechanism. After training, model was ready
+to classify between differnt breathing patterns.
+Training model was evaluated on testing dataset. Predicted
+labels were compared with actual labels. For performance
+evaluation, different metrics were used like accuracy, preci-
+sion, recall, F1-score and confusion matrix, etc. These metrics
+measure the classification capability of model.
+Fig. 6. Architecture Diagram of proposed system.
+IV. RESULTS ANDDISCUSSION
+We have collected samples over 5 minute interval over 10
+people for training across normal, shallow, and deep breathing
+in the ratio of 1:2:2 ratio as recommended during the data
+collection process.
+A. Breathing Signal Characterization
+The respiration signals, which were collected from the sen-
+sor were first analyzed to understand their actual behavior of
+samples. The recorded voltage signal shows periodic variations
+corresponding to breathing cycles. Figure 7 shows a sample
+breathing waveform obtained from the sensor over time period.
+The fluctuations in the signal represent the breathing changes
+occurring during respiration.
+Different breathing patterns shows us significant differences
+in their signal characteristics. Shallow breathing typically
+produces smaller amplitude variations, whereas Deep breath-
+ing shows larger amplitudes over a period. While Normal
+breathing lies between these two conditions.
+B. Data Characterization
+For machine learning based classification, several statistical
+features were extracted from each signal segment units. These
+features important properties of the respiration waveform and
+helps us distinguish between different breathing patterns.
+Fig. 7. Breathing signal waveform captured from the respiration sensor
+(V oltage vs Time).
+The extracted features were mean, standard dev, maxi-
+mum, minimum, amplitude (difference between maximum
+and minimum values), mean gradient, and signal variance.
+These statistical descriptions summarize the distribution and
+variations of respiration signal over time.
+The collected dataset has 3 breathing categories: shallow,
+normal, and deep breathing. Approximately 12000 samples
+were collected for shallow breathing and deep breathing each,
+while around 6000 samples were used for normal breathing.
+This distribution follows a 1:2:2 ratio as recommended during
+the data collection process.
+C. Machine Learning Model Performance
+A Random Forest classifier was used to classify breathing
+patterns based on there extracted features over segments or
+window size of 5 seconds. Random Forest was selected due to
+its ability to capture nonlinear relationships within the dataset.
+Datasets for training and testing were got from division of
+main dataset in order to measure performance of classifier.
+Our trained classifier has achieved over 97.3% in classifying
+signals.
+The overall performance of the classifier was evaluated
+using below accuracy formula:
+Accuracy= T P+T N
+T P+T N+F P+F N (3)
+whereT P,T N,F P, andF Nrepresent true positives, true
+negatives, false positives, and false negatives respectively [40].
+Table III summarizes the precision, recall, and F1-score
+obtained for each breathing class.
+TABLE III
+CLASSIFICATION PERFORMANCE OF THERANDOMFOREST MODEL
+Class Precision Recall F1-score
+Shallow 0.97 0.99 0.98
+Normal 0.96 0.95 0.96
+Deep 0.98 0.97 0.98
+The confusion matrix shown in Figure 8 further illustrates
+the classification results. Most breathing patterns were cor-
+rectly identified by the model, with only a small number
+of misclassifications between adjacent breathing types. The
+numerical data in each cell implies how well the model
+classifies with other classes.
+Fig. 8. Confusion matrix showing classification results of the Random Forest
+model.
+D. Feature Importance Analysis
+Feature importance analysis was performed to show which
+features have contributed the most in the classification process.
+The Random Forest model gives importance scores based on
+how frequently a features are used in decision trees.
+Figure 9 shows the relative importance of the extracted
+features. The results include the maximum value, amplitude,
+and minimum value of the signal played an important role
+in differentiating breathing patterns, while gradient shows less
+importance.
+Fig. 9. Feature importance obtained from the Random Forest model.
+E. Prediction Analysis
+To further study the behaviour of the trained model, A com-
+parision between predicted breathing classes were compared
+with the actual labels across a series of test samples. Figure 10
+shows the alignment between the actual breathing patterns and
+the predictions classifier.
+Fig. 10. Comparison between actual breathing labels and the predictions by
+the Random Forest model.
+It can be observed that the predicted labels closely follow
+the actual breathing patterns over most of the samples. Few
+mismatches can be seen near boundaries where breathing
+change. This result further confirms us the reliability of the
+proposed feature extraction and classification approach.
+F. Feature Space Visualization
+To better understand how the extracted features differentiate
+breathing patterns, the distribution of samples was visualized
+in the feature space. Figure 11 Shows the relationship between
+amplitude and variance for the three breathing classes.
+Fig. 11. Feature space distribution showing separation of shallow, normal,
+and deep breathing samples.
+The figure reveals that different breathing patterns occupy
+different regions in the feature space. Deep breathing samples
+generally shows higher amplitude and variance values due to
+stronger breathing, whereas shallow shows lower amplitude
+regions. Normal breathing samples fall between these two
+clusters.
+This separation in the feature space explains why the
+Random Forest classifier can effectively distinguish between
+the three respiration patterns.
+G. Discussion
+The results obtained from the experiments shows a strong
+classification of breathing classes caputured from our cost
+effective humidity sensor. Approx 97% was the accuracy of
+trained Random Forest classifier, indicating that the selected
+features provide meaningful information for identifying respi-
+ration behaviour.
+From the feature analysis, it can be observed that amplitude
+features play an important role in separating breathing classes.
+Deep breathing generally shows higher signal amplitudes,
+which results in larger amplitude and variance values, while
+shallow breathing tends to show small signals. Normal breath-
+ing patterns lie between these two, which explains the slight
+overlap seen in some feature distributions.
+V. CONCLUSION
+In our work, we developed a low-cost and flexible res-
+piration monitoring system which can effectively detect and
+analyze breathing pattern. This system is more used friendly
+and practical as compared to traditional methods which are
+very uncomfortable and expensive. We have used humidity
+based resistive sensor which detect humidity change during
+breathing and generate corresponding electric signals. For
+processing of breathing data we collected, we have used
+the machine learning pipeline that includes steps such as
+preprocessing, feature normalization, etc. Random Forest Clas-
+sifier has achieved 97.3% accuracy for classification task of
+breathing patterns such as shallow, deep and normal which
+show good reliability of system. This proposal system is
+efficient, give fast response and provide accurate solution
+for respiration monitoring. Practical applications of this can
+be building healthcare applications especially the one which
+can help in detecting sleep apnea disorders. Although results
+we get are good but we need to consider some limitations
+also. Experiments were done in real-world environment in
+which some extra noise can come like movement of subject,
+variation in sensor placement or it can be due to disturbances
+in surroundings. In future, we can focus on working on larger
+dataset and using advanced signal processing techniques to
+make model match better with real - world conditions. Overall
+it shows that combining feature normalization with machine
+learning algorithm can give efficient solution for breathing
+pattern classification.
+REFERENCES
+[1] M. Mahowald and C. Schenck, “Principles and practice of sleep
+medicine,”Rem Sleep Parasomnias. Philadelphia: Elsevier Saunders,
+2005.
+[2] R. N. Aurora, C. Crainiceanu, D. J. Gottlieb, J. S. Kim, and N. M.
+Punjabi, “Obstructive sleep apnea during rem sleep and cardiovascular
+disease,”American journal of respiratory and critical care medicine,
+vol. 197, no. 5, pp. 653–660, 2018.
+[3] E. M. Sepp ¨al¨a, J. B. Nitschke, D. L. Tudorascu, A. Hayes, M. R.
+Goldstein, D. T. Nguyen, D. Perlman, and R. J. Davidson, “Breathing-
+based meditation decreases posttraumatic stress disorder symptoms in us
+military veterans: A randomized controlled longitudinal study,”Journal
+of traumatic stress, vol. 27, no. 4, pp. 397–405, 2014.
+[4] H. K. Yaggi, J. Concato, W. N. Kernan, J. H. Lichtman, L. M. Brass,
+and V. Mohsenin, “Obstructive sleep apnea as a risk factor for stroke
+and death,”New England Journal of Medicine, vol. 353, no. 19, pp.
+2034–2041, 2005.
+[5] M. A. Katzman, M. Vermani, P. L. Gerbarg, R. P. Brown, C. Iorio,
+M. Davis, C. Cameron, and D. Tsirgielis, “A multicomponent yoga-
+based, breath intervention program as an adjunctive treatment in patients
+suffering from generalized anxiety disorder with or without comorbidi-
+ties,”International journal of yoga, vol. 5, no. 1, pp. 57–65, 2012.
+[6] T. A. Popov, T. Z. Kralimarkova, M. Labor, and D. Plavec, “The added
+value of exhaled breath temperature in respiratory medicine,”Journal
+of Breath Research, vol. 11, no. 3, p. 034001, 2017.
+[7] P. Paredi, S. A. Kharitonov, and P. J. Barnes, “Correlation of exhaled
+breath temperature with bronchial blood flow in asthma,”Respiratory
+research, vol. 6, no. 1, p. 15, 2005.
+[8] N. M. Punjabi, A. B. Newman, T. B. Young, H. E. Resnick, and
+M. H. Sanders, “Sleep-disordered breathing and cardiovascular disease:
+an outcome-based definition of hypopneas,”American journal of res-
+piratory and critical care medicine, vol. 177, no. 10, pp. 1150–1155,
+2008.
+[9] C. V. Senaratna, J. L. Perret, C. J. Lodge, A. J. Lowe, B. E. Campbell,
+M. C. Matheson, G. S. Hamilton, and S. C. Dharmage, “Prevalence of
+obstructive sleep apnea in the general population: a systematic review,”
+Sleep medicine reviews, vol. 34, pp. 70–81, 2017.
+[10] U. P. S. T. Force, K. Bibbins-Domingo, D. C. Grossman, S. J. Curry,
+K. W. Davidson, J. W. Epling Jr, F. A. Garc ´ıa, J. Herzstein, A. R.
+Kemper, A. H. Kristet al., “Screening for obstructive sleep apnea in
+adults: Us preventive services task force recommendation statement,”
+Jama, vol. 317, no. 4, pp. 407–414, 2017.
+[11] C. Guilleminault, A. Tilkian, and W. C. Dement, “The sleep apnea
+syndromes.”Annual review of medicine, 1976.
+[12] M. A. Daulatzai, “Evidence of neurodegeneration in obstructive sleep
+apnea: relationship between obstructive sleep apnea and cognitive dys-
+function in the elderly,”Journal of neuroscience research, vol. 93,
+no. 12, pp. 1778–1794, 2015.
+[13] S. A. Moshizi, A. Abedi, M. Sanaeepur, C. J. Pastras, Z. J. Han, S. Wu,
+and M. Asadnia, “Polymeric piezoresistive airflow sensor to monitor
+respiratory patterns,”Journal of the Royal Society Interface, vol. 18, no.
+185, 2021.
+[14] J. Chen, F. Wang, G. Zhu, C. Wang, X. Cui, M. Xi, X. Chang,
+and Y. Zhu, “Breathable strain/temperature sensor based on fibrous
+networks of ionogels capable of monitoring human motion, respiration,
+and proximity,”ACS applied materials & interfaces, vol. 13, no. 43, pp.
+51 567–51 577, 2021.
+[15] T. Hussain, S. Ullah, R. Fern ´andez-Garc´ıa, and I. Gil, “Wearable sensors
+for respiration monitoring: A review,”Sensors, vol. 23, no. 17, p. 7518,
+2023.
+[16] S. Chaichulee, M. Villarroel, J. Jorge, C. Arteta, K. McCormick,
+A. Zisserman, and L. Tarassenko, “Cardio-respiratory signal extraction
+from video camera data for continuous non-contact vital sign monitoring
+using deep learning,”Physiological measurement, vol. 40, no. 11, p.
+115001, 2019.
+[17] P. Arlotto, M. Grimaldi, R. Naeck, and J.-M. Ginoux, “An ultrasonic
+contactless sensor for breathing monitoring,”Sensors, vol. 14, no. 8,
+pp. 15 371–15 386, 2014.
+[18] M. Krehel, M. Schmid, R. M. Rossi, L. F. Boesel, G.-L. Bona, and
+L. J. Scherer, “An optical fibre-based sensor for respiratory monitoring,”
+Sensors, vol. 14, no. 7, pp. 13 088–13 101, 2014.
+[19] Y.-L. Wang, B. Liu, Y.-N. Pang, J. Liu, J.-L. Shi, S.-P. Wan, X.-D. He,
+J. Yuan, and Q. Wu, “Low-cost wearable sensor based on a d-shaped
+plastic optical fiber for respiration monitoring,”IEEE Transactions on
+Instrumentation and Measurement, vol. 70, pp. 1–8, 2021.
+[20] D. L. Presti, C. Massaroni, M. Zaltieri, R. Sabbadini, A. Carnevale,
+J. Di Tocco, U. G. Longo, M. A. Caponero, R. D’Amato, E. Schena
+et al., “A magnetic resonance-compatible wearable device based on
+functionalized fiber optic sensor for respiratory monitoring,”IEEE
+Sensors Journal, vol. 21, no. 13, pp. 14 418–14 425, 2020.
+[21] D. L. Presti, C. Massaroni, and E. Schena, “Optical fiber gratings for
+humidity measurements: A review,”IEEE Sensors Journal, vol. 18,
+no. 22, pp. 9065–9074, 2018.
+[22] J. Dai, H. Zhao, X. Lin, S. Liu, Y. Liu, X. Liu, T. Fei, and T. Zhang,
+“Ultrafast response polyelectrolyte humidity sensor for respiration mon-
+itoring,”ACS applied materials & interfaces, vol. 11, no. 6, pp. 6483–
+6490, 2019.
+[23] J. Liu, M. Liu, Y. Bai, J. Zhang, H. Liu, and W. Zhu, “Recent progress
+in flexible wearable sensors for vital sign monitoring,”Sensors, vol. 20,
+no. 14, p. 4009, 2020.
+[24] A. Tahir, N. Iqbal, F. Afzal, J. Saddiqi, Z. Liaqat, M. N. Yasir, and M. Q.
+Mehmood, “E-waste driven interdigitated capacitive wearable sensor for
+breath rate monitoring applications,”Sensing and Imaging, vol. 26, no. 1,
+p. 138, 2025.
+[25] C. P. Subbe and S. Kinsella, “Continuous monitoring of respiratory
+rate in emergency admissions: evaluation of the respirasense™ sensor
+in acute care compared to the industry standard and gold standard,”
+Sensors, vol. 18, no. 8, p. 2700, 2018.
+[26] J. Jin and E. S ´anchez-Sinencio, “A home sleep apnea screening device
+with time-domain signal processing and autonomous scoring capability,”
+IEEE transactions on biomedical circuits and systems, vol. 9, no. 1, pp.
+96–104, 2014.
+[27] Y. Chen, F. Liu, B. Lu, Y. Zhang, and X. Feng, “Skin-like hybrid inte-
+grated circuits conformal to face for continuous respiratory monitoring,”
+Advanced Electronic Materials, vol. 6, no. 7, p. 2000145, 2020.
+[28] L. Cao, Z. Zhang, J. Li, Z. Wang, Y. Ren, Q. Wang, D. Huang, and Z. Li,
+“A low-cost flexible perforated respiratory sensor based on platinum for
+continuous respiratory monitoring,”Micromachines, vol. 13, no. 10, p.
+1743, 2022.
+[29] T. Leelasree, V. Selamneni, T. Akshaya, P. Sahatiya, and H. Aggarwal,
+“Mof based flexible, low-cost chemiresistive device as a respiration
+sensor for sleep apnea diagnosis,”Journal of Materials Chemistry B,
+vol. 8, no. 44, pp. 10 182–10 189, 2020.
+[30] K. Liu, M. Lin, Z. Zhao, K. Zhang, and S. Yang, “Rational design and
+application of breath sensors for healthcare monitoring,”ACS sensors,
+vol. 10, no. 1, pp. 15–32, 2024.
+[31] I. D. P. Hermida, A. I. Azmi, S. M. Idrus, G. Wiranto, R. V. Manurung,
+N. Hasanah, M. Amirullah, A. Rahmawati, and P. Hidayatullah, “Design
+and fabrication of pva-sno2 based humidity sensors,”ELEKTRIKA-
+Journal of Electrical Engineering, vol. 22, no. 1, pp. 1–5, 2023.
+[32] X. Xiao, Y. Shi, L. Cheng, and L. Yang, “The design of a linear voltage
+divider based on metal oxide arresters,”Review of Scientific Instruments,
+vol. 95, no. 4, 2024.
+[33] A. Panditrao, V. Upadhye, and S. Madhe, “Innovative condenser
+microphone-based non-invasive real time breath rate monitoring system,”
+Journal of Integrated Science and Technology, vol. 13, no. 5, pp. 1106–
+1106, 2025.
+[34] T. L. Tran, D. Van Nguyen, H. Nguyen, T. P. Van Nguyen, P. Song,
+R. C. Deo, C. Moloney, V. D. Dao, N.-T. Nguyen, and T. Dinh,
+“Deep learning-assisted sensitive 3c-sic sensor for long-term monitoring
+of physical respiration,”Advanced Sensor Research, vol. 3, no. 8, p.
+2300159, 2024.
+[35] M. G. Bruno, “Sensors for real-time monitoring of oxidative stress,”
+2025.
+[36] H. Sun, B. Zhang, L. Lu, Z. Chen, Y. Huo, W. Li, B. Zhang, and J. Song,
+“D-gluconic acetal gelator-based supramolecular–polymer dual network
+eutectogels for high performance temperature, strain, and pressure
+sensors,”Chemical Engineering Journal, vol. 451, p. 139051, 2023.
+[37] I. Weerasinghe, “Prediction model for predict the share market price,”
+Ph.D. dissertation, 2021.
+[38] Z. Yang,Comparing Traditional Machine Learning and Large Language
+Models: An Application to Mental Health Text Classification. University
+of California, Los Angeles, 2024.
+[39] H. Hassani, M. R. Entezarian, S. Zaeimzadeh, L. Marvian, and
+N. Komendantova, “An oversampling-undersampling strategy for large-
+scale data linkage,”Frontiers in Big Data, vol. 8, p. 1542483, 2025.
+[40] M. Moetesum, I. Siddiqi, S. Ehsan, and N. Vincent, “Deformation
+modeling and classification using deep convolutional neural networks
+for computerized analysis of neuropsychological drawings,”Neural
+Computing and Applications, vol. 32, no. 16, pp. 12 909–12 933, 2020.

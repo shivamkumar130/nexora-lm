@@ -1,0 +1,7 @@
+Document: AI_Presentation
+Chunk: 6
+Start Word: 1280
+End Word: 1456
+Words: 176
+
+Summary of Contributions 1 Developed robust multivariate LSTM framework for Indian commodity price forecasting 2 Demonstrated superiority of Attention-LSTM variant (MAE: 0.027,R 2: 0.91) 3 Provided reproducible implementation with detailed hyperparameter documentation 4 Established baseline for MSME decision support during volatile market conditions Key Takeaway The Attention-LSTM model with Batch Normalization and Adam optimizer provides areliable and reproducible baselinefor commodity price forecasting, supporting MSMEs in anticipating price changes under volatile conditions. Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 20 / 21 References S. Hochreiter and J. Schmidhuber,Long short-term memory, Neural Computation, vol. 9, no. 8, pp. 1735–1780, 1997. D. Bahdanau, K. Cho, and Y. Bengio,Neural machine translation by jointly learning to align and translate, Proc. ICLR, 2015. S. Ioffe and C. Szegedy,Batch normalization: Accelerating deep network training by reducing internal covariate shift, Proc. ICML, 2015. D. P. Kingma and J. Ba,Adam: A method for stochastic optimization, Proc. ICLR, 2015. Government of India,Indian commodity prices dataset, Open Data Portal (data.gov.in), 2024. Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 21 / 21

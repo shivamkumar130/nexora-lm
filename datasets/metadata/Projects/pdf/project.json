@@ -1,0 +1,13 @@
+{
+    "document_name": "project",
+    "file_name": "project.txt",
+    "relative_path": "Projects\\pdf\\project.txt",
+    "folder_name": "pdf",
+    "word_count": 1349,
+    "character_count": 10049,
+    "line_count": 235,
+    "file_size_bytes": 10375,
+    "created": 1782570970.6620324,
+    "modified": 1782572544.6785135,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

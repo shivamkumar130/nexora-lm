@@ -1,0 +1,7 @@
+Document: Design_project_poster
+Chunk: 3
+Start Word: 512
+End Word: 610
+Words: 98
+
+The pipeline is a lightweight, real-time-capable baseline; next steps include temporal modeling and dataset expansion. Acknowledgment:Thanks to the Ultralytics YOLOv8 team and dataset contributors. References & Contact References 1. J. Redmon, S. Divvala, R. Girshick, and A. Farhadi,“You Only Look Once: Unified, Real-Time Object Detection,”inProc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), 2016, pp. 779–788. 2. A. Bochkovskiy, C. Y. Wang, and H. Y. M. Liao,“YOLOv4: Optimal Speed and Accuracy of Object Detection,”arXiv preprint arXiv:2004.10934, 2020. 3. G. Jocheret al.,“YOLOv8: Ultralytics Next-Generation Object Detector,”Ultralytics, 2023. [Online]. Available:https: //github.com/ultralytics/ultralytics Contact Dev Saraswat Email:202351173@iiitvadodara.ac.in Satish Chauhan Email:202352330@iiitvadodara.ac.in Shivam Kumar Email:202351130@iiitvadodara.ac.in

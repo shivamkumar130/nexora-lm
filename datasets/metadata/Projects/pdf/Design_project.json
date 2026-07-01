@@ -1,0 +1,13 @@
+{
+    "document_name": "Design_project",
+    "file_name": "Design_project.txt",
+    "relative_path": "Projects\\pdf\\Design_project.txt",
+    "folder_name": "pdf",
+    "word_count": 613,
+    "character_count": 4990,
+    "line_count": 113,
+    "file_size_bytes": 5226,
+    "created": 1782569832.9186194,
+    "modified": 1782572544.5863605,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

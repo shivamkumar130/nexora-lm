@@ -1,0 +1,7 @@
+Document: CS203_Scribe__W5_1
+Chunk: 4
+Start Word: 768
+End Word: 1088
+Words: 320
+
+in place at the end of the array. Once the loop finishes, the pivot is swapped into its correct position between the two partitions. 3. PARTITION Procedure Explained Here’s a step-by-step explanation of the PARTITION procedure, as applied to an 8-element array: 3.1 Initial Setup - The last element of the arrayA[r] is selected as the pivot elementx. - Two pointers are maintained: i (initially set to p − 1) and j (initially set to p). 3.2 Example Array:A = [2, 8, 7, 1, 3, 5, 6, 4], Pivot x = 4 1. (a) Initial state: - i = p − 1, j = p. - No elements have been compared yet, and none have been assigned to either partition. - The pivot element x = 4 is not yet in place. - Initial array: [2, 8, 7, 1, 3, 5, 6, 4]. 2. (b) Compare A[j] = 2 with x = 4: - A[j] ≤ x, so: - Increment i: i = i + 1, now i = 0. - Swap A[i] with A[j] (no actual swap since A[i] = A[j] = 2). - Array state: [2, 8, 7, 1, 3, 5, 6, 4]. - Increment j. 3. (c) Compare A[j] = 8 with x = 4: - A[j] > x, so: - Do nothing; just increment j. 4. (d) Compare A[j] = 7 with x = 4: - Same as previous: A[j] > x. 5. (e) Compare A[j] = 1 with x = 4: - A[j] ≤ x: - Increment i to 1. - Swap A[i] with A[j]: - Array state: [2, 1, 7, 8, 3, 5, 6, 4]. 6. (f) Continue similarly until j reaches r. 7. (g) Finally, swap A[i + 1] with A[r]: - New array: [2, 1, 3, 4, 8, 5, 6, 7]. - Pivot is in the correct position. 4. Time Complexity Analysis The average case time complexity of Quicksort is O(n log

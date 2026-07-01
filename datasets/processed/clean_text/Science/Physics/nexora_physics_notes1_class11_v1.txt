@@ -1,0 +1,2784 @@
+UNIT–1: UNITS AND DIMENSIONS
+1. Physical Quantity
+Definition
+A physical quantity is any quantity that can be measured.
+Examples:
+Length
+Mass
+Time
+Temperature
+Force
+Energy
+Physical quantities are divided into two categories:
+(A) Fundamental Quantities
+These quantities are independent and do not depend on any other physical quantity.
+Examples: 1. Length 2. Mass 3. Time 4. Temperature 5. Electric Current 6. Luminous Intensity 7. Amount of
+Substance
+(B) Derived Quantities
+These quantities depend upon one or more fundamental quantities.
+Examples:
+Area
+Area = Length × Breadth
+Dimension: [L²]
+Speed
+Speed = Distance / Time
+Dimension: [LT⁻¹]
+Volume
+Volume = Length × Breadth × Height
+Dimension: [L³]
+2. Unit
+Definition
+A unit is the physical standard by which a physical quantity is measured.
+Example:
+Length → metre
+Mass → kilogram
+Time → second
+Units are classified as:
+(A) Fundamental Units
+Units corresponding to fundamental quantities.
+Examples:
+metre (m)
+kilogram (kg)
+second (s)
+(B) Derived Units
+Units corresponding to derived quantities.
+Examples:
+Newton
+Joule
+Pascal
+Watt
+3. Systems of Units
+Different systems of units have been used throughout history.
+1. CGS System
+Base Units:
+Centimetre (cm)
+Gram (g)
+Second (s)
+2. MKS System
+Base Units:
+Metre (m)
+Kilogram (kg)
+Second (s)
+3. FPS System
+Base Units:
+Foot (ft)
+Pound (lb)
+Second (s)
+4. SI System
+SI (International System of Units) is the modern and universally accepted system.
+Seven Fundamental SI Units
+Physical Quantity SI Unit Symbol
+Length Metre m
+Mass Kilogram kg
+Time Second s
+Temperature Kelvin K
+Electric Current Ampere A
+Luminous IntensityCandela cd
+Physical Quantity SI Unit Symbol
+Amount of SubstanceMole mol
+4. Supplementary Units
+Plane Angle
+SI Unit: Radian
+Definition:
+The angle subtended at the centre of a circle by an arc whose length equals the radius of the circle is called
+one radian.
+Formula:
+θ = l/r
+Where:
+l = arc length
+r = radius
+Unit: Radian (rad)
+Solid Angle
+SI Unit: Steradian
+Formula:
+Ω = S/r²
+Where:
+S = surface area
+r = radius
+Unit: Steradian (sr)
+5. Important Conversions
+1 foot = 0.3048 m
+1 pound = 0.4536 kg
+1 mile = 1.6 km
+1 micrometre = 10⁻⁶ m
+1 millimetre = 10⁻³ m
+1 cm = 10 mm
+1 litre = 1000 cm³
+1 picometre = 10⁻¹² m
+1 fermi = 10⁻¹⁵ m
+6. Standard Right-Angled Triangle
+Sides:
+3: 4: 5
+For angle 37°:
+Perpendicular: Base: Hypotenuse
+3: 4: 5
+Therefore:
+sin37° = 3/5
+cos37° = 4/5
+For angle 53°:
+sin53° = 4/5
+cos53° = 3/5
+7. Dimensions
+Definition
+The powers of fundamental quantities used to represent a derived quantity are called dimensions.
+Symbols:
+Length → [L]
+Mass → [M]
+Time → [T]
+8. Dimensional Formulae
+Speed
+Speed = Length / Time
+Dimension:
+[LT⁻¹]
+Area
+Area = Length × Length
+Dimension:
+[L²]
+Volume
+Volume = Length × Length × Length
+Dimension:
+[L³]
+Density
+Density = Mass / Volume
+Dimension:
+[M L⁻³]
+Velocity
+Velocity = Displacement / Time
+Dimension:
+[LT⁻¹]
+Acceleration
+Acceleration = Velocity / Time
+Dimension:
+[LT⁻²]
+Force
+Force = Mass × Acceleration
+Dimension:
+[M L T⁻²]
+Work
+Work = Force × Displacement
+Dimension:
+[M L² T⁻²]
+Torque
+Torque = Force × Distance
+Dimension:
+[M L² T⁻²]
+Pressure
+Pressure = Force / Area
+Dimension:
+[M L⁻¹ T⁻²]
+Momentum
+Momentum = Mass × Velocity
+Dimension:
+[M L T⁻¹]
+Power
+Power = Work / Time
+Dimension:
+[M L² T⁻³]
+Energy
+Energy = ½ mv²
+Dimension:
+[M L² T⁻²]
+Surface Tension
+Surface Tension = Force / Length
+Dimension:
+[M T⁻²]
+Frequency
+Frequency = 1/Time Period
+Dimension:
+[T⁻¹]
+Angular Velocity
+Angular Velocity = θ/t
+Dimension:
+[T⁻¹]
+Angular Acceleration
+Angular Acceleration = ω/t
+Dimension:
+[T⁻²]
+Moment of Inertia
+I = Mass × (Distance)²
+Dimension:
+[M L²]
+10
+UNIT–1: UNITS AND DIMENSIONS
+PART – 3
+Solved Examples, Practice Questions and Revision
+Material
+SOLVED EXAMPLE 1
+Conversion of Gravitational Constant from CGS to SI
+Given:
+G = 6.70 × 10⁻⁸ (CGS)
+Dimensional Formula of G:
+[M⁻¹L³T⁻²]
+Using conversion relation:
+n₂ = n₁(M₁/M₂)^a(L₁/L₂)^b(T₁/T₂)^c
+Substituting:
+a = −1
+b = 3
+c = −2
+Mass Conversion:
+1 g = 10⁻³ kg
+Length Conversion:
+1 cm = 10⁻² m
+Time Conversion:
+1 s = 1 s
+Result:
+G = 6.70 × 10⁻¹¹ Nm²kg⁻²
+SOLVED EXAMPLE 2
+Pressure Conversion
+Given:
+Pressure = 10⁶ dyne/cm²
+Dimension of Pressure:
+[ML⁻¹T⁻²]
+Conversion:
+1 dyne/cm²
+= 0.1 N/m²
+Therefore,
+10⁶ dyne/cm²
+= 10⁵ N/m²
+= 10⁵ Pascal
+Answer:
+10⁵ Pa
+SOLVED EXAMPLE 3
+Surface Tension Conversion
+Given:
+Surface tension = 70 dyne/cm
+Dimension:
+[MT⁻²]
+Conversion:
+1 dyne/cm
+= 10⁻³ N/m
+Therefore,
+70 dyne/cm
+= 70 × 10⁻³
+= 0.07 N/m
+Answer:
+0.07 N/m
+SOLVED EXAMPLE 4
+Density Conversion
+Given:
+Density = 0.5 g/cm³
+Dimension:
+[ML⁻³]
+Conversion:
+1 g/cm³
+= 1000 kg/m³
+Therefore,
+0.5 g/cm³
+= 500 kg/m³
+Answer:
+500 kg/m³
+DIMENSIONAL CONSTANTS
+Universal Gravitational Constant
+Symbol: G
+Value:
+6.67 × 10⁻¹¹ Nm²kg⁻²
+Dimension:
+[M⁻¹L³T⁻²]
+Planck Constant
+Symbol: h
+Value:
+6.626 × 10⁻³⁴ Js
+Dimension:
+[ML²T⁻¹]
+IMPORTANT SHORT QUESTIONS
+Q1. What is a physical quantity?
+A measurable quantity is called a physical quantity.
+Q2. What is a unit?
+A standard used for measurement is called a unit.
+Q3. What is a fundamental quantity?
+A quantity that does not depend on another quantity.
+Q4. What is a derived quantity?
+A quantity derived from fundamental quantities.
+Q5. Define dimensional formula.
+The expression showing powers of M, L and T is called dimensional formula.
+Q6. Define dimensional analysis.
+The method of using dimensions to solve physical problems is called dimensional analysis.
+Q7. What are the uses of dimensional analysis?
+Checking correctness of equations.
+Conversion of units.
+Deriving relations among quantities.
+IMPORTANT DIMENSIONAL FORMULAE
+Length → [L]
+Area → [L²]
+Volume → [L³]
+Density → [ML⁻³]
+Velocity → [LT⁻¹]
+Acceleration → [LT⁻²]
+Force → [MLT⁻²]
+Work → [ML²T⁻²]
+1.
+2.
+3.
+Energy → [ML²T⁻²]
+Power → [ML²T⁻³]
+Pressure → [ML⁻¹T⁻²]
+Momentum → [MLT⁻¹]
+Impulse → [MLT⁻¹]
+Torque → [ML²T⁻²]
+Surface Tension → [MT⁻²]
+Angular Momentum → [ML²T⁻¹]
+Moment of Inertia → [ML²]
+Frequency → [T⁻¹]
+Angular Velocity → [T⁻¹]
+Angular Acceleration → [T⁻²]
+Gravitational Constant → [M⁻¹L³T⁻²]
+Planck Constant → [ML²T⁻¹]
+EXAMINATION QUESTIONS
+Very Short Answer Type
+Define SI system.
+What is a derived quantity?
+Define unit.
+What is a radian?
+What is a steradian?
+Define dimensional formula.
+State Newton's second law.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Short Answer Type
+Differentiate between fundamental and derived quantities.
+Explain SI units.
+Derive dimensional formula of force.
+Derive dimensional formula of work.
+Derive dimensional formula of power.
+Explain uses of dimensional analysis.
+Long Answer Type
+Explain systems of units in detail.
+Derive dimensions of important physical quantities.
+Explain dimensional analysis with examples.
+Explain unit conversion using dimensional method.
+Derive Newton's second law by dimensional analysis.
+ONE-PAGE REVISION SHEET
+Fundamental Quantities = 7
+SI Base Units = m, kg, s, K, A, cd, mol
+Supplementary Units:
+Plane Angle → Radian
+Solid Angle → Steradian
+Force = ma
+Work = Fs
+Power = Work/Time
+Pressure = Force/Area
+Momentum = mv
+Density = Mass/Volume
+Frequency = 1/T
+1.
+2.
+3.
+4.
+5.
+6.
+1.
+2.
+3.
+4.
+5.
+Angular Velocity = θ/t
+Angular Acceleration = ω/t
+Universal Gravitational Constant:
+G = 6.67 × 10⁻¹¹ Nm²kg⁻²
+Planck Constant:
+h = 6.626 × 10⁻³⁴ Js
+UNIT–1: UNITS AND DIMENSIONS
+PART – 4
+ADVANCED DIMENSIONAL ANALYSIS NOTES
+LIMITATIONS OF DIMENSIONAL ANALYSIS
+Although dimensional analysis is a powerful tool, it has some limitations.
+1. Cannot Determine Numerical Constants
+Dimensional analysis cannot determine numerical constants such as:
+1/2
+Example:
+Area of circle
+A = πr²
+Using dimensions we can find that area is proportional to r² but cannot determine the value of π.
+2. Cannot Distinguish Between Similar Quantities
+Many physical quantities possess the same dimensional formula.
+Examples:
+Work
+Dimension:
+[ML²T⁻²]
+Energy
+Dimension:
+[ML²T⁻²]
+Torque
+Dimension:
+[ML²T⁻²]
+All have the same dimensions but different physical meanings.
+3. Cannot Derive Trigonometric Functions
+Dimensional analysis cannot establish equations involving:
+sinθ
+cosθ
+tanθ
+logarithms
+exponential functions
+Example:
+y = A sin(ωt)
+cannot be derived completely using dimensions.
+4. Cannot Check Vector or Scalar Nature
+Dimensions only provide magnitude information.
+They do not indicate whether a quantity is:
+Scalar
+Vector
+Example:
+Work and Torque possess identical dimensions but differ in nature.
+COMMONLY USED PHYSICAL QUANTITIES
+Force
+Definition:
+Force is an external agency that changes or attempts to change the state of motion of a body.
+Formula:
+F = ma
+SI Unit:
+Newton (N)
+Dimension:
+[MLT⁻²]
+Work
+Definition:
+Work is said to be done when force causes displacement.
+Formula:
+W = Fs
+SI Unit:
+Joule (J)
+Dimension:
+[ML²T⁻²]
+Energy
+Definition:
+Capacity to perform work.
+SI Unit:
+Joule
+Dimension:
+[ML²T⁻²]
+Power
+Definition:
+Rate of doing work.
+Formula:
+P = W/t
+SI Unit:
+Watt
+Dimension:
+[ML²T⁻³]
+Pressure
+Definition:
+Force acting per unit area.
+Formula:
+P = F/A
+SI Unit:
+Pascal
+Dimension:
+[ML⁻¹T⁻²]
+Momentum
+Definition:
+Product of mass and velocity.
+Formula:
+p = mv
+SI Unit:
+kg m/s
+Dimension:
+[MLT⁻¹]
+MEMORY CHART FOR DIMENSIONS
+Start with Velocity
+Velocity
+= Distance/Time
+= [LT⁻¹]
+Acceleration
+= Velocity/Time
+= [LT⁻²]
+Force
+= Mass × Acceleration
+= [MLT⁻²]
+Work
+= Force × Distance
+= [ML²T⁻²]
+Power
+= Work/Time
+= [ML²T⁻³]
+This chain helps remember dimensions quickly.
+MOST IMPORTANT CONVERSIONS
+Length
+1 km = 1000 m
+1 m = 100 cm
+1 cm = 10 mm
+1 mm = 10⁻³ m
+1 μm = 10⁻⁶ m
+1 nm = 10⁻⁹ m
+1 pm = 10⁻¹² m
+1 fermi = 10⁻¹⁵ m
+Mass
+1 kg = 1000 g
+1 g = 10⁻³ kg
+Time
+1 min = 60 s
+1 hr = 3600 s
+1 day = 86400 s
+Area
+1 m² = 10⁴ cm²
+1 cm² = 10⁻⁴ m²
+Volume
+1 m³ = 10⁶ cm³
+1 litre = 10³ cm³
+1 m³ = 1000 litre
+FREQUENTLY ASKED DIMENSIONAL FORMULAE
+Velocity → [LT⁻¹]
+Acceleration → [LT⁻²]
+Momentum → [MLT⁻¹]
+Force → [MLT⁻²]
+Work → [ML²T⁻²]
+Energy → [ML²T⁻²]
+Power → [ML²T⁻³]
+Pressure → [ML⁻¹T⁻²]
+Density → [ML⁻³]
+Surface Tension → [MT⁻²]
+Gravitational Constant → [M⁻¹L³T⁻²]
+Planck Constant → [ML²T⁻¹]
+Moment of Inertia → [ML²]
+Angular Momentum → [ML²T⁻¹]
+Frequency → [T⁻¹]
+Angular Velocity → [T⁻¹]
+Angular Acceleration → [T⁻²]
+PRACTICE QUESTIONS
+Very Short Questions
+Define SI unit.
+What is a physical quantity?
+Define force.
+Define work.
+Define power.
+Define pressure.
+Define density.
+Define momentum.
+What is a radian?
+What is a steradian?
+Numerical Problems
+Convert 5 N into dyne.
+Convert 10 J into erg.
+Convert 2 g/cm³ into kg/m³.
+Convert 50 dyne/cm into N/m.
+Convert 10⁵ dyne/cm² into Pascal.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+1.
+2.
+3.
+4.
+5.
+Derivation Problems
+Derive dimensional formula of force.
+Derive dimensional formula of work.
+Derive dimensional formula of power.
+Derive dimensional formula of pressure.
+Derive dimensional formula of momentum.
+Derive dimensional formula of gravitational constant.
+Derive dimensional formula of Planck constant.
+Derive dimensional formula of surface tension.
+CHAPTER SUMMARY
+Physical Quantity → Measurable quantity
+Fundamental Quantities → Independent quantities
+Derived Quantities → Depend upon fundamental quantities
+Unit → Standard of measurement
+Systems of Units:
+CGS
+MKS
+FPS
+SI
+Seven SI Base Quantities:
+Length
+Mass
+Time
+Temperature
+Electric Current
+Luminous Intensity
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+Amount of Substance
+Supplementary Units:
+Radian
+Steradian
+Dimensional Analysis Applications:
+Checking equations
+Unit conversion
+Deriving relations
+Most Important Formula:
+F = ma
+Dimension:
+[MLT⁻²]
+1.
+2.
+3.
+10
+UNIT–1: UNITS AND DIMENSIONS
+PART – 4
+ADVANCED DIMENSIONAL ANALYSIS NOTES
+LIMITATIONS OF DIMENSIONAL ANALYSIS
+Although dimensional analysis is a powerful tool, it has some limitations.
+1. Cannot Determine Numerical Constants
+Dimensional analysis cannot determine numerical constants such as:
+1/2
+Example:
+Area of circle
+A = πr²
+Using dimensions we can find that area is proportional to r² but cannot determine the value of π.
+2. Cannot Distinguish Between Similar Quantities
+Many physical quantities possess the same dimensional formula.
+Examples:
+Work
+Dimension:
+[ML²T⁻²]
+Energy
+Dimension:
+[ML²T⁻²]
+Torque
+Dimension:
+[ML²T⁻²]
+All have the same dimensions but different physical meanings.
+3. Cannot Derive Trigonometric Functions
+Dimensional analysis cannot establish equations involving:
+sinθ
+cosθ
+tanθ
+logarithms
+exponential functions
+Example:
+y = A sin(ωt)
+cannot be derived completely using dimensions.
+4. Cannot Check Vector or Scalar Nature
+Dimensions only provide magnitude information.
+They do not indicate whether a quantity is:
+Scalar
+Vector
+Example:
+Work and Torque possess identical dimensions but differ in nature.
+COMMONLY USED PHYSICAL QUANTITIES
+Force
+Definition:
+Force is an external agency that changes or attempts to change the state of motion of a body.
+Formula:
+F = ma
+SI Unit:
+Newton (N)
+Dimension:
+[MLT⁻²]
+Work
+Definition:
+Work is said to be done when force causes displacement.
+Formula:
+W = Fs
+SI Unit:
+Joule (J)
+Dimension:
+[ML²T⁻²]
+Energy
+Definition:
+Capacity to perform work.
+SI Unit:
+Joule
+Dimension:
+[ML²T⁻²]
+Power
+Definition:
+Rate of doing work.
+Formula:
+P = W/t
+SI Unit:
+Watt
+Dimension:
+[ML²T⁻³]
+Pressure
+Definition:
+Force acting per unit area.
+Formula:
+P = F/A
+SI Unit:
+Pascal
+Dimension:
+[ML⁻¹T⁻²]
+Momentum
+Definition:
+Product of mass and velocity.
+Formula:
+p = mv
+SI Unit:
+kg m/s
+Dimension:
+[MLT⁻¹]
+MEMORY CHART FOR DIMENSIONS
+Start with Velocity
+Velocity
+= Distance/Time
+= [LT⁻¹]
+Acceleration
+= Velocity/Time
+= [LT⁻²]
+Force
+= Mass × Acceleration
+= [MLT⁻²]
+Work
+= Force × Distance
+= [ML²T⁻²]
+Power
+= Work/Time
+= [ML²T⁻³]
+This chain helps remember dimensions quickly.
+MOST IMPORTANT CONVERSIONS
+Length
+1 km = 1000 m
+1 m = 100 cm
+1 cm = 10 mm
+1 mm = 10⁻³ m
+1 μm = 10⁻⁶ m
+1 nm = 10⁻⁹ m
+1 pm = 10⁻¹² m
+1 fermi = 10⁻¹⁵ m
+Mass
+1 kg = 1000 g
+1 g = 10⁻³ kg
+Time
+1 min = 60 s
+1 hr = 3600 s
+1 day = 86400 s
+Area
+1 m² = 10⁴ cm²
+1 cm² = 10⁻⁴ m²
+Volume
+1 m³ = 10⁶ cm³
+1 litre = 10³ cm³
+1 m³ = 1000 litre
+FREQUENTLY ASKED DIMENSIONAL FORMULAE
+Velocity → [LT⁻¹]
+Acceleration → [LT⁻²]
+Momentum → [MLT⁻¹]
+Force → [MLT⁻²]
+Work → [ML²T⁻²]
+Energy → [ML²T⁻²]
+Power → [ML²T⁻³]
+Pressure → [ML⁻¹T⁻²]
+Density → [ML⁻³]
+Surface Tension → [MT⁻²]
+Gravitational Constant → [M⁻¹L³T⁻²]
+Planck Constant → [ML²T⁻¹]
+Moment of Inertia → [ML²]
+Angular Momentum → [ML²T⁻¹]
+Frequency → [T⁻¹]
+Angular Velocity → [T⁻¹]
+Angular Acceleration → [T⁻²]
+PRACTICE QUESTIONS
+Very Short Questions
+Define SI unit.
+What is a physical quantity?
+Define force.
+Define work.
+Define power.
+Define pressure.
+Define density.
+Define momentum.
+What is a radian?
+What is a steradian?
+Numerical Problems
+Convert 5 N into dyne.
+Convert 10 J into erg.
+Convert 2 g/cm³ into kg/m³.
+Convert 50 dyne/cm into N/m.
+Convert 10⁵ dyne/cm² into Pascal.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+1.
+2.
+3.
+4.
+5.
+Derivation Problems
+Derive dimensional formula of force.
+Derive dimensional formula of work.
+Derive dimensional formula of power.
+Derive dimensional formula of pressure.
+Derive dimensional formula of momentum.
+Derive dimensional formula of gravitational constant.
+Derive dimensional formula of Planck constant.
+Derive dimensional formula of surface tension.
+CHAPTER SUMMARY
+Physical Quantity → Measurable quantity
+Fundamental Quantities → Independent quantities
+Derived Quantities → Depend upon fundamental quantities
+Unit → Standard of measurement
+Systems of Units:
+CGS
+MKS
+FPS
+SI
+Seven SI Base Quantities:
+Length
+Mass
+Time
+Temperature
+Electric Current
+Luminous Intensity
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+Amount of Substance
+Supplementary Units:
+Radian
+Steradian
+Dimensional Analysis Applications:
+Checking equations
+Unit conversion
+Deriving relations
+Most Important Formula:
+F = ma
+Dimension:
+[MLT⁻²]
+1.
+2.
+3.
+10
+PHYSICS NOTES – PART 1
+ERRORS IN MEASUREMENT
+Chapter Overview
+Measurement is one of the most fundamental concepts in Physics. Every experiment, observation, and
+calculation depends upon accurate measurements. Since no measurement is perfectly exact, the study of
+errors becomes essential.
+This chapter discusses:
+Measurement
+Accuracy and Precision
+Errors in Measurement
+Types of Errors
+Absolute Error
+Mean Absolute Error
+Relative (Fractional) Error
+Percentage Error
+Error Propagation
+Numerical Problems
+1. Measurement
+Measurement is the process of comparing an unknown physical quantity with a standard quantity of the
+same nature.
+Examples:
+Measuring length using a meter scale.
+Measuring mass using a balance.
+Measuring time using a clock.
+The result of a measurement is expressed as:
+Measured Quantity = Numerical Value × Unit
+Example:
+Length = 5 m
+where:
+5 = numerical value
+m = unit
+2. Need for Measurement
+Measurement is necessary because:
+It allows comparison of physical quantities.
+It helps perform scientific experiments.
+It enables mathematical calculations.
+It provides quantitative information about physical phenomena.
+3. Accuracy and Precision
+Accuracy
+Accuracy refers to how close a measured value is to the true value.
+Example:
+True value = 10.0 cm
+Measured value = 9.98 cm
+The measurement is highly accurate.
+Precision
+Precision refers to the degree of agreement among repeated measurements.
+Example:
+10.01 cm
+10.02 cm
+1.
+2.
+3.
+4.
+10.01 cm
+10.02 cm
+These readings are highly precise.
+Difference Between Accuracy and Precision
+Accuracy Precision
+Near true value Near each other
+Related to correctness Related to consistency
+Affected by systematic errorsAffected by random errors
+4. Error in Measurement
+Every measurement contains some uncertainty.
+The difference between the measured value and true value is called error.
+Error = True Value − Measured Value
+Symbolically,
+E = T − M
+where:
+E = Error
+T = True Value
+M = Measured Value
+5. Causes of Errors
+Errors arise due to:
+Instrument defects
+Observer mistakes
+Environmental conditions
+Experimental limitations
+6. Classification of Errors
+Errors are mainly classified into:
+Systematic Errors
+Random Errors
+7. Systematic Errors
+Systematic errors are errors whose causes are known and can usually be corrected.
+These errors occur in the same direction repeatedly.
+Characteristics:
+Predictable
+Reproducible
+Can be reduced
+Types of Systematic Errors
+A. Instrumental Errors
+Errors caused by imperfections in measuring instruments.
+Examples:
+Defective scale
+Incorrect calibration
+Zero error
+B. Personal Errors
+Errors caused by the observer.
+1.
+2.
+Examples:
+Wrong reading
+Wrong recording
+Parallax error
+C. Environmental Errors
+Errors caused by surroundings.
+Examples:
+Temperature changes
+Humidity
+Pressure variation
+Magnetic fields
+8. Random Errors
+Random errors occur due to unknown and unpredictable causes.
+Characteristics:
+Irregular
+Unpredictable
+Cannot be eliminated completely
+Examples:
+Human reaction time
+Small environmental fluctuations
+Reduction of Random Errors
+Random errors can be minimized by:
+Taking multiple observations.
+Finding the arithmetic mean.
+1.
+2.
+9. Mean (True) Value
+Suppose a quantity is measured n times.
+Observations:
+a₁, a₂, a₃,...., aₙ
+The mean value is:
+aₘ = (a₁ + a₂ + a₃ +... + aₙ)/n
+This mean value is considered the most probable value of the measurement.
+Example
+Observations:
+10 cm, 11 cm, 9 cm, 10 cm
+Mean value:
+aₘ = (10 + 11 + 9 + 10)/4
+aₘ = 40/4
+aₘ = 10 cm
+10. Absolute Error
+The absolute error for each observation is the numerical difference between the mean value and the
+observed value.
+For first observation:
+Δa₁ = |aₘ − a₁|
+For second observation:
+Δa₂ = |aₘ − a₂|
+Similarly,
+Δaₙ = |aₘ − aₙ|
+Example
+Observations:
+10 cm, 11 cm, 9 cm, 10 cm
+Mean value = 10 cm
+Absolute errors:
+|10 − 10| = 0
+|10 − 11| = 1
+|10 − 9| = 1
+|10 − 10| = 0
+11. Mean Absolute Error
+The arithmetic mean of all absolute errors is called mean absolute error.
+Formula:
+Δa = (|Δa₁| + |Δa₂| + |Δa₃| +... + |Δaₙ|)/n
+Example
+Absolute errors:
+0, 1, 1, 0
+Mean absolute error:
+Δa = (0 + 1 + 1 + 0)/4
+Δa = 2/4
+Δa = 0.5 cm
+Therefore,
+Measurement = (10 ± 0.5) cm
+12. Relative or Fractional Error
+The ratio of mean absolute error to mean value is called fractional error.
+Formula:
+Fractional Error = Δa/aₘ
+Properties:
+No unit
+Dimensionless quantity
+Example
+Mean value = 10 cm
+Mean absolute error = 0.5 cm
+Fractional error:
+= 0.5/10
+= 0.05
+13. Percentage Error
+Percentage error is obtained by multiplying fractional error by 100.
+Formula:
+Percentage Error = (Δa/aₘ) × 100
+Example
+Percentage Error
+= (0.5/10) × 100
+= 5%
+Therefore:
+Percentage Error = 5%
+14. Significance of Error Analysis
+Error analysis helps:
+Determine reliability of measurements
+Estimate uncertainty
+Compare experimental results
+Improve accuracy
+Important Definitions
+Measurement: Comparison of unknown quantity with a standard quantity.
+Error: Difference between measured value and true value.
+Absolute Error: Difference between mean value and measured value.
+Mean Absolute Error: Average of absolute errors.
+Fractional Error: Ratio of absolute error to mean value.
+Percentage Error: Fractional error multiplied by 100.
+Important Formula Sheet
+Mean Value:
+aₘ = (a₁+a₂+...+aₙ)/n
+Absolute Error:
+Δa = |aₘ−aᵢ|
+Mean Absolute Error:
+Δa = (Σ|Δa|)/n
+Fractional Error:
+Δa/aₘ
+Percentage Error:
+(Δa/aₘ) × 100
+Quick Revision
+✓ Measurement
+✓ Accuracy
+✓ Precision
+✓ Errors
+✓ Systematic Errors
+✓ Random Errors
+✓ Instrumental Errors
+✓ Personal Errors
+✓ Environmental Errors
+✓ Mean Value
+✓ Absolute Error
+✓ Mean Absolute Error
+10
+✓ Fractional Error
+✓ Percentage Error
+✓ Formula Revision
+11
+PHYSICS NOTES – PART 2
+COMBINATION OF ERRORS AND ERROR
+PROPAGATION
+Chapter Overview
+In practical experiments, physical quantities are often added, subtracted, multiplied, divided, or raised to
+powers.
+Since every measured quantity contains some uncertainty, the resulting quantity also contains uncertainty.
+The study of how errors combine during mathematical operations is called Propagation of Errors.
+This chapter covers:
+Error in Addition
+Error in Subtraction
+Error in Multiplication
+Error in Division
+Error in Powers
+General Error Formula
+Applications
+Solved Numericals
+1. Propagation of Errors
+When measured quantities are combined mathematically, their errors also combine.
+Example:
+Length = (10 ± 0.1) cm
+Breadth = (5 ± 0.1) cm
+Area = Length × Breadth
+The area will also contain error.
+2. Error in Addition
+Suppose
+x = A + B
+where
+A = Measured Quantity
+B = Measured Quantity
+ΔA = Error in A
+ΔB = Error in B
+Derivation
+Maximum possible error in x is:
+Δx = ΔA + ΔB
+Therefore
+Rule
+For addition:
+Absolute errors are added.
+Example
+A = (20 ± 0.2) cm
+B = (30 ± 0.1) cm
+x = A + B
+Δx=ΔA+ΔB
+x = 20 + 30
+x = 50 cm
+Error:
+Δx = 0.2 + 0.1
+Δx = 0.3 cm
+Answer:
+(50 ± 0.3) cm
+3. Error in Subtraction
+Suppose
+x = A − B
+Derivation
+Maximum error:
+Δx = ΔA + ΔB
+Rule
+For subtraction:
+Absolute errors are always added.
+Formula
+Δx=ΔA+ΔB
+Example
+A = (50 ± 0.3) cm
+B = (20 ± 0.2) cm
+Difference:
+x = 50 − 20
+x = 30 cm
+Error:
+Δx = 0.3 + 0.2
+Δx = 0.5 cm
+Answer:
+(30 ± 0.5) cm
+Important Observation
+For both addition and subtraction:
+Errors always add.
+Therefore:
+Addition → Add errors
+Subtraction → Add errors
+4. Error in Multiplication
+Suppose
+x = A × B
+Derivation
+Taking logarithm:
+log x = log A + log B
+Differentiating:
+Δx/x = ΔA/A + ΔB/B
+Formula
+Rule
+For multiplication:
+Fractional (or percentage) errors are added.
+Example
+A = (20 ± 0.2)
+B = (10 ± 0.1)
+Percentage Error in A
+= (0.2/20) × 100
+= 1%
+Percentage Error in B
+= (0.1/10) × 100
+= 1%
+= +
+Δx
+ΔA
+ΔB
+Total Percentage Error
+= 1 + 1
+= 2%
+Value of x
+x = 20 × 10
+x = 200
+Absolute Error
+Δx = (2 × 200)/100
+Δx = 4
+Answer:
+(200 ± 4)
+5. Error in Division
+Suppose
+x = A/B
+Derivation
+Taking logarithm:
+log x = log A − log B
+Differentiating:
+Δx/x = ΔA/A + ΔB/B
+Formula
+Rule
+For division:
+Percentage errors are added.
+Example
+Distance:
+(200 ± 5) m
+Time:
+(20 ± 0.2) s
+Velocity:
+v = Distance/Time
+v = 200/20
+v = 10 m/s
+Percentage Error in Distance
+= (5/200) × 100
+= 2.5%
+Percentage Error in Time
+= (0.2/20) × 100
+= 1%
+= +
+Δx
+ΔA
+ΔB
+Total Error
+= 2.5 + 1
+= 3.5%
+Absolute Error
+= (3.5 × 10)/100
+= 0.35
+Answer:
+(10 ± 0.35) m/s
+6. Error in Powers
+Suppose
+x = Aⁿ
+where n is any constant.
+Derivation
+Taking logarithm:
+log x = n log A
+Differentiating:
+Δx/x = n(ΔA/A)
+Formula
+=n
+Δx
+ΔA
+Rule
+Percentage error gets multiplied by power.
+Example
+A has error 2%.
+Find error in A³.
+Using formula:
+Error = 3 × 2
+= 6%
+Answer:
+6%
+7. General Formula of Error Propagation
+Suppose
+Taking logarithm:
+log x = m log A + n log B − r log C
+Differentiating:
+Master Formula
+x=
+Cr
+A Bm n
+=x
+Δx m +A
+ΔA n +B
+ΔB r
+ΔC
+=m +n +r
+Δx
+ΔA
+ΔB
+ΔC
+8. Application to Physical Formulas
+Kinetic Energy
+Formula:
+K = ½mv²
+Error:
+ΔK/K
+= Δm/m + 2Δv/v
+Example
+Mass Error = 2%
+Velocity Error = 4%
+Total Error:
+= 2 + 2(4)
+= 10%
+Answer:
+10%
+9. Error in Time Period of Pendulum
+Formula:
+or
+T =2π
+10
+Error Formula
+ΔT/T
+= ½(Δl/l)
++ ½(Δg/g)
+Example
+Length Error = 2%
+Gravity Error = 4%
+Total Error:
+= ½(2)
+½(4)
+= 1 + 2
+= 3%
+Answer:
+3%
+10. Important Numerical Problems
+Problem 1
+Length:
+(30 ± 0.2) cm
+Breadth:
+T =2πl g1/2−1/2
+11
+(20 ± 0.1) cm
+Find perimeter.
+Perimeter:
+P = 2(L + B)
+= 2(30 + 20)
+= 100 cm
+Error:
+ΔP = 2(0.2 + 0.1)
+= 0.6 cm
+Answer:
+(100 ± 0.6) cm
+Problem 2
+Find error in A⁴ if error in A is 3%.
+Solution:
+Error = 4 × 3
+= 12%
+Answer:
+12%
+Important Formula Sheet
+Addition:
+Δx = ΔA + ΔB
+12
+Subtraction:
+Δx = ΔA + ΔB
+Multiplication:
+Δx/x
+= ΔA/A
++ ΔB/B
+Division:
+Δx/x
+= ΔA/A
++ ΔB/B
+Power:
+Δx/x
+= n(ΔA/A)
+General Formula:
+Δx/x
+= mΔA/A
++ nΔB/B
++ rΔC/C
+13
+Quick Revision
+✓ Error in Addition
+✓ Error in Subtraction
+✓ Error in Multiplication
+✓ Error in Division
+✓ Error in Powers
+✓ Error Propagation
+✓ Kinetic Energy Error
+✓ Pendulum Error
+✓ Numerical Problems
+✓ Formula Revision Sheet
+Chapter Summary
+Addition and subtraction use absolute errors.
+Multiplication and division use fractional errors.
+Powers multiply percentage errors.
+General formulas are obtained using logarithmic differentiation.
+Error analysis helps estimate reliability of experimental results.
+END OF PART 2
+1.
+2.
+3.
+4.
+5.
+14
+PHYSICS NOTES – PART 3
+INTRODUCTION TO VECTORS
+Chapter Overview
+Many physical quantities require only magnitude for complete description, while others require both
+magnitude and direction.
+To study such quantities, Physics uses Vector Algebra.
+This chapter covers:
+Physical Quantities
+Scalars
+Vectors
+Tensors
+Representation of Vectors
+Magnitude of Vector
+Zero Vector
+Unit Vector
+Equal Vectors
+Opposite Vectors
+Like and Unlike Vectors
+Co-initial Vectors
+Collinear Vectors
+Coplanar Vectors
+Position Vector
+1. Physical Quantities
+A physical quantity is any quantity that can be measured and expressed numerically along with a unit.
+Examples:
+Length
+Mass
+Time
+Velocity
+Force
+Temperature
+Physical quantities are classified into:
+Scalar Quantities
+Vector Quantities
+Tensor Quantities
+2. Scalar Quantities
+Definition
+A scalar quantity is a physical quantity that possesses magnitude only.
+Direction is not required.
+Characteristics
+Has only magnitude.
+No direction.
+Added using ordinary algebra.
+Completely specified by a numerical value and unit.
+Examples
+Mass
+Length
+Distance
+Area
+Volume
+Density
+Work
+Energy
+Temperature
+Speed
+Example
+Mass = 10 kg
+1.
+2.
+3.
+This statement is complete.
+Direction is not required.
+Hence mass is a scalar quantity.
+3. Vector Quantities
+Definition
+A vector quantity is a physical quantity that possesses both magnitude and direction.
+Characteristics
+Has magnitude.
+Has direction.
+Follows vector laws.
+Cannot be added using ordinary algebra.
+Examples
+Displacement
+Velocity
+Acceleration
+Force
+Momentum
+Electric Field
+Magnetic Field
+Example
+Velocity = 20 m/s East
+Magnitude = 20 m/s
+Direction = East
+Therefore velocity is a vector.
+Difference Between Scalars and Vectors
+Scalar Vector
+Magnitude onlyMagnitude and direction
+Ordinary algebraVector algebra
+No direction Direction essential
+Example: Mass Example: Force
+4. Tensor Quantities
+Definition
+Tensor quantities are quantities having magnitude and direction but following special mathematical laws
+beyond ordinary vector algebra.
+Examples
+Stress
+Strain
+Moment of Inertia Tensor
+Conductivity Tensor
+Tensor analysis is usually studied in advanced physics.
+5. Representation of Vectors
+Vectors are represented by directed line segments.
+A vector is denoted by:
+A⃗
+or
+AB⃗
+Directed Line Segment
+Length of line → Magnitude
+Arrow head → Direction
+Example:
+A ----------→ B
+Vector:
+AB⃗
+6. Magnitude of a Vector
+Magnitude represents the size of the vector.
+If vector is:
+A⃗
+its magnitude is written as:
+|A⃗|
+or
+Example
+If
+|A⃗| = 5
+then magnitude of vector is 5 units.
+7. Zero Vector
+Definition
+A vector whose magnitude is zero is called a zero vector.
+Represented by:
+0⃗
+Characteristics
+Magnitude = 0
+Direction = Undefined
+Example
+A particle moves and returns to its starting point.
+Net displacement = 0⃗
+Properties
+A⃗ + 0⃗ = A⃗
+A⃗ − A⃗ = 0⃗
+8. Unit Vector
+Definition
+A vector whose magnitude is one unit is called a unit vector.
+Used to indicate direction only.
+Formula
+Suppose
+A⃗
+is any vector.
+Then unit vector along A⃗ is:
+Â = A⃗/|A⃗|
+Proof
+Magnitude of Â
+= |A⃗|/|A⃗|
+= 1
+Hence Â is a unit vector.
+Standard Unit Vectors
+Along X-axis:
+î
+Along Y-axis:
+ĵ
+Along Z-axis:
+k ̂
+Properties
+|î| = 1
+|ĵ| = 1
+|k ̂ | = 1
+Importance
+Unit vectors help specify direction in coordinate systems.
+9. Like Vectors
+Definition
+Vectors having the same direction are called like vectors.
+Magnitude may be same or different.
+Examples
+5 N East
+10 N East
+20 N East
+All are like vectors.
+10. Unlike Vectors
+Definition
+Vectors acting in different directions are called unlike vectors.
+Example
+10 N East
+10 N North
+These are unlike vectors.
+11. Equal Vectors
+Definition
+Two vectors are equal if:
+Magnitudes are equal.
+Directions are equal.
+Mathematical Condition
+A⃗ = B⃗
+if
+|A⃗| = |B⃗|
+and direction of A⃗ = direction of B⃗
+Example
+Force = 10 N East
+Both vectors are equal.
+1.
+2.
+12. Opposite Vectors
+Definition
+Vectors having equal magnitude but opposite directions are called opposite vectors.
+If
+A⃗
+is a vector,
+then
+−A⃗
+is its opposite vector.
+Properties
+|A⃗| = |−A⃗|
+Directions opposite.
+Example
+10 N East
+10 N West
+These are opposite vectors.
+13. Co-initial Vectors
+Definition
+Vectors having the same initial point are called co-initial vectors.
+10
+Suppose vectors
+OA⃗
+OB⃗
+OC⃗
+all start from O.
+Then they are co-initial vectors.
+Applications
+Used frequently in vector addition.
+14. Collinear Vectors
+Definition
+Vectors acting along the same straight line are called collinear vectors.
+Examples
+Two forces acting along one rope.
+Objects moving along same road.
+Characteristics
+Same line of action.
+May be same or opposite direction.
+11
+15. Coplanar Vectors
+Definition
+Vectors lying in the same plane are called coplanar vectors.
+Examples
+Vectors drawn on a sheet of paper.
+Vectors in XY plane.
+Characteristics
+All vectors can be represented in a single plane.
+16. Position Vector
+Definition
+The vector drawn from origin to a point is called the position vector.
+Suppose
+O = Origin
+P = Point
+Then
+OP⃗
+is the position vector.
+12
+Coordinate Representation
+If point is
+P(x,y)
+then
+r⃗ = xî + yĵ
+For three dimensions
+P(x,y,z)
+Position Vector:
+r⃗ = xî + yĵ + zk ̂
+Importance of Position Vector
+Used to locate particles in space.
+Used extensively in mechanics and coordinate geometry.
+Important Formula Sheet
+Unit Vector:
+Â = A⃗/|A⃗|
+Position Vector (2D):
+r⃗ = xî + yĵ
+Position Vector (3D):
+r⃗ = xî + yĵ + zk ̂
+13
+Zero Vector:
+0⃗
+Opposite Vector:
+−A⃗
+Quick Revision
+✓ Scalars
+✓ Vectors
+✓ Tensors
+✓ Directed Line Segment
+✓ Magnitude of Vector
+✓ Zero Vector
+✓ Unit Vector
+✓ Like Vectors
+✓ Unlike Vectors
+✓ Equal Vectors
+✓ Opposite Vectors
+✓ Co-initial Vectors
+✓ Collinear Vectors
+✓ Coplanar Vectors
+✓ Position Vector
+14
+Chapter Summary
+Scalars have magnitude only.
+Vectors have magnitude and direction.
+Tensors obey advanced mathematical laws.
+Unit vectors indicate direction.
+Equal vectors have same magnitude and direction.
+Opposite vectors have same magnitude but opposite directions.
+Position vectors locate points in space.
+END OF PART 3
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+15
+PHYSICS NOTES – PART 4
+TRIANGLE LAW OF VECTOR ADDITION
+Chapter Overview
+In Physics, many situations involve more than one vector acting simultaneously.
+Examples:
+Two forces acting on a body
+Wind velocity and airplane velocity
+Multiple displacements
+To determine the combined effect of vectors, vector addition is used.
+This chapter covers:
+Resultant Vector
+Vector Addition
+Triangle Law of Vector Addition
+Geometrical Construction
+Derivation of Resultant
+Direction of Resultant
+Special Cases
+Applications
+1. Resultant Vector
+Definition
+The single vector that produces the same effect as two or more vectors acting together is called the
+resultant vector.
+Suppose
+A⃗ and B⃗
+act simultaneously.
+Their resultant is:
+R⃗ = A⃗ + B⃗
+Importance of Resultant
+Instead of analyzing several vectors separately, they can be replaced by one equivalent vector.
+This simplifies calculations.
+Example
+Force 1 = 10 N East
+Force 2 = 15 N East
+Resultant:
+25 N East
+2. Vector Addition
+Vector addition is the process of combining two or more vectors to obtain a resultant vector.
+Since vectors possess direction, ordinary algebra cannot always be used.
+Special laws are required.
+Methods of Vector Addition
+Triangle Law
+Parallelogram Law
+This chapter focuses on Triangle Law.
+1.
+2.
+3. Triangle Law of Vector Addition
+Statement
+If two vectors are represented in magnitude and direction by two sides of a triangle taken in the same
+order, then the third side taken in the opposite order represents their resultant.
+Understanding the Statement
+Suppose:
+A⃗ and B⃗
+are two vectors.
+Place the tail of B⃗ at the head of A⃗.
+The vector joining the starting point of A⃗ to the ending point of B⃗ gives the resultant.
+Geometrical Construction
+Step 1:
+Draw vector
+A⃗
+Step 2:
+From the head of A⃗ draw vector
+B⃗
+Step 3:
+Join the initial point of A⃗ to the final point of B⃗.
+This line represents resultant:
+R⃗
+Mathematical Representation
+R⃗ = A⃗ + B⃗
+Why Triangle Law Works
+The two vectors form two sides of a triangle.
+The third side naturally represents their combined effect.
+Hence resultant is obtained geometrically.
+4. Magnitude of Resultant Vector
+Suppose:
+Magnitude of first vector = A
+Magnitude of second vector = B
+Angle between them = θ
+Resultant magnitude = R
+Derivation Using Cosine Rule
+From triangle geometry:
+R² = A² + B² + 2AB cosθ
+Taking square root:
+This is the fundamental formula of vector addition.
+R= A +B +2ABcosθ2 2
+Meaning of Terms
+R = Resultant magnitude
+A = Magnitude of first vector
+B = Magnitude of second vector
+θ = Angle between vectors
+Physical Significance
+This formula gives the exact magnitude of the combined vector.
+Used in:
+Mechanics
+Kinematics
+Engineering
+Electromagnetism
+5. Direction of Resultant
+The resultant not only has magnitude but also direction.
+Let
+be the angle made by resultant with vector A.
+Resolution Method
+Horizontal component:
+A + Bcosθ
+Vertical component:
+Bsinθ
+Using trigonometry:
+tanφ
+= (Vertical Component)/(Horizontal Component)
+Therefore
+Direction Formula
+Importance
+This formula tells us the exact direction of the resultant vector.
+6. Special Case 1: Vectors in Same Direction
+When:
+θ = 0°
+Then:
+cos0° = 1
+sin0° = 0
+Substituting:
+tanϕ=
+A+Bcosθ
+Bsinθ
+ϕ=tan
+−1(A+Bcosθ
+Bsinθ)
+R = √(A² + B² + 2AB)
+R = √(A+B)²
+Conclusion
+When vectors act in the same direction, their magnitudes simply add.
+Example
+10 N East
+20 N East
+Resultant:
+R = 10 + 20
+R = 30 N East
+7. Special Case 2: Opposite Vectors
+When:
+θ = 180°
+cos180° = -1
+Substituting:
+R = √(A²+B²−2AB)
+R = √(A−B)²
+R=A+B
+R=∣A−B∣
+Conclusion
+Opposite vectors subtract.
+Direction is along the larger vector.
+Example
+20 N East
+10 N West
+Resultant:
+R = 20 − 10
+R = 10 N East
+8. Special Case 3: Perpendicular Vectors
+When:
+θ = 90°
+cos90° = 0
+Resultant becomes:
+This is Pythagoras Theorem.
+Example
+3 N East
+4 N North
+R= A +B2 2
+Resultant:
+R = √(3² + 4²)
+R = √25
+R = 5 N
+Direction
+tanφ = B/A
+tanφ = 4/3
+φ = 53.13°
+9. Maximum Resultant
+Maximum resultant occurs when vectors act in the same direction.
+θ = 0°
+Therefore
+Example
+A = 10
+B = 5
+Maximum Resultant:
+15
+R =A+Bmax
+10. Minimum Resultant
+Minimum resultant occurs when vectors act in opposite directions.
+θ = 180°
+Therefore
+Example
+A = 10
+B = 5
+Minimum Resultant:
+11. Range of Resultant
+Resultant can never exceed:
+A + B
+and can never be less than:
+|A − B|
+Therefore
+12. Applications of Triangle Law
+Used in:
+R =∣A−B∣min
+∣A−B∣≤R≤A+B
+10
+Mechanics
+Addition of forces
+Kinematics
+Addition of velocities
+Navigation
+Ship and airplane motion
+Engineering
+Structural analysis
+Electromagnetism
+Field vector addition
+Solved Numerical 1
+Two vectors:
+A = 5
+B = 8
+Angle = 60°
+Find resultant.
+Using:
+R = √(A²+B²+2ABcosθ)
+11
+= √(25+64+2×5×8×0.5)
+= √129
+= 11.36
+Answer:
+11.36 units
+Solved Numerical 2
+Two perpendicular vectors:
+6 units
+8 units
+Resultant:
+R = √(6²+8²)
+R = √100
+R = 10 units
+Important Formula Sheet
+Resultant Magnitude:
+R = √(A²+B²+2ABcosθ)
+Direction:
+tanφ
+= (Bsinθ)/(A+Bcosθ)
+Same Direction:
+12
+R = A+B
+Opposite Direction:
+R = |A−B|
+Perpendicular Vectors:
+R = √(A²+B²)
+Maximum Resultant:
+Rmax = A+B
+Minimum Resultant:
+Rmin = |A−B|
+Quick Revision
+✓ Resultant Vector
+✓ Vector Addition
+✓ Triangle Law
+✓ Geometrical Construction
+✓ Magnitude Formula
+✓ Direction Formula
+✓ Same Direction Case
+✓ Opposite Direction Case
+✓ Perpendicular Vector Case
+13
+✓ Maximum Resultant
+✓ Minimum Resultant
+✓ Applications
+Chapter Summary
+Triangle law is a graphical method of vector addition.
+The resultant vector replaces two vectors with a single equivalent vector.
+The magnitude is obtained using the cosine rule.
+Direction is obtained using the tangent formula.
+Special cases produce simplified formulas useful in numerical problems.
+END OF PART 4
+1.
+2.
+3.
+4.
+5.
+14
+PHYSICS NOTES – PART 5
+PARALLELOGRAM LAW OF VECTOR ADDITION AND
+RESOLUTION OF VECTORS
+Chapter Overview
+In many physical situations, vectors act simultaneously from the same point.
+To determine their combined effect, the Parallelogram Law of Vector Addition is used.
+This chapter covers:
+Parallelogram Law
+Resultant Vector
+Resolution of Vectors
+Rectangular Components
+Unit Vector Representation
+Coordinate Form of Vectors
+Magnitude of a Vector
+Applications
+1. Parallelogram Law of Vector Addition
+Statement
+If two vectors acting simultaneously on a particle are represented in magnitude and direction by two
+adjacent sides of a parallelogram drawn from a common point, then the diagonal passing through that
+common point represents the resultant vector.
+Explanation
+Suppose two vectors
+A⃗ and B⃗
+originate from the same point O.
+A parallelogram is constructed using these vectors as adjacent sides.
+The diagonal passing through O gives the resultant vector.
+Construction
+Step 1
+Draw vector A⃗.
+Step 2
+Draw vector B⃗ from the same origin.
+Step 3
+Complete the parallelogram.
+Step 4
+Draw the diagonal through O.
+This diagonal represents the resultant.
+Mathematical Representation
+R⃗ = A⃗ + B⃗
+Importance
+Parallelogram law provides a graphical method of adding vectors acting at a common point.
+Magnitude of Resultant
+Using geometry:
+where
+A = Magnitude of first vector
+B = Magnitude of second vector
+θ = Angle between vectors
+Direction of Resultant
+where
+φ = Angle made by resultant with vector A.
+Comparison with Triangle Law
+Triangle Law Parallelogram Law
+Head-to-tail methodTail-to-tail method
+Triangle formed Parallelogram formed
+Same resultant Same resultant
+2. Resolution of Vectors
+Definition
+The process of splitting a vector into two or more component vectors is called resolution of vectors.
+Need for Resolution
+Complex vector problems become easier when vectors are broken into components.
+R= A +B +2ABcosθ2 2
+tanϕ=
+A+Bcosθ
+Bsinθ
+Applications:
+Projectile Motion
+Inclined Plane Problems
+Circular Motion
+Engineering Analysis
+Example
+A force acting at an angle can be split into:
+Horizontal Component
+Vertical Component
+These components together produce the original vector.
+3. Rectangular Components of a Vector
+Consider a vector
+A⃗
+making angle θ with the positive X-axis.
+The vector can be resolved into:
+Horizontal Component → Ax
+Vertical Component → Ay
+Geometrical Interpretation
+The vector forms the hypotenuse of a right triangle.
+Using trigonometry, components can be calculated.
+1.
+2.
+Horizontal Component
+Using cosine:
+cosθ = Ax/A
+Therefore
+Vertical Component
+Using sine:
+sinθ = Ay/A
+Therefore
+Meaning
+Ax represents the effect of the vector along the X-direction.
+Ay represents the effect of the vector along the Y-direction.
+Example
+A force of 20 N acts at 30°.
+Find its components.
+Horizontal Component:
+Ax = 20 cos30°
+Ax = 20 × 0.866
+A =Acosθx
+A =Asinθy
+Ax = 17.32 N
+Vertical Component:
+Ay = 20 sin30°
+Ay = 20 × 0.5
+Ay = 10 N
+Answer:
+Horizontal Component = 17.32 N
+Vertical Component = 10 N
+4. Unit Vector Representation
+A vector can be expressed using unit vectors.
+Unit Vector Along X-axis
+Magnitude = 1
+Direction = Positive X-axis
+Unit Vector Along Y-axis
+Magnitude = 1
+Direction = Positive Y-axis
+i^
+j^
+Unit Vector Along Z-axis
+Magnitude = 1
+Direction = Positive Z-axis
+Properties
+Significance
+Unit vectors specify direction.
+They are used to represent vectors in coordinate form.
+5. Vector in Coordinate Form
+A vector can be expressed as:
+Substituting:
+Three-Dimensional Form
+For vectors in space:
+k^
+∣∣=i^ 1
+∣∣=j^ 1
+∣∣=k^ 1
+=A +A A xi^ yj^
+=Acosθ +Asinθ A i^ j^
+=A +A +A A xi^ yj^ zk^
+Example
+This means:
+3 units along X-axis
+4 units along Y-axis
+6. Magnitude of a Vector
+For
+Magnitude is:
+Example
+Magnitude:
+7. Position Vector
+If point
+P(x,y,z)
+is located in space,
+=A 3+i^ 4j^
+=A A +xi^ A +yj^ A
+zk^
+∣ ∣= A A +A +A
+x2 y2 z2
+=A 3+i^ 4j^
+= 3+42 2
+= 25
+=5
+its position vector is:
+Significance
+Position vector specifies the location of a particle relative to the origin.
+Applications
+Used in:
+Mechanics
+Coordinate Geometry
+Engineering
+Computer Graphics
+Solved Numerical 1
+A vector of magnitude 50 units makes angle 60° with X-axis.
+Find components.
+Solution:
+Ax = 50 cos60°
+= 50 × 0.5
+= 25
+Ay = 50 sin60°
+= 50 × 0.866
+= 43.3
+=x +y +zr i^ j^ k^
+Answer:
+Ax = 25
+Ay = 43.3
+Solved Numerical 2
+Vector:
+Find magnitude.
+Answer:
+13 units
+Important Formula Sheet
+Parallelogram Law:
+R = √(A²+B²+2ABcosθ)
+Direction:
+tanφ
+= (Bsinθ)/(A+Bcosθ)
+Horizontal Component:
+Ax = Acosθ
+=A 5+i^ 12j^
+∣ ∣=A 5+122 2
+= 169
+=13
+10
+Vertical Component:
+Ay = Asinθ
+Vector Form:
+A⃗ = Axî + Ayĵ
+3D Vector:
+A⃗ = Axî + Ayĵ + Azk ̂
+Magnitude:
+|A⃗|
+= √(Ax²+Ay²+Az²)
+Position Vector:
+r⃗ = xî + yĵ + zk ̂
+Quick Revision
+✓ Parallelogram Law
+✓ Resultant Vector
+✓ Resolution of Vectors
+✓ Horizontal Component
+✓ Vertical Component
+✓ Unit Vectors
+✓ Coordinate Form
+✓ Magnitude Formula
+11
+✓ Position Vector
+✓ Numerical Problems
+Chapter Summary
+Parallelogram law is used when vectors act from a common point.
+Resolution breaks vectors into simpler components.
+Horizontal component = Acosθ.
+Vertical component = Asinθ.
+Unit vectors specify direction.
+Any vector can be represented using î, ĵ and k ̂.
+Magnitude is obtained using Pythagoras theorem.
+END OF PART 5
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+12
+PHYSICS NOTES – PART 6
+SCALAR PRODUCT AND VECTOR PRODUCT
+Chapter Overview
+After understanding vectors and their addition, the next important topic is multiplication of vectors.
+Unlike ordinary numbers, vectors can be multiplied in two different ways:
+Scalar Product (Dot Product)
+Vector Product (Cross Product)
+These operations have extensive applications in Physics, Engineering, and Mathematics.
+This chapter covers:
+Scalar Product
+Geometrical Meaning
+Properties of Dot Product
+Angle Between Two Vectors
+Cross Product
+Right Hand Rule
+Properties of Cross Product
+Work Done
+Torque
+Angular Momentum
+Important Formula Sheet
+1. Multiplication of Vectors
+Two vectors can be multiplied in two ways:
+Scalar Product
+Produces a scalar quantity.
+Vector Product
+Produces a vector quantity.
+1.
+2.
+2. Scalar Product (Dot Product)
+Definition
+The scalar product of two vectors is defined as the product of their magnitudes and the cosine of the angle
+between them.
+If
+A⃗ and B⃗
+make angle θ,
+then
+Why It Is Called Scalar Product
+The result is a scalar quantity.
+No direction is associated with the answer.
+Therefore it is called scalar product.
+Geometrical Interpretation
+represents projection of vector B on vector A.
+Therefore
+Thus dot product represents:
+Magnitude of one vector × projection of another vector.
+⋅ =ABcosθA B
+Bcosθ
+⋅A =B A(Bcosθ)
+Physical Meaning
+Dot product measures how much one vector acts along another.
+3. Properties of Dot Product
+Property 1: Commutative Law
+Property 2: Distributive Law
+Property 3
+Because
+and
+4. Dot Product of Unit Vectors
+Along Same Direction
+⋅ = ⋅A B B A
+⋅(+)= ⋅ + ⋅A B C A B A C
+⋅ =AA A 2
+θ =0∘
+cos0=∘ 1
+⋅i^ =i^ 1
+⋅j^ =j^ 1
+⋅k^ =k^ 1
+Along Perpendicular Directions
+Important Results
+5. Dot Product in Component Form
+Let
+and
+Then
+6. Angle Between Two Vectors
+Since
+Therefore
+⋅i^ =j^ 0
+⋅j^ =k^ 0
+⋅k^ =i^ 0
+⋅ = ⋅ = ⋅ =1i^ i^ j^ j^ k^ k^
+⋅ = ⋅ = ⋅ =0i^ j^ j^ k^ k^ i^
+=A A +xi^ A +yj^ A
+zk^
+=B B +xi^ B +yj^ B
+zk^
+⋅ =A B +A B +A B A B x x y y z z
+⋅A =B ABcosθ
+Condition for Perpendicular Vectors
+When
+then
+Thus
+Hence:
+If dot product is zero, vectors are perpendicular.
+7. Applications of Dot Product
+Work Done
+Work done by force is:
+or
+where
+F = Force
+s = Displacement
+θ = Angle between force and displacement
+cosθ =
+AB
+⋅A B
+θ =90∘
+cos90=∘ 0
+⋅ =0A B
+W= ⋅F s
+W=Fscosθ
+Special Cases
+θ = 0°
+Maximum work.
+θ = 90°
+No work done.
+θ = 180°
+Negative work.
+8. Vector Product (Cross Product)
+Definition
+The vector product of two vectors is defined as the product of their magnitudes and sine of the angle
+between them, acting in a direction perpendicular to both vectors.
+Mathematically:
+where
+is unit vector perpendicular to both vectors.
+W=Fs
+W=0
+W=−Fs
+× =ABsinθA B n^
+n^
+Why It Is Called Vector Product
+The result has:
+Magnitude
+Direction
+Therefore it is a vector quantity.
+Magnitude of Cross Product
+9. Direction of Cross Product
+Direction is determined using:
+Right Hand Rule
+or
+Right Screw Rule
+Right Hand Rule
+Rotate fingers from
+A⃗
+towards
+B⃗
+Thumb indicates direction of
+∣ × ∣=ABsinθA B
+×A B
+10. Properties of Cross Product
+Anti-Commutative Property
+Self Product
+Because
+Zero Vector Property
+11. Cross Product of Unit Vectors
+Cyclic Relations
+× =− ×A B (B A)
+× =0A A
+sin0=∘ 0
+× =0A 0
+×i^ =i^ 0
+×j^ =j^ 0
+×k^ =k^ 0
+×=i^ j^ k^
+× =j^ k^ i^
+× = k^ i^ j^
+Reverse Order
+Cyclic Rule
+Remember:
+Forward Direction = Positive
+Reverse Direction = Negative
+12. Applications of Cross Product
+Torque
+Moment of force is:
+Magnitude:
+Angular Momentum
+where
+p = Linear Momentum
+×j^ =i^ −k^
+×k^ =j^ −i^
+×i^ =k^ −j^
+→i^ →j^ →k^ i^
+= ×τ r F
+τ =rFsinθ
+= × L r p
+Magnetic Force
+13. Comparison Between Dot and Cross Product
+Dot Product Cross Product
+Scalar ResultVector Result
+Uses Cosθ Uses Sinθ
+CommutativeAnti-Commutative
+Work Done Torque
+A·A=A² A×A=0
+Solved Numerical 1
+Vectors:
+A = 5 units
+B = 10 units
+θ = 60°
+Find dot product.
+Solution:
+A·B
+= 5×10×cos60°
+= 50×0.5
+= 25
+Answer:
+=q(×)F v B
+10
+25
+Solved Numerical 2
+Vectors:
+A = 5 units
+B = 10 units
+θ = 90°
+Find cross product.
+Solution:
+|A×B|
+= 5×10×sin90°
+= 50
+Answer:
+50
+Important Formula Sheet
+Dot Product:
+A⃗·B⃗ = ABcosθ
+Cross Product:
+A⃗×B⃗ = ABsinθ n ̂
+Angle Between Vectors:
+11
+cosθ = (A⃗·B⃗)/(AB)
+Work Done:
+W = Fs cosθ
+Torque:
+τ = rF sinθ
+Angular Momentum:
+L⃗ = r⃗×p⃗
+Unit Vector Relations:
+î·î = 1
+ĵ·ĵ = 1
+k ̂ ·k ̂ = 1
+î×ĵ = k ̂
+ĵ×k ̂ = î
+k ̂ ×î = ĵ
+Quick Revision
+✓ Dot Product
+✓ Cross Product
+✓ Unit Vector Relations
+✓ Work Done
+12
+✓ Torque
+✓ Angular Momentum
+✓ Right Hand Rule
+✓ Angle Between Vectors
+✓ Numerical Problems
+✓ Formula Sheet
+Chapter Summary
+Dot product produces a scalar quantity.
+Cross product produces a vector quantity.
+Dot product uses cosine.
+Cross product uses sine.
+Work done is a dot product.
+Torque and angular momentum are cross products.
+Unit vector relations are fundamental to vector algebra.
+END OF PART 6
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+13
+PHYSICS NOTES – PART 7
+COMPLETE REVISION NOTES AND FORMULA
+HANDBOOK
+Chapter Overview
+This section serves as a quick revision guide for the complete syllabus covered in Parts 1–6.
+It contains:
+Important Definitions
+Most Repeated Theory Questions
+Viva Questions
+Numerical Formulae
+Important Results
+Examination Revision Notes
+One-Shot Formula Sheet
+SECTION A: IMPORTANT DEFINITIONS
+Measurement
+Measurement is the process of comparing an unknown quantity with a known standard quantity of the
+same nature.
+Error
+The difference between true value and measured value is called error.
+Error = True Value − Measured Value
+Absolute Error
+The magnitude of difference between mean value and measured value.
+Mean Absolute Error
+Arithmetic mean of all absolute errors.
+Fractional Error
+Ratio of absolute error to mean value.
+Percentage Error
+Fractional error multiplied by 100.
+Scalar Quantity
+A quantity possessing magnitude only.
+Examples:
+Mass
+Time
+Distance
+Δa=∣a −m a∣i
+Δa=
+∣Δa ∣+∣Δa ∣+...+∣Δa ∣1 2 n
+Δa
+×a
+Δa 100
+Energy
+Temperature
+Vector Quantity
+A quantity possessing both magnitude and direction.
+Examples:
+Velocity
+Acceleration
+Force
+Momentum
+Displacement
+Unit Vector
+A vector having magnitude equal to one.
+Zero Vector
+A vector having zero magnitude.
+Position Vector
+Vector drawn from origin to a point.
+=A^
+∣ ∣A
+SECTION B: MOST IMPORTANT THEORY
+QUESTIONS
+Question 1
+Differentiate between Accuracy and Precision.
+Accuracy
+Closeness to true value.
+Precision
+Closeness among repeated observations.
+Question 2
+What are Systematic Errors?
+Errors whose causes are known and can be corrected.
+Examples:
+Instrumental Error
+Personal Error
+Environmental Error
+Question 3
+What are Random Errors?
+Errors caused due to unknown factors.
+=r x +i^ y +j^ zk^
+Characteristics:
+Unpredictable
+Irregular
+Reduced by repeated observations
+Question 4
+State Triangle Law of Vector Addition.
+If two vectors are represented by two sides of a triangle taken in order, the third side taken in reverse order
+gives the resultant.
+Question 5
+State Parallelogram Law of Vector Addition.
+If two vectors are represented by adjacent sides of a parallelogram, the diagonal through the common
+point gives the resultant.
+Question 6
+What is Resolution of a Vector?
+The process of splitting a vector into components.
+Question 7
+Define Dot Product.
+Question 8
+Define Cross Product.
+⋅A =B ABcosθ
+SECTION C: IMPORTANT VIVA QUESTIONS
+What is least count?
+Smallest measurement measurable by an instrument.
+What is zero error?
+Error caused due to incorrect zero marking.
+Why is mean value taken?
+To reduce random error.
+What is a vector?
+A quantity having magnitude and direction.
+What is a scalar?
+A quantity having magnitude only.
+Can a scalar be negative?
+Yes.
+Example:
+Electric potential.
+Temperature relative to a reference.
+×A =B ABsinθn^
+Can a vector be zero?
+Yes.
+Example:
+Net displacement after a round trip.
+What is the direction of a zero vector?
+Undefined.
+Which rule determines cross product direction?
+Right Hand Rule.
+What is the SI unit of work?
+Joule.
+What is the SI unit of force?
+Newton.
+What is the SI unit of momentum?
+kg·m/s
+SECTION D: IMPORTANT NUMERICALS
+Numerical 1
+Observations:
+10 cm
+11 cm
+9 cm
+10 cm
+Find mean value.
+Solution
+Mean
+= (10+11+9+10)/4
+= 10 cm
+Numerical 2
+Mean Value = 10 cm
+Absolute Error = 0.5 cm
+Find percentage error.
+Solution
+= (0.5/10)×100
+= 5%
+Answer:
+5%
+Numerical 3
+A = 3 units
+B = 4 units
+Angle = 90°
+Find resultant.
+Solution
+= 5 units
+Numerical 4
+Mass Error = 2%
+Velocity Error = 4%
+Find percentage error in kinetic energy.
+Solution
+K = ½mv²
+Error
+= 2
++ 2(4)
+= 10%
+Answer:
+10%
+Numerical 5
+Force = 10 N
+Displacement = 5 m
+Angle = 0°
+R= 3+42 2
+Find work done.
+Solution
+W = Fs cosθ
+= 10×5×1
+= 50 J
+SECTION E: COMPLETE FORMULA HANDBOOK
+Mean Value
+Mean Absolute Error
+Fractional Error
+Percentage Error
+a =m
+a +a +⋯+a
+1 2 n
+Δa=
+Σ∣Δa∣
+Δa
+×a
+Δa 100
+10
+Error in Addition
+Error in Subtraction
+Error in Multiplication
+Error in Division
+Error in Power
+General Error Formula
+Resultant Vector
+Δx=ΔA+ΔB
+=x
+Δx +A
+ΔA
+ΔB
+=x
+Δx +A
+ΔA
+ΔB
+=x
+Δx n
+ΔA
+=x
+Δx m +A
+ΔA n +B
+ΔB r
+ΔC
+R= A +B +2ABcosθ2 2
+11
+Direction of Resultant
+Horizontal Component
+Vertical Component
+Vector Magnitude
+Dot Product
+Cross Product
+Work Done
+tanϕ=
+A+Bcosθ
+Bsinθ
+A =x Acosθ
+A =y Asinθ
+∣ ∣=A A +A +A
+x2 y2 z2
+⋅A =B ABcosθ
+×A =B ABsinθn^
+W=Fscosθ
+12
+Torque
+Angular Momentum
+SECTION F: ONE-SHOT EXAM REVISION
+Errors and Measurements
+✓ Measurement
+✓ Error
+✓ Absolute Error
+✓ Mean Absolute Error
+✓ Fractional Error
+✓ Percentage Error
+✓ Error Propagation
+Vector Algebra
+✓ Scalars
+✓ Vectors
+✓ Tensors
+✓ Unit Vector
+✓ Zero Vector
+✓ Position Vector
+τ =rFsinθ
+=L ×r p
+13
+✓ Triangle Law
+✓ Parallelogram Law
+✓ Resolution of Vectors
+✓ Components
+✓ Dot Product
+✓ Cross Product
+✓ Work Done
+✓ Torque
+FINAL CHAPTER SUMMARY
+Every measurement contains uncertainty.
+Error analysis determines reliability of measurements.
+Scalars possess magnitude only.
+Vectors possess magnitude and direction.
+Vector addition follows triangle and parallelogram laws.
+Vectors can be resolved into components.
+Dot product gives scalar quantities.
+Cross product gives vector quantities.
+Work done is a dot product.
+Torque and angular momentum are cross products.
+END OF PART 7
+END OF COMPLETE NOTES SET
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+14

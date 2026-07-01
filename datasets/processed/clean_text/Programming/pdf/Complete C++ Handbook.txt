@@ -1,0 +1,299 @@
+COMPLETE C++ HANDBOOK
+Chapter 1: Introduction to C++
+What is C++?
+C++ is a general-purpose programming language developed by Bjarne Stroustrup in 1979 at Bell Labs.
+Features of C++
+Object-Oriented
+Platform Independent
+Fast Execution
+Rich Library Support
+Dynamic Memory Allocation
+Portable
+Secure
+Applications of C++
+Operating Systems
+Games
+AI Systems
+Database Systems
+Embedded Systems
+Software Development
+Web Browsers
+Chapter 2: Structure of C++ Program
+#include<iostream>
+usingnamespacestd;
+intmain()
+cout<<"Hello World";
+return0;
+Components
+Header Files
+Namespace
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Main Function
+Statements
+Return Statement
+Chapter 3: Tokens in C++
+Types of Tokens
+Keywords
+Identifiers
+Constants
+Strings
+Operators
+Special Symbols
+Keywords
+int, float, double, char, class, public, private, protected, return, if, else, switch, case, break, continue, while,
+do, for, void, static, virtual, try, catch, throw, new, delete
+Chapter 4: Data Types
+Basic Data Types
+intage= 20;
+floatsalary= 2000.5;
+doublepi= 3.14159;
+chargrade= 'A';
+boolstatus= true;
+Derived Data Types
+Array
+Pointer
+Function
+Reference
+User Defined Data Types
+Structure
+Union
+Enumeration
+Class
+1.
+2.
+3.
+4.
+5.
+6.
+Chapter 5: Variables
+Declaration
+intx;
+Initialization
+intx = 10;
+Constants
+constfloatPI= 3.14;
+Chapter 6: Operators
+Arithmetic Operators
+/ %
+Relational Operators
+==!= > < >= <=
+Logical Operators
+&& ||!
+Assignment Operators
+= += -= *= /= %=
+Increment and Decrement
+++ --
+Bitwise Operators
+& | ^ ~ << >>
+• ◦ ▪
+Chapter 7: Input and Output
+Output
+cout<<"Hello";
+Input
+cin>>name;
+Example
+inta;
+cin>>a;
+cout<<a;
+Chapter 8: Decision Making
+if
+if(a > b)
+cout<<a;
+if-else
+if(a > b)
+cout<<a;
+else
+cout<<b;
+Nested if
+Switch Case
+switch(choice)
+case1:
+break;
+default:
+break;
+Chapter 9: Loops
+for Loop
+for(inti=0;i<5;i++)
+cout<<i;
+while Loop
+while(i<5)
+i++;
+do while Loop
+do
+i++;
+while(i<5);
+Chapter 10: Functions
+Function Declaration
+intadd(int,int);
+Function Definition
+intadd(inta,intb)
+returna+b;
+Types
+Call by Value
+Call by Reference
+Recursive Functions
+Inline Functions
+Chapter 11: Arrays
+One Dimensional
+intarr[5];
+Two Dimensional
+intarr[3][3];
+Traversal
+for(inti=0;i<n;i++)
+cout<<arr[i];
+Chapter 12: Strings
+C Style String
+charstr[20];
+String Class
+stringname="Shivam";
+Functions:
+length()
+size()
+substr()
+find()
+replace()
+Chapter 13: Pointers
+Declaration
+int*ptr;
+Example
+inta=10;
+int*ptr=&a;
+Pointer Arithmetic
+ptr++
+ptr--
+ptr+n
+Chapter 14: Structures
+structStudent
+intid;
+stringname;
+};
+Chapter 15: Classes and Objects
+classStudent
+public:
+intid;
+stringname;
+};
+Object Creation
+Students1;
+Chapter 16: Constructor
+Student()
+cout<<"Constructor";
+Types
+Default Constructor
+Parameterized Constructor
+Copy Constructor
+Chapter 17: Destructor
+~Student()
+Chapter 18: Inheritance
+Single Inheritance
+classA {};
+classB: publicA {};
+Multiple Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+Chapter 19: Polymorphism
+Compile Time
+Function Overloading
+Operator Overloading
+Run Time
+Function Overriding
+Virtual Functions
+Chapter 20: Encapsulation
+Data Hiding
+Access Specifiers:
+Private
+Public
+Protected
+Chapter 21: Abstraction
+Hide implementation and show functionality.
+Chapter 22: File Handling
+#include<fstream>
+Writing
+ofstreamfile("data.txt");
+Reading
+ifstreamfile("data.txt");
+Chapter 23: Exception Handling
+try
+catch(...)
+Chapter 24: STL
+Vector
+vector<int> v;
+Stack
+stack<int> s;
+Queue
+queue<int> q;
+10
+Set
+set<int> s;
+Map
+map<int,string> mp;
+Chapter 25: Time Complexity
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
+O(2ⁿ)
+O(n!)
+Chapter 26: Important Programs
+Factorial
+Fibonacci
+Prime Number
+Palindrome
+Armstrong Number
+Matrix Multiplication
+Binary Search
+Bubble Sort
+Selection Sort
+Insertion Sort
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11
+Chapter 27: Modern C++
+Auto Keyword
+Lambda Functions
+Smart Pointers
+Range Based Loops
+Move Semantics
+nullptr
+constexpr
+Chapter 28: Interview Questions
+Difference between C and C++?
+What is OOP?
+What is Constructor?
+What is Destructor?
+What is Inheritance?
+What is Polymorphism?
+What is Virtual Function?
+What is STL?
+What is Pointer?
+What is Reference Variable?
+Conclusion
+C++ is one of the most powerful programming languages used for software development, competitive
+programming, game engines, operating systems, AI systems, and high-performance applications.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+12

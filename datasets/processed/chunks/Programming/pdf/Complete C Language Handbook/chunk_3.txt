@@ -1,0 +1,7 @@
+Document: Complete C Language Handbook
+Chunk: 3
+Start Word: 512
+End Word: 678
+Words: 166
+
+Search Binary Search Chapter 28: Sorting Algorithms Bubble Sort Selection Sort Insertion Sort Merge Sort Quick Sort 13 Chapter 29: Time Complexity O(1) O(log n) O(n) O(n log n) O(n²) O(2ⁿ) O(n!) Chapter 30: Important Programs Hello World Factorial Fibonacci Prime Number Palindrome Armstrong Number Perfect Number Reverse Number Sum of Digits Matrix Multiplication Linear Search Binary Search Bubble Sort File Handling Program Linked List Program Chapter 31: Viva Questions What is C? Difference between Compiler and Interpreter? What is Pointer? What is Structure? What is Union? What is Dynamic Memory Allocation? 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 1. 2. 3. 4. 5. 6. 14 Difference between malloc and calloc? What is Recursion? What is File Handling? What is Preprocessor Directive? Conclusion C is one of the most important programming languages. It forms the foundation of modern programming and is widely used in operating systems, embedded systems, compilers, networking, and software development. 7. 8. 9. 10. 15

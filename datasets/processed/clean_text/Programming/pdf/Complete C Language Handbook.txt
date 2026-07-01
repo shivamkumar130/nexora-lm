@@ -1,0 +1,337 @@
+COMPLETE C LANGUAGE HANDBOOK
+Chapter 1: Introduction to C
+What is C?
+C is a general-purpose, procedural programming language developed by Dennis Ritchie in 1972 at Bell Labs.
+Features of C
+Simple
+Portable
+Fast
+Structured
+Efficient
+Modular
+Rich Library Support
+Applications of C
+Operating Systems
+Embedded Systems
+Device Drivers
+Database Systems
+Compilers
+Networking Applications
+Chapter 2: Structure of a C Program
+#include<stdio.h>
+intmain()
+printf("Hello World");
+return0;
+Components
+Documentation Section
+Header Files
+Main Function
+1.
+2.
+3.
+Variable Declaration
+Statements
+Return Statement
+Chapter 3: Tokens in C
+Keywords
+auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for, goto, if, int, long,
+register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while
+Identifiers
+Variable names, function names, structure names.
+Constants
+10
+20.5
+'A'
+"Hello"
+Operators
+Arithmetic, Relational, Logical, Assignment, Bitwise, Conditional.
+Chapter 4: Data Types
+Basic Data Types
+intage= 20;
+chargrade= 'A';
+floatsalary= 2000.5;
+doublepi= 3.14159;
+Type Modifiers
+short
+long
+signed
+unsigned
+4.
+5.
+6.
+Derived Data Types
+Arrays
+Pointers
+Functions
+User Defined Data Types
+Structure
+Union
+Enumeration
+Chapter 5: Variables and Constants
+Variable Declaration
+inta;
+floatb;
+Initialization
+intx = 10;
+Constant
+constfloatPI= 3.14;
+Macro
+#define PI 3.14
+Chapter 6: Input and Output
+Output
+printf("Hello");
+Input
+scanf("%d",&a);
+Format Specifiers
+%d int
+%f float
+%c char
+%s string
+%lf double
+Chapter 7: Operators
+Arithmetic
+/ %
+Relational
+==!= > < >= <=
+Logical
+&& ||!
+Assignment
+= += -= *= /= %=
+Increment and Decrement
+++ --
+Bitwise
+& | ^ ~ << >>
+• ◦ ▪
+Conditional
+(a>b)?a:b;
+Chapter 8: Decision Making
+if
+if(a>b)
+printf("A");
+if else
+if(a>b)
+printf("A");
+else
+printf("B");
+Nested if
+else if Ladder
+switch
+switch(choice)
+case1:
+break;
+default:
+break;
+Chapter 9: Loops
+for Loop
+for(inti=0;i<5;i++)
+printf("%d",i);
+while Loop
+while(i<5)
+i++;
+do while Loop
+do
+i++;
+while(i<5);
+Chapter 10: Control Statements
+break
+continue
+goto
+gotolabel;
+return
+Chapter 11: Arrays
+One Dimensional Array
+intarr[5];
+Initialization
+intarr[5]={1,2,3,4,5};
+Two Dimensional Array
+intarr[3][3];
+Matrix Operations
+Addition
+Subtraction
+Multiplication
+Transpose
+Chapter 12: Strings
+charname[20];
+String Functions
+strlen()
+strcpy()
+strcat()
+strcmp()
+strrev()
+Example:
+charstr[]="Hello";
+printf("%d",strlen(str));
+Chapter 13: Functions
+Function Declaration
+intadd(int,int);
+Function Definition
+intadd(inta,intb)
+returna+b;
+Types
+No Argument No Return
+Argument No Return
+No Argument Return
+Argument Return
+Chapter 14: Recursion
+intfact(intn)
+if(n==1)
+return1;
+returnn*fact(n-1);
+Chapter 15: Storage Classes
+auto
+register
+static
+extern
+Examples and scope rules.
+Chapter 16: Pointers
+Declaration
+int*ptr;
+Example
+inta=10;
+int*ptr=&a;
+Pointer Arithmetic
+ptr++
+ptr--
+ptr+n
+Arrays and Pointers
+Function Pointers
+Double Pointers
+Chapter 17: Dynamic Memory Allocation
+malloc()
+ptr=(int*)malloc(10*sizeof(int));
+calloc()
+realloc()
+free()
+Chapter 18: Structures
+structStudent
+intid;
+charname[20];
+};
+Structure Array
+Nested Structure
+Structure Pointer
+Chapter 19: Union
+unionData
+inta;
+floatb;
+};
+Difference Between Structure and Union.
+10
+Chapter 20: Enumeration
+enumday
+MON,TUE,WED
+};
+Chapter 21: Typedef
+typedefunsignedintuint;
+Chapter 22: File Handling
+FILE*fp;
+fopen()
+fclose()
+fprintf()
+fscanf()
+fread()
+fwrite()
+Example:
+fp=fopen("data.txt","w");
+11
+Chapter 23: Preprocessor Directives
+#include
+#define
+#ifdef
+#ifndef
+#undef
+Chapter 24: Command Line Arguments
+intmain(intargc,char*argv[])
+Chapter 25: Bitwise Operations
+AND
+OR
+XOR
+NOT
+LEFT SHIFT
+RIGHT SHIFT
+12
+Chapter 26: Data Structures in C
+Stack
+Queue
+Linked List
+Circular Linked List
+Doubly Linked List
+Tree
+Graph
+Hashing
+Chapter 27: Searching Algorithms
+Linear Search
+Binary Search
+Chapter 28: Sorting Algorithms
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+13
+Chapter 29: Time Complexity
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
+O(2ⁿ)
+O(n!)
+Chapter 30: Important Programs
+Hello World
+Factorial
+Fibonacci
+Prime Number
+Palindrome
+Armstrong Number
+Perfect Number
+Reverse Number
+Sum of Digits
+Matrix Multiplication
+Linear Search
+Binary Search
+Bubble Sort
+File Handling Program
+Linked List Program
+Chapter 31: Viva Questions
+What is C?
+Difference between Compiler and Interpreter?
+What is Pointer?
+What is Structure?
+What is Union?
+What is Dynamic Memory Allocation?
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+1.
+2.
+3.
+4.
+5.
+6.
+14
+Difference between malloc and calloc?
+What is Recursion?
+What is File Handling?
+What is Preprocessor Directive?
+Conclusion
+C is one of the most important programming languages. It forms the foundation of modern programming
+and is widely used in operating systems, embedded systems, compilers, networking, and software
+development.
+7.
+8.
+9.
+10.
+15

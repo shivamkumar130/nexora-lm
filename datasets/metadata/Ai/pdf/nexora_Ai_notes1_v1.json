@@ -1,0 +1,13 @@
+{
+    "document_name": "nexora_Ai_notes1_v1",
+    "file_name": "nexora_Ai_notes1_v1.txt",
+    "relative_path": "Ai\\pdf\\nexora_Ai_notes1_v1.txt",
+    "folder_name": "pdf",
+    "word_count": 13864,
+    "character_count": 92599,
+    "line_count": 1764,
+    "file_size_bytes": 94362,
+    "created": 1782568617.7285335,
+    "modified": 1782572544.491169,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

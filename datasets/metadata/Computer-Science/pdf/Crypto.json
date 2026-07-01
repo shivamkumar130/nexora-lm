@@ -1,0 +1,13 @@
+{
+    "document_name": "Crypto",
+    "file_name": "Crypto.txt",
+    "relative_path": "Computer-Science\\pdf\\Crypto.txt",
+    "folder_name": "pdf",
+    "word_count": 1902,
+    "character_count": 11264,
+    "line_count": 418,
+    "file_size_bytes": 12178,
+    "created": 1782568659.1258633,
+    "modified": 1782572544.5056374,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

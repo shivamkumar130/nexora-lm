@@ -1,0 +1,13 @@
+torch
+torchvision
+sentencepiece
+transformers
+sentence-transformers
+numpy
+pandas
+matplotlib
+pypdf
+pdf2image
+paddleocr
+opencv-python
+faiss-cpu

@@ -1,0 +1,13 @@
+{
+    "document_name": "What is Mathematics",
+    "file_name": "What is Mathematics.txt",
+    "relative_path": "Mathematics\\pdf\\What is Mathematics.txt",
+    "folder_name": "pdf",
+    "word_count": 394,
+    "character_count": 2956,
+    "line_count": 152,
+    "file_size_bytes": 3112,
+    "created": 1782569831.6023843,
+    "modified": 1782572544.5786679,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+}

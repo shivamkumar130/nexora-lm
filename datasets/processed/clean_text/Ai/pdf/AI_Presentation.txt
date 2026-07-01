@@ -1,0 +1,326 @@
+Multicommodity Price Prediction using LSTM Variants
+A Deep Learning Approach for MSME Decision Support
+Shivam Kumar (202351130) Dev Saraswat (202351173) Tammineni Harika
+(202351145)
+Under the Guidance of:Prof. Pratik Shah
+AI Elites Research Group
+Department of Computer Science and Engineering
+IIIT Vadodara, India
+November 2025
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 1 / 21
+Outline
+1 Introduction
+2 Theoretical Background
+3 Methodology
+4 Results and Analysis
+5 Discussion and Future Work
+6 Conclusion
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 2 / 21
+Understanding the Problem
+Problem Statement
+How can we help MSMEs anticipate commodity price fluctuations to improve business
+planning and reduce economic losses during volatile market conditions?
+Problem Scope:
+Target: Indian MSMEs
+Domain: 11 essential commodities
+Timeframe: Daily predictions
+Challenge: Multi-variate dependencies
+Success Criteria:
+Low prediction error (MAE)
+High generalization (R 2 >0.85)
+Interpretable results
+Reproducible framework
+Research Question
+Which LSTM variant provides the most accurate and reliable commodity price forecasts for
+MSMEs?
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 3 / 21
+Problem Context
+Challenges Faced by MSMEs:
+COVID-19 pandemic disruptions
+Fluctuating commodity prices
+Supply chain instability
+Declining business turnover
+Lack of crisis planning tools
+Key Impact Factors
+Russia-Ukraine conflict (2022+)
+Climate change effects
+India’s agricultural volatility
+Oil and grain market shocks
+Our Goal
+Develop an LSTM-based forecasting framework to provide early warnings and stabilize MSME
+decision-making
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 4 / 21
+Time Series Forecasting
+Definition
+Analysis of sequential data to forecast future values based on historical patterns
+Applications:
+Stock market prediction
+Commodity price forecasting
+Weather prediction
+Energy demand forecasting
+Sales forecasting
+Challenges:
+Non-stationarity
+Seasonality
+Multi-variate dependencies
+Long-term dependencies
+Noise and outliers
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 5 / 21
+Long Short-Term Memory (LSTM)
+Key Features:
+Mitigates vanishing gradient problem
+Captures long-term dependencies
+Memory cell with gating mechanisms
+Suitable for multivariate time series
+LSTM Gates:
+Forget gate: Controls information retention
+Input gate: Controls new information
+Output gate: Controls output generation
+LSTM Cell
+ft =σ(W f ·[h t−1,x t ] +b f)
+it =σ(W i ·[h t−1,x t ] +b i)
+˜Ct = tanh(WC ·[h t−1,x t ] +b C)
+Ct =f t ∗C t−1 +i t ∗ ˜Ct
+ot =σ(W o ·[h t−1,x t ] +b o)
+ht =o t ∗tanh(C t)
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 6 / 21
+LSTM Variants Explored
+1. Standard LSTM
+Basic architecture with single/multiple layers
+2. Attention LSTM
+Focuses on important timesteps
+Weighted temporal aggregation
+Best performer in our study
+3. Bidirectional LSTM
+Forward + backward processing
+Enhanced context understanding
+4. Conv-LSTM
+CNN for local pattern extraction
+LSTM for temporal modeling
+Hybrid architecture benefits
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 7 / 21
+Optimization Techniques
+Batch Normalization
+Stabilizes training process
+Reduces internal covariate shift
+Enables higher learning rates
+Consistently improved convergence
+Adam Optimizer:
+Adaptive learning rates
+Momentum + RMSProp benefits
+Best performer (LR = 0.001)
+SGD Optimizer:
+Traditional approach
+Compared for baseline
+Adam outperformed SGD
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 8 / 21
+Dataset Overview
+Data Source:
+Indian commodity prices
+Government of India Open Data Portal
+OGD License, 2024 release
+Daily frequency records
+Commodities (11 total):
+Grains: Rice, Wheat
+Vegetables: Onion, Tomato, Potato
+Others: Sugar, Milk, Egg, Chicken, Oil,
+Chili
+Attribute Value
+Total Records 1,460
+Features 11
+Training Samples 1,144
+Testing Samples 286
+Train/Test Split 80/20
+Missing Values Handled
+Note
+Chronological split ensures realistic evaluation
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 9 / 21
+Data Preprocessing Pipeline
+1 Date Conversion
+Convert to DateTime format
+Sort chronologically
+2 Missing Value Treatment
+Forward-fill for short gaps
+Seasonal interpolation for longer gaps
+3 Normalization
+Min-Max scaling to [0, 1]
+Applied to all commodity prices
+4 Sequence Generation
+Sliding window approach
+Window lengthT= 30 days
+Multi-output next-step forecasting
+5 Train-Test Split
+80% training, 20% testing
+Chronological split (no shuffling)
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 10 / 21
+Model Configuration
+Parameter Value
+Model Attention LSTM
+Sequence Length 30
+Input Size 11
+Output Size 11
+Hidden Size 13
+LSTM Layers 1–2
+Total Parameters 1,532
+Parameter Value
+Batch Size 32
+Epochs 1,500
+Optimizer Adam
+Initial LR 0.1
+Loss Function MAE (L1)
+Scheduler ReduceLROnPlateau
+Gradient Clipping 1.0
+Training Strategy
+Early stopping (patience=20) — LR reduction (factor=0.5, patience=10) — Model
+checkpointing
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 11 / 21
+Implementation Details
+Repository Structure
+data preprocessing.py– Data cleaning and sequence generation
+models.py– LSTM variant implementations
+train.py– Training loop and optimization
+evaluate.py– Performance evaluation
+main.py– Orchestration script
+checkpoints/– Saved model weights
+results/– Visualizations and metrics
+Technologies:Python — PyTorch — NumPy — Pandas — Matplotlib
+Reproducibility:Fixed random seeds — Saved configurations — Detailed logging
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 12 / 21
+Training Performance
+Best Results
+Validation Loss:0.018162
+Training Loss:0.030173
+Achieved at epoch∼370–390
+Stable convergence pattern
+Training Details:
+Device: CPU
+Total epochs: 1,500
+Final LR: 0.000012
+Minor oscillations during LR transitions
+[Training & Validation Loss Curve]
+0 500 1,000 1,500
+5·10−2
+0.1
+0.15
+Epoch
+Loss
+Validation
+Training
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 13 / 21
+Model Comparison
+Model MAE RMSER 2
+LSTM 0.032 0.046 0.88
+Attention LSTM 0.027 0.039 0.91
+Bi-LSTM 0.030 0.042 0.89
+Conv-LSTM 0.028 0.040 0.90
+Table: Performance comparison across LSTM variants
+Key Findings
+Attention LSTMachieved best overall performance
+15.6% MAE improvement over standard LSTM
+Conv-LSTM showed strong local feature extraction
+All models demonstrated good generalization (R 2 >0.88)
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 14 / 21
+Prediction Quality
+Strengths:
+Excellent short-term (1–10 day) accuracy
+Strong capture of cross-commodity
+dependencies
+Robust to volatile price movements
+Consistent performance across
+commodities
+Evaluation Metrics:
+MAE: Mean Absolute Error
+RMSE: Root Mean Square Error
+R 2: Coefficient of determination
+Predictions vs Actuals
+[Visualization shows close alignment]
+MAE= 1
+Pn
+i=1 |yi −ˆyi |
+wherey i = actual value
+ˆyi = predicted value
+Note
+Error accumulation remains a challenge for
+long horizons (30+ days)
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 15 / 21
+Cross-Commodity Correlations
+[Correlation Matrix Visualization]
+Key Observations:
+Strong Correlations:
+Grains (rice, wheat)
+Vegetables (onion, tomato)
+Protein sources (egg, chicken)
+Model Insights:
+Attention mechanism captures
+dependencies
+Multi-variate learning effective
+Cross-commodity patterns identified
+Impact
+Understanding correlations helps MSMEs anticipate cascading price effects across related
+commodities
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 16 / 21
+Discussion: Key Insights
+What Worked Well
+Adam optimizeroutperformed SGD significantly
+Batch Normalizationimproved stability and convergence
+Attention mechanismeffectively weighted important timesteps
+Multivariate approachcaptured cross-commodity dynamics
+Limitations
+Error accumulation in long-horizon forecasting (30+ days)
+Computational cost of attention mechanisms
+Limited to daily frequency (sub-daily not explored)
+External factors (policy, weather) not explicitly modeled
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 17 / 21
+Future Work
+1 Architecture Enhancements
+Transformer-based models
+Seq2seq architectures for multi-step ahead prediction
+Ensemble methods combining multiple LSTM variants
+2 Feature Engineering
+Incorporation of external variables (weather, policy, market indicators)
+Seasonal decomposition features
+Sentiment analysis from news sources
+3 Extended Evaluation
+Longer forecasting horizons
+Real-time deployment testing
+Regional commodity price variations
+Integration with MSME decision support systems
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 18 / 21
+Practical Applications
+For MSMEs:
+Early warning system for price volatility
+Inventory planning optimization
+Procurement timing decisions
+Budget forecasting
+Risk mitigation strategies
+For Policymakers:
+Market intervention planning
+Supply chain monitoring
+Price stabilization measures
+Agricultural policy evaluation
+Food security planning
+Economic Impact
+Accurate price forecasting can help MSMEs reduce losses from unexpected price fluctuations
+by 15–30%, improving business sustainability during volatile periods.
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 19 / 21
+Conclusion
+Summary of Contributions
+1 Developed robust multivariate LSTM framework for Indian commodity price forecasting
+2 Demonstrated superiority of Attention-LSTM variant (MAE: 0.027,R 2: 0.91)
+3 Provided reproducible implementation with detailed hyperparameter documentation
+4 Established baseline for MSME decision support during volatile market conditions
+Key Takeaway
+The Attention-LSTM model with Batch Normalization and Adam optimizer provides areliable
+and reproducible baselinefor commodity price forecasting, supporting MSMEs in
+anticipating price changes under volatile conditions.
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 20 / 21
+References
+S. Hochreiter and J. Schmidhuber,Long short-term memory, Neural Computation, vol. 9, no. 8, pp.
+1735–1780, 1997.
+D. Bahdanau, K. Cho, and Y. Bengio,Neural machine translation by jointly learning to align and translate,
+Proc. ICLR, 2015.
+S. Ioffe and C. Szegedy,Batch normalization: Accelerating deep network training by reducing internal
+covariate shift, Proc. ICML, 2015.
+D. P. Kingma and J. Ba,Adam: A method for stochastic optimization, Proc. ICLR, 2015.
+Government of India,Indian commodity prices dataset, Open Data Portal (data.gov.in), 2024.
+Kumar et al. (IIIT Vadodara) Commodity Price Prediction November 2025 21 / 21
